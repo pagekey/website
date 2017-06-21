@@ -119,7 +119,7 @@ However, I find it tiresome to constantly run through all the methods to make su
 
 # Full Source
 
-If you want to see all of the code for our finished LinkedList, [check out the source](https://github.com/stephengrice/youtube/blob/master/LinkedList/linked_list.py) on Github.
+If you want to see all of the code for our finished LinkedList, [check out the source][list-src]] on Github.
 
 [list-src]: https://github.com/stephengrice/youtube/blob/master/LinkedList/linked_list.py
 [list-test]: https://github.com/stephengrice/youtube/blob/master/LinkedList/test_linked_list.py
