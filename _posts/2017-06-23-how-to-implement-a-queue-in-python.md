@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Implement a Queue in Python
+keywords: queue, python, data structures, data structure, youtube, tutorial, learning, education, how to
 ---
 
 You may hate the line at the DMV, but without it, things might turn into a rough-and-tumble free for all! In the same way that a line keeps raging motorists from getting out of hand, a Queue helps your computer keep its ducks in a row. The Queue functions very much like a line of people. It's a First-In, First-Out (FIFO) data structure, so no cutting!
@@ -50,9 +51,9 @@ In code, this would look like:
 
 You've been waiting for an hour, and finally shuffled to the front of the line. The man at the desk yells, "Next!" and you rush to the desk.
 
-Something special just happened. You've been `dequeue`'ed. Congratulations.
+Something special just happened. You've been `dequeue`'d. Congratulations.
 
-In order to `dequeue` something from the list, you first grab the Node from the front. Then, set `self.head = self.head.prev_node`. In other words, move the `head` pointer to the previous person in line. Now, return the `data` from previous `head` node. It's important to store this in a temporary variable. Otherwise, you'll be returning the data of something still in the Queue. An important part of `dequeue` is that the item you return has been removed from the queue.
+In order to `dequeue` something from the list, you first grab the Node from the front. Then, set `self.head = self.head.prev_node`. In other words, move the `head` pointer to the previous person in line. Now, return the `data` from Node you just removed from the Queue. It's important to store this in a temporary variable. Otherwise, you'll be returning the data of something still in the Queue. An important part of `dequeue` is that the item you return has been removed from the queue.
 
 {% highlight python %}
 	def dequeue(self):
@@ -66,7 +67,7 @@ In order to `dequeue` something from the list, you first grab the Node from the 
 
 # peek
 
-Let's say that you just made it to the front of the line. All the clerks are busy, but you know someone who works there. Your long time pal looks up from their work and yells, "What's going on?"
+Let's say that you just made it to the front of the line. All the clerks are busy, but you know someone who works there. Your long time pal looks up from a pile of work and yells, "What's going on?"
 
 How did they know you were there? They had to `peek` at the front of the line to recognize your face.
 

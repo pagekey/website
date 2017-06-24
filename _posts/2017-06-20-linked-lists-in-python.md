@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How to Implement a Linked List in Python
+keywords: linked list, python, data structures, data structure, youtube, tutorial, learning, education, how to
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KZVU2X4Dw8w" frameborder="0" allowfullscreen></iframe>

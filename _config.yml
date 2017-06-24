@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   A simple blog about programming.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://www.stephengrice.com/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+twitter_username: _stephengrice
 github_username:  stephengrice
 
 # Build settings
@@ -30,3 +30,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+keywords: software engineering, programming, web design, development, freelance developer, jekyll, Stephen Grice, stephengrice, _stephengrice, freelance
