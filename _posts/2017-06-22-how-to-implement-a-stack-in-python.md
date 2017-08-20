@@ -78,11 +78,11 @@ Let's put this knowledge to use! I have two programming challenges to try. If yo
 
 Each challenge should use the stack we just built, so either put your functions in the same source file as your stack, or create a challenges source file in the same directory and write `from stack import Stack` at the top.
 
-## First Challenge: Reverse a string
+### First Challenge: Reverse a string
 
 Implement a method, `reverse(s)`, which uses our Stack to reverse the input string `s`. For hints about completing this challenge, check out the video at the top of the article.
 
-## Second Challenge: Evaluate a postfix string
+### Second Challenge: Evaluate a postfix string
 
 Implement a method, `eval_postfix(postfix_string)`, which returns a number representing the value of the input `postfix_string`. A Stack makes this much easier. Assume that the input has no spaces - each character in the string is a number or one of the following operator characters: `'+', '-', '*', '/'`
 
@@ -90,7 +90,7 @@ Hint: Push all operands. When you find an operator, pop twice, calculate based o
 
 Another hint: When you're finished, the only thing in the stack will be the answer. Pop and return this.
 
-## solutions
+### Solutions 
 
 Don't peek! I hope you tried your best! Anyway, [here](https://github.com/stephengrice/youtube/blob/master/Stack/challenges.py) are my solutions to the challenges.
 
