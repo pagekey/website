@@ -4,6 +4,8 @@ title: How to Implement a Stack in Python
 keywords: stack, python, data structures, data structure, youtube, tutorial, learning, education, how to
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5MOy9VYKczY" frameborder="0" allowfullscreen></iframe>
+
 There's no other data structure like the Stack. In only a few minutes, you can have a fully working implementation that can be used to solve a wide variety of problems. Stacks are useful for anything from reversing a string to language processing applications - not to mention the fact that many programming languages (and probably your operating system) rely on a Stack to function.
 
 **Click [here][stack-src] for the full Stack source code. Also, [here][stack-test] is the test code.**
@@ -69,6 +71,28 @@ Now, let's get serious. We need to completely remove something from our stack an
 		self.size -= 1
 		return result
 {% endhighlight %}
+
+# Challenges
+
+Let's put this knowledge to use! I have two programming challenges to try. If you get stuck, I'll give you a link to my solutions.
+
+Each challenge should use the stack we just built, so either put your functions in the same source file as your stack, or create a challenges source file in the same directory and write `from stack import Stack` at the top.
+
+## First Challenge: Reverse a string
+
+Implement a method, `reverse(s)`, which uses our Stack to reverse the input string `s`. For hints about completing this challenge, check out the video at the top of the article.
+
+## Second Challenge: Evaluate a postfix string
+
+Implement a method, `eval_postfix(postfix_string)`, which returns a number representing the value of the input `postfix_string`. A Stack makes this much easier. Assume that the input has no spaces - each character in the string is a number or one of the following operator characters: `'+', '-', '*', '/'`
+
+Hint: Push all operands. When you find an operator, pop twice, calculate based on the operator, and push the result.
+
+Another hint: When you're finished, the only thing in the stack will be the answer. Pop and return this.
+
+## solutions
+
+Don't peek! I hope you tried your best! Anyway, [here](https://github.com/stephengrice/youtube/blob/master/Stack/challenges.py) are my solutions to the challenges.
 
 # Full Code and Testing
 
