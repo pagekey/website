@@ -37,8 +37,14 @@ How does this work under the hood? As it turns out, your key (`phoneDirectory` i
 Let's start out nice and easy. Our hash table will need a few things to keep it together. It needs a `size`, which will be the number of elements that have been inserted. It needs a `capacity`, which will determine the size of our internal array. Last, it needs `buckets` - this is the internal array, storing each inserted value in a "bucket" based on the provided key.
 
 ```
-
+class HashTable:
+	def __init__(self):
+		self.capacity = INITIAL_CAPACITY
+		self.size = 0
+		self.buckets = [None]*self.capacity
 ```
+
+Note the `INITIAL_CAPACITY` variable, arbitrarily set to 50 in my example class. This defines the size of our internal array. In an open-addressed, double-hashed hash table, it's important that the capacity is prime, and that it can be changed. On the other hand, in our separate chaining hash table, we set the capacity once and never change it, regardless of how many elements are stored. This is good for simplicity, but bad for scalability.
 
 # HashTable Node
 
@@ -68,7 +74,7 @@ Since the internal workings of our HashTable are so complex, we need a few helpe
 
 Our hash method needs to take our key, which will be a string of any length, and produce an index for our internal `buckets` array.
 
-We will devise a simple hash function for our HashTable with the following characteristics:
+For your reference, the following are some characteristics of a good hash function:
 
 1) Hash is determined by the data being hashed.
 
@@ -78,7 +84,12 @@ We will devise a simple hash function for our HashTable with the following chara
 
 4) Hash function generates a very different output for similar strings.
 
-For our purposes the most important characteristic that our function must have is **uniformity**.
+For our purposes the most important characteristic that our function must have is **uniformity**. We would like our hash values to be as evenly distributed among our buckets as possible, to take full advantage of each bucket and avoid collisions.
+
+To understand why, consider an extreme case: Our hash function will be `h(x) = 1`. That's right, a constant value. So what happens? Every time we hash a key, the output is 1, meaning that we assign that node to bucket 1. With every single node under bucket 1, our HashTable becomes nothing more than a bloated LinkedList!
+
+![Uniform Bucket Distribution (good)][buckets_uniform]
+![Non-Uniform Bucket Distribution (bad)][buckets_nonuniform]
 
 ## Is Prime
 
@@ -86,7 +97,7 @@ For our purposes the most important characteristic that our function must have i
 
 # Public Methods
 
-Now that our private methods are out of the way, we can concentrate on the methods actually exposed for use on our 
+Now that our private methods are out of the way, we can concentrate on the methods actually exposed for use on our
 
 ## Insert
 
@@ -95,3 +106,7 @@ Now that our private methods are out of the way, we can concentrate on the metho
 ## Remove
 
 # Applications
+
+[buckets_uniform]: /assets/img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
+
+[buckets_nonuniform]: /assets/img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"
