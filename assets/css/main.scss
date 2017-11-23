@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font-size: 1.2rem;
+}
+
+h1 {
+  border-bottom: 1px solid #e8e8e8;
+  font-size: 2em;
+  padding-top: 0.5em;
+}
+h1.post-title {
+  border-bottom: none;
+}
+
+h2, .post-content h2 {
+  font-size: 1.5em;
+}

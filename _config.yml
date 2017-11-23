@@ -30,7 +30,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-kramdown:
-  parse_block_html: true
-
 keywords: software engineering, programming, web design, development, freelance developer, jekyll, Stephen Grice, stephengrice, _stephengrice, freelance
