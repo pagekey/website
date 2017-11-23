@@ -66,9 +66,9 @@ Whenever two keys have the same hash value, it is considered a collision. What s
 
 There are other, far more efficient ways of handling this, but separate chaining seems to be the simplest method.
 
-# Private Methods and Fields
+# Methods
 
-Since the internal workings of our HashTable are so complex, we need a few helper methods to break the task down. Each begins with an underscore
+Now we can really get started. Let's jump into our hash table's methods.
 
 ## Hash
 
@@ -91,14 +91,6 @@ To understand why, consider an extreme case: Our hash function will be `h(x) = 1
 ![Uniform Bucket Distribution (good)][buckets_uniform]
 ![Non-Uniform Bucket Distribution (bad)][buckets_nonuniform]
 
-## Is Prime
-
-## Next Prime
-
-# Public Methods
-
-Now that our private methods are out of the way, we can concentrate on the methods actually exposed for use on our
-
 ## Insert
 
 ## Find
@@ -106,6 +98,8 @@ Now that our private methods are out of the way, we can concentrate on the metho
 ## Remove
 
 # Applications
+
+Hash tables can be useful in a wide variety of computer science applications. Once you learn how to use them, you won't be able to stop! It seems at every turn there is a new application for the Hash table.
 
 [buckets_uniform]: /assets/img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
 
