@@ -95,15 +95,120 @@ To understand why, consider an extreme case: Our hash function will be `h(x) = 1
 
 To insert a node into our HashTable, we will follow these steps:
 
-1. 
+1. Increment size of hash table.
+
+2. Compute index of node using hash function.
+
+3. If the bucket is empty, create a new node and add it.
+
+4. Otherwise, there is a linked list of at least one node at this index. Iterate to the end of the list and add a new node there.
+
+This is reflected in the following code:
+
+{% highlight python %}
+def insert(self, key, value):
+	# 1. Increment size
+	self.size += 1
+	# 2. Compute index of key
+	index = self.hash(key)
+	# Go to the node corresponding to the hash
+	node = self.buckets[index]
+	# 3. If bucket is empty:
+	if node is None:
+		# Create node, add it, return
+		self.buckets[index] = Node(key, value)
+		return
+	# 4. Iterate to the end of the linked list at provided index
+	prev = node
+	while node is not None:
+		prev = node
+		node = node.next
+	# Add a new node at the end of the list with provided key/value
+	prev.next = Node(key, value)
+{% endhighlight %}
 
 ## Find
 
+Once we have stored the data, we will need to retrieve it at some point. To do this, we'll perform the following steps:
+
+1. Compute the hash (index) for the provided key.
+
+2. Go to the bucket for that index.
+
+3. Iterate the nodes in that linked list until the key is found, or the end of the list is reached.
+
+4. Return the value of the found node, or None if not found.
+
+This idea would be expressed in code like this:
+
+{% highlight python %}
+def find(self, key):
+	# 1. Compute hash
+	index = self.hash(key)
+	# 2. Go to first node in list at bucket
+	node = self.buckets[index]
+	# 3. Traverse the linked list at this node
+	while node is not None and node.key != key:
+		node = node.next
+	# 4. Now, node is the requested key/value pair or None
+	if node is None:
+		# Not found
+		return None
+	else:
+		# Found - return the data value
+		return node.value
+{% endhighlight %}
+
 ## Remove
+
+Removing an element is similar to removing an element from a linked list. This method will return the data value removed, or None if the requested node was not found.
+
+1. Compute hash for key to determine index.
+
+2. Iterate linked list of nodes. Continue until end of list or until key is found.
+
+3. If the key is not found, return None.
+
+4. Otherwise, remove the node from the linked list and return the node value.
+
+This would be reflected in code as such:
+
+{% highlight python %}
+def remove(self, key):
+	# 1. Compute hash
+	index = self.hash(key)
+	node = self.buckets[index]
+	prev = None
+	# 2. Iterate to the requested node
+	while node is not None and node.key != key:
+		prev = node
+		node = node.next
+	# Now, node is either the requested node or none
+	if node is None:
+		# 3. Key not found
+		return None
+	else:
+		# 4. The key was found.
+		self.size -= 1
+		result = node.value
+		# Delete this element in linked list
+		if prev is None:
+			node = None
+		else:
+			prev.next = prev.next.next
+		# Return the deleted language
+		return result
+{% endhighlight %}
+
+For more information about removing a node from a linked list, see my [LinkedList article](/blog/2017/06/20/linked-lists-in-python.html).
 
 # Applications
 
 Hash tables can be useful in a wide variety of computer science applications. Once you learn how to use them, you won't be able to stop! It seems at every turn there is a new application for the Hash table.
+
+# Source
+
+Source found at:
 
 [buckets_uniform]: /blog/assets/img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
 
