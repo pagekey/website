@@ -85,22 +85,57 @@ This `-j` option specifies the **number of jobs** to use when running the `make`
 
 While there is some debate over the exact jobs-to-processors ratio that provides the optimal performance, using a 1:1 ratio as a rule of thumb should work well enough getting started. Since the effectiveness of this may vary depending on what the job is, feel free to mess around with other numbers, benchmark results, and find what works best.
 
-6. make modules [-j]
-7. make modules_install
-8. make install
+For the remainder of the article, we will assume 4 CPUs, hence `-j4`. Remember to change this if your system is different.
 
-Now it's built! Next we need to use it somewhere.
+6. Link Modules
 
-1. Move the files onto the system you want to try it on.
-2. Copy to /boot.
-3. sudo update-grub
-4. Observe uname -r.
-4. Reboot
-6. New kernel should be active! Observe uname -r.
+For the next step, run the following command:
 
-Keep an eye out for next article: Simple modifications to kernel source.
-Even later: Creating basic kernel module.
+```
+make modules -j4
+```
 
-Sources:
+This will link any modules marked as 'M' in `make menuconfig` to the kernel image created in the last step. Anything marked as 'Y' will already be included in that image.
+
+7. Install Modules
+
+Now we will install kernel modules in `/lib/modules`. This can be accomplished with the following:
+
+```
+make modules_install -j4
+```
+
+8. Install the kernel
+
+Finally, we will install our kernel to `/boot`. Use:
+
+```
+make install -j4
+```
+
+Congratulations, our kernel is built and present in `/boot`! The next step is to figure out how to boot into our kernel and see it in action.
+
+Before we do anything, let's confirm which kernel we are using. In your home area, use the following to show the current kernel in use:
+
+```
+uname -r
+```
+
+You may want to write this down or redirect to a file for later comparison, but if you can remember it, more power to you!
+
+The kernel must now be configured in the system bootloader so that it will be used on the next restart. If you're using the ever-popular `grub`, you can use:
+
+```
+sudo update-grub
+```
+
+If all is well, a reboot should use the new kernel. Try it now, and confirm the new kernel is in use with `uname -r`.
+
+Thanks for reading through - I hope you learned something! Keep an eye out for my next article, in which we will make some simple modifications to kernel source code.
+
+Even later, we'll be creating a basic kernel module.
+
+**Sources:**
 https://wiki.centos.org/HowTos/I_need_the_Kernel_Source
 ftp://ftp.wayne.edu/ldp/en/Kernel-HOWTO/ar01s10.html
+https://unix.stackexchange.com/questions/20864/what-happens-in-each-step-of-the-linux-kernel-building-process?newreg=4067157d2de24c1c99b0ab222a59366f
