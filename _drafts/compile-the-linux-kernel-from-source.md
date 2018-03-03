@@ -16,3 +16,15 @@ The first step to doing all of these things is compiling the Linux kernel from s
 5. make modules [-j]
 6. make modules_install
 7. make install
+
+Now it's built! Next we need to use it somewhere.
+
+1. Move the files onto the system you want to try it on.
+2. Copy to /boot.
+3. sudo update-grub
+4. Observe uname -r.
+4. Reboot
+6. New kernel should be active! Observe uname -r.
+
+Keep an eye out for next article: Simple modifications to kernel source.
+Even later: Creating basic kernel module.
