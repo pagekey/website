@@ -2,6 +2,7 @@
 layout: post
 title: How to Implement a Stack in Python
 keywords: stack, python, data structures, data structure, youtube, tutorial, learning, education, how to
+author: stephengrice
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5MOy9VYKczY" frameborder="0" allowfullscreen></iframe>
@@ -90,7 +91,7 @@ Hint: Push all operands. When you find an operator, pop twice, calculate based o
 
 Another hint: When you're finished, the only thing in the stack will be the answer. Pop and return this.
 
-### Solutions 
+### Solutions
 
 Don't peek! I hope you tried your best! Anyway, [here](https://github.com/stephengrice/youtube/blob/master/Stack/challenges.py) are my solutions to the challenges.
 

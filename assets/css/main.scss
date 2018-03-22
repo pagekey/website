@@ -2,9 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
 
 body {
   font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -18,4 +20,14 @@ h1.post-title {
 
 h2, .post-content h2 {
   font-size: 1.5em;
+}
+
+.wrapper a img {
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+header {
+  font-family: 'Oswald',sans-serif;
 }

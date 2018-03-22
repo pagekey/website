@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Stephen Grice - Blog
+title: PageKey Solutions - Blog
 description: > # this means to ignore newlines until "baseurl:"
   A simple blog about programming.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://www.stephengrice.com/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: _stephengrice
-github_username:  stephengrice
+url: "http://www.pagekeysolutions.com/" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: _stephengrice
+github_username:  pagekeysolutions
 
 # Build settings
 markdown: kramdown
@@ -30,4 +30,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-keywords: software engineering, programming, web design, development, freelance developer, jekyll, Stephen Grice, stephengrice, _stephengrice, freelance
+keywords: software engineering, programming, web design, development, freelance developer, jekyll, PageKey Solutions, PageKeySolutions, pks, Stephen Grice, stephengrice, _stephengrice, freelance

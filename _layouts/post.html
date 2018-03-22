@@ -11,21 +11,22 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% assign author = site.data.authors[page.author] %}
+        • Written by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author.name }}</span></span>
       {% endif %}</p>
   </header>
-  
+
   {% include share.html %}
 
-  
+
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  
+
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
-  
+
   {% include widgetpack.html %}
 
 </article>
