@@ -7,11 +7,13 @@ The Linux kernel is one of the most complex open-source projects available to th
 
 As it turns out, it's harder than expected. Keep reading to get the full rundown on how I edited the kernel source,  built it, broke it (several times), and finally made a simple change that outputted to the system logs.
 
-Before we start, you may want to check out how to [build the kernel](http://pagekeysolutions.com/blog/2018/03/03/compile-the-linux-kernel-from-source.html), since we'll just be talking code in this article.
+# Prerequisite
+
+Before we start, you may want to check out how to [build the kernel](http://pagekeysolutions.com/blog/2018/03/03/compile-the-linux-kernel-from-source.html). This will allow you to make the modifications yourself as we go through the article, and eventually make your own changes.
 
 # Modifications
 
-Let's get our hands dirty. Today our goal will be to add a snippet of code that does some math for us, and prints several lines to the system log using `printk`. The snippet we will be using is as follows:
+Let's get our hands dirty. Today, our goal will be to add a snippet of code that does some math for us, and prints several lines to the system log using `printk`. The snippet we will be using is as follows:
 
 {% highlight c %}
 printk(KERN_DEBUG "Hello this is Steve calling, I'm currently trapped in your kernel.");
@@ -41,8 +43,7 @@ I want to include an analogy before we begin. Modifying a project of this side w
 
 My first thought for how to go about this was to find the kernel entry point, insert my code at the beginning of the function, and `return`. The code looked something like this:
 
-<!-- {% highlight c %} -->
-```
+{% highlight c %}
 static int __ref kernel_init(void *unused)
 {
 	printk(KERN_DEBUG "Hello this is Steve calling, I'm currently trapped in your kernel.");
@@ -53,24 +54,24 @@ static int __ref kernel_init(void *unused)
 	// The rest of the function, never to be executed
 	...
 }
-```
-<!-- {% endhighlight %} -->
+...__
+{% endhighlight %}
 
 I hoped that when the machine booted, it would display my message and nothing else. The result was a little bit different... It caused a kernel panic!
 
 ![Screenshot of Kernel Panic]({{ "/assets/img/articles/kernel-src/kernel_panic2.jpg" | absolute_url }})
 *Panic! At The Kernel*
 
-At this point, I realized that the `kernel_init` function probably does some important stuff, and that cutting it off at the first line may not have been the best strategy.
+At this point, I realized that the `kernel_init` function __may__ do something important, and that cutting it off and returning before the first line may not have been the best strategy.
 
 ## Trying Again
 
 My next attempt involved moving the print statement to the end of the function, where (hopefully) all of the important setup tasks have already been completed.
 
-```
+{% highlight c %}
 static int __ref kernel_init(void *unused)
 {
-	// Important stuff...
+	// Important code...
 	...
 	if (ramdisk_execute_command) {
 			ret = run_init_process(ramdisk_execute_command);
@@ -80,21 +81,30 @@ static int __ref kernel_init(void *unused)
 						 ramdisk_execute_command, ret);
 	}
 	printk(KERN_DEBUG "Hello this is Steve calling, I'm currently trapped in your kernel.");
-	// The rest of our snippet ...
+	// The rest of our snippet
 	...
 }
-```
+...__
+{% endhighlight %}
 
 This time, building the kernel succeeded (albeit with a warning due to my sloppy coding skills) and the system booted without crashing. Despite this, I couldn't help but be disappointed when I checked the logs:
 
 ![System Logs without our messages](/blog/assets/img/articles/kernel-src/syslog-pre-success.png)
 *Poof! Where is it?!*
 
-It was progress, but something was still wrong. My only guess was that we started trying to print things before anything was ready to record them. So, I started to follow the spaghetti...
+While there was no crash, our message still didn't show up in the logs. Something was still wrong. My only guess was that our snippet started trying to print things before anything was ready to record them. So, I started to follow the spaghetti...
 
 ## Digging In
 
-I needed to find a place where `printk` will work. I decided to see where some of these other messages were being outputted. In the system log, the second message is `Command line: BOOT_IMAGE=...`. So, I searched the source for this message:
+I needed to find a place where `printk` will work.
+
+I started by following the methods called in `kernel_init` in hopes of following the line of execution. This was made easier with a [handy tool](https://elixir.bootlin.com/linux/latest/source/init/main.c#L946) for browsing the kernel source. I started by looking up `run_init_process (init/main.c)`, then `do_execve (fs/exec.c)`, then `do_execveat_common (fs/exec.c)`...
+
+It didn't take long for me to realize I was in over my head. I needed a different strategy than trying to read the source like a book.
+
+## The Fix We Need
+
+I decided to check where some of the other messages in `/var/log/messages` were being outputted. In the system log shown above, the second message is `Command line: BOOT_IMAGE=...`. So, I searched the source for that line:
 
 ```
 grep printk * -r | grep "Command line"
@@ -104,7 +114,7 @@ This almost immediately yielded some files in the `arch` directory. At first, I 
 
 I found the relevant line in this file, and inserted our code snippet below it:
 
-```
+{% highlight c %}
 #else
     printk(KERN_INFO "Command line: %s\n", boot_command_line);
 		// Here goes nothing!!
@@ -118,15 +128,15 @@ I found the relevant line in this file, and inserted our code snippet below it:
 				printk(KERN_DEBUG "The value of math + i is %i", ans);
 		}
 #endif
-```
+{% endhighlight %}
 
-Another quick kernel build, and... Success!
+After inserting the code, I performed another quick kernel build, and...
 
 ![System Logs without our messages](/blog/assets/img/articles/kernel-src/syslog-pre-success.png)
 *We made it!*
 
-The kernel logs finally showed our beloved messages. With this, we successfully added our own code to the kernel and verified that it executed.
+Success! The kernel logs finally showed our beloved homemade debug messages. With this, we successfully added our own code to the kernel and verified that it executed.
 
 # Wrapping Up
 
-After several attempts, it was possible to inject custom code into the kernel and verify that it executed. While it's a complicated beast of a project, the Linux kernel can be changed if you know where to look! I made plenty of mistakes, but by learning from these failures, I learned a lot and accomplished the goal I originally set out to meet. I would encourage you to do the same - Continue to tinker where we left off, and see what you can learn!
+After several attempts, it was possible to inject custom code into the kernel and verify that it executed. While it's a complicated beast of a project, you can scratch the surface of the Linux kernel source if you know where to look! I made plenty of mistakes, but by learning from these failures, I learned a lot and accomplished my original goal. I would encourage you to do the same. Continue to tinker where we left off, and see what you can learn!
