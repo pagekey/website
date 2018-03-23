@@ -59,7 +59,7 @@ static int __ref kernel_init(void *unused)
 
 I hoped that when the machine booted, it would display my message and nothing else. The result was a little bit different... It caused a kernel panic!
 
-![Screenshot of Kernel Panic]({{ "/assets/img/articles/kernel-src/kernel_panic2.jpg" | absolute_url }})
+![Screenshot of Kernel Panic](/blog/assets/img/articles/kernel-src/kernel_panic2.png)
 *Panic! At The Kernel*
 
 At this point, I realized that the `kernel_init` function __may__ do something important, and that cutting it off and returning before the first line may not have been the best strategy.
