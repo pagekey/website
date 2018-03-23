@@ -3,6 +3,8 @@ title: Making Simple Modifications to the Linux Source
 author: stephengrice
 ---
 
+![Computer Code](/blog/assets/img/articles/kernel-src/code-computer.png)
+
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly complex. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
 As it turns out, it's harder than expected. Keep reading to get the full rundown on how I edited the kernel source,  built it, broke it (several times), and finally made a simple change that outputted to the system logs.
