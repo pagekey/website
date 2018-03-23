@@ -104,14 +104,16 @@ The first step to doing all of these things is compiling the Linux kernel from s
     Now we will install kernel modules in `/lib/modules`. This can be accomplished with the following:
 
     ```
-    make modules_install -j4
+    sudo make modules_install -j4
     ```
+    Note that we had to prefix the command with `sudo`. We need to perform this step as a superuser because it involves copying files to sensitive system locations that are often locked down.
+
 8. **Install the kernel**
 
     Finally, we will install our kernel to `/boot`. Use:
 
     ```
-    make install -j4
+    sudo make install -j4
     ```
 
 Congratulations, our kernel is built and present in `/boot`! The next step is to figure out how to boot into our kernel and see it in action.
