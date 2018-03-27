@@ -31,7 +31,7 @@ for (i = 0; i < 5; i++) {
 
 ## Kernel printing
 
-Note that the above code makes use of the `printkern` function. This is the function that prints to `/var/log/messages`, or for newer versions of Ubuntu, `journalctl`.
+Note that the above code makes use of the `printkern` function. This is the function that prints to the system log, which can be viewed using the `dmesg` command. On some Linux distributions, these messages can also be found in the `/var/log/messages` file; for some others, the command `journalctl` does the trick. When in doubt, though, just opt for `dmesg`.
 
 ## Entry Point
 
@@ -104,7 +104,7 @@ It didn't take long for me to realize I was in over my head. I needed a differen
 
 ## The Fix We Need
 
-I decided to check where some of the other messages in `/var/log/messages` were being outputted. In the system log screenshot shown above, the second message is `Command line: BOOT_IMAGE=...`. So, I searched the source for that line:
+I decided to check where some of the other messages in `dmesg` were being outputted. In the system log screenshot shown above, the second message is `Command line: BOOT_IMAGE=...`. So, I searched the source for that line:
 
 ```
 grep printk * -r | grep "Command line"
