@@ -98,7 +98,7 @@ While there was no crash, our message still didn't show up in the logs. Somethin
 
 I needed to find a place where `printk` would work.
 
-I started by following the method called in `kernel_init` in hopes of understanding the line of execution. This was made easier with a [handy tool](https://elixir.bootlin.com/linux/latest/source/init/main.c#L946) I stumbled across for browsing the kernel source. I started by looking up `run_init_process (init/main.c)`, then `do_execve (fs/exec.c)`, then `do_execveat_common (fs/exec.c)`...
+I started by following the method called in `kernel_init` in hopes of understanding the line of execution. This was made easier with a [handy tool](https://elixir.bootlin.com/linux/latest/source/) I stumbled across for browsing the kernel source. I started by looking up `run_init_process (init/main.c)`, then `do_execve (fs/exec.c)`, then `do_execveat_common (fs/exec.c)`...
 
 It didn't take long for me to realize I was in over my head. I needed a different strategy than trying to read the source like a book.
 
