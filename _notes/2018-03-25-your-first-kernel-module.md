@@ -79,9 +79,29 @@ void cleanup_module(void)
 }
 {% endhighlight %}
 
-Save this file. Type `make`. If all goes well and there are no errors, several files will be created in the current directory.
+Save this file. Type `make`. If all goes well and there are no errors, several files will be created in the current directory. The important one to note is `hello-world.ko`.
 
 If you're wondering why there is never a comma between `KERN_INFO` and your message in `printk`, it's because `KERN_INFO` is a macro. In fact, this and all other `printk` macros are defined in [`/include/linux/kern_levels.h`](https://github.com/torvalds/linux/blob/master/include/linux/kern_levels.h) in the Linux source code.
+
+# Installing the Module
+
+Time to test out our hard-earned module. While in the same directory, type `sudo insmod hello-world.ko`. If no errors are present, it must have worked. Verify this with `dmesg`. In my case, it looked something like this:
+
+![dmesg with Hello](/blog/assets/img/articles/kernel-module/dmesg1.png)
+*Did you say something?*
+
+So, that worked well enough. Try out `modinfo hello-world.ko` to see some more generic information about the module you just made.
+
+Okay, that's enough fun for one day. Let's rip that thing right back out of the kernel. Type: `sudo rmmod hello-world.ko` and again check `dmesg`:
+
+![dmesg with Hello and Goodbye](/blog/assets/img/articles/kernel-module/dmesg2.png)
+*You say goodbye... And I say hello.*
+
+How beautiful. The circle of life is complete. They sure do grow up fast.
+
+# Conclusion
+
+Well, I sure hope this was a hootin' good time for you. We wrote our first kernel module, compiled it, and did a good old hot swap into the running kernel. All in all, it was a good start. The future is bright for you, young kernalist. If you so dare, you can attempt to write a device driver kernel module. I'll leave that up to you for now. Until then, keep coding.
 
 Useful Links
 https://www.apriorit.com/dev-blog/195-simple-driver-for-linux-os
