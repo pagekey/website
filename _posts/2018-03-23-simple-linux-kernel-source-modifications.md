@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Making Simple Modifications to the Linux Source
 author: stephengrice
 ---
