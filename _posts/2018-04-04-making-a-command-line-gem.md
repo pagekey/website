@@ -40,6 +40,16 @@ touch lib/pagekey.rb
 mkdir bin
 ```
 
+Our file structure should look like this:
+
+```
+pagekey
+|-- pagekey.gemspec
+|-- bin
+|-- lib
+    |-- pagekey.rb
+```
+
 Now I'll edit `pagekey.gemspec` and include some information about our gem. Remember to update this with information specific to your own gem.
 
 {% highlight ruby %}
