@@ -72,7 +72,7 @@ Perfect. Now that the gem is configured, let's add some really basic code and te
 
 {% highlight ruby %}
 module PageKey
-  def hello_world
+  def self.hello_world
     "Good morning world and all who inhabit it!"
   end
 end
@@ -133,7 +133,7 @@ Create a directory to hold the file with `mkdir bin` and edit the `bin/pagekey` 
 ```
 #!/usr/bin/env ruby
 require 'pagekey'
-PageKey::hello_world
+puts PageKey::hello_world
 ```
 
 Ensure that the file is executable by running `chmod +x bin/pagekey`. Our next step is to specify this executable in `pagekey.gemspec` so that it will be added to the system PATH variable when the gem is installed. Add the following line:
