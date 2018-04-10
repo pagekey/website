@@ -14,6 +14,8 @@ In this article, we're going to do two things. First, we'll get started by creat
 
 After that, we're going to modify the gem so that you can use it anywhere on your computer, just by typing its name into the console. Sweet!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KNa1TXnaZSg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 # Requirements
 
 In order to complete this tutorial, you'll need a version of Ruby installed on your computer. If you don't already have it, consider first installing [RVM](https://rvm.io/) (Ruby Version Manager), and then selecting the version of Ruby you want via RVM. This will save you countless headaches in the future should you need to switch Ruby versions for any reason.
