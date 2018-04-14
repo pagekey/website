@@ -2,6 +2,7 @@
 layout: post
 title: Making Simple Modifications to the Linux Source
 author: stephengrice
+categories: [Linux, Programming]
 ---
 
 ![Computer Code](/blog/assets/img/articles/kernel-src/code-computer.png)

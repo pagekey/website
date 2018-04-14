@@ -3,6 +3,7 @@ layout: post
 title: How to Implement a Hash Table in Python
 keywords: hashtable, hash table, separate chaining, code, computer science, python, data structures, data structure, youtube, tutorial, learning, education, how to
 author: stephengrice
+categories: Programming
 ---
 
 This tutorial will show you how to implement a hash table with **separate chaining**. It's not the most efficient method, but it is the simplest way to get started and create a fully functioning hash table.
