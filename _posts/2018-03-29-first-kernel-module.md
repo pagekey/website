@@ -6,6 +6,10 @@ author: stephengrice
 
 ![Hands putting jigsaw pieces together](/blog/assets/img/articles/kernel-module/hands-jigsaw.jpg)
 
+**This post is Part 3 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 2][part2]**
+
 So we've already [built the kernel from source](/blog/2018/03/03/compile-the-linux-kernel-from-source.html) and even [modified the source code](/blog/2018/03/23/simple-linux-kernel-source-modifications.html). While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
 Well, I can't promise *that*, but today we'll take a step in the right direction by building a Linux kernel module.
@@ -113,3 +117,11 @@ All in all, we didn't break any records, but it was a good start to writing kern
 * [__init and __exit macros](https://www.tldp.org/LDP/lkmpg/2.6/html/x245.html)
 * [Advanced: Creating a file in /dev](https://blog.sourcerer.io/writing-a-simple-linux-kernel-module-d9dc3762c234)
 * [Advanced: Write a device driver](https://www.apriorit.com/dev-blog/195-simple-driver-for-linux-os)
+
+**This post is Part 3 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 2][part2]**
+
+[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /blog/2018/03/29/first-kernel-module.html

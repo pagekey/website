@@ -6,6 +6,10 @@ author: stephengrice
 
 ![Kernels... Kernels everywhere!]({{ "/assets/img/articles/compile-kernel/kernels.jpg" | absolute_url }})
 
+**This post is Part 1 of a series on the Linux kernel.**
+
+**[Part 2][part2] - [Part 3][part3]**
+
 Linux is everywhere, and there are plenty of Linux distributions available providing great out-of-the-box features. But what happens when you need to make an intricate, low-level change to system functionality? What if you wanted to get into kernel development and start to understand one of the world's largest open source projects?
 
 The first step to doing all of these things is compiling the Linux kernel from source. While it may seem tedious or trivial at first, this process will get you down in the weeds of the OS, allowing you to turn modules on or off, search for kernel features, and even examine (and if you're brave, tweak) the raw source code that runs everything on your Linux machine!
@@ -134,12 +138,20 @@ sudo update-grub
 
 If all is well, a reboot should use the new kernel. Try it now, and confirm the new kernel is in use with `uname -r`.
 
-Thanks for reading through - I hope you learned something! Keep an eye out for my next article, in which we will make some simple modifications to kernel source code.
+Thanks for reading through - I hope you learned something! If you're hungry for more, read the [next article](), in which we will make some simple modifications to kernel source code.
 
-Even later, we'll be creating a basic kernel module.
+In an even [later article](), we'll be creating a basic kernel module.
 
 **Sources:**
 
 * [https://wiki.centos.org/HowTos/I_need_the_Kernel_Source](https://wiki.centos.org/HowTos/I_need_the_Kernel_Source)
 * [ftp://ftp.wayne.edu/ldp/en/Kernel-HOWTO/ar01s10.html](ftp://ftp.wayne.edu/ldp/en/Kernel-HOWTO/ar01s10.html)
 * [https://unix.stackexchange.com/questions/20864/what-happens-in-each-step-of-the-linux-kernel-building-process?newreg=4067157d2de24c1c99b0ab222a59366f](https://unix.stackexchange.com/questions/20864/what-happens-in-each-step-of-the-linux-kernel-building-process?newreg=4067157d2de24c1c99b0ab222a59366f)
+
+**This post is Part 1 of a series on the Linux kernel.**
+
+**[Part 2][part2] - [Part 3][part3]**
+
+[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /blog/2018/03/29/first-kernel-module.html

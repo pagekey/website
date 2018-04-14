@@ -13,6 +13,8 @@ A BST is a great choice for storing data that is easily sorted. For flat arrays,
 
 # Insert
 
+
+
 # Find
 
 # Remove
@@ -22,3 +24,9 @@ I'm trying my best to relate all of these data structures to the real world, but
 # Traversals
 
 # Full Source and Tests
+
+Thank you for reading. Check out the full source code for what we did today below!
+
+**[Full BST source code](https://github.com/stephengrice/youtube/blob/master/BST/bst.py)**
+
+**[BST test code](https://github.com/stephengrice/youtube/blob/master/BST/test_bst.py)**

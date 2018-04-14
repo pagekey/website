@@ -6,6 +6,10 @@ author: stephengrice
 
 ![Computer Code](/blog/assets/img/articles/kernel-src/code-computer.png)
 
+**This post is Part 2 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 3][part3]**
+
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly intricate, to say the least. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
 As it turns out, it's harder than expected. Keep reading to get the full rundown on how I edited the kernel source,  built it, broke it (several times), and finally made a simple change that produced an output in the system logs.
@@ -141,3 +145,11 @@ Success! The kernel logs finally showed our beloved homemade debug messages. Wit
 # Wrapping Up
 
 Though it took a few botched attempts and shots in the dark, I was finally able to inject custom code into the kernel and verify that it executed. While it's a colossal monster of a project, you can scratch the surface of the Linux kernel source if you know where to look! There were a few blunders along the way, but by correcting these mistakes, I learned a lot and accomplished my original goal. I would encourage you to do the same. Continue to tinker where we left off, and see what you can learn!
+
+**This post is Part 2 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 3][part3]**
+
+[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /blog/2018/03/29/first-kernel-module.html
