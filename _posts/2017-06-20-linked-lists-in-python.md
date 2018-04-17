@@ -26,12 +26,12 @@ An easy way to visualize a linked list is by picturing each Node as a box. The b
 
 Putting this idea into code will yield the following `Node` object:
 
-{% highlight python %}
+```python
 class Node(object):
 	def __init__(self, d):
 		self.next_node = None
 		self.data = d
-{% endhighlight %}
+```
 
 # List Setup - Heads and Tails
 
@@ -39,13 +39,13 @@ Unlike a regular flat array, we can't access each list item by index. Instead, w
 
 Keep in mind that while the `head` and `tail` hold Node objects, they are set to `None` when the list is created. This is because the list starts out empty, so we don't have any Node objects to use for them.
 
-{% highlight python %}
+```python
 class LinkedList(object):
 	def __init__(self):
 		self.head = None
 		self.tail = None
 		self.size = 0
-{% endhighlight %}
+```
 
 # Adding elements
 
@@ -53,7 +53,7 @@ Adding an element to a list involves updating the `next_node` references of surr
 
 Note that if the list is empty, you only need to set `head` and `tail` to your new list node. In either case, increment the list's size by one. Adding a node to the end of the list is completed in O(1) time.
 
-{% highlight python %}
+```python
 	# Add d to tail of list
 	def add(self, d):
 		new_node = Node(d)
@@ -64,11 +64,11 @@ Note that if the list is empty, you only need to set `head` and `tail` to your n
 			self.head = new_node
 			self.tail = new_node
 		self.size += 1
-{% endhighlight %}
+```
 
 Adding a node at a specific index in the list is a more complex operation. To do this, you need to iterate the list to find the `current_node` at the index you will be inserting the new data, as well as the `previous` node. Once you have these references, tie the previous node to the new node, and the new node to the rest of the list. In code, this would mean setting `previous.next_node = new_node` and `new_node.next_node = current_node`.
 
-{% highlight python %}
+```python
 	# Return True if d is in list, false otherwise
 	def find(self, d):
 		current_node = self.head
@@ -77,7 +77,7 @@ Adding a node at a specific index in the list is a more complex operation. To do
 				return True
 			current_node = current_node.next_node
 		return False
-{% endhighlight %}
+```
 
 # Removing elements
 
@@ -85,7 +85,7 @@ Removing an element is fairly straightforward, though it may seem counterintuiti
 
 Once you have the `previous` and `node` references, the remove operation has a time complexity of O(1).
 
-{% highlight python %}
+```python
 	# Remove d; return True if successful, false otherwise
 	def remove(self, d):
 		previous_node = None
@@ -101,7 +101,7 @@ Once you have the `previous` and `node` references, the remove operation has a t
 			previous_node = current_node
 			current_node = current_node.next_node
 		return False
-{% endhighlight %}
+```
 
 # Finding elements
 
@@ -111,7 +111,7 @@ Next, begin a loop. For each iteration, check if you found the data you are `fin
 
 The find operation has a time complexity of O(n).
 
-{% highlight python %}
+```python
 	# Return True if d is in list, false otherwise
 	def find(self, d):
 		current_node = self.head
@@ -120,7 +120,7 @@ The find operation has a time complexity of O(n).
 				return True
 			current_node = current_node.next_node
 		return False
-{% endhighlight %}
+```
 
 # Testing
 

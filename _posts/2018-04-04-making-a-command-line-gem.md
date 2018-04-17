@@ -55,7 +55,7 @@ pagekey
 
 Now I'll edit `pagekey.gemspec` and include some information about our gem. Remember to update this with information specific to your own gem.
 
-{% highlight ruby %}
+```ruby
 Gem::Specification.new do |s|
   s.name      = 'pagekey'
   s.version   = '0.0.0'
@@ -69,17 +69,17 @@ Gem::Specification.new do |s|
   s.files     = Dir.glob("{lib,bin}/**/*") # This includes all files under the lib directory recursively, so we don't have to add each one individually.
   s.require_path = 'lib'
 end
-{% endhighlight %}
+```
 
 Perfect. Now that the gem is configured, let's add some really basic code and test it out. To accomplish this, I'll edit `lib/pagekey.rb`:
 
-{% highlight ruby %}
+```ruby
 module PageKey
   def self.hello_world
     "Good morning world and all who inhabit it!"
   end
 end
-{% endhighlight %}
+```
 
 Excellent. We're all set up as far as code goes. Now we can leverage Ruby's wonderfully streamlined gem workflow to build and test our creation. Watch how easy it is.
 
