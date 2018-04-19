@@ -6,17 +6,13 @@ author: stephengrice
 categories: Programming
 ---
 
-Decisions, decisions... Life is all about choices! Usually there are so many ways to go; an infinite stretch of roads stretches in front of you, an endless gradient of details...
+Decisions, decisions... Life is all about choices! Usually there are so many ways to go; an infinite assortment of roads stretches in front of you, an endless gradient of details...
 
-For Binary Search Trees, it's a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less or greater, 0 or 1 (hence **binary**).
+For Binary Search Trees, it's a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less or greater, 0 or 1 - hence the name, **binary**.
 
 # Overview
 
-A BST is a great choice for storing data that is easily sorted. For flat arrays, searching for, inserting, and deleting data will loop through every element, yielding an average efficiency of O(n). With a Binary Search Tree, each step down the tree cuts down the remaining nodes by up to half. For this reason, search on a BST is O(log(n)) on average.
-
-# A Note on Nodes
-
-Like other data structures we've tackled in the past, this implementation of the BST will have a `Node` class.
+A BST is a great choice for storing data that is easily sorted. For flat arrays, searching for, inserting, and deleting data will loop through every element, yielding an average efficiency of O(n). With a Binary Search Tree, each step down the tree cuts the remaining nodes by up to half. For this reason, search on a BST is O(log(n)) on average. This is a significant improvement, especially for large data sets.
 
 # Insert
 
@@ -44,6 +40,8 @@ class Node(object):
 				return True
   ...
 ```
+
+The above code first checks if the data object already exists in the tree. If it does, it returns `False`, indicating that no node was inserted. Otherwise, it will go to the left or right depending on whether the data to insert is greater or smaller than the node's value. If there's nothing on the side that is chosen, a new node is created, and we return `True`. Otherwise, the method continues recursively, checking and moving left or right until the data is found or inserted in the tree.
 
 The `BST` class will wrap this neatly, like so:
 
@@ -80,7 +78,11 @@ class Node(object):
   ...
 ```
 
-BST Wrapper:
+In the above, we first check for the best case - did we find what we are looking for? If so, we are done and can bring the good news by returing `True`.
+
+Otherwise, we have to check which way to go. If the data is less than the current node, we move left. Otherwise, we move right. However, to move left or right, there has to be something there. If not, we're just going to call it quits and return `False`.
+
+The BST wrapper will shape up like this:
 
 ```python
 class BST(object):
@@ -100,7 +102,7 @@ class BST(object):
 
 Finally, the `BST` class is getting its chance to be more than just a wrapper! The `Node` class will have no `remove` method at all - the magic will happen entirely within the `BST` class.
 
-I'm trying my best to relate all of these data structures to the real world, but `remove` is where I draw the line. For some reason, this code is ridiculously complicated, and it's best to just bite the bullet and break it down into a set of well-defined cases.
+While most of these methods can be explained in a fairly straightforward way, `remove` is where I draw the line. For some reason, this code is ridiculously complicated, and it's best to just bite the bullet and break it down into a set of well-defined cases.
 
 ```python
 class BST(object):
@@ -195,9 +197,15 @@ class BST(object):
   ...
 ```
 
+Whew! Glad that one's done.
+
 # Traversals
 
 There are three ways to traverse a tree: pre-order traversal, in-order traversal, and post-order traversal. The traversals are mostly implemented in the `Node` class.
+
+We mentioned at the start of the article that BSTs can be useful for sorting data. As it turns out, the way in which you **traverse** the tree structure will yield different element orderings that can be applied to a variety of applications.
+
+The most straightforward example is sorting from least to greatest. If your BST contains all numbers, an in-order traversal of the tree will return a list of all the numbers in the tree, sorted. Another application is the conversion of expressions between infix, prefix, and postfix. If you can represent an expression as an Abstract Syntax Tree (AST) or something similar, these conversions aren't much more than an in-order, pre-order, or post-order traversal of the AST.
 
 (Traversal picture)
 
