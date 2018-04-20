@@ -31,3 +31,28 @@ h2, .post-content h2 {
 header {
   font-family: 'Oswald',sans-serif;
 }
+
+#signup {
+  display: none;
+}
+
+div.signup {
+
+}
+form.signup {
+  input {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0.5em;
+    width: 95%;
+    padding: 0.5rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+  }
+  input[type=submit] {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+}
