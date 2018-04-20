@@ -6,15 +6,21 @@ author: stephengrice
 categories: Programming
 ---
 
-Decisions, decisions... Life is all about choices! Usually there are so many ways to go; an infinite assortment of roads stretches in front of you, an endless gradient of details...
+Decisions, decisions... Life is all about choices! Usually there are so many ways to go. An infinite expanse of roads and pathways stretches in front of you, an endless gradient of details; as you consider them, your head starts to spin, your eyes start to droop, your mind races, your head pounds -
 
-For Binary Search Trees, it's a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less or greater, 0 or 1 - hence the name, **binary**.
+Wait a second. There's no need to stress. Since we're talking about Binary Search Trees, decisions are going to be a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less than or greater than, 0 or 1 - hence the name, **binary**.
+
+![Example of a Binary Search Tree](/blog/assets/img/articles/bst/1example_tree.png)
 
 # Overview
 
-A BST is a great choice for storing data that is easily sorted. For flat arrays, searching for, inserting, and deleting data will loop through every element, yielding an average efficiency of O(n). With a Binary Search Tree, each step down the tree cuts the remaining nodes by up to half. For this reason, search on a BST is O(log(n)) on average. This is a significant improvement, especially for large data sets.
+A BST is a great choice for storing data that may need to be sorted. Anything that is stored in a BST must be **comparable**, which means that the data can be compared with less than `<`, greater than `>`, and equal to `==` operators.
+
+For flat arrays, searching for, inserting, and deleting data will loop through every single element, yielding an average efficiency of `O(n)`. With a Binary Search Tree, each step down the tree cuts the remaining nodes to search by up to half. For this reason, **search on a BST is performed in `O(log(n))` time on average**. This is a significant improvement, especially for large data sets.
 
 # Insert
+
+![Binary Search Tree: Insert method diagram](/blog/assets/img/articles/bst/2insert.png)
 
 In this case, the `Node` will have most of the important code for the `insert` method. The `BST` class will essentially be a wrapper for the `Node`, hiding some of the rough edges of the internal methods to give the user a clean interface.
 
@@ -43,7 +49,7 @@ class Node(object):
 
 The above code first checks if the data object already exists in the tree. If it does, it returns `False`, indicating that no node was inserted. Otherwise, it will go to the left or right depending on whether the data to insert is greater or smaller than the node's value. If there's nothing on the side that is chosen, a new node is created, and we return `True`. Otherwise, the method continues recursively, checking and moving left or right until the data is found or inserted in the tree.
 
-The `BST` class will wrap this neatly, like so:
+The `BST` class will wrap this neatly, beginning the recursive call on the root node like so:
 
 ```python
 class BST(object):
@@ -62,7 +68,9 @@ class BST(object):
 
 # Find
 
-`find` will be another recursive method, which means that it will be implemented in the `Node` class.
+![Binary Search Tree: Find method diagram](/blog/assets/img/articles/bst/3find.png)
+
+`find` is another recursive method, which means that it will be implemented in the `Node` class.
 
 ```python
 class Node(object):
@@ -78,7 +86,7 @@ class Node(object):
   ...
 ```
 
-In the above, we first check for the best case - did we find what we are looking for? If so, we are done and can bring the good news by returing `True`.
+In the above code snippet, we first check for the best case - did we find what we are looking for? If so, we are done and can tell everyone the good news by returning `True`.
 
 Otherwise, we have to check which way to go. If the data is less than the current node, we move left. Otherwise, we move right. However, to move left or right, there has to be something there. If not, we're just going to call it quits and return `False`.
 
@@ -99,6 +107,12 @@ class BST(object):
 ```
 
 # Remove
+
+![Binary Search Tree: Remove method diagram](/blog/assets/img/articles/bst/4remove.png)
+*Example of leaf node removal*
+
+![Binary Search Tree: Remove method diagram](/blog/assets/img/articles/bst/5remove.png)
+*Example of non-leaf node removal*
 
 Finally, the `BST` class is getting its chance to be more than just a wrapper! The `Node` class will have no `remove` method at all - the magic will happen entirely within the `BST` class.
 
@@ -205,13 +219,13 @@ There are three ways to traverse a tree: pre-order traversal, in-order traversal
 
 We mentioned at the start of the article that BSTs can be useful for sorting data. As it turns out, the way in which you **traverse** the tree structure will yield different element orderings that can be applied to a variety of applications.
 
-The most straightforward example is sorting from least to greatest. If your BST contains all numbers, an in-order traversal of the tree will return a list of all the numbers in the tree, sorted. Another application is the conversion of expressions between infix, prefix, and postfix. If you can represent an expression as an Abstract Syntax Tree (AST) or something similar, these conversions aren't much more than an in-order, pre-order, or post-order traversal of the AST.
+The most straightforward example is sorting from least to greatest. If your BST contains all numbers, **an in-order traversal of the tree will return a list of all the numbers in the tree, sorted.** Another application is the conversion of expressions between infix, prefix, and postfix. If you can represent an expression as an Abstract Syntax Tree (AST) or something similar, these conversions can be performed with an in-order, pre-order, or post-order traversal of the tree.
 
-(Traversal picture)
-
-Each method of traversal will look very similar. Each time, we'll simply change where we make our recursive call.
+The code for each method of traversal will look very similar. Each time, we'll simply change where we make our recursive call.
 
 **Pre-Order Traversal:**
+
+![Binary Search Tree: Pre-Order Traversal](/blog/assets/img/articles/bst/6pre_order.png)
 
 ```python
 class Node(object):
@@ -231,6 +245,8 @@ class Node(object):
 
 **In-Order Traversal:**
 
+![Binary Search Tree: Pre-Order Traversal](/blog/assets/img/articles/bst/7in_order.png)
+
 ```python
 class Node(object):
     ...
@@ -249,6 +265,8 @@ class Node(object):
 
 **Post-Order Traversal:**
 
+![Binary Search Tree: Pre-Order Traversal](/blog/assets/img/articles/bst/8post_order.png)
+
 ```python
 class Node(object):
     ...
@@ -265,7 +283,7 @@ class Node(object):
     ...
 ```
 
-For each of these, I added a corresponding wrapper in the BST class to expose them:
+For each traversal, I added a corresponding wrapper in the BST class to expose it:
 
 ```python
 class BST(object):

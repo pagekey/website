@@ -51,7 +51,7 @@ I want to include an analogy before we begin. Modifying a project of this magnit
 
 My first thought for how to go about this was to find the kernel entry point, insert my code at the beginning of the function, and `return`. The code looked something like this:
 
-{% highlight c %}
+```c
 static int __ref kernel_init(void *unused)
 {
 	printk(KERN_DEBUG "Hello this is Steve calling, I'm currently trapped in your kernel.");
@@ -62,7 +62,7 @@ static int __ref kernel_init(void *unused)
 	// The rest of the function, never to be executed
 	...
 }
-{% endhighlight %}
+```
 
 My expectation was that when the machine booted, it would display my messages and stop all execution, leaving my text up for the world to see. The result was a little bit different... It caused a kernel panic!
 
@@ -75,7 +75,7 @@ At this point, I realized that the `kernel_init` function _may_ do something imp
 
 My next attempt involved moving the print statement to the end of the function, where (hopefully) all of the important setup tasks would have already been completed.
 
-{% highlight c %}
+```c
 static int __ref kernel_init(void *unused)
 {
 	// Important code...
@@ -91,7 +91,7 @@ static int __ref kernel_init(void *unused)
 	// The rest of our snippet
 	...
 }
-{% endhighlight %}
+```
 
 This time, building the kernel succeeded (albeit with a warning due to my sloppy coding skills) and the system booted without crashing. Even so, I couldn't help but be disappointed when I checked the logs:
 
@@ -120,7 +120,7 @@ This almost immediately yielded some files in the `arch` directory. At first, I 
 
 I found the relevant line in this file, and inserted our code snippet below it:
 
-{% highlight c %}
+```c
 #else
     printk(KERN_INFO "Command line: %s\n", boot_command_line);
     // Here goes nothing!!
@@ -134,7 +134,7 @@ I found the relevant line in this file, and inserted our code snippet below it:
     		printk(KERN_DEBUG "The value of math + i is %i", ans);
     }
 #endif
-{% endhighlight %}
+```
 
 After inserting the code, I performed another quick kernel build, and...
 
