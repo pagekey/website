@@ -2,7 +2,7 @@
 layout: post
 title: How to Compile the Linux Kernel from Source
 author: stephengrice
-categories: Linux
+categories: Linux, System Administration, Kernel, Tutorial, Linux Kernel
 ---
 
 ![Kernels... Kernels everywhere!]({{ "/assets/img/articles/compile-kernel/kernels.jpg" | absolute_url }})
