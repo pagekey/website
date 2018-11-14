@@ -3,7 +3,7 @@ layout: post
 title: How to Implement a Stack in Python
 keywords: stack, python, data structures, data structure, youtube, tutorial, learning, education, how to
 author: stephengrice
-categories: Programming
+categories: ['Programming']
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5MOy9VYKczY" frameborder="0" allowfullscreen></iframe>

@@ -3,7 +3,7 @@ layout: post
 title: How to Implement a Binary Search Tree in Python
 keywords: queue, python, data structures, data structure, youtube, tutorial, learning, education, how to
 author: stephengrice
-categories: Programming
+categories: ['Programming']
 ---
 
 Decisions, decisions... Life is all about choices! Usually there are so many ways to go. An infinite expanse of roads and pathways stretches in front of you, an endless gradient of details; as you consider them, your head starts to spin, your eyes start to droop, your mind races, your head pounds -

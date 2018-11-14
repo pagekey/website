@@ -3,7 +3,7 @@ layout: post
 title: Is creativity the key to language learning?
 keywords: language learning, business, startup, ideas, education
 author: stephengrice
-categories: Langauge
+categories: ['Langauge']
 ---
 
 ![Hands on a piano](/blog/assets/img/articles/is-creativity-the-key-to-language-learning/piano.jpeg)

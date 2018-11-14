@@ -2,7 +2,7 @@
 layout: post
 title: Writing Your First Kernel Module
 author: stephengrice
-categories: [Linux, Programming]
+categories: ['Linux', 'Programming']
 ---
 
 ![Hands putting jigsaw pieces together](/blog/assets/img/articles/kernel-module/hands-jigsaw.jpg)

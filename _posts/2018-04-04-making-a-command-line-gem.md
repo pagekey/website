@@ -2,7 +2,7 @@
 layout: post
 title: Making a Command-line Ruby Gem - Write, Build, and Push
 author: stephengrice
-categories: Programming
+categories: ['Programming']
 ---
 
 ![A shiny red gem](/blog/assets/img/articles/first-gem/shiny-gem.jpg)
