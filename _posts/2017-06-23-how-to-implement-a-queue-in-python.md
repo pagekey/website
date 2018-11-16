@@ -3,7 +3,7 @@ layout: post
 title: How to Implement a Queue in Python
 keywords: queue, python, data structures, data structure, youtube, tutorial, learning, education, how to
 author: stephengrice
-categories: ['Programming', 'Computer Science, 'Education', 'Python', 'Tutorial']
+categories: ['Programming', 'Computer Science', 'Education', 'Python', 'Tutorial']
 ---
 
 ![One after the other...]({{ "/assets/img/articles/queue/queue.jpg" | absolute_url }})
