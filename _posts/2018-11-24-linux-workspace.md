@@ -5,6 +5,9 @@ keywords: learning, ideas, education, productivity, linux, engineering, software
 author: stephengrice
 categories: ['Linux']
 ---
+
+![A Computer Workspace](/blog/assets/img/articles/linux-workspace.jpg)
+
 How many times have you sat down at a new Linux computer and felt like you were starting all over again? All of those aliases, every little helper file and script - gone. This new computer is a shell of its former self (pun intended). Your heart warms as you think back to the comfort and productivity that came with your Linux workstation at home. If only there were a way to take everything you know and love on the go...
 
 Thankfully, there is!
