@@ -3,37 +3,34 @@ layout: post
 title: 'Carrera, Año Primero: 8 Lecciones Aprendidas'
 keywords: learning, business, ideas, education, career, productivity
 author: stephengrice
-categories: ['Español']
+categories: ['Spanish']
 ---
 
-Desde que empecé mi carrera como ingeniero informático el verano pasado, me han bombardeado lecciones de todo tipo, incluso las que me enseñaron las colegas y las de la experiencia.
+Desde que empecé mi carrera como ingeniero informático el verano pasado, me han bombardeado lecciones de todo tipo, tanto las que me enseñaron las colegas y las de la experiencia. Cuándo me mudé de la aula cómoda que había sido mi segunda casa desde primer grado a un lugar de trabajo profesional de pleno derecho, no pude evitar de sentirme emocionado, intimidado, confundido, y entusiasmado - ¡a veces todo al mismo tiempo! Cuándo empecé, no tenía ni idea de lo que hacía, pero algunos mentores experimentados me guiaban en averiguar lo básico. Mi meta es compartir lo que enteré, para que tu primer año en el trabajo puede ser tan interesante y productivo cómo fue el mío.
 
-Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
+# 1. Comunicación y Documentación: Asuntos Esenciales
 
-# 1. Communication and Documentation: Our Bread and Butter
+Toma un momento y piensa en la clase de literatura. Es el último semestre, y tu mano tiembla un poquito como entregas tu tarea.
 
-Take a moment to think back to English class. It’s the final semester, and your hand trembles a little bit as you hand your homework in.
+"Allí va," piensas tú. "¡Mi último trabajo!"
 
-"There it goes," you think. "My last paper ever!"
+Ahora sal de allí. Odio decírtelo, pero no has terminado con la escritura. Es una parte esencial de transmitir tus ideas y de terminar las cosas de te importan más. ¡Hay mucho más de donde vino eso!
 
-Now snap out of it. I hate to break it to you, but you’re not done with writing. It’s an essential part of getting your ideas across and getting things done. There’s plenty more where that came from!
+Pero no te preocupas. Lo más probable es que has estado comunicándote efectivamente por años. Con solo una pequeña cantidad de esfuerzo diario dirigido a afilar esas habilidades, te encontrarás con una nueva ventaja en el lugar de trabajo, abriendo puertas que ni siquiera sabías que existían.
 
-Not to worry, though. Odds are you’ve been communicating effectively for years. With just a small amount of daily effort directed toward sharpening those skills, you’ll find yourself with a new edge in the workplace, opening doors you didn’t even know were there.
+Inicialmente, me sorprendí lo dificíl que realmente podía ser comunicarse en el trabajo. Mi hábito de tomar notas de libros de texto se construyó en el supuesto que todo en esos libros ha sido verificado, y que era sólo cuestión de absorber la información. Al contrario, la vida en la oficina es acelerada, y nadie tiene el tiempo para revisar su trabajo dos o tres veces o para escribir una novela en una tema antes de hacer un cambio. Como el desarrollo ocurre, modificaciones a productos se discuten en un torbellino de correos electrónicos, mensajes instantes, y llamadas telefónicas, y a veces no queda mucho más despues que describe el resulto final.
 
-I was initially very surprised at how hard it could be to really communicate at work. My habit of taking notes from textbooks was built on the assumption that everything in those books had been verified, and that it was just a matter of absorbing the information. On the contrary, life in the office is fast paced, and nobody has time to double- and triple-check their work or to write a novel on the topic before making a change. As development takes place, modifications to products are discussed in a whirlwind of emails, IMs, and phone calls, sometimes with little else left behind to describe the final result.
+Si buscas una manera de proporcionar valor de inmediato como un nuevo empleado, empieza a documentar cosas. Es probable que hay muchos procesos que aún no se han documentado, y todavía más detalles de la organización que sean sólo "entendidos" por las personas que han trabajado allí por años. Nuevas contrataciones tienen la tarea de encontrar su lugar en la organización y aprender los asuntos pertinentes. Por documentar tu viaje, ahorrarás tiempo (y dinero de la compañía) para la siguiente persona que intente hacerlo.
 
-If you’re looking for a way to immediately provide value as a new hire, start documenting things. There are likely many processes that have yet to be documented, and still more details of the organization that are just "understood" by people who’ve been around for years. New hires are tasked with finding their place in the organization and coming up to speed with all of these cultural conundrums. By documenting your journey, you’ll save time (and company money) for the next person who tries to do it.
+También es útil darte cuenta de que a pesar de que las cosas que escribas te parecen auto-explicativas, alguién que intente entender tu escritura puede tener un conjunto de habilidades diferente. Él será agradecido que te tomaste el tiempo escribirlo todo.
 
-It’s also helpful to realize that what you’re writing may seem self-explanatory to you, but someone trying to understand your writing may have a different skill set. They will appreciate that you took the time to write it all down.
+# 2. Quédate Con Eso (Incluso cuándo no es divertido)
 
-# 2. Stick With It (Even when it’s not fun)
+No pasó mucho tiempo antes de que me di cuenta de que tener un trabajo a tiempo completo no siempre es una fiesta. Ya han habido un montón de veces cuándo me sentí gravado, aburrido, o abrumado con las tareas en las que estaba trabajando en ese momento.
 
-It didn’t take me long to realize that having a full time job isn’t always a party. There have been plenty of times when I felt bogged down, bored, or overwhelmed with the tasks I was working on at the time.
+Si has experimentado esta situación, es probable que has tenido pensamientos salvajes corriendo por tu cabeza:
 
-If you’ve been in this situation, you’ve probably had wild thoughts run through your head:
-
-
-*I’m stuck, so I must be terrible at this!*
+*¡Estoy atascado, así que debo ser malo por esto!*
 
 *I’ll do anything to get away from this one stupid task!*
 
