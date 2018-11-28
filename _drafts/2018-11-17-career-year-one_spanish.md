@@ -32,13 +32,15 @@ Si has experimentado esta situación, es probable que has tenido pensamientos sa
 
 *¡Estoy atascado, así que debo ser malo por esto!*
 
-*I’ll do anything to get away from this one stupid task!*
+*¡Haré lo que sea para alejarme de esta estúpida tarea!*
 
-*I have to check my email. Let me go see if my lead has anything new to do.*
+*Tengo que revisar mi correo. Voy a preguntar mi jefe si hay algo nuevo que hacer.*
 
-*This is taking way too long — it’s never going to get done.*
+*Esto está tomando demasiado tiempo - Nunca se va a hacer.*
 
-*I need to change careers, now!*
+*¡Necesito cambiar de carrera, ya!*
+
+No es tan malo como piensas. El hecho es que tus tareas en el trabajo a veces tomarán más tiempo que quieres. Hay una multitud de factores fuera de tu control que pueden y van a impedirte de terminar lo que estás trabajando. Es posible que tengas que esperar a que alguien regrese a la oficina y aprobe tu solicitud, o
 
 It’s not as bad as you think. The fact is that your assignments at work will sometimes take longer than you want them to. There is a multitude of factors out of your control that can and will stop you from finishing what you’re working on. You may have to wait for someone to get back in the office to approve your request, or maybe you just have to grind through a sticky technical issue that won’t budge.
 
