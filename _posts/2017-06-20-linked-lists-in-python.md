@@ -6,6 +6,8 @@ author: stephengrice
 categories: ['Programming']
 ---
 
+![Links of rope](/blog/assets/img/articles/linked-list.jpg)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KZVU2X4Dw8w" frameborder="0" allowfullscreen></iframe>
 
 Need a quick run down on a classic data structure? Look no further.
