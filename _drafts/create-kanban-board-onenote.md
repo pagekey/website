@@ -6,7 +6,7 @@ author: stephengrice
 categories: ['Productivity', 'Career', 'OneNote']
 ---
 
-![My Sample OneNote Board](/blog/assets/img/articles/onenote-board.jpg)
+![My Sample OneNote Board](/blog/assets/img/articles/onenote-board/onenote-board.jpg)
 
 Sometimes, I have trouble prioritizing my tasks. My day becomes a whirlwind of distraction; I end up talking to a lot of different people working on very different projects. I would often get stressed out, because as soon as I'd start to work on one thing, I'd get pulled away and forget where I left off, or even what I was working on!
 
@@ -30,13 +30,15 @@ Let's get started. We will be creating four tables to hold tasks: Backlog, Waiti
 
 Open a new page and start typing the first column name. Press tab, and it should turn into a table. Type the next one, tab over, and repeat until you have all of the columns. Then, press enter.
 
-[photo here]
+![Create your first table in OneNote](/blog/assets/img/articles/onenote-board/1-create-table.gif)
+*Step 1: Create the table that will serve as a template for others.*
 
 Our first table has been set up. The next step is to copy it over to make the other tables. Click and drag to highlight the entire table. Next, press `Control-C`, click somewhere else on the page, and hit `Control-V` to duplicate the table and place it somewhere else. Repeat until we have all four tables.
 
 Align your new columns horizontally and name them.
 
-[photo here]
+![Copying the table](/blog/assets/img/articles/onenote-board/2-copy-tables.gif)
+*Step 2: Copy the table a few times to make more than one column.*
 
 It looks like we're all set up. Now we can put it to good use.
 
@@ -44,7 +46,8 @@ It looks like we're all set up. Now we can put it to good use.
 
 Create your first task. Click in your Backlog board, fill out each column, and press tab to create a blank row after it. It's a good idea to leave a blank row in there, so that you always have a place to start your tasks from.
 
-[photo]
+![Board with one task](/blog/assets/img/articles/onenote-board/3-tables-with-task.png)
+*Step 3: Add your first task*
 
 Now let's take a second to imagine this task getting done. We see it on our board and think it's pretty important. So, we start working it. To do this, we hover to the left of the row to reveal a little anchor, which we can use to click and drag between tables.
 
@@ -52,7 +55,8 @@ The task moves from Backlog to Working, where we spend some time getting it done
 
 With great patience, we wait for John and are finally able to complete our task.
 
-[gif of the task moving from Backlog to working, waiting, completed]
+![Moving a task](/blog/assets/img/articles/onenote-board/4-move-task.gif)
+*Step 4: Move your task across columns as you work it.*
 
 # Variations on this Method
 
