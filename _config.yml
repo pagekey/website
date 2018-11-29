@@ -31,3 +31,5 @@ exclude:
   - Gemfile.lock
 
 keywords: software engineering, programming, web design, development, freelance developer, jekyll, PageKey Solutions, PageKeySolutions, pks, Stephen Grice, stephengrice, _stephengrice, freelance
+
+permalink: /:year/:month/:day/:title
