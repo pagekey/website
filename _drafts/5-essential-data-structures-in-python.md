@@ -1,14 +1,20 @@
 ---
 layout: post
-title: 6 Essential Data Structures in Python
+title: 6 Data Structures to Boost Your Computer Science Savvy (Python)
+keywords: learning, ideas, education, productivity, engineering, software engineering, data structures, algorithms, computer science, abstract
+author: stephengrice
+categories: ['Programming', 'Computer Science']
 ---
 
-# Linked List
+Linus Torvalds (creator of Linux) quote:
+"I will, in fact, claim that the difference between a bad programmer and a good one is whether he considers his code or his data structures more important. Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
 
-# Stack
+# 1. [Linked List]()
 
-# Queue
+# 2. [Stack]()
 
-# Binary Search Tree
+# 3. [Queue]()
 
-# Hash Table
+# 4. [Binary Search Tree]()
+
+# 5. [Hash Table]()
