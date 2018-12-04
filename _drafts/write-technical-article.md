@@ -6,18 +6,18 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
-Over the past few months, I've written [a]() [fair]() [number]() [of]() [technical]() [articles](). At first it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every single time I write a technically focused article.
+Over the past few months, I've written [a]() [fair]() [number]() [of]() [technical]() [articles](). At first it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every single time I write a technically-focused article.
 
 # 1. Research and Take Notes (Do the Thing)
 
 As you write your article, you'll take on the role of *teacher*. In doing so, you'll get to experience the highest form of learning, and will probably discover at least one thing about what you're writing that you didn't know before.
 
-Before you can be the teacher, you have to *do the thing*. I'm reminded of an oft-cited Emerson quote:
+Before you can be the teacher, you have to **do the thing**, whatever that thing may be. I'm reminded of an oft-cited Emerson quote:
 
 >"Do the thing and you will have the power."
 >- Ralph Waldo Emerson
 
-Whatever your tutorial or topic entails, be sure to experience the entire process, start to finish, at your own pace. If there's no process involved, now is the time to look up answers to questions you may have about the concepts, or even ask new ones that you may not have thought of before. Your audience will have more questions than you could possibly think up in one sitting, but you can do your best to cover the majority!
+Regardless of what your tutorial or topic entails, be sure to experience the entire process, start to finish, at your own pace. If there's no step-by-step process involved, now is the time to look up answers to questions you may have about the concepts, or even ask new ones that you may not have thought of before. Your audience will have more questions than you could possibly think up in one sitting, but you can do your best to cover the majority!
 
 As you go through this process, *please* **take notes**. Every button click, every prompt, everything you type - write it all down. When you're trying to reconstruct *exactly* what happened for someone else's consumption, you're not going to want to dive back into the level of detail necessary at the research stage. Save yourself the trouble and document the details now.
 
@@ -31,7 +31,7 @@ Speaking of which...
 
 The time has finally come. Put on some warm socks, sit down at your desk, and get comfy - it's time to write!
 
-Hopefully, you have everything you need by now in terms of information to get everything done. Don't be afraid to add onto your outline or notes if you discover something missing, though. There are always new questions to be asked, regardless of what step of the process you're on.
+Hopefully, you have all of the information you need to get your writing done. Don't be afraid to add onto your outline or notes if you discover something missing, though. There are always new questions to be asked, regardless of what step of the process you're on.
 
 Some people may feel a lot of pressure during this part of the process. This is your time to make it happen! It has to be good! What should I even write? I have to erase that sentence. And that one. I can't even get started here.
 
@@ -49,7 +49,7 @@ Not so fast, pal. The most important job is still coming. Don't turn your brain 
 
 The task of revising is perhaps the most essential part of the writing process. Once you've written the basics and gotten *something* down on paper, good or not, you'll find plenty of updates to be made by reading through the article with a clear head and putting yourself in the shoes of your readers.
 
-You may want to edit immediately, but more than likely you'll need a break between *writing* the article and *editing* the article. At the very least, go get a cup of coffee or tea. At most, give it a day to percolate in your head before going back to the editor's table. Don't wait too long, though - you want the details of what you've written and what you're trying to express to remain fresh in your mind. It just doesn't need to be so fresh that you can't see it from any other perspective.
+You may want to edit immediately, but more than likely you'll need a break between *writing* the article and *editing* the article. At the very least, go get a cup of coffee or tea. At most, give it a day to percolate in your head before going back to the editor's desk. Don't wait too long, though - you want the details of what you've written and what you're trying to express to remain fresh in your mind. It just doesn't need to be so fresh that you can't see it from any other perspective.
 
 # 5. Publish
 
