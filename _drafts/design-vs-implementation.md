@@ -11,6 +11,7 @@ TODO:
 * Link to The Idiot
 * Break up paragraphs
 * Final readthrough / embellishment
+* Ship
 
 ![Photo here](/blog/assets/img/articles/...)
 

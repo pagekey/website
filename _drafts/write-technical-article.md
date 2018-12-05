@@ -6,6 +6,11 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
+To do:
+* Amazon link for Linchpin
+* Review & embellish
+* Ship
+
 Over the past few months, I've written [a](/blog/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/blog/2018/03/03/compile-the-linux-kernel-from-source) [number](/blog/2018/03/23/simple-linux-kernel-source-modifications) [of](/blog/2018/04/04/making-a-command-line-gem) [technical](/blog/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/blog/2018/11/24/linux-workspace). At first it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every single time I write a technically-focused article.
 
 # 1. Research and Take Notes (Do the Thing)
@@ -53,10 +58,14 @@ You may want to edit immediately, but more than likely you'll need a break betwe
 
 # 5. Publish
 
-If you don't ship, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen.
+If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin]():
 
-[Linchpin quote about shipping]
+"The only purpose of starting is to finish, and while the projects we do are never really finished, they must ship."
+
+Even though your article could probably use a little more polish, a few extra words, a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
 
 # Next Steps
 
-If you try this method out, please let me know. Maybe you'll discover a few new steps that I didn't know about! Be sure to share your findings in the comments.
+Try putting this into action! Pick something that you know how to do, on the computer or elsewhere, run through the steps and this article, and see what happens!
+
+When you try this method out, please let me know. Maybe you'll discover a few new steps that I didn't know about. Be sure to share your findings (and your newly published work) in the comments.
