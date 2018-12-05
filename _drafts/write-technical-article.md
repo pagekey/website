@@ -6,6 +6,12 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
+[notes:
+tech articles
+* Linked Lists
+* 
+]
+
 Over the past few months, I've written [a]() [fair]() [number]() [of]() [technical]() [articles](). At first it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every single time I write a technically-focused article.
 
 # 1. Research and Take Notes (Do the Thing)

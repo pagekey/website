@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'The Eternal Divide between Design and Implementation'
+title: 'The Eternal Divide between Design and Implementation: Add Some Design to your Day!'
 keywords: learning, ideas, education, productivity, engineering, software engineering, design, implementation, planning, project management
 author: stephengrice
 categories: ['Programming', 'Engineering']
@@ -12,7 +12,7 @@ Typically, people don't go about their day thinking about design and implementat
 
 While perhaps slightly unorthodox, design and implementation can easily be applied to the process of writing. Whenever I'm putting together an article, essay, story, or document, I find myself performing design and implementation as two distinct activities, whether I attempt to separate them or not. Design is figuring out which ideas I would like to convey, how I want to convey them, and what the feel should be - it's the big picture. **Outlining** is a design activity that really helps me bring my writing together.
 
-On the other side of the coin is the implementation of my writing. It's what I'm doing right now - with my ideas more or less figured out, I'm putting pen to paper, relentlessly beating the words out of the keyboard and giving life to the skeleton of thoughts that I had previously formed.
+On the other side of the coin is the *implementation* of the writing. It's what I'm doing right now - with the ideas more or less figured out, I'm putting pen to paper, relentlessly beating the words out of the keyboard and giving life to the skeleton of thoughts that I had previously formed.
 
 What do these two concepts really mean? Google can help us with the definitions:
 
@@ -22,9 +22,9 @@ What do these two concepts really mean? Google can help us with the definitions:
 
 As you can see, even the definition of design acknowledges that it applies to many different contexts: buildings, garments, electronics, musical instruments, video games, articles, fantasy football leagues - everything!
 
-With these concepts in mind, my recommendation would be to focus on design when you can. Whether you know it or not, it's happening behind the scenes in your head. By realizing what's happening, you can take control and ensure that the end result is exactly what you envisioned!
+With these concepts in mind, I find it helpful to focus on design whenever possible, especially since it's often forgotten. Whether you're aware or not, it's happening behind the scenes in your head anyway. By realizing what's happening, you can take control and ensure that the end result is exactly what you envisioned!
 
-[Note - Need to add something here that makes it more like the two are facing off to match the title ("vs."). Otherwise change the title]
+Keeping in mind the immense benefits that can be reaped from a relatively small amount of planning,
 
 This article will focus on design and implementation from the perspective of a writer.
 
@@ -60,7 +60,7 @@ On the other hand, writing from an outline is like checking boxes off a list. Co
 
 The mitigation to this issue, for me personally, is to take time to reread what I've written several times with the goal of revising and adding. Almost like conversing with myself, I'll often have more ideas when reading through a second time that I can add onto the original piece. Stories, analogies, and allegory often escape my narrow minded, top down outlining approach, but are incorporated in a later stage.
 
-[]"The Idiot" by Dostoyevsky]() is a work that is famous for having a fluid plot. It was written periodically, and with each installment, the author claimed that he couldn't tell what was going to happen next. He simply defined a rich set of characters, and set them about interacting. The outcome couldn't have been centrally planned, because he wrote it off-the-cuff as he went along. If he had centrally planned this book, start to finish, the end result would have been completely different. The style is called [I forget - carnivalism?], which allows a story to evolve naturally, without having to assign a specific purpose to each character.
+["The Idiot" by Dostoyevsky]() is a work that is famous for having a fluid plot. It was written periodically, and with each installment, the author claimed that he couldn't tell what was going to happen next. He simply defined a rich set of characters, and set them about interacting. The outcome couldn't have been centrally planned, because he wrote it off-the-cuff as he went along. If he had centrally planned this book, start to finish, the end result would have been completely different. The style is called [I forget - carnivalism?], which allows a story to evolve naturally, without having to assign a specific purpose to each character.
 
 ## Shorter Pieces
 
@@ -74,6 +74,6 @@ Neither!
 
 At the end of the day, both design and implementation are extremely important to the successful execution of a project, whether that be an article, a supercomputer, or a skyscraper.
 
-It's easy to forget what happens behind the scenes of the text you read every day. Textbooks have teams of editors scouring the paragraphs for editors. Newspaper articles likely go through several stages of reviews, both by the author and his or her peers.
+It's easy to forget what happens behind the scenes of the text you read every day. Textbooks have teams of editors scouring the paragraphs for editors. Similarly, newspaper articles likely go through several stages of reviews, both by the author and his or her peers.
 
 While the focus tends to be on actually *doing* the work that gets something done, one cannot forget the design work that must be completed before these things can happen. Both are equally important, and should be respected as such - design without implementation creates nothing of value, as does implementation without design.
