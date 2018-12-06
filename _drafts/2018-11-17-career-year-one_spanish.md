@@ -40,13 +40,13 @@ Si has experimentado esta situación, es probable que has tenido pensamientos sa
 
 *¡Necesito cambiar de carrera, ya!*
 
-No es tan malo como piensas. El hecho es que tus tareas en el trabajo a veces tomarán más tiempo que quieres. Hay una multitud de factores fuera de tu control que pueden y van a impedirte de terminar lo que estás trabajando. Es posible que tengas que esperar a que alguien regrese a la oficina y aprobe tu solicitud, o
+No es tan malo como piensas. El hecho es que tus tareas en el trabajo a veces tomarán más tiempo que quieres. Hay una multitud de factores fuera de tu control que pueden y van a impedirte de terminar lo que estás trabajando. Es posible que tengas que esperar a que alguien regrese a la oficina y aprobe tu solicitud, o quizás sólo hay que trabajar a través de una tema técnica dificíl que no cede.
 
-It’s not as bad as you think. The fact is that your assignments at work will sometimes take longer than you want them to. There is a multitude of factors out of your control that can and will stop you from finishing what you’re working on. You may have to wait for someone to get back in the office to approve your request, or maybe you just have to grind through a sticky technical issue that won’t budge.
+Independientemente de lo que te molesta en ese momento, la idea principál es que no puedes dejar de intentar. Para esos problemas técnicos muy dificiles, sigue trabajando en ellos, incluso si parece inútil. Si realmente no puedes seguir, no sólo te sientas allí esperando. Toma un segundo para evaluar tus prioridades (hablamos de esto más tarde) y avanzar hacia adelante. Dé tiempo para que las ideas se desarrollan en tu mente, y quizás debes preguntar a otra person por su opinión en la tema.
 
-Regardless of what’s bugging you at the time, the point is you can’t just quit. For those tough tech problems, continue working on it, even if it feels useless. If you’ve really reached a blocker, don’t just sit there. Take a second to evaluate your priorities (more on this later) and move forward. Give it some time to percolate in the back of your mind, and maybe ask someone else for their take on the issue.
+# 3. Más Rápido No Siempre Es Mejor
 
-# 3. Faster Isn’t Always Better
+Cuándo empecé en el agosto pasado, yo entré mi nueva posición corriendo. Recién graduado de la universidad, entré el papel ansioso y hambriento, listo establecerme y terminar tanto trabajo como posible. Al principio, todo iba bien. Había mucho que aprender de mis primaras tareas, y cuándo me aburría, siempre había alguien nueva con quien hablar y de quien podría aprender. No habia muchas tareas al principio, porque tenía mucho que aprender antes de realmente proporcionar valor a mi departamento. Como hacía las tareas que recibía, persiguí
 
 When I started out last August, I sprinted into my new position. Fresh out of college, I entered the role eager and hungry, ready to prove myself and get as much done as possible. At first, this worked well. There was plenty to learn from my initial tasking, and when I got bored, there was always someone new to talk to and learn from. There wasn’t much for me to do in the beginning, as I had a lot to learn before I could truly provide value to my department. As for the tasks I did receive, I chased them without reserve, beating them into submission and over-delivering as much as I could.
 
