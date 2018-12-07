@@ -7,11 +7,11 @@ categories: ['Writing', 'Technology']
 ---
 
 To do:
-* Amazon link for Linchpin
-* Review & embellish
+* Amazon link for Linchpin x2
+[ok] Review & embellish
 * Ship
 
-Over the past few months, I've written [a](/blog/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/blog/2018/03/03/compile-the-linux-kernel-from-source) [number](/blog/2018/03/23/simple-linux-kernel-source-modifications) [of](/blog/2018/04/04/making-a-command-line-gem) [technical](/blog/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/blog/2018/11/24/linux-workspace). At first it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every single time I write a technically-focused article.
+Over the past few months, I've written [a](/blog/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/blog/2018/03/03/compile-the-linux-kernel-from-source) [number](/blog/2018/03/23/simple-linux-kernel-source-modifications) [of](/blog/2018/04/04/making-a-command-line-gem) [technical](/blog/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/blog/2018/11/24/linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
 # 1. Research and Take Notes (Do the Thing)
 
@@ -20,11 +20,12 @@ As you write your article, you'll take on the role of *teacher*. In doing so, yo
 Before you can be the teacher, you have to **do the thing**, whatever that thing may be. I'm reminded of an oft-cited Emerson quote:
 
 >"Do the thing and you will have the power."
->- Ralph Waldo Emerson
+>
+> Ralph Waldo Emerson
 
 Regardless of what your tutorial or topic entails, be sure to experience the entire process, start to finish, at your own pace. If there's no step-by-step process involved, now is the time to look up answers to questions you may have about the concepts, or even ask new ones that you may not have thought of before. Your audience will have more questions than you could possibly think up in one sitting, but you can do your best to cover the majority!
 
-As you go through this process, *please* **take notes**. Every button click, every prompt, everything you type - write it all down. When you're trying to reconstruct *exactly* what happened for someone else's consumption, you're not going to want to dive back into the level of detail necessary at the research stage. Save yourself the trouble and document the details now.
+As you go through this process, please **take notes**. Every button click, every prompt, everything you type - write it all down. When you're trying to reconstruct *exactly* what happened for someone else's consumption, you're not going to want to dive back into the level of detail necessary at the research stage. Save yourself the trouble and document the details now.
 
 # 2. Create Outline from Notes
 
@@ -56,16 +57,20 @@ The task of revising is perhaps the most essential part of the writing process. 
 
 You may want to edit immediately, but more than likely you'll need a break between *writing* the article and *editing* the article. At the very least, go get a cup of coffee or tea. At most, give it a day to percolate in your head before going back to the editor's desk. Don't wait too long, though - you want the details of what you've written and what you're trying to express to remain fresh in your mind. It just doesn't need to be so fresh that you can't see it from any other perspective.
 
+Several passes of editing may be a good idea, because with each readthrough, you'll find new things to add or change. Don't get too bogged down though. If you're doubting yourself or your writing, push through it and proceed to the final and most essential step: Shipping.
+
 # 5. Publish
 
 If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin]():
 
-"The only purpose of starting is to finish, and while the projects we do are never really finished, they must ship."
+>"The only purpose of starting is to finish, and while the projects we do are never really finished, they must ship."
+>
+> Seth Godin in [Linchpin]()
 
-Even though your article could probably use a little more polish, a few extra words, a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
+Even though your article could probably use a little more polish, a few extra words, or a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
 
 # Next Steps
 
-Try putting this into action! Pick something that you know how to do, on the computer or elsewhere, run through the steps and this article, and see what happens!
+Try putting this into action! Pick something that you know how to do, run through the steps and this article, and see what happens!
 
 When you try this method out, please let me know. Maybe you'll discover a few new steps that I didn't know about. Be sure to share your findings (and your newly published work) in the comments.
