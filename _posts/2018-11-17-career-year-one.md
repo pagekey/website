@@ -63,7 +63,7 @@ To borrow one of his examples, think of your mind as a computer processor. While
 
 Another helpful lesson intoned by Keller was that nothing is equal. For any two tasks, one of them is more important than the other to you, no matter what. Since their priority can’t be exactly the same, prioritizing should give you a definite path forward when you’re stuck. At any given time, **one** task on your list is the most important. This is the one you should work on. In doing so, the other items on the list may resolve themselves.
 
-When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a "Board" in OneNote where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
+When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](/blog/2018/11/29/create-kanban-board-onenote) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
 
 This system allows me to see everything I have been asked to do at a glance. By throwing everything in there, I won’t forget tasks. By frequently dragging-and-dropping tasks to prioritize, I ensure that whenever possible, I’m working on the "One Thing" that is the most important to complete at the time.
 
