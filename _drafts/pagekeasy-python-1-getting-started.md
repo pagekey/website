@@ -6,6 +6,8 @@ author: stephengrice
 categories: ['Python', 'Tutorial', 'Scripting']
 ---
 
+[Custom picture]
+
 Welcome to PageKeasy Python. In this short six-part series, you're going to learn all of the skills you need to be proficient and powerful when using Python for any purpose, from parsing files and automating tasks to building graphical applications.
 
 To begin the series, we will concentrate on the absolute basics that you need to know to get up-and-running with Python. **As a prerequisite,** it's expected that you already have Python installed on your system somehow. I'm going to assume you're using Ubuntu Linux (or at least WSL on Windows 10), but this should all work on other operating systems as well.
