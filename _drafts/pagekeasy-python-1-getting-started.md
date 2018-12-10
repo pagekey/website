@@ -76,3 +76,61 @@ Greetings, Steve.
 You may notice something strange in the above code. What's the deal with all of the percent signs?
 
 These are **substitutions**. The `%s` is a placeholder for a string (s stands for string). There are also placeholders for other data types, but I use string the most. Whenever you write a string in Python, followed by `% (val,val,val)`, each value in that tuple is substituted in order into the string. If the number of placeholders and the number of values provided after the string don't match, you'll get an error.
+
+# Case Study: Mad Lib
+
+Next, we'll combine the things we learned above to make a (somewhat) useful program: A Mad Lib! You can get really creative with this one. Unfortunately, I did not. :)
+
+Let's look at our program:
+
+```python
+#!/usr/bin/env python
+print("Enter a noun:")
+noun1 = raw_input()
+print("Enter an adjective:")
+adjective1 = raw_input()
+print("Enter a verb:")
+verb1 = raw_input()
+print("Enter another noun:")
+noun2 = raw_input()
+
+result = "There was once a %s. It was a %s %s. One day, it had to %s. As a result, the %s became a %s." % (noun1,adjective1,noun1,verb1,noun1,noun2)
+
+print("Here's your Mad Lib:")
+print(result)
+```
+
+Enter this into a file called `mad_lib.py`. This will be our script!!!!
+
+In the first line, notice the shebang we spoke about earlier. In this case, I'm using Python 2, but it also works if you use Python 3. Try it for yourself. [TODO - actually try it]
+
+Following the shebang, there are two lines that begin a pattern. The first line is a prompt, using the print command. This will simply send a message to the screen that the user can see.
+
+After that, we make use of `raw_input()`. We take whatever the user types, and store it in a variable called `noun1`.
+
+We repeat this process for the other words we need from the user: `adjective1`, `verb1`, and `noun2`.
+
+Then, we create our Mad Lib story using a substitution. We write our story, and every time we want to use one of the user's words, we type `%s` to indicate its location. Then, at the end of the string, we provide a tuple in parentheses showing the order that the words should be substituted.
+
+Lastly, we print `result`, which is our story with user input substituted in.
+
+Here's an example of when you run the above program:
+
+```
+Enter a noun:
+cat
+Enter an adjective:
+crazy
+Enter a verb:
+bark
+Enter another noun:
+dog
+Here's your Mad Lib:
+There was once a cat. It was a crazy cat. One day, it had to bark. As a result, the cat became a dog.
+```
+
+# A Running Start
+
+There you have it - we've learned the basics of Python and written our first semi-useful program! Feel free to embellish on this example and create the funniest Mad Lib you can think of. Post what you end up with in the comments.
+
+When you feel that you're ready, keep the fun going in [Part 2] (coming soon)
