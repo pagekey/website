@@ -62,7 +62,7 @@ Por ejemplo, Keller compara la mente a un procesador de computadora. Aunque pare
 
 Otra lección útil que nos dice Keller es que *nada es igual.* Entre dos cosas que hacer, siempre hay uno que es más importante que el otro a ti. Porque su prioridad no puede ser exactamente lo mismo, el priorizar debe darte un camino claro cuándo no sabes lo que debes hacer. En cualquier momento, algo **único** en tu lista es lo más importante. Debes trabajar en ello. Cuándo haces eso, las otras cosas en tu lista podrían resolverse sin otra acción.
 
-Cuándo al fin determiné un sistema de priorizar quehaceres, mi productividad mejoró muchisimo. El sistema fue simple, pero efectivo. Hice un
+Cuándo al fin determiné un sistema de priorizar quehaceres, mi productividad mejoró muchisimo. El sistema fue simple, pero efectivo. Hice un [pizarro]() en OneNote, en donde puse todas mis tareas, grandes o pequeñas - todo lo que necesitará mi atención. Depués de eso, utilizo tres listas: Quehaceres, Haz Esta Semana, y Terminado.
 
 When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](/blog/2018/11/29/create-kanban-board-onenote) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
 

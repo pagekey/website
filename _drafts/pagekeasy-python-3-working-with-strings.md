@@ -97,12 +97,65 @@ Here's an example:
 
 ```python
 >>> a = '012345'
-[continue here!!!!!!!!!!!!!!!]
+# Print the first three characters (index 0 inclusive to 3 exclusive)
+>>> a[0:3]
+# Shorthand for the above
+>>> a[:3]
+# Print the last three characters ()
+>>> a[-3:]
+# uhhhh
 ```
+
+[TODO: Actually check out the specifics on this one.]
 
 # Convert Object to String
 
+Sometimes, you need to store a text representation of something. If you don't, you may get some kind of error, complaining of having the wrong data type. This is common when using int or floating point numbers where a string is expected.
+
+You can convert whatever you want to a string using the `str()` method. For example, to convert the number `1` to a string, use:
+
+```python
+>>> str(1)
+"1"
+```
+
+The same goes for other data types. You can convert to integer using `int()` and convert to float using `float()`. For example:
+
+```python
+>>> int("1")
+1
+>>> float(1)
+1.0
+```
+
 # Special __str__ Method
+
+Using `str()` may work for built-in types, but what happens if we use it with our own custom object? Check this out.
+
+```python
+>>> class Car:
+>>>   pass
+>>>
+>>> c = Car()
+>>> print(str(c))
+<__main__.Car instance at 0x7f7d70fc4c20>
+```
+
+What the heck is that? Instead of this ugly representation, showing us useless information such as location in memory, we can write our own method that will be called anyone uses `str()` on our object. It's used like this:
+
+```python
+>>> class Car:
+>>>   def __init__(self, color):
+>>>     self.color = color
+>>>   def __str__(self):
+>>>     return "<My Car - Color: %s>" % self.color
+>>>
+>>> c = Car('green')
+>>> print(str(c))
+<My Car - Color: green>
+```
+
+Now that's a *lot* prettier. And a lot more informative!
 
 # Onward!
 
