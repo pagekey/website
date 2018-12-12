@@ -1,19 +1,12 @@
 ---
 layout: post
-title: 'The Eternal Divide between Design and Implementation: Add Some Design to your Day!'
+title: 'Design vs. Implementation: The Eternal Divide'
 keywords: learning, ideas, education, productivity, engineering, software engineering, design, implementation, planning, project management
 author: stephengrice
 categories: ['Programming', 'Engineering']
 ---
 
-TODO:
-* Need Photo
-* Link to The Idiot
-[ok] Break up paragraphs
-[ok] Final readthrough / embellishment
-* Ship
-
-![Photo here](/blog/assets/img/articles/...)
+![Brushes in front of a blank canvas](/blog/assets/img/articles/design-vs-implementation.jpg)
 
 Typically, people don't go about their day thinking about design and implementation, or at least not in these terms. Such words are usually limited to the vocabulary of engineers, programmers, developers, or project managers. In spite of this, these two concepts can apply to just about everything in your daily life. Learning to think in these terms may give you a new perspective.
 
@@ -71,7 +64,7 @@ On the other hand, writing from an outline is like checking boxes off a list. Co
 
 The mitigation to this issue, for me personally, is to take time to reread what I've written several times with the goal of revising and amending. Almost like conversing with myself, I'll often have more ideas when reading through a second time that I can add onto the original piece. Stories, analogies, and allegory often escape my narrow minded, top down outlining approach, but are incorporated in a later stage.
 
-["The Idiot" by Dostoyevsky](/) is a work that is famous for having a fluid plot. It was written periodically, and with each installment, the author claimed that he couldn't tell what was going to happen next. He simply defined a rich set of characters, and wrote about what happened when they interacted. The outcome couldn't have been centrally planned, because he wrote it off-the-cuff as he went along. If he had centrally planned this book, start to finish, the end result would have been completely different. The style is called [I forget - carnivalism?], which allows a story to evolve naturally, without having to assign a specific purpose to each character.
+["The Idiot" by Dostoyevsky](https://amzn.to/2Lf6RD0) (free to download on Kindle - in English and Russian!) is a work that is famous for having a fluid plot. It was written periodically, and with each installment, the author claimed that he couldn't tell what was going to happen next. He simply defined a rich set of characters, and wrote about what happened when they interacted. The outcome couldn't have been centrally planned, because he wrote it off-the-cuff as he went along. If he had centrally planned this book, start to finish, the end result would have been completely different. The style is called [I forget - carnivalism?], which allows a story to evolve naturally, without having to assign a specific purpose to each character.
 
 ## Shorter Pieces
 

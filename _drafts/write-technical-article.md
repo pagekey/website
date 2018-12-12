@@ -29,7 +29,7 @@ As you go through this process, please **take notes**. Every button click, every
 
 # 2. Create Outline from Notes
 
-The value of a good [design](/blog/2018/12/XX/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
+The value of a good [design](/blog/2018/12/12/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
 
 Speaking of which...
 
