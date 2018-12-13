@@ -6,10 +6,7 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
-To do:
-* Amazon link for Linchpin x2
-[ok] Review & embellish
-* Ship
+![Circuitboard parts](/blog/assets/img/articles/write-technical-article.jpg)
 
 Over the past few months, I've written [a](/blog/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/blog/2018/03/03/compile-the-linux-kernel-from-source) [number](/blog/2018/03/23/simple-linux-kernel-source-modifications) [of](/blog/2018/04/04/making-a-command-line-gem) [technical](/blog/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/blog/2018/11/24/linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
@@ -61,11 +58,11 @@ Several passes of editing may be a good idea, because with each readthrough, you
 
 # 5. Publish
 
-If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin]():
+If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin](https://amzn.to/2QSI6Se):
 
 >"The only purpose of starting is to finish, and while the projects we do are never really finished, they must ship."
 >
-> Seth Godin in [Linchpin]()
+> Seth Godin in [Linchpin](https://amzn.to/2QSI6Se)
 
 Even though your article could probably use a little more polish, a few extra words, or a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
 
