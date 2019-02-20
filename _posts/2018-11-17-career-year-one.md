@@ -6,7 +6,7 @@ author: stephengrice
 categories: ['Productivity', 'Careers', 'Business', 'Engineering', 'Communication']
 ---
 
-![Year One Circled on Calendar](/blog/assets/img/articles/career-year-one.jpeg)
+![Year One Circled on Calendar](/assets/img/articles/career-year-one.jpeg)
 
 Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
 
@@ -63,7 +63,7 @@ To borrow one of his examples, think of your mind as a computer processor. While
 
 Another helpful lesson intoned by Keller was that nothing is equal. For any two tasks, one of them is more important than the other to you, no matter what. Since their priority can’t be exactly the same, prioritizing should give you a definite path forward when you’re stuck. At any given time, **one** task on your list is the most important. This is the one you should work on. In doing so, the other items on the list may resolve themselves.
 
-When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](/blog/2018/11/29/create-kanban-board-onenote) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
+When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](/2018/11/29/create-kanban-board-onenote) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
 
 This system allows me to see everything I have been asked to do at a glance. By throwing everything in there, I won’t forget tasks. By frequently dragging-and-dropping tasks to prioritize, I ensure that whenever possible, I’m working on the "One Thing" that is the most important to complete at the time.
 

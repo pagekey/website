@@ -6,7 +6,7 @@ author: stephengrice
 categories: ['Programming']
 ---
 
-![Links of rope](/blog/assets/img/articles/linked-list.jpg)
+![Links of rope](/assets/img/articles/linked-list.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KZVU2X4Dw8w" frameborder="0" allowfullscreen></iframe>
 

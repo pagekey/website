@@ -6,7 +6,7 @@ author: stephengrice
 categories: ['Programming']
 ---
 
-![Stack of rocks](/blog/assets/img/articles/stack.jpg)
+![Stack of rocks](/assets/img/articles/stack.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5MOy9VYKczY" frameborder="0" allowfullscreen></iframe>
 
@@ -106,4 +106,4 @@ If you want to see all of the code for our finished Stack, [check out the source
 
 [stack-src]: https://github.com/stephengrice/youtube/blob/master/Stack/stack.py
 [stack-test]: https://github.com/stephengrice/youtube/blob/master/Stack/test_stack.py
-[linked-list-article]: http://www.pagekeysolutions.com/blog/2017/06/20/linked-lists-in-python.html
+[linked-list-article]: /2017/06/20/linked-lists-in-python.html

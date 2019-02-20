@@ -5,7 +5,7 @@ author: stephengrice
 categories: ['Programming']
 ---
 
-![A shiny red gem](/blog/assets/img/articles/first-gem/shiny-gem.jpg)
+![A shiny red gem](/assets/img/articles/first-gem/shiny-gem.jpg)
 
 Anyone who has used Ruby before knows that gems are the spice of life. They are easy to install and distribute, even easier to use, and most importantly, they provide useful functionality. It's not uncommon to see entire software projects centered around a single well-made gem. Take any Ruby on Rails project, and you'll see this in practice.
 
@@ -61,7 +61,7 @@ Gem::Specification.new do |s|
   s.version   = '0.0.0'
   s.platform  = Gem::Platform::RUBY
   s.summary   = 'PageKey Solutions tutorial gem'
-  s.description = "Created in a tutorial found on PageKeySolutions.com/blog. Doesn't do too much!"
+  s.description = "Created in a tutorial found on blog.pageKeySolutions.com. Doesn't do too much!"
   s.authors   = ['Steve Grice']
   s.email     = ['steve@pagekeysolutions.com']
   s.homepage  = 'http://rubygems.org/gems/pagekey'

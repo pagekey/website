@@ -6,9 +6,9 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
-![Circuitboard parts](/blog/assets/img/articles/write-technical-article.jpg)
+![Circuitboard parts](/assets/img/articles/write-technical-article.jpg)
 
-Over the past few months, I've written [a](/blog/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/blog/2018/03/03/compile-the-linux-kernel-from-source) [number](/blog/2018/03/23/simple-linux-kernel-source-modifications) [of](/blog/2018/04/04/making-a-command-line-gem) [technical](/blog/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/blog/2018/11/24/linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
+Over the past few months, I've written [a](/2017/11/24/how-to-implement-a-hash-table-in-python) [fair](/2018/03/03/compile-the-linux-kernel-from-source) [number](/2018/03/23/simple-linux-kernel-source-modifications) [of](/2018/04/04/making-a-command-line-gem) [technical](/2018/04/19/how-to-implement-a-binary-search-tree-in-python) [articles](/2018/11/24/linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
 # 1. Research and Take Notes (Do the Thing)
 
@@ -26,7 +26,7 @@ As you go through this process, please **take notes**. Every button click, every
 
 # 2. Create Outline from Notes
 
-The value of a good [design](/blog/2018/12/12/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
+The value of a good [design](/2018/12/12/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
 
 Speaking of which...
 

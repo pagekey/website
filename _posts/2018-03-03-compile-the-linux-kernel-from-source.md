@@ -153,6 +153,6 @@ In an even [later article](), we'll be creating a basic kernel module.
 
 **[Part 2][part2] - [Part 3][part3]**
 
-[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /blog/2018/03/29/first-kernel-module.html
+[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /2018/03/29/first-kernel-module.html

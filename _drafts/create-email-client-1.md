@@ -18,6 +18,8 @@ This runs as a window on your local computer. Thnik of Outlook.
 
 Regardless of where the application is running, there are really only two things going on behidn the scenes: Sending and receiving. There are two network protocols that handle exactly this. SMTP, or ______, is used for sending amil. On the other hand, we also need something to checkc the mail located on the mail serer. For this, we hvae two main hoices - POP3 and IMAP. The difference between the two is essentially age and complexity. _____
 
+This email client is going to be great!
+
 # Parts of this application
 
 There are a few logical parts of this aplication, and we'll need to tackle them one at a time to be successful. The first is the interface.

@@ -5,7 +5,7 @@ author: stephengrice
 categories: ['Linux', 'Programming']
 ---
 
-![Computer Code](/blog/assets/img/articles/kernel-src/code-computer.png)
+![Computer Code](/assets/img/articles/kernel-src/code-computer.png)
 
 **This post is Part 2 of a series on the Linux kernel.**
 
@@ -17,7 +17,7 @@ As it turns out, it's harder than expected. Keep reading to get the full rundown
 
 # Prerequisite
 
-Before we start, you may want to check out how to [build the kernel](http://pagekeysolutions.com/blog/2018/03/03/compile-the-linux-kernel-from-source.html). This will allow you to make the same modifications that I do as the article progresses and to eventually make your own changes.
+Before we start, you may want to check out how to [build the kernel](/2018/03/03/compile-the-linux-kernel-from-source.html). This will allow you to make the same modifications that I do as the article progresses and to eventually make your own changes.
 
 # Modifications
 
@@ -66,7 +66,7 @@ static int __ref kernel_init(void *unused)
 
 My expectation was that when the machine booted, it would display my messages and stop all execution, leaving my text up for the world to see. The result was a little bit different... It caused a kernel panic!
 
-![Screenshot of Kernel Panic](/blog/assets/img/articles/kernel-src/kernel_panic2.png)
+![Screenshot of Kernel Panic](/assets/img/articles/kernel-src/kernel_panic2.png)
 *Panic! At The Kernel*
 
 At this point, I realized that the `kernel_init` function _may_ do something important, and that cutting it off and returning before the first line may not have been the best strategy. Go figure!
@@ -95,7 +95,7 @@ static int __ref kernel_init(void *unused)
 
 This time, building the kernel succeeded (albeit with a warning due to my sloppy coding skills) and the system booted without crashing. Even so, I couldn't help but be disappointed when I checked the logs:
 
-![System Logs without our messages](/blog/assets/img/articles/kernel-src/syslog-pre-success.png)
+![System Logs without our messages](/assets/img/articles/kernel-src/syslog-pre-success.png)
 *Poof! Where is it?!*
 
 While there was no crash, our message still didn't show up in the logs. Something was still wrong. My only guess was that our snippet started trying to print things before anything was ready to record them. So, I started to follow the spaghetti...
@@ -138,7 +138,7 @@ I found the relevant line in this file, and inserted our code snippet below it:
 
 After inserting the code, I performed another quick kernel build, and...
 
-![System Logs without our messages](/blog/assets/img/articles/kernel-src/syslog-pre-success.png)
+![System Logs without our messages](/assets/img/articles/kernel-src/syslog-pre-success.png)
 *We made it!*
 
 Success! The kernel logs finally showed our beloved homemade debug messages. With this, we successfully added our own code to the kernel and verified that it executed.
@@ -151,6 +151,6 @@ Though it took a few botched attempts and shots in the dark, I was finally able 
 
 **[Part 1][part1] - [Part 3][part3]**
 
-[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /blog/2018/03/29/first-kernel-module.html
+[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /2018/03/29/first-kernel-module.html

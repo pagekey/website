@@ -247,7 +247,7 @@ Thank you for reading. Check out the full source code for what we did today belo
 
 **[HashTable test code](https://github.com/stephengrice/youtube/blob/master/HashTable/test_hashtable.py)**
 
-[buckets_uniform]: /blog/assets/img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
+[buckets_uniform]: /assets/img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
 
-[buckets_nonuniform]: /blog/assets/img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"
-[linkedlist_article]:/blog/2017/06/20/linked-lists-in-python.html
+[buckets_nonuniform]: /assets/img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"
+[linkedlist_article]:/2017/06/20/linked-lists-in-python.html

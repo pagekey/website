@@ -5,13 +5,13 @@ author: stephengrice
 categories: ['Linux', 'Programming']
 ---
 
-![Hands putting jigsaw pieces together](/blog/assets/img/articles/kernel-module/hands-jigsaw.jpg)
+![Hands putting jigsaw pieces together](/assets/img/articles/kernel-module/hands-jigsaw.jpg)
 
 **This post is Part 3 of a series on the Linux kernel.**
 
 **[Part 1][part1] - [Part 2][part2]**
 
-So we've already [built the kernel from source](/blog/2018/03/03/compile-the-linux-kernel-from-source.html) and even [modified the source code](/blog/2018/03/23/simple-linux-kernel-source-modifications.html). While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
+So we've already [built the kernel from source](/2018/03/03/compile-the-linux-kernel-from-source.html) and even [modified the source code](/2018/03/23/simple-linux-kernel-source-modifications.html). While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
 Well, I can't promise *that*, but today we'll take a step in the right direction by building a Linux kernel module.
 
@@ -92,14 +92,14 @@ sudo insmod hello-world.ko
 
 If no errors are present, it must have worked. Verify this by typing `dmesg` to show kernel messages. In my case, it looked something like this:
 
-![dmesg with Hello](/blog/assets/img/articles/kernel-module/dmesg1.png)
+![dmesg with Hello](/assets/img/articles/kernel-module/dmesg1.png)
 <!-- *Who said that?* -->
 
 That worked well enough! Try out `modinfo hello-world.ko` to see some more generic information about the module you just made.
 
 Okay, that's enough fun for one day. Let's rip that thing back out of the kernel. Type: `sudo rmmod hello-world.ko` and check `dmesg` again:
 
-![dmesg with Hello and Goodbye](/blog/assets/img/articles/kernel-module/dmesg2.png)
+![dmesg with Hello and Goodbye](/assets/img/articles/kernel-module/dmesg2.png)
 <!-- *You say goodbye... And I say hello.* -->
 
 How beautiful! Our module's circle of life is complete. They sure do grow up fast.
@@ -123,6 +123,6 @@ All in all, we didn't break any records, but it was a good start to writing kern
 
 **[Part 1][part1] - [Part 2][part2]**
 
-[part1]: /blog/2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /blog/2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /blog/2018/03/29/first-kernel-module.html
+[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
+[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
+[part3]: /2018/03/29/first-kernel-module.html
