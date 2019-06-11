@@ -34,7 +34,7 @@ Like I mentioned above, the control that you get over your end result when focus
 
 Actually performing the work becomes much, much easier when you have a blueprint that details exactly what needs to happen.
 
-For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey Solutions](http://pagekeysolutions.com/). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
+For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey Solutions](http://github.com/stephengrice/pagekeysolutions). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
 
 As I progressed, it became increasingly harder to change my mind about decisions. They became baked into the code. Want to move the navigation pane to the right side? That's 100 lines to change. Need to rework the way the footer looks next to the body? You're going to have to edit every individual color code.
 

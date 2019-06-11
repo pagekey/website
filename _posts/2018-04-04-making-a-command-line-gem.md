@@ -63,7 +63,7 @@ Gem::Specification.new do |s|
   s.summary   = 'PageKey Solutions tutorial gem'
   s.description = "Created in a tutorial found on blog.pageKeySolutions.com. Doesn't do too much!"
   s.authors   = ['Steve Grice']
-  s.email     = ['steve@pagekeysolutions.com']
+  s.email     = ['steve@linebylinecode.com']
   s.homepage  = 'http://rubygems.org/gems/pagekey'
   s.license   = 'MIT'
   s.files     = Dir.glob("{lib,bin}/**/*") # This includes all files under the lib directory recursively, so we don't have to add each one individually.
