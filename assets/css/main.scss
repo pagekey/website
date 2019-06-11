@@ -36,9 +36,6 @@ header {
   display: none;
 }
 
-div.signup {
-
-}
 form.signup {
   input {
     box-sizing: border-box;
@@ -55,4 +52,11 @@ form.signup {
     color: white;
     font-weight: bold;
   }
+}
+
+.wrapper a img {
+  width: 12rem;
+  height: 4rem;
+  padding: 0.5rem;
+  padding-left: 0;
 }
