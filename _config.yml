@@ -17,7 +17,7 @@ title: Line by Line Code
 description: > # this means to ignore newlines until "baseurl:"
   A simple blog about programming.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://linebyline.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://linebylinecode.com" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: _stephengrice
 github_username:  stephengrice
 
