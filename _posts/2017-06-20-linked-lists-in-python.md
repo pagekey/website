@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Programming']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2017/06/20/how-to-implement-a-custom-linked-list-in-python/">Read it here.</a>
+
+</h1>

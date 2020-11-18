@@ -5,6 +5,10 @@ author: stephengrice
 categories: ['Linux', 'Programming']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/03/29/breaking-free-from-user-space-writing-your-first-kernel-module/">Read it here.</a>
+
+</h1>

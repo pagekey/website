@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Langauge']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/11/12/is-creativity-the-key-to-language-learning/">Read it here.</a>
+
+</h1>

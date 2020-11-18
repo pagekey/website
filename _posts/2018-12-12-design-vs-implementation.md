@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Programming', 'Engineering']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/12/12/design-vs-implementation-the-eternal-divide/">Read it here.</a>
+
+</h1>

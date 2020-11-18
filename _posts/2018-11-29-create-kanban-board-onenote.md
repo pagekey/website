@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Productivity', 'Career', 'OneNote']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/11/20/how-to-create-a-kanban-board-in-onenote/">Read it here.</a>
+
+</h1>

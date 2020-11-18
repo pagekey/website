@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Programming']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2019/06/17/django-how-to-install-and-run-your-first-web-app/">Read it here.</a>
+
+</h1>

@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Linux']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/11/24/take-your-linux-workspace-anywhere-backup-for-nerds/">Read it here.</a>
+
+</h1>

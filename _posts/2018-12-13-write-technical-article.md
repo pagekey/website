@@ -6,6 +6,10 @@ author: stephengrice
 categories: ['Writing', 'Technology']
 ---
 
+<h1>
+
 This article has moved.
 
 <a href="https://linebylinecode.com/2018/12/13/5-steps-to-writing-your-next-technical-article/">Read it here.</a>
+
+</h1>
