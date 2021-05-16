@@ -1,8 +1,19 @@
-<div>
-    <nav>
-        {{ range .Site.Menus.main }}
-            {{ $text := print .Name | safeHTML }}
-            <a href="{{ .URL }}">{{ $text }}</a>
-        {{ end }}
-    </nav>
+<div id="header-wrapper">
+    <header>
+        <div id="site-title">
+            {{ $logo_src := "img/logo.png" | relURL }}
+            <img src="{{ $logo_src }}" alt="{{ .Site.Title }}">
+        </div>
+        <nav>
+            {{ $curpage := .RelPermalink }}
+            {{ range .Site.Menus.main }}
+                {{ $text := print .Name | safeHTML }}
+                <a href="{{ .URL }}"
+                {{ if eq .URL $curpage }}
+                class="active"
+                {{ end }}
+                >{{ $text }}</a>
+            {{ end }}
+        </nav>
+    </header>
 </div>

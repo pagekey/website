@@ -1,0 +1,25 @@
+#header-wrapper {
+    background-color: lightgray;
+    padding: 20px 0;
+}
+header {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+header div#site-title {
+    height: inherit;
+}
+#site-title img {
+    height: 100%;
+}
+header nav a {
+    padding: 1.5em;
+    font-size: 1.1rem;
+}
+header nav a.active {
+    text-decoration: underline;
+}
