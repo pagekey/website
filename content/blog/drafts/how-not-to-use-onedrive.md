@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 How Not To Use OneDrive - A Lesson Learned Years Late
 
 Cloud storage is amazing - it syncs all of our documents and files, and then we can get to them *anywhere*. I love not having to think about where this or that file is - I can just check my OneDrive and it's there!

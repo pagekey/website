@@ -4,6 +4,7 @@ title: 6 Data Structures to Boost Your Computer Science Savvy (Python)
 keywords: learning, ideas, education, productivity, engineering, software engineering, data structures, algorithms, computer science, abstract
 author: stephengrice
 categories: ['Programming', 'Computer Science']
+draft: true
 ---
 
 Linus Torvalds (creator of Linux) quote:

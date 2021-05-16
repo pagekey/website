@@ -4,6 +4,7 @@ title: 'Carrera, Año Primero: 8 Lecciones Aprendidas'
 keywords: learning, business, ideas, education, career, productivity
 author: stephengrice
 categories: ['Spanish']
+draft: true
 ---
 
 Desde que empecé mi carrera como ingeniero informático el verano pasado, me han bombardeado lecciones de todo tipo, tanto las que me enseñaron las colegas y las de la experiencia. Cuándo me mudé de la aula cómoda que había sido mi segunda casa desde primer grado a un lugar de trabajo profesional [de pleno derecho], no pude evitar de sentirme emocionado, intimidado, confundido, y entusiasmado - ¡a veces todo al mismo tiempo! Cuándo empecé, no tenía ni idea de lo que hacía, pero algunos [mentores experimentados] me guiaban en averiguar lo básico. Mi meta es compartir lo que enteré, para que tu primer año en el trabajo puede ser tan interesante y productivo cómo fue el mío.

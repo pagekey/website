@@ -4,6 +4,7 @@ title: 'Working with Files - PageKeasy Python (2 of 6)'
 keywords: learning, ideas, education, productivity, engineering, software engineering, technology, python, scripting, pagekey, pagekeasy, files
 author: stephengrice
 categories: ['Python', 'Tutorial', 'Scripting']
+draft: true
 ---
 
 [Picture]

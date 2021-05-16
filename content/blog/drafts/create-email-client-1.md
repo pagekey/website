@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 Create Your Own Open-Source Email Client: Introduction (1 of 3)
 
 How many times have you been annoyed by a hangup in your email client, or simply couldn't figure out how to do something? Steamed, you cursed the developers of the web app or clientside program. Why were they so thick? Can't they see how I want to use their program? A drag here, a drop here. It would be so much easier my way.

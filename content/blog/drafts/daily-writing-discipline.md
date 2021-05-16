@@ -4,6 +4,7 @@ title: '20 Minutes: My New Daily Writing Discipline'
 keywords: learning, business, ideas, education, career, productivity
 author: stephengrice
 categories: ['Productivity']
+draft: true
 ---
 
 Writing is rewriting. This is what I keep hearing, left and right, when I read about how people actually get articles, essays, and books out the door. Apparently, one of the most important you need in order to be a successful writer is a consistent writing habit. This month, I started my journey of finding my habit.
