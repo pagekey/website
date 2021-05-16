@@ -1,3 +1,50 @@
+html, body {
+    height: 100%;
+}
+/** landing page **/
+#landing-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#landing-page #mycols {
+    flex: 1;
+}
+#landing-page #site-title {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    max-height: 7em;
+}
+#landing-page #mycols {
+    display: flex;
+    justify-content: space-between;
+}
+#landing-page #mycols div {
+    flex-grow: 1;
+}
+#landing-page #mycols div h2 {
+    text-align: center;
+}
+#landing-page #col-1 {
+    background-color: #f33;
+}
+#landing-page #col-2 {
+    background-color: #3f3;
+}
+#landing-page #col-3 {
+    background-color: #33f;
+}
+#landing-page footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+
+/** blog **/
 #header-wrapper {
     background-color: lightgray;
     padding: 20px 0;

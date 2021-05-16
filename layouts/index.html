@@ -1,8 +1,27 @@
-{{ define "main" }}
+{{ define "body" }}
 
-<h1>{{ .Title }}</h1>
-<p>{{ .Site.Params.homeText | markdownify }}</p>
+<div id="landing-page">
+    <div id="site-title">
+        {{ $logo_src := "img/logo.png" | relURL }}
+        <img src="{{ $logo_src }}" alt="{{ .Site.Title }}">
+    </div>
 
-<a href="/blog/">Blog</a>
+    <div id="mycols">
+        <div id="col-1">
+            <h2>Blog</h2>
+            <a href="/blog/">Blog</a>
+            <br>
+            {{ len (where .Site.RegularPages "Section" "=" "blog") }} posts 
+        </div>
+        <div id="col-2">
+            <h2>Apps</h2>
+            <a href="https://boomlanguages.com/">Boom! Languages</a>
+        </div>
+        <div id="col-3">
+            <h2>Courses</h2>
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+</div>
 
 {{ end }}

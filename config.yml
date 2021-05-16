@@ -3,7 +3,6 @@ languageCode: "en-us"
 title: "PageKey Solutions"
 
 params:
-  homeText: "Hello world"
   keywords:
     - software engineering
     - programming

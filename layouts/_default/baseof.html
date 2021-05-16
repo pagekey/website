@@ -2,13 +2,15 @@
 <html lang="en">
 {{ partial "head.html" . }}
 <body>
-    {{ partial "nav.html" . }}
+    {{ block "body" . }}
+        {{ partial "nav.html" . }}
 
-    <main class="container">
-        {{ block "main" . }}
-        {{ end }}
-    </main>
+        <main class="container">
+            {{ block "main" . }}
+            {{ end }}
+        </main>
 
-    {{ partial "footer.html" }}
+        {{ partial "footer.html" }}
+    {{ end }}
 </body>
 </html>
