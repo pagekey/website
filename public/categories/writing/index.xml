@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writing on PageKey Solutions</title>
+    <link>http://pagekeysolutions.com/categories/writing/</link>
+    <description>Recent content in Writing on PageKey Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://pagekeysolutions.com/categories/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5 Steps to Writing Your Next Technical Article</title>
+      <link>http://pagekeysolutions.com/blog/2018-12-13-write-technical-article/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pagekeysolutions.com/blog/2018-12-13-write-technical-article/</guid>
+      <description>This article has moved.
+Read it here.</description>
+    </item>
+    
+  </channel>
+</rss>

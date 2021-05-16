@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on PageKey Solutions</title>
+    <link>http://pagekeysolutions.com/categories/python/</link>
+    <description>Recent content in Python on PageKey Solutions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://pagekeysolutions.com/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Implement a Hash Table in Python</title>
+      <link>http://pagekeysolutions.com/blog/2017-11-24-how-to-implement-a-hash-table-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pagekeysolutions.com/blog/2017-11-24-how-to-implement-a-hash-table-in-python/</guid>
+      <description>This article has moved.
+Read it here.</description>
+    </item>
+    
+    <item>
+      <title>How to Implement a Queue in Python</title>
+      <link>http://pagekeysolutions.com/blog/2017-06-23-how-to-implement-a-queue-in-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://pagekeysolutions.com/blog/2017-06-23-how-to-implement-a-queue-in-python/</guid>
+      <description>This article has moved.
+Read it here.</description>
+    </item>
+    
+  </channel>
+</rss>

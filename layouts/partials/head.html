@@ -1,22 +1,6 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.content | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-
-  {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords }}, {{ site.keywords}}" />
-  {% else %}
-    <meta name="keywords" content="{{ site.keywords }}" />
-  {% endif %}
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-
-  {% if jekyll.environment == 'production' %}
-    {% include analytics.html %}
-  {% endif %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
 </head>

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Writing Your First Kernel Module
 author: stephengrice
 categories: ['Linux', 'Programming']

@@ -5,3 +5,15 @@ title = "PageKey Solutions"
 [params]
     homeText = "Hello world"
     keywords = "software engineering, programming, web design, development, freelance developer, jekyll, PageKey Solutions, PageKeySolutions, pks, Stephen Grice, stephengrice, _stephengrice, freelance, line by line code, line by line, code"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pre = "edit"
+    url = "/blog/"
+    weight = 2
