@@ -1,0 +1,22 @@
+baseURL: "http://pagekeysolutions.com/"
+languageCode: "en-us"
+title: "PageKey Solutions"
+
+params:
+  homeText: "Hello world"
+  keywords:
+    - software engineering
+    - programming
+    - PageKey Solutions
+    - PageKeySolutions
+    - pks
+    - code
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Blog"
+      url: "/blog/"
+      weight: 2
