@@ -18,23 +18,28 @@ html, body {
     max-height: 7em;
 }
 #landing-page #mycols {
+    background-color: lightgray;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
 }
 #landing-page #mycols div {
     flex-grow: 1;
+    /* width: 50%; */
+    /* margin: auto; */
+    /* background-color: gray; */
 }
 #landing-page #mycols div h2 {
     text-align: center;
 }
 #landing-page #col-1 {
-    background-color: #f33;
+    /* background-color: #f33; */
 }
 #landing-page #col-2 {
-    background-color: #3f3;
+    /* background-color: #3f3; */
 }
 #landing-page #col-3 {
-    background-color: #33f;
+    /* background-color: #33f; */
 }
 #landing-page footer {
     background-color: black;
