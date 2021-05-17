@@ -4,18 +4,18 @@ html, body {
 /** landing page **/
 #landing-page {
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
 }
 #landing-page #mycols {
-    flex: 1;
+    /* flex: 1; */
 }
 #landing-page #site-title {
     background-color: white;
     text-align: center;
     padding: 15px;
-    max-height: 7em;
+    height: 7em;
 }
 #landing-page #mycols {
     background-color: lightgray;
@@ -46,6 +46,16 @@ html, body {
     color: white;
     text-align: center;
     padding: 1px 0;
+}
+
+.footer-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer-nav ul li {
+    display: inline;
+    padding: 1.5em;
 }
 
 

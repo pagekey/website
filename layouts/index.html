@@ -5,25 +5,48 @@
         {{ $logo_src := "img/logo.png" | relURL }}
         <img src="{{ $logo_src }}" alt="{{ .Site.Title }}">
     </div>
+    <div class="jumbotron">
+        <h1>Programming!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, harum?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam minus voluptates adipisci aliquam nulla quos quasi tenetur, voluptate accusantium illum tempora doloremque blanditiis facilis beatae libero officia numquam nisi illo.</p>
+    </div>
 
-    <div id="mycols">
-        <div id="col-1">
+    <div class="row">
+        <div class="col-md-4">
             <h2>Blog</h2>
-            <a href="/blog/">Blog</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, corrupti?</p>
             <br>
-            {{ len (where .Site.RegularPages "Section" "=" "blog") }} posts 
-            <a href="#" class="btn btn-primary">Go</a>
+            <p>
+                {{ len (where .Site.RegularPages "Section" "=" "blog") }} posts so far
+            </p>
+            <br>
+            <a href="/blog/" class="btn btn-primary">Go</a>
         </div>
-        <div id="col-2">
+        <div class="col-md-4">
             <h2>Apps</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, corrupti?</p>
             <a href="https://boomlanguages.com/">Boom! Languages</a>
             <a href="#" class="btn btn-primary">Go</a>
         </div>
-        <div id="col-3">
+        <div class="col-md-4">
             <h2>Courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, corrupti?</p>
             <a href="#" class="btn btn-primary">Go</a>
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">yout</a></li>
+                    <li><a href="#">isnt</a></li>
+                    <li><a href="#">yout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
     {{ partial "footer.html" . }}
 </div>
 
