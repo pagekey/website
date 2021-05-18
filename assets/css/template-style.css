@@ -1,15 +1,10 @@
 html, body {
     height: 100%;
+    padding: 0;
 }
 /** landing page **/
 #landing-page {
-    height: 100%;
-    /* display: flex; */
-    /* flex-direction: column;
-    justify-content: space-between; */
-}
-#landing-page #mycols {
-    /* flex: 1; */
+    overflow-x: hidden;
 }
 #landing-page #site-title {
     background-color: white;
@@ -17,46 +12,31 @@ html, body {
     padding: 15px;
     height: 7em;
 }
-#landing-page #mycols {
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    /* flex-direction: column; */
-}
-#landing-page #mycols div {
-    flex-grow: 1;
-    /* width: 50%; */
-    /* margin: auto; */
-    /* background-color: gray; */
-}
-#landing-page #mycols div h2 {
-    text-align: center;
-}
-#landing-page #col-1 {
-    /* background-color: #f33; */
-}
-#landing-page #col-2 {
-    /* background-color: #3f3; */
-}
-#landing-page #col-3 {
-    /* background-color: #33f; */
-}
-#landing-page footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 1px 0;
-}
 
-.footer-nav ul {
+.social-nav ul {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-left: 0;
 }
-.footer-nav ul li {
-    display: inline;
-    padding: 1.5em;
+.social-nav ul li {
+    display: block;
+    /* padding: 1.5em; */
+    margin: 4rem 1rem;
+    margin-top: 0;
+    width: 3rem;
+    height: 3rem;
 }
+.social-nav ul li a {
+    width: inherit;
+    height: inherit;
+    display: block;
+}
+.social-nav ul li a img {
+    width: inherit;
+    height: inherit;
+}
+
 
 
 /** blog **/
