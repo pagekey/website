@@ -12,6 +12,31 @@ html, body {
     padding: 15px;
     height: 7em;
 }
+#landing-page .slide-icon {
+    width: 8em;
+    margin-bottom: 1em;
+}
+#landing-page .slide-bg {
+    opacity: 0.35;
+    height: 100%;
+}
+#landing-page .carousel-item {
+    background-color: #777;
+}
+#landing-page .rounded-circle {
+    background-color:#777;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+#landing-page .rounded-circle > img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}  
 
 .social-nav ul {
     width: 100%;
