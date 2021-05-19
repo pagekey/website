@@ -16,6 +16,12 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
+    - name: "Apps"
+      url: "/apps/"
+      weight: 2
     - name: "Blog"
       url: "/blog/"
-      weight: 2
+      weight: 3
+    - name: "Courses"
+      url: "/courses/"
+      weight: 4

@@ -2,7 +2,7 @@
     <header>
         <div id="site-title">
             {{ $logo_src := "img/logo.png" | relURL }}
-            <img src="{{ $logo_src }}" alt="{{ .Site.Title }}">
+            <a href="/"><img src="{{ $logo_src }}" alt="{{ .Site.Title }}"></a>
         </div>
         <nav>
             {{ $curpage := .RelPermalink }}

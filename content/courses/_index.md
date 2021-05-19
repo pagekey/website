@@ -1,0 +1,5 @@
+---
+title: Courses
+---
+
+Coming soon!
