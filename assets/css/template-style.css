@@ -5,3 +5,15 @@
 nav a.active {
     font-weight: bold;
 }
+
+/** posts */
+figure.app-logo img {
+    max-width: 100%;
+    height: 15em;
+    margin: auto;
+    display: block;
+}
+
+h1.single-title {
+    margin-bottom: 0.5em;
+}

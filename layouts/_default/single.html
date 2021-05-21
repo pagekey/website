@@ -1,7 +1,10 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-<br>
+{{ if ne .Params.ShowTitle false }}
+<h1 class="single-title">{{ .Title }}</h1>
+{{ end }}
+
+
 {{ .Content }}
 
 {{ end }}
