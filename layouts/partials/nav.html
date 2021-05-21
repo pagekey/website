@@ -9,8 +9,7 @@
             {{ $text := print .Name | safeHTML }}
             {{ $curURL := .URL | safeHTMLAttr }}
             <a href="{{ .URL }}" class="p-2 text-dark {{ if eq $curURL $curPage }}active{{ end }}">
-            {{ $text }}
-            </a>
+            {{ $text }}</a>
         {{ end }}
     </nav>
     <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
