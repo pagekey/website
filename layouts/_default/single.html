@@ -1,10 +1,24 @@
-{{ define "main" }}
-
-{{ if ne .Params.Show_Title false }}
-<h1 class="single-title">{{ .Title }}</h1>
+{{ define "pre-main" }}
+    {{ if isset .Params "featured_image" }}
+        <div class="article-hero">
+            <div class="featured-image">
+                <img src="{{ .Params.Featured_Image }}" alt="{{ .Params.Featured_Image_Alt }}" />
+            </div>
+            {{ if ne .Params.Show_Title false }}
+                <h1 class="single-title">{{ .Title }}</h1>
+            {{ end }}
+        </div>
+    {{ end }}
 {{ end }}
 
+{{ define "main" }}
 
-{{ .Content }}
+    {{ if not (isset .Params "featured_image") }}
+        {{ if ne .Params.Show_Title false }}
+            <h1 class="single-title">{{ .Title }}</h1>
+        {{ end }}
+    {{ end }}
+
+    {{ .Content }}
 
 {{ end }}

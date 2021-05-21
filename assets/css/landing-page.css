@@ -6,9 +6,6 @@ html, body {
 main {
     overflow-x: hidden;
 }
-#nav-header {
-    margin-bottom: 0 !important;
-}
 .slide-icon {
     width: 8em;
     margin-bottom: 1em;

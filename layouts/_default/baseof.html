@@ -5,6 +5,9 @@
     {{ block "body" . }}
         {{ partial "nav.html" . }}
 
+        {{ block "pre-main" . }}
+        {{ end }}
+
         <main class="container">
             {{ block "main" . }}
             {{ end }}
