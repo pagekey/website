@@ -16,3 +16,7 @@ show_content: false
 [Learn more](ocean-avenger)
 
 # Laser: Precision Budgeting
+
+[![Laser Logo](/img/apps/laser.png)](laser/)
+
+[Learn more](laser)
