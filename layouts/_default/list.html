@@ -1,14 +1,16 @@
 {{ define "main" }}
 
 <h1 class="jumbotron">{{ .Title }}</h1>
-<p>
+<div class="list-content">
   {{ .Content }}
-</p>
+</div>
 
+{{ if ne .Params.Show_Content false }}
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
   <a href="{{ .RelPermalink }}">{{ .Title }}</a>
 </p>
+{{ end }}
 {{ end }}
 
 {{ end }}

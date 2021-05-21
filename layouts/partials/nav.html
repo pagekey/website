@@ -5,10 +5,12 @@
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
         {{ $curPage := .RelPermalink | safeHTMLAttr }}
+        {{ $curPageSplit := split $curPage "/" }}
         {{ range .Site.Menus.main }}
             {{ $text := print .Name | safeHTML }}
             {{ $curURL := .URL | safeHTMLAttr }}
-            <a href="{{ .URL }}" class="p-2 text-dark {{ if eq $curURL $curPage }}active{{ end }}">
+            {{ $curURLSplit := split $curURL "/" }}
+            <a href="{{ .URL }}" class="p-2 text-dark {{ if eq (index $curURLSplit 1) (index $curPageSplit 1) }}active{{ end }}">
             {{ $text }}</a>
         {{ end }}
     </nav>

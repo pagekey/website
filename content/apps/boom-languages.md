@@ -1,6 +1,6 @@
 ---
 title: Boom! Languages
-showtitle: false
+show_title: false
 ---
 
 {{< figure src="/img/apps/boom-logo.svg" alt="Boom! Languages Logo" class="app-logo" >}}

@@ -28,3 +28,8 @@ footer {
     line-height: 65px;
     border-radius: 15px;
 }
+
+.list-content img {
+    max-width: 75%;
+    margin: auto;
+}
