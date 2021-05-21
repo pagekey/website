@@ -1,5 +1,5 @@
 ---
-title: PageKey Solutions Blog
+title: Blog
 ---
 
 {{< blog-frontmatter >}}
