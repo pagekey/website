@@ -3,17 +3,17 @@
         <div id="site-title">
             {{ $logo_src := "img/logo.png" | relURL }}
             <a href="/"><img src="{{ $logo_src }}" alt="{{ .Site.Title }}"></a>
-        </div>
-        <nav>
-            {{ $curpage := .RelPermalink }}
-            {{ range .Site.Menus.main }}
-                {{ $text := print .Name | safeHTML }}
-                <a href="{{ .URL }}"
-                {{ if eq .URL $curpage }}
-                class="active"
+            <nav>
+                {{ $curpage := .RelPermalink }}
+                {{ range .Site.Menus.main }}
+                    {{ $text := print .Name | safeHTML }}
+                    <a href="{{ .URL }}"
+                    {{ if eq .URL $curpage }}
+                    class="active"
+                    {{ end }}
+                    >{{ $text }}</a>
                 {{ end }}
-                >{{ $text }}</a>
-            {{ end }}
-        </nav>
+            </nav>
+        </div>
     </header>
 </div>
