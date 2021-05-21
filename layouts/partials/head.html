@@ -6,10 +6,12 @@
 
     <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
     {{ if eq .RelPermalink "/" }}
-    <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "css/pattern.min.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/carousel.css" | relURL }}">
+        <link rel="stylesheet" href="{{ "css/pattern.min.css" | relURL }}">
+        {{ $templateStyle := resources.Get "css/landing-page.css" }}
+        {{ $style := $templateStyle | resources.ExecuteAsTemplate "css/landing-page.css" . }}
+        <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
     {{ end }}
-
     {{ $templateStyle := resources.Get "css/template-style.css" }}
     {{ $style := $templateStyle | resources.ExecuteAsTemplate "css/style.css" . }}
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">

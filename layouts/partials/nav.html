@@ -1,19 +1,17 @@
-<div id="header-wrapper">
-    <header>
-        <div id="site-title">
-            {{ $logo_src := "img/logo.png" | relURL }}
-            <a href="/"><img src="{{ $logo_src }}" alt="{{ .Site.Title }}"></a>
-            <nav>
-                {{ $curpage := .RelPermalink }}
-                {{ range .Site.Menus.main }}
-                    {{ $text := print .Name | safeHTML }}
-                    <a href="{{ .URL }}"
-                    {{ if eq .URL $curpage }}
-                    class="active"
-                    {{ end }}
-                    >{{ $text }}</a>
-                {{ end }}
-            </nav>
-        </div>
-    </header>
-</div>
+<header id="nav-header" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+    <h5 class="my-0 mr-md-auto font-weight-normal">
+        {{ $logo_src := "img/logo.png" | relURL }}
+        <a href="/"><img id="logo" src="{{ $logo_src }}" alt="{{ .Site.Title }}"></a>
+    </h5>
+    <nav class="my-2 my-md-0 mr-md-3">
+        {{ $curPage := .RelPermalink | safeHTMLAttr }}
+        {{ range .Site.Menus.main }}
+            {{ $text := print .Name | safeHTML }}
+            {{ $curURL := .URL | safeHTMLAttr }}
+            <a href="{{ .URL }}" class="p-2 text-dark {{ if eq $curURL $curPage }}active{{ end }}">
+            {{ $text }}
+            </a>
+        {{ end }}
+    </nav>
+    <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
+</header>
