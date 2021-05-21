@@ -17,3 +17,14 @@ figure.app-logo img {
 h1.single-title {
     margin-bottom: 0.5em;
 }
+footer {
+    margin-top: 3em;
+}
+
+.btn-download-boom {
+    width: 280px;
+    height: 85px;
+    font-size: 30px;
+    line-height: 65px;
+    border-radius: 15px;
+}
