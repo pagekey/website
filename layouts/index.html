@@ -18,8 +18,8 @@
                 <div class="carousel-caption text-left">
                     <img class="slide-icon" src="{{ "img/icons/entypo-pencil.svg" | relURL }}" alt="#">
 
-                    <h1>Spicy Blog</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <h1>Blog</h1>
+                    <p>Follow our programming journey as we explore a variety of technical topics.</p>
                     <p><a class="btn btn-lg btn-primary" href="/blog/" role="button">Give it a read</a></p>
                 </div>
                 </div>
@@ -30,8 +30,8 @@
                 <div class="carousel-caption">
                     <img class="slide-icon" src="{{ "img/icons/entypo-monitor.svg" | relURL }}" alt="#">
 
-                    <h1>Nifty Apps</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <h1>Apps</h1>
+                    <p>Try out our mobile and web apps, designed to be easy and effective to use in your daily life.</p>
                     <p><a class="btn btn-lg btn-primary" href="/apps/" role="button">Learn more</a></p>
                 </div>
                 </div>
@@ -43,7 +43,7 @@
                     <img class="slide-icon" src="{{ "img/icons/entypo-book.svg" | relURL }}" alt="#">
 
                     <h1>Courses</h1>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Coming soon - Learn new topics in a flash with our online technology courses. Spend less time struggling and more time absorbing the knowledge you really need.</p>
                     <p><a class="btn btn-lg btn-primary" href="/courses/" role="button">Browse courses</a></p>
                 </div>
                 </div>
@@ -87,7 +87,7 @@
                     <img src="{{ "img/icons/entypo-pencil.svg" | relURL }}" alt="Generic placeholder image">
                 </div>
                 <h2>Blog</h2>
-                <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                <p>Follow our programming journey.</p>
                 <p>
                     {{ len (where .Site.RegularPages "Section" "=" "blog") }} posts so far
                 </p>
@@ -98,7 +98,10 @@
                     <img src="{{ "img/icons/entypo-monitor.svg" | relURL }}" alt="Generic placeholder image">
                 </div>
                 <h2>Apps</h2>
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p>Try out any of our mobile and web applications.</p>
+                <p>
+                    {{ len (where .Site.RegularPages "Section" "=" "apps") }} apps
+                </p>
                 <p><a class="btn btn-secondary" href="/apps/" role="button">Download &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
@@ -106,7 +109,7 @@
                     <img src="{{ "img/icons/entypo-book.svg" | relURL }}" alt="Generic placeholder image">
                 </div>
                 <h2>Courses</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <p>Coming soon - learn focused tech topics at light speed.</p>
                 <p><a class="btn btn-secondary" href="/courses/" role="button">Learn &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
@@ -119,10 +122,14 @@
             <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Tech videos and articles. <span class="text-muted">Hot off the presses</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">Follow our programming journey as we explore a variety of technical topics.</p>
+                <p><a class="btn btn-lg btn-primary" href="/blog/" role="button">Give it a read</a></p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <!-- <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+                <div class="my-feature-image">
+                    <img src="{{ "img/icons/entypo-pencil.svg" | relURL }}" alt="Generic placeholder image">
+                </div>
             </div>
             </div>
 
@@ -131,10 +138,14 @@
             <div class="row featurette">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading">Shiny new apps. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">Try out our mobile and web apps, designed to be easy and effective to use in your daily life.</p>
+                <p><a class="btn btn-lg btn-primary" href="/apps/" role="button">Learn more</a></p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <!-- <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+                <div class="my-feature-image">
+                    <img src="{{ "img/icons/entypo-monitor.svg" | relURL }}" alt="Generic placeholder image">
+                </div>
             </div>
             </div>
 
@@ -143,10 +154,14 @@
             <div class="row featurette">
             <div class="col-md-7">
                 <h2 class="featurette-heading">Tailored tech courses. <span class="text-muted">Learn at light speed.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">Coming soon - Learn new topics in a flash with our online technology courses. Spend less time struggling and more time absorbing the knowledge you really need.</p>
+                <p><a class="btn btn-lg btn-primary" href="/courses/" role="button">Browse courses</a></p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <!-- <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image"> -->
+                <div class="my-feature-image">
+                    <img src="{{ "img/icons/entypo-book.svg" | relURL }}" alt="Generic placeholder image">
+                </div>
             </div>
             </div>
 

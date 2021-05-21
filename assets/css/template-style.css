@@ -37,6 +37,13 @@ html, body {
     display: block;
     margin: auto;
 }  
+#landing-page .my-feature-image {
+    width: 100%;
+}
+#landing-page .my-feature-image img {
+    width: 75%;
+    height: inherit;
+}
 
 .social-nav ul {
     width: 100%;
