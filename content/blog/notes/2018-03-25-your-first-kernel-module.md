@@ -1,3 +1,8 @@
+---
+draft: true
+---
+
+
 Writing Your First Kernel Module
 
 Centos or Ubuntu... Whichever will compile.
