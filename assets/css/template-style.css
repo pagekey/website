@@ -75,8 +75,12 @@ footer {
 .article-info {
     text-align: center;
 }
-.article-info .author {
-    font-weight: bold;
+
+figure figcaption {
+    text-align: center;
+    font-style: italic;
 }
-.article-info .date {
+figure img {
+    display: block;
+    margin: auto;
 }
