@@ -3,7 +3,6 @@ title: How to Implement a Linked List in Python
 featured_image: /img/articles/linked-list.jpg
 featured_image_alt: "Links of rope"
 date: "2017-06-20"
-keywords: linked list, python, data structures, data structure, youtube, tutorial, learning, education, how to
 categories: ['Programming']
 ---
 
