@@ -19,6 +19,12 @@
         {{ end }}
     {{ end }}
 
+    <div class="article-info">
+        {{ if .Params.Date }}
+        <p class="date">{{ dateFormat "January 2, 2006" .Params.Date }}</p>
+        {{ end }}
+    </div>
+
     {{ .Content }}
 
 {{ end }}

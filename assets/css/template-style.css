@@ -70,3 +70,12 @@ footer {
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
+
+.article-info {
+    text-align: center;
+}
+.article-info .author {
+    font-weight: bold;
+}
+.article-info .date {
+}
