@@ -15,6 +15,9 @@
     {{ $templateStyle := resources.Get "css/template-style.css" }}
     {{ $style := $templateStyle | resources.ExecuteAsTemplate "css/style.css" . }}
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
+    {{ if .Params.katex }}
+        <link rel="stylesheet" href="{{ "css/katex.min.css" | relURL }}">
+    {{ end }}
 
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
