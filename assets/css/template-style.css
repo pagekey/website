@@ -77,7 +77,9 @@ footer {
 .article-info {
     text-align: center;
 }
-
+figure {
+    margin: auto;
+}
 figure figcaption {
     text-align: center;
     font-style: italic;
@@ -87,6 +89,16 @@ figure img {
     margin: auto;
     max-width: 100%;
 }
+figure.small img {
+    width: 25%;
+}
+figure.medium {
+    width: 50%;
+}
+figure.large {
+    width: 75%;
+}
+
 
 .highlight pre {
     padding: 1em;
