@@ -7,4 +7,4 @@ date: "2020-04-08"
 
 In this video, I show off my magical DuoLingo-playing bot made with Selenium. It's best magic trick: breaking while you're using it.
 
-Take the first step to writing your own! Check out our post for [installing Selenium in 90 seconds or less](#).
+Take the first step to writing your own! Check out our post for [installing Selenium in 90 seconds or less](/blog/lte-90s/install-selenium-python-ubuntu).

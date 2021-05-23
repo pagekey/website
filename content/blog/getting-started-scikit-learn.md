@@ -23,7 +23,7 @@ Thanks to the hard work of Cournapeau, along with 1,952 other contributors (at t
 
 You'll need Python installed before you can use scikit-learn. There are plenty of guides online that will tell you how to install Python, but it's a very straightforward process anyway. You can probably just go to the Python [Downloads page](https://www.python.org/downloads/) and figure it out yourself.
 
-If you'd like to get it done in 90 seconds or less, I made videos for just that purpose! Click [here](#) to get started on Windows, or [here](#) if you use Ubuntu.
+If you'd like to get it done in 90 seconds or less, I made videos for just that purpose! Click [here](/blog/lte-90s/install-python-windows) to get started on Windows, or [here](/blog/lte-90s/install-python-ubuntu) if you use Ubuntu.
 
 Note that the instructions below are tailored to **Linux users**. You may need to make a few tweaks to the shell commands to get them working on Mac/Windows, but it probably won't be anything wildly different.
 

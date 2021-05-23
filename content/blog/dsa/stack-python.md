@@ -103,4 +103,4 @@ If you want to see all of the code for our finished Stack, [check out the source
 
 [stack-src]: https://github.com/stephengrice/youtube/blob/master/Stack/stack.py
 [stack-test]: https://github.com/stephengrice/youtube/blob/master/Stack/test_stack.py
-[linked-list-article]: /2017/06/20/linked-lists-in-python.html
+[linked-list-article]: /blog/dsa/linked-lists-in-python

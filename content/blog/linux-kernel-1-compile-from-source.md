@@ -137,9 +137,9 @@ sudo update-grub
 
 If all is well, a reboot should use the new kernel. Try it now, and confirm the new kernel is in use with `uname -r`.
 
-Thanks for reading through - I hope you learned something! If you're hungry for more, read the [next article](), in which we will make some simple modifications to kernel source code.
+Thanks for reading through - I hope you learned something! If you're hungry for more, read the [next article][part2], in which we will make some simple modifications to kernel source code.
 
-In an even [later article](), we'll be creating a basic kernel module.
+In an even [later article][part3], we'll be creating a basic kernel module.
 
 **Sources:**
 
@@ -151,6 +151,6 @@ In an even [later article](), we'll be creating a basic kernel module.
 
 **[Part 2][part2] - [Part 3][part3]**
 
-[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /2018/03/29/first-kernel-module.html
+[part1]: /blog/linux-kernel-1-compile-from-source
+[part2]: /blog/linux-kernel-2-modifications
+[part3]: /blog/linux-kernel-3-first-module

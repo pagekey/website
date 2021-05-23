@@ -11,4 +11,4 @@ Check out the source code here:
 
 <https://github.com/stephengrice/education/tree/master/Quick_Python/02_Easy_User_Input>
 
-If you need to install Python, we have you covered! Check out our [Done in 90 Seconds series](#) to get it installed FAST!
+If you need to install Python, we have you covered! Check out our [Done in 90 Seconds series](/blog/lte-90s) to get it installed FAST!

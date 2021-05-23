@@ -9,7 +9,7 @@ date: "2018-03-29"
 
 **[Part 1][part1] - [Part 2][part2]**
 
-So we've already [built the kernel from source](/2018/03/03/compile-the-linux-kernel-from-source.html) and even [modified the source code](/2018/03/23/simple-linux-kernel-source-modifications.html). While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
+So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
 Well, I can't promise *that*, but today we'll take a step in the right direction by building a Linux kernel module.
 
@@ -120,6 +120,6 @@ All in all, we didn't break any records, but it was a good start to writing kern
 
 **[Part 1][part1] - [Part 2][part2]**
 
-[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /2018/03/29/first-kernel-module.html
+[part1]: /blog/linux-kernel-1-compile-from-source
+[part2]: /blog/linux-kernel-2-modifications
+[part3]: /blog/linux-kernel-3-first-module

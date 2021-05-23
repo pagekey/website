@@ -27,7 +27,7 @@ This is a smooth solution if you frequently find yourself writing code or develo
 
 If you're like me, when you want to code, you code. You don't start by thinking how to organize every last file on your computer, or how to track every change you make. Your goal is to explore and learn, not to categorize and label. Occasionally, though, you'll need to find something you did months ago, and this is when the hunt begins. Like a madman, you'll search folders high and low for that outlying scoundrel, that scrap of unscrupulous scripting. As you scour the seemingly endless tree of one-off attempts at web apps and random sneezes of game ideas, you may be wondering if there's a better way.
 
-This is why it is so important to get into the habit of working within a Git repository (or some other kind of version control). Even if what you're doing isn't particularly structured, you can always set up a general-purpose [practice repository](https://github.com/stephengrice/practice) where anything goes. The main idea is to get any kind of code that you touch into a repository so that you can upload it to Github, Bitbucket, or wherever else you may store code online.
+This is why it is so important to get into the habit of working within a Git repository (or some other kind of version control). Even if what you're doing isn't particularly structured, you can always set up a general-purpose practice repository where anything goes. The main idea is to get any kind of code that you touch into a repository so that you can upload it to Github, Bitbucket, or wherever else you may store code online.
 
 Once it's been pushed to one or more sites, the files are available in multiple locations, so you can rest assured that they're safe. When there's a fire, your laptop is stolen, or you finally chuck the poor thing across the room in anger, you'll be glad that all of your precious code is backed up the smart way.
 
@@ -115,7 +115,7 @@ Not to worry, professor - the script is actually fairly clear cut. Allow me 
 
 The top of the script is defining which Python interpreter to use, importing libraries, and setting constants. The real magic begins when we open `repos.csv`. You may recall that this file contains two columns - first, where we want to store the repo locally, and second, the address of the remote repository we'll be cloning from. For each of the repositories in the file, it checks if it exists locally, and if it doesn't, it clones the remote.
 
-If you get tired of typing out your password every single time, it may be a good idea to copy your public key file (located in `~/.ssh/id_rsa.pub`) into your Github and/or Bitbucket profile. You may also be interested in [pushing out your SSH keys](/linux/2018/04/16/ssh-keys.html) if you have local Git servers.
+If you get tired of typing out your password every single time, it may be a good idea to copy your public key file (located in `~/.ssh/id_rsa.pub`) into your Github and/or Bitbucket profile. You may also be interested in [pushing out your SSH keys](/blog/push-ssh-keys) if you have local Git servers.
 
 I decided to use Python, because it's quick, straightforward, and a lot more powerful than Bash (no offense to die-hard shell-scripters!). Feel free to make your own script in whichever language tickles your fancy.
 

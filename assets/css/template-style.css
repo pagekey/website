@@ -103,3 +103,8 @@ figure.large {
 .highlight pre {
     padding: 1em;
 }
+
+blockquote {
+    margin: 2em;
+    font-style: italic;
+}

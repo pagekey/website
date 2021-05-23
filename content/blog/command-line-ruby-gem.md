@@ -56,12 +56,12 @@ Now I'll edit `pagekey.gemspec` and include some information about our gem. Reme
 ```ruby
 Gem::Specification.new do |s|
   s.name      = 'pagekey'
-  s.version   = '0.0.0'
+  s.version   = '0.1.0'
   s.platform  = Gem::Platform::RUBY
   s.summary   = 'PageKey Solutions tutorial gem'
   s.description = "Created in a tutorial found on blog.pageKeySolutions.com. Doesn't do too much!"
-  s.authors   = ['Steve Grice']
-  s.email     = ['steve@pagekeysolutions.com']
+  s.authors   = ['Steve G']
+  s.email     = ['info@pagekeysolutions.com']
   s.homepage  = 'http://rubygems.org/gems/pagekey'
   s.license   = 'MIT'
   s.files     = Dir.glob("{lib,bin}/**/*") # This includes all files under the lib directory recursively, so we don't have to add each one individually.

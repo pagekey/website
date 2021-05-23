@@ -69,7 +69,7 @@ class Node:
         self.next = None
 ```
 
-Look familiar? Node has a `next` field because it's actually part of a [LinkedList](linkedlist_article). Because the hash table uses **separate chaining**, each bucket will actually contain a LinkedList of nodes containing the objects stored at that index. This is one method of **collision resolution.**
+Look familiar? Node has a `next` field because it's actually part of a [LinkedList](/blog/dsa/linked-lists-in-python). Because the hash table uses **separate chaining**, each bucket will actually contain a LinkedList of nodes containing the objects stored at that index. This is one method of **collision resolution.**
 
 # Collisions
 
@@ -249,4 +249,4 @@ Thank you for reading. Check out the full source code for what we did today belo
 [buckets_uniform]: /img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
 
 [buckets_nonuniform]: /img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"
-[linkedlist_article]:/2017/06/20/linked-lists-in-python.html
+[linkedlist_article]: /blog/dsa/linked-lists-in-python

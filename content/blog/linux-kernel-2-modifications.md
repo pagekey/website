@@ -15,7 +15,7 @@ As it turns out, it's harder than expected. Keep reading to get the full rundown
 
 # Prerequisite
 
-Before we start, you may want to check out how to [build the kernel](/2018/03/03/compile-the-linux-kernel-from-source.html). This will allow you to make the same modifications that I do as the article progresses and to eventually make your own changes.
+Before we start, you may want to check out how to [build the kernel][part1]. This will allow you to make the same modifications that I do as the article progresses and to eventually make your own changes.
 
 # Modifications
 
@@ -144,6 +144,6 @@ Though it took a few botched attempts and shots in the dark, I was finally able 
 
 **[Part 1][part1] - [Part 3][part3]**
 
-[part1]: /2018/03/03/compile-the-linux-kernel-from-source.html
-[part2]: /2018/03/23/simple-linux-kernel-source-modifications.html
-[part3]: /2018/03/29/first-kernel-module.html
+[part1]: /blog/linux-kernel-1-compile-from-source
+[part2]: /blog/linux-kernel-2-modifications
+[part3]: /blog/linux-kernel-3-first-module

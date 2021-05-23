@@ -13,4 +13,4 @@ Check out the source code here:
 
 <https://github.com/stephengrice/education/tree/master/Quick_Python/04_Read_a_File>
 
-If you need to install Python, we have you covered! Check out our [Done in 90 Seconds series](#)!
+If you need to install Python, we have you covered! Check out our [Done in 90 Seconds series](/blog/lte-90s)!
