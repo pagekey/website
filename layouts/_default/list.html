@@ -7,7 +7,7 @@
 
 {{ if ne .Params.Show_Content false }}
   {{ $is_blog := (eq .RelPermalink "/blog/") }}
-  {{ $pages := (cond $is_blog (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages .Pages.ByPublishDate.Reverse) }}
+  {{ $pages := (cond $is_blog (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages .Pages.ByPublishDate) }}
   {{ range $pages }}
     <p class="text-center">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -16,11 +16,15 @@
       <img src="{{ .Params.Featured_Image }}" alt="{{ .Params.Featured_Image_Alt }}" />
     </figure>
     <p class="text-center">
-      {{ dateFormat "January 2, 2006" .Params.Date }}
+      {{ if .Params.Date }}{{ dateFormat "January 2, 2006" .Params.Date }}{{ end }}
     </p>
     <p class="summary">
       {{ .Summary }}
     </p>
+    <p class="continue-reading">
+      <a href="{{ .RelPermalink }}" class="btn btn-primary">Continue Reading</a>
+    </p>
+    <hr class="list-sep">
   {{ end }}
   {{ if $is_blog }}
     {{ template "_internal/pagination.html" . }}

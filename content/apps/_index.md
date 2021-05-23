@@ -9,11 +9,15 @@ show_content: false
 
 [Learn more](boom-languages)
 
+---
+
 # Ocean Avenger
 
 [![Ocean Avenger Logo](/img/apps/ocean-avenger.png)](ocean-avenger/)
 
 [Learn more](ocean-avenger)
+
+---
 
 # Laser: Precision Budgeting
 
