@@ -108,3 +108,7 @@ blockquote {
     margin: 2em;
     font-style: italic;
 }
+
+.summary {
+    margin-bottom: 4em;
+}
