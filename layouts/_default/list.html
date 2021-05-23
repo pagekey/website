@@ -6,11 +6,12 @@
 </div>
 
 {{ if ne .Params.Show_Content false }}
-{{ range .Pages.ByPublishDate.Reverse }}
-<p>
-  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-</p>
-{{ end }}
+  {{ $pages := (cond (eq .RelPermalink "/blog/") (where $.Site.RegularPages "Section" "blog") .Pages.ByPublishDate.Reverse) }}
+  {{ range $pages }}
+    <p>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </p>
+  {{ end }}
 {{ end }}
 
 {{ end }}
