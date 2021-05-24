@@ -122,3 +122,7 @@ blockquote {
 hr.list-sep {
     margin: 4em 0;
 }
+
+img {
+    object-fit: contain;
+}
