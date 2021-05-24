@@ -29,4 +29,9 @@
         {{ .Content }}
     </div>
 
+    {{ if eq .Section "blog" }}
+        <hr>
+        {{ partial "sub-blog.html" . }}
+    {{ end }}
+
 {{ end }}
