@@ -12,3 +12,5 @@ Check out Boom! Langauges, an app designed to teach you new languages in ways yo
 Currently, we offer interactive quizzes in Spanish, Russian, Chinese (Mandarin), and French.
 
 We're currently developing more ways to learn, so check back soon for more updates!
+
+**[Privacy Policy](/apps/boom-languages-privacy-policy)**
