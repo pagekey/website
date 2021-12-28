@@ -1,6 +1,6 @@
-baseURL: "http://pagekeysolutions.com/"
+baseURL: "http://blog.pagekeysolutions.com/"
 languageCode: "en-us"
-title: "PageKey Solutions"
+title: "PageKey Solutions Blog"
 
 params:
   keywords:
@@ -16,12 +16,6 @@ menu:
     - name: "Home"
       url: "/"
       weight: 1
-    - name: "Apps"
-      url: "/apps/"
+    - name: "About"
+      url: "https://pagekeysolutions.com/"
       weight: 2
-    - name: "Blog"
-      url: "/blog/"
-      weight: 3
-    - name: "Courses"
-      url: "/courses/"
-      weight: 4
