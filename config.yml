@@ -1,6 +1,7 @@
 baseURL: "http://blog.pagekeysolutions.com/"
 languageCode: "en-us"
 title: "PageKey Solutions Blog"
+paginate: 5
 
 params:
   keywords:

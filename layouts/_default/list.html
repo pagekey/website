@@ -6,9 +6,7 @@
 </div>
 
 {{ if ne .Params.Show_Content false }}
-  {{ $is_blog := (eq .RelPermalink "/blog/") }}
-  {{ $pages := (cond $is_blog (.Paginate (where $.Site.RegularPages "Section" "blog")).Pages .Pages.ByPublishDate) }}
-  {{ range $pages }}
+  {{ range (.Paginate .RegularPagesRecursive).Pages }}
     <p class="text-center">
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </p>
@@ -26,9 +24,7 @@
     </p>
     <hr class="list-sep">
   {{ end }}
-  {{ if $is_blog }}
     {{ template "_internal/pagination.html" . }}
-  {{ end }}
 {{ end }}
 
 {{ end }}
