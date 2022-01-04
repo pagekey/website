@@ -1,30 +1,26 @@
 {{ define "main" }}
+  <h1 class="jumbotron">{{ .Title }}</h1>
+  <div class="list-content">
+    {{ .Content }}
+  </div>
 
-<h1 class="jumbotron">{{ .Title }}</h1>
-<div class="list-content">
-  {{ .Content }}
-</div>
-
-{{ if ne .Params.Show_Content false }}
-  {{ range (.Paginate .RegularPagesRecursive).Pages }}
-    <p class="text-center">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </p>
-    <figure class="medium">
-      <img src="{{ .Params.Featured_Image }}" alt="{{ .Params.Featured_Image_Alt }}" />
-    </figure>
-    <p class="text-center">
-      {{ if .Params.Date }}{{ dateFormat "January 2, 2006" .Params.Date }}{{ end }}
-    </p>
-    <p class="summary">
-      {{ .Summary }}
-    </p>
-    <p class="continue-reading">
-      <a href="{{ .RelPermalink }}" class="btn btn-primary">Continue Reading</a>
-    </p>
-    <hr class="list-sep">
+  {{ if (gt (len (.Sections)) 0) }}
+    <h2>Sections</h2>
+    {{ range .Sections }}
+    {{ $numPosts := len (where .Site.RegularPages "Section" "==" (strings.Replace .RelPermalink "/" "") )}}
+    <div><a href="{{ .RelPermalink }}">{{.Title}} ({{$numPosts}})</a></div>
+    {{ end }}
   {{ end }}
-    {{ template "_internal/pagination.html" . }}
+
+  {{ $all_posts := cond (eq .RelPermalink "/") (where .Site.RegularPages ".Params.unlisted" "!=" "true") (where .RegularPagesRecursive.ByDate ".Params.unlisted" "!=" "true") }}
+  
+  {{ $pages := (.Paginate $all_posts).Pages }}
+  <h2>Posts ({{ len $all_posts }})</h2>
+  {{ range $pages }}
+    <div class="page-in-list">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ if .Params.Date }}{{ dateFormat "January 2, 2006" .Params.Date }}{{ end }}
+    </div>
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
 {{ end }}
 
-{{ end }}

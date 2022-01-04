@@ -120,9 +120,25 @@ blockquote {
 }
 
 hr.list-sep {
-    margin: 4em 0;
+    margin: 2em 0;
 }
 
 img {
     object-fit: contain;
+}
+
+ul.pagination {
+    padding-top: 2em;
+    justify-content: center;
+}
+.jumbotron {
+    text-align: center;
+}
+
+h2 {
+    padding: 1em 0;
+}
+
+.page-in-list {
+    padding: 0.5em;
 }

@@ -1,5 +1,6 @@
 ---
 title: "Boom! Languages Privacy Policy"
+unlisted: true
 ---
 
 ## Who we are
