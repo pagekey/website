@@ -1,7 +1,7 @@
 <header id="nav-header" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
     <h5 class="my-0 mr-md-auto font-weight-normal">
         {{ $logo_src := "img/icon.png" | relURL }}
-        <a href="/"><img id="logo" src="{{ $logo_src }}" alt="{{ .Site.Title }}"> PageKey Solutions Blog</a>
+        <a class="logo-link" href="/"><img id="logo" src="{{ $logo_src }}" alt="{{ .Site.Title }}"> PageKey Solutions Blog</a>
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
         {{ $curPage := .RelPermalink | safeHTMLAttr }}

@@ -14,9 +14,9 @@ params:
 
 menu:
   main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-    - name: "About"
+  #   - name: "Blog Home"
+  #     url: "/"
+  #     weight: 1
+    - name: "PageKey Solutions, LLC"
       url: "https://pagekeysolutions.com/"
       weight: 2

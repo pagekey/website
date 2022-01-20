@@ -6,7 +6,7 @@
 
   {{ if (gt (len (.Sections)) 0) }}
     <h2>Sections</h2>
-    {{ range .Sections }}
+    {{ range sort .Sections ".Params.Title" }}
     {{ $numPosts := len (where .Site.RegularPages "Section" "==" (strings.Replace .RelPermalink "/" "") )}}
     <div><a href="{{ .RelPermalink }}">{{.Title}} ({{$numPosts}})</a></div>
     {{ end }}

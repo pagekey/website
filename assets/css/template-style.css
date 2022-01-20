@@ -11,6 +11,11 @@ main.container {
 nav a.active {
     font-weight: bold;
 }
+a.logo-link {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 /** posts */
 figure.app-logo img {
