@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Blog',
+    title: 'Custom Apps',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -24,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Apps',
+    title: 'Professional Websites',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

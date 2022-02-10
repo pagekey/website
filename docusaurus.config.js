@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'PageKey Solutions',
-  tagline: 'Tech Site!',
+  tagline: 'Education • Apps • Websites',
   url: 'https://pagekeysolutions.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -21,16 +21,18 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // docs: {
+        //   sidebarPath: require.resolve('./sidebars.js'),
+        //   // Please change this to your repo.
+        //   // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,30 +52,13 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            to: '/portfolio',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Portfolio',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'YouTube',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'Instagram',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'Email',
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
@@ -82,32 +67,32 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'About',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Portfolio',
+                to: '/portfolio',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Social',
             items: [
               {
                 label: 'YouTube',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://youtube.com/c/pagekeysolutions',
               },
               {
                 label: 'GitHub',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://github.com/pagekeysolutions',
               },
               {
                 label: 'Instagram',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://instagram.com/pagekeysolutions',
               },
               {
                 label: 'Email',
-                href: 'https://twitter.com/docusaurus',
+                href: 'mailto:info@pagekeysolutions.com',
               },
             ],
           },
@@ -117,10 +102,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
@@ -132,6 +113,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+    i18n: {
+      defaultLocale: 'en',
+      locales: ['en', 'es', 'ru'],
+    },
 };
 
 module.exports = config;

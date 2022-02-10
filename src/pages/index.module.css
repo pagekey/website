@@ -21,3 +21,6 @@
   align-items: center;
   justify-content: center;
 }
+.buttons a {
+  min-width: 8em;
+}
