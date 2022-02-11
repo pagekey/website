@@ -1,0 +1,5 @@
+build:
+  when: manual
+  script:
+    - npm run build
+    - mv build public
