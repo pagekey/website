@@ -36,11 +36,13 @@ const config = {
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          blogSidebarTitle: 'All posts',
-          blogSidebarCount: 'ALL',
+          // blogSidebarTitle: 'All posts',
+          // blogSidebarCount: 'ALL',
           // Enable latex
           remarkPlugins: [math],
           rehypePlugins: [katex],
+          // Enable blog archive
+          archiveBasePath: '/archive',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

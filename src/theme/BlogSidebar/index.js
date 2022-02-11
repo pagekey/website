@@ -89,6 +89,15 @@ export default function BlogSidebar({sidebar}) {
           </li>
         ))}
       </ul>
+
+      <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
+        <Link
+          style={{color: 'inherit'}}
+          to='/blog/archive/'
+          >
+          All Posts
+        </Link>
+      </div>
     </nav>
   );
 }
