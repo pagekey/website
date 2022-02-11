@@ -1,6 +1,6 @@
 pages:
   image: node:16
-  only: master
+  only: [master]
   script:
     - npm install
     - npm run build
