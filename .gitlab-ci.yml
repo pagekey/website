@@ -1,4 +1,4 @@
-build:
+pages:
   when: manual
   script:
     - npm run build
