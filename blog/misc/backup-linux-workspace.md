@@ -9,6 +9,8 @@ How many times have you sat down at a new Linux computer and felt like you were 
 
 Thankfully, there is!
 
+<!--truncate-->
+
 If you don't feel like setting it up yourself, you can clone the pre-finished skeleton I made [on Github](https://github.com/stephengrice/linux-workspace).
 
 # All of your Tools, Mobile

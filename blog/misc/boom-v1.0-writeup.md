@@ -9,6 +9,8 @@ As with any project, it seemed easy... until I got started!
 
 I created a plan, designed the app, and implemented it as best I could. While it has fewer features than I originally thought I'd be able to get done, the ones that it *does* have seem to work well so far (in spite of a few bugs people found immediately after it was published).
 
+<!--truncate-->
+
 {{< figure src="/img/apps/boom-logo.svg" alt="Boom! Languages Logo" caption="The Boom! Languages logo, created by Nick Fulfaro ([@fulfaroanimations](https://instagram.com/fulfaroanimations))." class="medium" >}}
 
 ## Try it now!

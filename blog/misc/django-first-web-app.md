@@ -7,6 +7,8 @@ date: "2019-06-17"
 
 Friends, we all have ideas for apps. Everyone that I’ve talked to, whether they’re interested in technology or not, has had some kind of idea for something that their phone and computer could do better, something to make their lives that much easier. Yet, getting started can be tremendously intimidating. How can we actually make it happen? Do we need degrees? Years of study? A natural gift?
 
+<!--truncate-->
+
 I think the answer is no. Applications are can be complex and vary widely in functionality, but the fundamentals are the same. This is true whether you’re building for mobile phones, web, or even desktop.
 
 Today, we’ll take the first step to bringing your stunning app idea to life. We’ll be working with Django, which is a Python framework used to make web apps that are fast, secure, and maintainable.

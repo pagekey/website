@@ -5,13 +5,15 @@ featured_image_alt: "Kernels... Kernels everywhere!"
 date: "2018-03-03"
 ---
 
-**This post is Part 1 of a series on the Linux kernel.**
-
-**[Part 2][part2] - [Part 3][part3]**
-
 Linux is everywhere, and there are plenty of Linux distributions available providing great out-of-the-box features. But what happens when you need to make an intricate, low-level change to system functionality? What if you wanted to get into kernel development and start to understand one of the world's largest open source projects?
 
 The first step to doing all of these things is compiling the Linux kernel from source. While it may seem tedious or trivial at first, this process will get you down in the weeds of the OS, allowing you to turn modules on or off, search for kernel features, and even examine (and if you're brave, tweak) the raw source code that runs everything on your Linux machine!
+
+<!--truncate-->
+
+**This post is Part 1 of a series on the Linux kernel.**
+
+**[Part 2][part2] - [Part 3][part3]**
 
 1. **Install all dependencies.**
 

@@ -4,9 +4,11 @@ date: "2020-01-15"
 tags: [operating-systems]
 ---
 
-{{< youtube W3DdyiO3Fy8 >}}
-
 We delve into and modify the example code, I explain a few assembly concepts, and I give you some challenges!
+
+<!--truncate-->
+
+{{< youtube W3DdyiO3Fy8 >}}
 
 Here’s the source code repository (AND the solutions to the challenges):
 

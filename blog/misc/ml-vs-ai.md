@@ -15,6 +15,8 @@ When you have an assortment of tools at your disposal, you might try your hand a
 
 Let's dive in a bit deeper and see if this analogy holds true.
 
+<!--truncate-->
+
 *Photo by [Alex Knight](https://www.pexels.com/@agk42?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
 
 ## Artificial Intelligence

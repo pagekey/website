@@ -7,6 +7,8 @@ Decisions, decisions... Life is all about choices! Usually there are so many way
 
 Wait a second. There's no need to stress. Since we're talking about Binary Search Trees, decisions are going to be a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less than or greater than, 0 or 1 - hence the name, **binary**.
 
+<!--truncate-->
+
 {{< figure src="/img/articles/bst/1example_tree.png" alt="Example of a Binary Search Tree" >}}
 
 # Overview

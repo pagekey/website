@@ -5,13 +5,15 @@ featured_image_alt: "Computer Code"
 date: "2018-03-23"
 ---
 
-**This post is Part 2 of a series on the Linux kernel.**
-
-**[Part 1][part1] - [Part 3][part3]**
-
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly intricate, to say the least. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
 As it turns out, it's harder than expected. Keep reading to get the full rundown on how I edited the kernel source,  built it, broke it (several times), and finally made a simple change that produced an output in the system logs.
+
+<!--truncate-->
+
+**This post is Part 2 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 3][part3]**
 
 # Prerequisite
 

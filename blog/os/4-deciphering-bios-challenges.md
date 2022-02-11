@@ -4,9 +4,11 @@ date: "2020-01-29"
 tags: [operating-systems]
 ---
 
-{{< youtube 9dU7CyKkHew >}}
-
 Let's go over the challenges from the last video.
+
+<!--truncate-->
+
+{{< youtube 9dU7CyKkHew >}}
 
 Notes for this video (and all others) are on the wiki:
 

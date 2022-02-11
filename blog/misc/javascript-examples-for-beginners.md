@@ -7,6 +7,8 @@ Welcome to our JavaScript lesson! Today, we'll be trying out some fun examples t
 
 Any of these examples are editable on CodePen. Just click "Edit on Codepen" in the top right corner and you can make as many changes as you want. Don't worry - the changes you make will be just for you! You don't have to worry about making mistakes, because you can always come back here to start fresh.
 
+<!--truncate-->
+
 ## Genie Game
 
 [Link to Genie Game on CodePen](https://codepen.io/stephengrice/pen/KKMewxN)

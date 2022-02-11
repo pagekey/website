@@ -12,6 +12,8 @@ The Linear Regression module in scikit-learn provides an excellent first step in
 
 If this sounds like a lot, don’t worry. We’ll briefly review the math concepts you need to know to fully understand what’s going on, and also touch on an example with real-world data that will put things in perspective.
 
+<!--truncate-->
+
 *Photo by [NOHK](https://www.pexels.com/@nohkstudio?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
 
 ## Disclaimer and Sources

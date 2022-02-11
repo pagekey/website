@@ -4,11 +4,13 @@ date: "2020-02-26"
 tags: [operating-systems]
 ---
 
-{{< youtube mktENQzbm6k >}}
-
 How do we read the disk? We better find out before we go into protected mode!
 
 Watch 'til the end for a bonus bugfix :-)
+
+<!--truncate-->
+
+{{< youtube mktENQzbm6k >}}
 
 Notes for this video (and all others) are on the wiki:
 

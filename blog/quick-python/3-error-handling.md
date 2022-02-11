@@ -4,9 +4,11 @@ date: "2020-10-21"
 tags: [quick-python]
 ---
 
-{{< youtube pgppd2fwrJQ >}}
-
 In this video, we keep the user in line! With error handling, we can specify what type of input we're expecting to receive. This basic skill will also be useful for countless other situations as you continue your Python journey.
+
+<!--truncate-->
+
+{{< youtube pgppd2fwrJQ >}}
 
 Check out the source code here:
 

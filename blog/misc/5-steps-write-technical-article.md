@@ -7,6 +7,8 @@ date: "2018-12-13"
 
 Over the past few months, I've written [a](/blog/dsa/hash-table-python) [fair](/blog/misc/linux-kernel-1-compile-from-source) [number](/blog/misc/linux-kernel-2-modifications) [of](/blog/misc/command-line-ruby-gem) [technical](/blog/dsa/binary-search-tree-python) [articles](/blog/misc/backup-linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
+<!--truncate-->
+
 # 1. Research and Take Notes (Do the Thing)
 
 As you write your article, you'll take on the role of *teacher*. In doing so, you'll get to experience the highest form of learning, and will probably discover at least one thing about what you're writing that you didn't know before.

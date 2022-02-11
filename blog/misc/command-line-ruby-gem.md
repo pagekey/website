@@ -13,6 +13,8 @@ In this article, we're going to do two things. First, we'll get started by creat
 
 After that, we're going to modify the gem so that you can use it anywhere on your computer, just by typing its name into the console. Sweet!
 
+<!--truncate-->
+
 {{< youtube KNa1TXnaZSg >}}
 
 # Requirements

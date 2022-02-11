@@ -4,9 +4,11 @@ date: "2019-12-23"
 tags: [operating-systems]
 ---
 
-{{< youtube NtZzb9ZJ5Fo >}}
-
 In this video, we'll set up VirtualBox and install a Debian VM so that we can use Linux on Windows.
+
+<!--truncate-->
+
+{{< youtube NtZzb9ZJ5Fo >}}
 
 Notes for this video (and all others) are on the wiki: <https://github.com/stephengrice/pkos/wiki>
 

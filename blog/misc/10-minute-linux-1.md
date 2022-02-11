@@ -11,6 +11,8 @@ All you'll need is a little patience and about 10 minutes to get started! Read o
 
 Disclaimer: the video is 10 minutes, but the article may be a bit more verbose. :)
 
+<!--truncate-->
+
 {{< youtube XKvmgtOidYU >}}
 
 ## Making Moves (Navigating the System)

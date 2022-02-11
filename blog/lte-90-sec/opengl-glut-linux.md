@@ -4,9 +4,11 @@ date: "2020-06-03"
 tags: [lte-90-sec]
 ---
 
-{{< youtube cShqFtmDTQE >}}
-
 In this video, we run through the steps for making our first OpenGL program using GLUT.
+
+<!--truncate-->
+
+{{< youtube cShqFtmDTQE >}}
 
 List of packages to install:
 

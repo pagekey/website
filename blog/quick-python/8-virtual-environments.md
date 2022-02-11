@@ -4,10 +4,11 @@ date: "2021-06-11"
 tags: [quick-python]
 ---
 
+In this video, we learn how to create, manage, and remove Python Virtual Environments.
+
+<!--truncate-->
 
 {{< youtube O5rH_fsOOJM >}}
-
-In this video, we learn how to create, manage, and remove Python Virtual Environments.
 
 **[Here's a link to the source code.](https://github.com/pagekeysolutions/education/tree/master/Quick_Python/08_Installing_Packages)**
 

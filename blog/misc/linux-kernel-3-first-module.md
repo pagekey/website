@@ -5,9 +5,7 @@ featured_image_alt: "Hands putting jigsaw pieces together"
 date: "2018-03-29"
 ---
 
-**This post is Part 3 of a series on the Linux kernel.**
 
-**[Part 1][part1] - [Part 2][part2]**
 
 So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
@@ -16,6 +14,12 @@ Well, I can't promise *that*, but today we'll take a step in the right direction
 The Linux kernel is structured so that you can add extended functionality without modifying the core source. These added *modules* can be linked in as the source is compiled or added dynamically. The one we write today will be inserted dynamically, adding itself and running without a system reboot.
 
 While writing a kernel module is definitely safer than modifying the source, it can still mess up your system a lot more than a user space application, so proceed with caution.
+
+<!--truncate-->
+
+**This post is Part 3 of a series on the Linux kernel.**
+
+**[Part 1][part1] - [Part 2][part2]**
 
 # User Space vs. Kernel space
 

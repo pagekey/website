@@ -8,6 +8,8 @@ tags: [data-structs-and-algs]
 
 There's no other data structure like the Stack. In only a few minutes, you can have a fully working implementation that can be used to solve a wide variety of problems. Stacks are useful for anything from reversing a string to language processing applications - not to mention the fact that many programming languages (and probably your operating system) rely on a Stack to function.
 
+<!--truncate-->
+
 **Click [here][stack-src] for the full Stack source code. Also, [here][stack-test] is the test code.**
 
 {{< youtube 5MOy9VYKczY >}}

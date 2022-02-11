@@ -9,6 +9,8 @@ tags: [data-structs-and-algs]
 
 Need a quick run down on a classic data structure? Look no further.
 
+<!--truncate-->
+
 **Click [here][list-src] for the full LinkedList source code. Also, [here][list-test] is the test code.**
 
 A linked list is an ordered collection of elements. The thing that makes it special is how it stores data. Behind the scenes, each number, string, object, or other value you may need to keep track of is stored in a Node. Each Node references its successor.

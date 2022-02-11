@@ -9,6 +9,8 @@ Over time, entering your password every time you want to move between nodes usin
 
 This article describes two ways of pushing out your keys: The easy way, and the hard way.
 
+<!--truncate-->
+
 # Prerequisite
 
 To complete these steps, you'll need to generate a public/private keypair if you haven't already. Run this command:

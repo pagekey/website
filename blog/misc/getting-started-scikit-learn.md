@@ -9,6 +9,8 @@ Machine learning is fascinating, but it can be overwhelming if you're just getti
 
 If this sounds interesting to you, read on. In this article, we're going to learn what scikit-learn is, how to install it, and how to run it using Python and Jupyter Notebooks.
 
+<!--truncate-->
+
 *Photo by [Meruyert Gonullu](https://www.pexels.com/@meruyert-bissimbayeva?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
 
 ## What is scikit-learn?

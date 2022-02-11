@@ -4,9 +4,13 @@ date: "2020-03-11"
 tags: [operating-systems]
 ---
 
-{{< youtube IU9zXYdYV9I >}}
+
 
 We really did it. We made the jump to 32-bit protected mode.
+
+<!--truncate-->
+
+{{< youtube IU9zXYdYV9I >}}
 
 Here’s the awesome book I keep referencing:
 

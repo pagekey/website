@@ -4,6 +4,8 @@ date: "2020-04-22"
 tags: [lte-90-sec]
 ---
 
-{{< youtube Jl_C_sy02MA >}}
-
 In this video, we get Docker working for *us* in 90 seconds!
+
+<!--truncate-->
+
+{{< youtube Jl_C_sy02MA >}}

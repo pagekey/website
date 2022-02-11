@@ -4,9 +4,11 @@ date: "2020-08-12"
 tags: [operating-systems]
 ---
 
-{{< youtube YtnNX074jMU >}}
-
 In this video, we learn about interrupts and write our own basic keyboard driver!
+
+<!--truncate-->
+
+{{< youtube YtnNX074jMU >}}
 
 0:00 Lecture
 

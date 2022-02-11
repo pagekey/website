@@ -7,6 +7,8 @@ date: "2018-11-17"
 
 Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
 
+<!--truncate-->
+
 # 1. Communication and Documentation: Our Bread and Butter
 
 Take a moment to think back to English class. It’s the final semester, and your hand trembles a little bit as you hand your homework in.

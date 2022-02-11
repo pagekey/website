@@ -4,9 +4,11 @@ date: "2020-09-23"
 tags: [quick-python]
 ---
 
-{{< youtube ydQASRg1dZE >}}
-
 In this video, we get our feet wet and unlock a tiny bit of the enormous power Python offer with a simple for loop.
+
+<!--truncate-->
+
+{{< youtube ydQASRg1dZE >}}
 
 Check out the source code here:
 

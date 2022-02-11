@@ -4,9 +4,11 @@ date: "2020-01-01"
 tags: [operating-systems]
 ---
 
-{{< youtube 1lAuJoPZ3Q0 >}}
-
 In this video, we install qemu and nasm so that we can build our first bootloader and run it.
+
+<!--truncate-->
+
+{{< youtube 1lAuJoPZ3Q0 >}}
 
 Command for getting the first bootloader code:
 

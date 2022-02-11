@@ -7,6 +7,8 @@ date: "2018-12-12"
 
 Typically, people don't go about their day thinking about design and implementation, or at least not in these terms. Such words are usually limited to the vocabulary of engineers, programmers, developers, or project managers. In spite of this, these two concepts can apply to just about everything in your daily life. Learning to think in these terms may give you a new perspective.
 
+<!--truncate-->
+
 Though the terminology is unorthodox, design and implementation can easily be applied to the process of writing. Whenever I'm putting together an article, essay, story, or document, I find myself performing design and implementation as two distinct activities, whether I attempt to separate them or not. Design is figuring out which ideas I would like to convey, how I want to convey them, and what the feel should be - it's the big picture. **Outlining** is a design activity that really helps me bring my writing together.
 
 On the other side of the coin is the *implementation* of the writing. It's what I'm doing right now - with the ideas more or less figured out, I'm putting pen to paper, relentlessly beating the words out of the keyboard and giving life to the skeleton of thoughts that I had previously formed.

@@ -4,9 +4,11 @@ date: "2020-10-07"
 tags: [quick-python]
 ---
 
-{{< youtube auVvAigLvK0 >}}
-
 In this video, we find out how to get user input into our program - a huge advantage if you're just starting out.
+
+<!--truncate-->
+
+{{< youtube auVvAigLvK0 >}}
 
 Check out the source code here:
 

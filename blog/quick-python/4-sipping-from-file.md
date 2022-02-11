@@ -4,11 +4,13 @@ date: "2020-11-04"
 tags: [quick-python]
 ---
 
-{{< youtube osREJ2ksyW4 >}}
-
 In this video, we take a sip out of a file - just a quick skim, printing out the contents. 
 
 It's a great skill that we'll build on later. 
+
+<!--truncate-->
+
+{{< youtube osREJ2ksyW4 >}}
 
 Check out the source code here:
 

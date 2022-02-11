@@ -9,6 +9,8 @@ I needed a system to keep my head on straight. I played with [Kanban Flow](https
 
 I turned to OneNote, Microsoft's notetaking software. As I tweaked my little wannabe Kanban Board, I was more and more impressed at the flexibility and utility of OneNote.
 
+<!--truncate-->
+
 {{< figure src="/img/articles/onenote-board/onenote-board.jpg" alt="My Sample OneNote Board" caption="My Sample OneNote Board" >}}
 
 # Why Should I?
