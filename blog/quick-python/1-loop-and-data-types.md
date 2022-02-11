@@ -8,7 +8,7 @@ In this video, we get our feet wet and unlock a tiny bit of the enormous power P
 
 <!--truncate-->
 
-{{< youtube ydQASRg1dZE >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/ydQASRg1dZE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Check out the source code here:
 

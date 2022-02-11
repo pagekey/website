@@ -8,7 +8,7 @@ Let's go over the challenges from the last video.
 
 <!--truncate-->
 
-{{< youtube 9dU7CyKkHew >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/9dU7CyKkHew" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Notes for this video (and all others) are on the wiki:
 

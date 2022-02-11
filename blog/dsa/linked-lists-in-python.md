@@ -19,7 +19,7 @@ The advantage to this approach is the dynamic nature of the list. Unless you run
 
 In this case, we will be talking about a **singly linked list**, meaning that each Node only has one reference, which belongs to the **next** Node. For a __doubly linked list__, there would be an additional reference to the **previous** Node.
 
-{{< youtube KZVU2X4Dw8w >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/KZVU2X4Dw8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 # Nodes and Ropes
 

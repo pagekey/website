@@ -10,7 +10,7 @@ This tutorial will show you how to implement a hash table with **separate chaini
 
 <!--truncate-->
 
-{{< youtube zHi5v78W1f0 >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/zHi5v78W1f0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 # Background
 

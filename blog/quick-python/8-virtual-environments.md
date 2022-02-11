@@ -8,7 +8,7 @@ In this video, we learn how to create, manage, and remove Python Virtual Environ
 
 <!--truncate-->
 
-{{< youtube O5rH_fsOOJM >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/O5rH_fsOOJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 **[Here's a link to the source code.](https://github.com/pagekeysolutions/education/tree/master/Quick_Python/08_Installing_Packages)**
 

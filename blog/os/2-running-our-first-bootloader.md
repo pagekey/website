@@ -8,7 +8,7 @@ In this video, we install qemu and nasm so that we can build our first bootloade
 
 <!--truncate-->
 
-{{< youtube 1lAuJoPZ3Q0 >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/1lAuJoPZ3Q0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Command for getting the first bootloader code:
 

@@ -8,7 +8,7 @@ In this video, we keep the user in line! With error handling, we can specify wha
 
 <!--truncate-->
 
-{{< youtube pgppd2fwrJQ >}}
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/pgppd2fwrJQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Check out the source code here:
 
