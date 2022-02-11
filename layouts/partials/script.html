@@ -1,8 +1,0 @@
-<script src="{{ "js/jquery.min.js" | relURL }}"></script>
-<script src="{{ "js/popper.min.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
-{{ if .Params.latex }}
-{{ partial "mathjax.html" . }}
-{{ end }}
-
-{{ partial "analytics.html" . }}
