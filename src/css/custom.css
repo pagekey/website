@@ -1,0 +1,71 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+/* Old primary hue: 147
+/* New primary hue (blue): 220 */
+/* :root {
+  --ifm-color-primary: #2e4b85;
+  --ifm-color-primary-dark: #2a447a;
+  --ifm-color-primary-darker: #274072;
+  --ifm-color-primary-darkest: #21355f;
+  --ifm-color-primary-light: #345493;
+  --ifm-color-primary-lighter: #345598;
+  --ifm-color-primary-lightest: #3d63ae;
+  --ifm-code-font-size: 95%;
+} */
+/* New primary hue (orange): 25 */
+:root {
+  --ifm-color-primary: #1976d2;
+  --ifm-color-primary-dark: #004ba0;
+  --ifm-color-primary-darker: #003F88;
+  --ifm-color-primary-darkest: #002754;
+  --ifm-color-primary-light: #63a4ff;
+  --ifm-color-primary-lighter: #7DB4FF;
+  --ifm-color-primary-lightest: #B1D2FF;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #2EB5F3;
+  --ifm-color-primary-dark: #29A2DA;
+  --ifm-color-primary-darker: #248FC0;
+  --ifm-color-primary-darkest: #207CA6;
+  --ifm-color-primary-light: #69e2ff;
+  --ifm-color-primary-lighter: #9CECFF;
+  --ifm-color-primary-lightest: #CFF6FF;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.youtube-video-player {
+  width: 560px;
+  height: 315px;
+  margin: auto;
+  display: block;
+  margin-bottom: 1.5em;
+}
+
+article figcaption {
+  text-align: center;
+  font-weight: bold;
+  /* margin-top: -1em; */
+  margin-bottom: 1.5em;
+}
+article p img {
+  display: block;
+  margin: auto;
+}
