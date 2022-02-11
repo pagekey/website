@@ -4,6 +4,7 @@ featured_image: /img/articles/linked-list.jpg
 featured_image_alt: "Links of rope"
 date: "2017-06-20"
 categories: ['Programming']
+tags: [data-structs-and-algs]
 ---
 
 Need a quick run down on a classic data structure? Look no further.

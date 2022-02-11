@@ -3,6 +3,7 @@ title: How to Implement a Hash Table in Python
 featured_image: /img/articles/hashtable.jpg
 featured_image_alt: "Get with the times!"
 date: "2017-11-24"
+tags: [data-structs-and-algs]
 ---
 
 This tutorial will show you how to implement a hash table with **separate chaining**. It's not the most efficient method, but it is the simplest way to get started and create a fully functioning hash table.
@@ -224,7 +225,8 @@ def remove(self, key):
 		return result
 ```
 
-For more information about removing a node from a linked list, see my [LinkedList article](linkedlist_article).
+For more information about removing a node from a linked list, see my [LinkedList article](/blog/dsa/linked-lists-in-python
+).
 
 # Applications
 
@@ -249,4 +251,3 @@ Thank you for reading. Check out the full source code for what we did today belo
 [buckets_uniform]: /img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
 
 [buckets_nonuniform]: /img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"
-[linkedlist_article]: /blog/dsa/linked-lists-in-python

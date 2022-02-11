@@ -1,6 +1,7 @@
 ---
 title: "Insertion Sort in Python"
 date: "2018-10-13"
+tags: [data-structs-and-algs]
 ---
 
 {{< youtube -wwk5QXk-AA >}}

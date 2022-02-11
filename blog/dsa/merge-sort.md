@@ -1,6 +1,7 @@
 ---
 title: "Merge Sort in Python"
 date: "2018-09-28"
+tags: [data-structs-and-algs]
 ---
 
 {{< youtube syHhPKK00Rc >}}

@@ -16,6 +16,8 @@ const config = {
   organizationName: 'pagekeysolutions', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
 
+  plugins: [require.resolve('docusaurus-lunr-search')],
+
   presets: [
     [
       'classic',

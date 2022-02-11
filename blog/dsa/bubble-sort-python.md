@@ -1,6 +1,7 @@
 ---
 title: "Bubble Sort in Python"
 date: "2018-10-05"
+tags: [data-structs-and-algs]
 ---
 
 {{< youtube LmZLKhd2Juc >}}

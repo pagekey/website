@@ -3,6 +3,7 @@ title: How to Implement a Stack in Python
 featured_image: /img/articles/stack.jpg
 featured_image_alt: "Stack of rocks"
 date: "2017-06-22"
+tags: [data-structs-and-algs]
 ---
 
 There's no other data structure like the Stack. In only a few minutes, you can have a fully working implementation that can be used to solve a wide variety of problems. Stacks are useful for anything from reversing a string to language processing applications - not to mention the fact that many programming languages (and probably your operating system) rely on a Stack to function.
