@@ -5,7 +5,7 @@ featured_image_alt: "Hands putting jigsaw pieces together"
 date: "2018-03-29"
 ---
 
-
+![Hands putting jigsaw pieces together](hands-jigsaw.jpg)
 
 So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
@@ -94,14 +94,15 @@ sudo insmod hello-world.ko
 
 If no errors are present, it must have worked. Verify this by typing `dmesg` to show kernel messages. In my case, it looked something like this:
 
-{{< figure src="/img/articles/kernel-module/dmesg1.png" alt="dmesg with Hello" caption="Who said that?" >}}
+![dmesg with Hello](dmesg1.png)
+<figcaption>Who said that?</figcaption>
 
 That worked well enough! Try out `modinfo hello-world.ko` to see some more generic information about the module you just made.
 
 Okay, that's enough fun for one day. Let's rip that thing back out of the kernel. Type: `sudo rmmod hello-world.ko` and check `dmesg` again:
 
-{{< figure src="/img/articles/kernel-module/dmesg2.png" alt="dmesg with Hello and Goodbye" caption="You say goodbye... And I say hello." >}}
-
+![dmesg with Hello and Goodbye](dmesg2.png)
+<figcaption>You say goodbye... And I say hello.</figcaption>
 
 How beautiful! Our module's circle of life is complete. They sure do grow up fast.
 

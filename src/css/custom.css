@@ -55,3 +55,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 560px;
   height: 315px;
 }
+
+article figcaption {
+  text-align: center;
+  font-weight: bold;
+  /* margin-top: -1em; */
+  margin-bottom: 1.5em;
+}
+article p img {
+  display: block;
+  margin: auto;
+}
