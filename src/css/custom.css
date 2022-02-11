@@ -52,8 +52,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .youtube-video-player {
-  width: 560px;
-  height: 315px;
+  width: 100%;
+  max-width: 560px;
+  height: 50vw;
+  max-height: 315px;
   margin: auto;
   display: block;
   margin-bottom: 1.5em;

@@ -19,7 +19,6 @@ function HomepageHeader() {
             to="/portfolio">
             Portfolio
           </Link>
-          <div style={{width: "1em"}}></div>
           <Link
             className="button button--secondary button--lg"
             to="/blog">
