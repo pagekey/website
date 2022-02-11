@@ -1,10 +1,11 @@
 ---
 title: "Snap the Line! Understanding Linear Regression and Scikit-Learn"
 date: "2021-05-20"
-featured_image: "/img/articles/buildings-row.jpg"
-featured_image_alt: "Row of buildings"
+authors: [steve]
 latex: true
 ---
+
+![Row of buildings](/img/blog/featured/buildings-row.jpg)
 
 Where do we start with something as complex as scikit-learn? At the beginning, of course!
 
@@ -14,7 +15,7 @@ If this sounds like a lot, don’t worry. We’ll briefly review the math concep
 
 <!--truncate-->
 
-*Photo by [NOHK](https://www.pexels.com/@nohkstudio?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
+*Photo by [NOHK](https://www.pexels.com/@nohkstudio?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
 ## Disclaimer and Sources
 

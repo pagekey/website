@@ -1,7 +1,10 @@
 ---
 title: How to Implement a Binary Search Tree in Python
 date: "2018-04-19"
+authors: [steve]
 ---
+
+![Example of a Binary Search Tree](1example_tree.png)
 
 Decisions, decisions... Life is all about choices! Usually there are so many ways to go. An infinite expanse of roads and pathways stretches in front of you, an endless gradient of details; as you consider them, your head starts to spin, your eyes start to droop, your mind races, your head pounds -
 
@@ -9,15 +12,13 @@ Wait a second. There's no need to stress. Since we're talking about Binary Searc
 
 <!--truncate-->
 
-![Example of a Binary Search Tree](1example_tree.png)
-
-# Overview
+## Overview
 
 A BST is a great choice for storing data that may need to be sorted. Anything that is stored in a BST must be **comparable**, which means that the data can be compared with less than `<`, greater than `>`, and equal to `==` operators.
 
 For flat arrays, searching for, inserting, and deleting data will loop through every single element, yielding an average efficiency of `O(n)`. With a Binary Search Tree, each step down the tree cuts the remaining nodes to search by up to half. For this reason, **search on a BST is performed in `O(log(n))` time on average**. This is a significant improvement, especially for large data sets.
 
-# Insert
+## Insert
 
 ![Binary Search Tree: Insert method diagram](2insert.png)
 
@@ -65,7 +66,7 @@ class BST(object):
   ...
 ```
 
-# Find
+## Find
 
 ![Binary Search Tree: Find method diagram](3find.png)
 
@@ -105,7 +106,7 @@ class BST(object):
   ...
 ```
 
-# Remove
+## Remove
 
 ![Binary Search Tree: Remove method diagram, leaf node removal](4remove.png)
 <figcaption>Example of leaf node removale</figcaption>
@@ -212,7 +213,7 @@ class BST(object):
 
 Whew! Glad that one's done.
 
-# Traversals
+## Traversals
 
 There are three ways to traverse a tree: pre-order traversal, in-order traversal, and post-order traversal. The traversals are mostly implemented in the `Node` class.
 
@@ -222,7 +223,7 @@ The most straightforward example is sorting from least to greatest. If your BST 
 
 The code for each method of traversal will look very similar. Each time, we'll simply change where we make our recursive call.
 
-**Pre-Order Traversal:**
+### Pre-Order Traversal
 
 ![Binary Search Tree: Pre-Order Traversal](6pre_order.png)
 
@@ -242,7 +243,7 @@ class Node(object):
     ...
 ```
 
-**In-Order Traversal:**
+### In-Order Traversal
 
 ![Binary Search Tree: In-Order Traversal](7in_order.png)
 
@@ -262,7 +263,7 @@ class Node(object):
     ...
 ```
 
-**Post-Order Traversal:**
+### Post-Order Traversal
 
 ![Binary Search Tree: Post-Order Traversal](8post_order.png)
 
@@ -312,7 +313,7 @@ class BST(object):
       return []
 ```
 
-# Full Source and Tests
+## Full Source and Tests
 
 Thank you for reading. Check out the full source code for what we did today below!
 

@@ -1,9 +1,10 @@
 ---
 title: "The Nuanced Truth: Exploring Differences Between ML and AI"
 date: "2021-04-11"
-featured_image: /img/articles/cute-robot.jpeg
-featured_image_alt: "Cute robot"
+authors: [steve]
 ---
+
+![Cute robot](/img/blog/featured/cute-robot.jpeg)
 
 Everyone has heard of machine learning and artificial intelligence at this point, right?
 
@@ -17,7 +18,7 @@ Let's dive in a bit deeper and see if this analogy holds true.
 
 <!--truncate-->
 
-*Photo by [Alex Knight](https://www.pexels.com/@agk42?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
+*Photo by [Alex Knight](https://www.pexels.com/@agk42?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
 ## Artificial Intelligence
 

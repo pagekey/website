@@ -1,11 +1,10 @@
 ---
 title: Writing Your First Kernel Module
-featured_image: /img/articles/kernel-module/hands-jigsaw.jpg
-featured_image_alt: "Hands putting jigsaw pieces together" 
 date: "2018-03-29"
+authors: [steve]
 ---
 
-![Hands putting jigsaw pieces together](hands-jigsaw.jpg)
+![Hands putting jigsaw pieces together](/img/blog/featured/hands-jigsaw.jpg)
 
 So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
@@ -21,7 +20,7 @@ While writing a kernel module is definitely safer than modifying the source, it 
 
 **[Part 1][part1] - [Part 2][part2]**
 
-# User Space vs. Kernel space
+## User Space vs. Kernel space
 
 Hold on - What was that last part about a safe space? Oh, you mean user space!
 
@@ -31,13 +30,13 @@ User space applications cover most things that we think of for software developm
 
 Kernel space code provides that foundation. It involves everything that makes the operating system run, hosting and providing an execution environment for all user applications. System calls, memory management, process management, scheduling, threading, device management, and much more are all handled in the kernel space. Much as the best bridges and roads are those that go unnoticed, a beautiful kernel handles everything under the hood seamlessly. You don't notice it's there... Until it breaks!
 
-# What can a kernel module do?
+## What can a kernel module do?
 
 Not much if I'm writing it.
 
 Jokes aside, kernel modules can be anything from a device driver to a new type of file system. It's one of the most practical ways to provide additional functionality to the kernel for a specific use case.
 
-# Setting Up: Makefile
+## Setting Up: Makefile
 
 Enough talk. Let's get to work! The first thing we'll need in order to create our kernel module is a `Makefile`. If you're not familiar with `make`, it's a build tool that lets you automate redundant tasks like compilation, cleanup, and so forth. For very small projects, it may seem like nothing more than a convenience, but as your program become more complex, a good `Makefile` is essential.
 
@@ -61,7 +60,7 @@ A few takeaways:
 
 Now that we've laid the ground work, let's get to coding.
 
-# Writing the Module
+## Writing the Module
 
 Edit `hello-world.c` and add the following code:
 
@@ -84,7 +83,7 @@ Save this file, and type `make`. If all goes well and you see no errors, several
 
 As a side note, if you're wondering why there is never a comma between `KERN_INFO` and your message in `printk`, it's because `KERN_INFO` is a macro. In fact, this and all other `printk` macros are defined in [`/include/linux/kern_levels.h`](https://github.com/torvalds/linux/blob/master/include/linux/kern_levels.h) in the Linux source code.
 
-# Installing the Module
+## Installing the Module
 
 It's time to test out our hard work. While in the same directory, type:
 
@@ -106,7 +105,7 @@ Okay, that's enough fun for one day. Let's rip that thing back out of the kernel
 
 How beautiful! Our module's circle of life is complete. They sure do grow up fast.
 
-# Conclusion
+## Conclusion
 
 I sure hope this was a hootin' good time for you. We wrote our first kernel module, compiled it, and did a good old hot swap into the running kernel.
 

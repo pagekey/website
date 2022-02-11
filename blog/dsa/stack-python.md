@@ -1,10 +1,11 @@
 ---
 title: How to Implement a Stack in Python
-featured_image: /img/articles/stack.jpg
-featured_image_alt: "Stack of rocks"
 date: "2017-06-22"
+authors: [steve]
 tags: [data-structs-and-algs]
 ---
+
+![Stack of rocks](/img/blog/featured/stack.jpg)
 
 There's no other data structure like the Stack. In only a few minutes, you can have a fully working implementation that can be used to solve a wide variety of problems. Stacks are useful for anything from reversing a string to language processing applications - not to mention the fact that many programming languages (and probably your operating system) rely on a Stack to function.
 
@@ -14,13 +15,13 @@ There's no other data structure like the Stack. In only a few minutes, you can h
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/5MOy9VYKczY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-# An Analogy
+## An Analogy
 
 The Stack data structure is well-named - it very much resembles a stack of papers, or a tower of blocks, or any pile of objects where all adding and removing occurs at the top of the pile. Just think - you can't remove a quarter in the middle of a stack of coins without knocking the whole thing over!
 
 For our purposes, imagine you have a long, thin cardboard box. Your box can hold many different objects, but you can only interact with the contents of your box through the top. This box is your Stack. If you (__gently!__) slide a green plate into the box, it will rest at the bottom, still visible and accessible from someone looking in. After this, if you add an orange plate to your box, you will only have access to the orange plate. To get to the green plate, you need to first reach in and remove the orange plate. Keep this analogy in your mind as we move forward.
 
-# Setup
+## Setup
 
 Our Stack will have three operations - `push`, `pop`, and `peek`. Before we get to the nitty gritty of their implementation, though, we need to setup the class for the `Stack`, as well as a `Node` class to hold whatever we put in our Stack. The Node that we create for our Stack will be identical to **[the Node we made for our LinkedList][linked-list-article]** in the last post.
 
@@ -38,7 +39,7 @@ class Stack(object):
 		self.size = 0
 ```
 
-# Push it
+## Push it
 
 When you `push` something onto your Stack, you place it on top. This is akin to sliding a plate into your long box. The plate you add becomes the new top plate, and all the ones underneath become inaccessible.
 
@@ -55,7 +56,7 @@ The first step to making this work is creating a Node object to hold the data yo
 
 The nodes are linked together exactly like a Singly Linked List. The only differences are the operations used to manipulate the data.
 
-# Take a peek
+## Take a peek
 
 What happens when you need to look at what's in your Stack? You just peek down inside, that's all! The method `peek` is used to access the top data entry in a Stack __without changing the Stack itself__. It's not destructive - after all, it's just a harmless peek!
 
@@ -64,7 +65,7 @@ What happens when you need to look at what's in your Stack? You just peek down i
 		return self.top.data
 ```
 
-# Pop it
+## Pop it
 
 Now, let's get serious. We need to completely remove something from our stack and look at it. We want to do something with it, and more importantly, we want whatever is below it to become the new `self.top` so that we can access it, too. When we `pop` something from the stack, we pull an object out, removing it from the stack. More specifically, the `pop` method returns `self.top` just like `peek`, but it also removes whatever Node is located at `self.top`, changing it to reference the next Node down.
 
@@ -76,7 +77,7 @@ Now, let's get serious. We need to completely remove something from our stack an
 		return result
 ```
 
-# Challenges
+## Challenges
 
 Let's put this knowledge to use! I have two programming challenges to try. If you get stuck, I'll give you a link to my solutions.
 
@@ -98,7 +99,7 @@ Another hint: When you're finished, the only thing in the stack will be the answ
 
 Don't peek! I hope you tried your best! Anyway, [here](https://github.com/stephengrice/youtube/blob/master/Stack/challenges.py) are my solutions to the challenges.
 
-# Full Code and Testing
+## Full Code and Testing
 
 That's all there is to it! Part of the beauty of a Stack is its simplicity.
 

@@ -1,9 +1,10 @@
 ---
 title: 'Take Your Linux Workspace Anywhere: Backup for Nerds'
-featured_image: /img/articles/linux-workspace.jpg
-featured_image_alt: "A Computer Workspace"
 date: "2018-11-24"
+authors: [steve]
 ---
+
+![A Computer Workspace](/img/blog/featured/linux-workspace.jpg)
 
 How many times have you sat down at a new Linux computer and felt like you were starting all over again? All of those aliases, every little helper file and script - gone. This new computer is a shell of its former self (pun intended). Your heart warms as you think back to the comfort and productivity that came with your Linux workstation at home. If only there were a way to take everything you know and love on the go...
 
@@ -13,7 +14,7 @@ Thankfully, there is!
 
 If you don't feel like setting it up yourself, you can clone the pre-finished skeleton I made [on Github](https://github.com/stephengrice/linux-workspace).
 
-# All of your Tools, Mobile
+## All of your Tools, Mobile
 
 I'm going to show you how to create your own `linux-workspace` that you can regenerate anywhere. Once we have this set up, all you'll need is an internet connection to take it with you.
 
@@ -25,7 +26,7 @@ The second script packs a punch: `clone-repos.py` is what makes this all work .
 
 This is a smooth solution if you frequently find yourself writing code or developing software of any kind. For me, the most time consuming part of making this happen was organizing all of my existing files into Git repositories and pushing them to websites like Bitbucket and Github.
 
-# Going Remote
+## Going Remote
 
 If you're like me, when you want to code, you code. You don't start by thinking how to organize every last file on your computer, or how to track every change you make. Your goal is to explore and learn, not to categorize and label. Occasionally, though, you'll need to find something you did months ago, and this is when the hunt begins. Like a madman, you'll search folders high and low for that outlying scoundrel, that scrap of unscrupulous scripting. As you scour the seemingly endless tree of one-off attempts at web apps and random sneezes of game ideas, you may be wondering if there's a better way.
 
@@ -33,13 +34,13 @@ This is why it is so important to get into the habit of working within a Git rep
 
 Once it's been pushed to one or more sites, the files are available in multiple locations, so you can rest assured that they're safe. When there's a fire, your laptop is stolen, or you finally chuck the poor thing across the room in anger, you'll be glad that all of your precious code is backed up the smart way.
 
-# Setup for Success
+## Setup for Success
 
 Again, I want to let you know that you can still get out of this - the repository I set up [here](https://github.com/stephengrice/linux-workspace) can be forked or cloned to get started in a jiffy. However, if you're the DIY type, I respect that - read on!
 
 First things first - as mentioned above, you'll want to make sure all of the repositories that you want access to in your workspace are uploaded to some kind of external source code hosting service, whether it's self-hosted or one of the big names.
 
-# Handling Home Files
+## Handling Home Files
 
 It won't be hard to get a grip on your home files. First, create a `home` directory in your `linux-workspace` repository. This is where you'll keep all of the files you need in your home area to keep life going smoothly. Next, we need a script to install those files whenever we want them. Luckily, I've already taken care of this part for you. Open a text editor, and get ready to write `sync-home.bash`:
 
@@ -70,7 +71,7 @@ This script doesn't do a whole lot. Basically, it loops through every file in th
 
 After checking in that you're okay with files being overwritten, the script will copy everything in the `linux-workspace/home` folder into your actual Linux home area (`~`). With this, all of those little files, like `.bashrc` and `.vimrc`, will be instantly available. This means all of your personal customizations to the shell, such as shortcuts, aliases, and other related features, will now be available to you.
 
-# Lasso your Repos
+## Lasso your Repos
 
 How great would it be to regenerate all of the folders you work with, anywhere, without relying on cumbersome cloud services like OneDrive or Google Drive? It's possible, and it's not that hard. We only need a few files.
 
@@ -84,7 +85,7 @@ In the above example, the local directory `github/stephengrice` will be created,
 
 Now we just need a script to sync things up.
 
-# Sync Simply
+## Sync Simply
 
 Before we get started, go through each one of your old repositories and make sure you didn't leave anything uncommitted (type `git status`). If you have anything lingering around, I would recommend creating  a commit to ensure these changes are tracked. I usually just use "Commit old changes" as the commit message. I had to do this many times while pushing all of my repositories to remote. This generic message had to do, as I didn't have time to dive back into each project and figure out where I left off.
 
@@ -121,7 +122,7 @@ If you get tired of typing out your password every single time, it may be a good
 
 I decided to use Python, because it's quick, straightforward, and a lot more powerful than Bash (no offense to die-hard shell-scripters!). Feel free to make your own script in whichever language tickles your fancy.
 
-# Alias Setup
+## Alias Setup
 
 Most people do a majority of their work from their home area. It's exceedingly easy to get there - type `cd`, and you're done. With this in mind, I thought it may be inconvenient to move all the way over to your Linux workspace every time you want to do something. To get around this, I set up a short alias that allows you to jump to `linux-workspace`, and it's been working great for me.
 
@@ -141,17 +142,17 @@ source ~/.bashrc
 
 Now, try it out! Just type `wkdir`, anytime, anywhere.
 
-# Pulling It All Together
+## Pulling It All Together
 
 With all of this in place, we can adopt the following workflow:
 
-## Initial Setup
+### Initial Setup
 
 1. If you have not already, organize all of your code into Git repositories. Push each of them to some kind of remote site (like Github or Bitbucket).
 
 2. Set up `repos.csv`. This defines where you want each repository to be stored on your local machine. This should only be necessary one time, unless you add new repositories.
 
-## Use
+### Use
 
 1. For each computer you want to use this on in the future, use `clone-repos.py` to clone everything defined in `repos.csv` to your local machine.
 

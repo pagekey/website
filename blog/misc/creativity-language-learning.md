@@ -1,10 +1,11 @@
 ---
 title: Is creativity the key to language learning?
-featured_image: /img/articles/is-creativity-the-key-to-language-learning/piano.jpeg
-featured_image_alt: "Hands on a piano" 
 date: "2018-11-12"
+authors: [steve]
 tags: [language-learning]
 ---
+
+![Hands on a piano](/img/blog/featured/piano.jpeg)
 
 The way people learn languages is an intriguing topic. We have plenty of resources available online to help us, but I’m most interested in the answer to one question: **how can we improve upon what we already have?** The future of language learning is more than the flashcard-esque fill-in-the-blank learning systems that have become all too common. The ideal site is one that challenges the user, and asks him or her to create something new with their target language. Language learning is about finding new ways to communicate, and **creation is the highest form of communication.**
 

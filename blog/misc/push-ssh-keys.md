@@ -1,7 +1,10 @@
 ---
 title: Push Out Your SSH Keys - Jump Nodes in a Jiffy!
 date: "2018-04-16"
+authors: [steve]
 ---
+
+![Man doing a backflip](/img/blog/featured/backflip.jpg)
 
 Every day, system administrators, students, professors, and everyday computer users struggle with entering their password on the command line. With each passing jump from one system to another, ten seconds tick by. Whoops, that's a mistake - make it 30!
 
@@ -11,7 +14,9 @@ This article describes two ways of pushing out your keys: The easy way, and the 
 
 <!--truncate-->
 
-# Prerequisite
+*Photo by [Oliver Sjöström](https://www.pexels.com/photo/man-wearing-blue-shorts-about-to-dive-on-body-of-water-1098365/)*
+
+## Prerequisite
 
 To complete these steps, you'll need to generate a public/private keypair if you haven't already. Run this command:
 
@@ -27,7 +32,7 @@ ssh-keygen -t rsa -b 4096
 
 Press enter when prompted, keeping default values for now. If you want to know more about how you can customize your keys and make them more or less secure, feel free to Google it!
 
-# Background
+## Background
 
 If you've never looked into it, SSH may seem mysterious - you enter an IP or hostname, and just like that, you've got a terminal window acting like you're on that machine! It seems crazy, but really, it's just two computer programs running. The first is the **ssh client**, and the other is the **ssh server**, or the **ssh daemon**. As you'll see, both can be running on the same machine at the same time.
 
@@ -37,7 +42,7 @@ When you're authenticating, or logging in, there are at least two ways of gettin
 
 Another way to authenticate is with a **public / private keypair,** which you should have generated using the steps above. A public / private keypair is like a lock and key. Your private key is a secret that only you should have access to - anyone else who has it can pretend to be you! The public key, however, can be distributed to anyone and everyone who wants to send you data or verify that you are who you say you are. Thanks to the math behind these keys, it's computationally infeasible (read: too hard, even for computers, to figure out in any reasonable amount of time) for you to reverse them.
 
-# The Hard Way
+## The Hard Way
 
 You may be thinking, "Hey, what's the deal? This is 2018, and I want my results now. I want the easy, Google-verified, one-liner method to accomplishing this."
 
@@ -83,7 +88,7 @@ To get our keys "pushed out", the public key from each node must be in the `auth
 
 That about does it for the hard way. But it sure was a lot of work - and a lot of password typing! There's a better way, though. Stay tuned for...
 
-# The Easy Way
+## The Easy Way
 
 Luckily, there is a handy little tool called `ssh-copy-id` that takes care of most of these steps for us. We can push keys from a source node to a destination node in just one line, like this:
 
@@ -103,7 +108,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub SOURCE_HOSTNAME_OR_IP
 
 All done! Wasn't that easy?
 
-# Final Thoughts
+## Final Thoughts
 
 That's all for this quick SSH tip. If you liked this article, have comments or concerns, or just want to express yourself, leave a comment below. Check out some of the other articles on this blog for more technical info, or even try [our YouTube channel][youtube-channel] on for size. Thanks for reading!
 

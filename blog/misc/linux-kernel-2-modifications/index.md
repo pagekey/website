@@ -1,11 +1,10 @@
 ---
 title: Making Simple Modifications to the Linux Source
-featured_image: /img/articles/kernel-src/code-computer.png
-featured_image_alt: "Computer Code" 
 date: "2018-03-23"
+authors: [steve]
 ---
 
-![Computer Code](code-computer.png)
+![Computer Code](/img/blog/featured/code-computer.png)
 
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly intricate, to say the least. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
@@ -17,11 +16,11 @@ As it turns out, it's harder than expected. Keep reading to get the full rundown
 
 **[Part 1][part1] - [Part 3][part3]**
 
-# Prerequisite
+## Prerequisite
 
 Before we start, you may want to check out how to [build the kernel][part1]. This will allow you to make the same modifications that I do as the article progresses and to eventually make your own changes.
 
-# Modifications
+## Modifications
 
 Let's get our hands dirty. Today, our goal will be to add a snippet of code that does some math for us and prints several lines to the system log using `printk`. The snippet we will be using is as follows:
 
@@ -37,17 +36,17 @@ for (i = 0; i < 5; i++) {
 }
 ```
 
-## Kernel printing
+### Kernel printing
 
 Note that the above code makes use of the `printkern` function. This is the function that prints to the system log, which can be viewed using the `dmesg` command. On some Linux distributions, these messages can also be found in the `/var/log/messages` file; for some others, the command `journalctl` does the trick. When in doubt, though, just opt for `dmesg`.
 
-## Entry Point
+### Entry Point
 
 A quick Google search told me that the kernel entry point is located in `init/main.c`. This fascinated me - I hoped that at least knowing where execution began would allow me to slowly unravel the kernel source code. I also (perhaps naively) thought it would be easy to make changes here, in one of the most important parts of the kernel.
 
 Reading through the source led me to believe that the true start of execution was in the `static int kernel_init(void)` function.
 
-## First Attempt - Panic!
+### First Attempt - Panic!
 
 I want to include an analogy before we begin. Modifying a project of this magnitude without knowing anything about it is something like doing heart surgery with a shovel. With that said, let's continue.
 
@@ -73,7 +72,7 @@ My expectation was that when the machine booted, it would display my messages an
 
 At this point, I realized that the `kernel_init` function _may_ do something important, and that cutting it off and returning before the first line may not have been the best strategy. Go figure!
 
-## Trying Again
+### Trying Again
 
 My next attempt involved moving the print statement to the end of the function, where (hopefully) all of the important setup tasks would have already been completed.
 
@@ -99,7 +98,7 @@ This time, building the kernel succeeded (albeit with a warning due to my sloppy
 
 While there was no crash, our message still didn't show up in the logs. Something was still wrong. My only guess was that our snippet started trying to print things before anything was ready to record them. So, I started to follow the spaghetti...
 
-## Digging In
+### Digging In
 
 I needed to find a place where `printk` would work.
 
@@ -107,7 +106,7 @@ I started by following the method called in `kernel_init` in hopes of understand
 
 It didn't take long for me to realize I was in over my head. I needed a different strategy than trying to read the source like a book.
 
-## The Fix We Need
+### The Fix We Need
 
 I decided to check where some of the other messages in `dmesg` were being outputted. In the system log screenshot shown above, the second message is `Command line: BOOT_IMAGE=...`. So, I searched the source for that line:
 
@@ -142,7 +141,7 @@ After inserting the code, I performed another quick kernel build, and...
 
 Success! The kernel logs finally showed our beloved homemade debug messages. With this, we successfully added our own code to the kernel and verified that it executed.
 
-# Wrapping Up
+## Wrapping Up
 
 Though it took a few botched attempts and shots in the dark, I was finally able to inject custom code into the kernel and verify that it executed. While it's a colossal monster of a project, you can scratch the surface of the Linux kernel source if you know where to look! There were a few blunders along the way, but by correcting these mistakes, I learned a lot and accomplished my original goal. I would encourage you to do the same. Continue to tinker where we left off, and see what you can learn!
 

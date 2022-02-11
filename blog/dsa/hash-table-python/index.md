@@ -1,10 +1,11 @@
 ---
 title: How to Implement a Hash Table in Python
-featured_image: /img/articles/hashtable.jpg
-featured_image_alt: "Get with the times!"
 date: "2017-11-24"
+authors: [steve]
 tags: [data-structs-and-algs]
 ---
+
+![Get with the times!](/img/blog/featured/hashtable.jpg)
 
 This tutorial will show you how to implement a hash table with **separate chaining**. It's not the most efficient method, but it is the simplest way to get started and create a fully functioning hash table.
 
@@ -12,7 +13,7 @@ This tutorial will show you how to implement a hash table with **separate chaini
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/zHi5v78W1f0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-# Background
+## Background
 
 Hash tables are indispensable tools for solving a wide assortment for so many interesting programming problems. I always love to incorporate a hash table into a problem; they can provide a clean solution to an issue that would be a mess otherwise.
 
@@ -20,7 +21,7 @@ For the longest time, I wondered how hash tables were created. I wanted to make 
 
 Using this knowledge, I ported the hash table to Python. By the end of this tutorial, you will understand the basic ideas behind the hash table. Perhaps more importantly,  you will have implemented your very own!
 
-# The Basics
+## The Basics
 
 If you've ever used a dictionary in Python or an associative array in a language like PHP, You've probably used a hash table before. Features such as the dictionary in Python or the associative array in PHP are often implemented using a hash table. Even more straightforward is the HashTable class available in Java.
 
@@ -46,7 +47,7 @@ phone_numbers = ht.find("phoneDirectory")
 
 How does this really work under the hood? As it turns out, your key (`phoneDirectory` in this example) is converted into an index. This index is used for storing and retrieving the data value from the hash table's internal array. All those messy details are hidden from the user - they just have to worry about `insert()`, `find()`, and `remove()`.
 
-# Fields
+## Fields
 
 Our hash table will need a few fields to keep it together. It needs a `size`, which will be the number of elements that have been inserted. It needs a `capacity`, which will determine the size of our internal array. Last, it needs `buckets` - this is the internal array, storing each inserted value in a "bucket" based on the provided key.
 
@@ -60,7 +61,7 @@ class HashTable:
 
 Note the `INITIAL_CAPACITY` variable, arbitrarily set to 50 in my example class. This defines the size of our internal array. In a more complex hash table implementation (i.e. an open-addressed, double-hashed hash table), it's important that the capacity is prime, and that it can be changed. On the other hand, our separate chaining hash table sets the capacity once and never changes it, regardless of how many elements are stored. This is good for simplicity, but bad for scalability.
 
-# HashTable Node
+## HashTable Node
 
 If you thought you were getting a break from the internal Node structure, you were wrong! Our hash table will need its own version of a Node:
 
@@ -74,7 +75,7 @@ class Node:
 
 Look familiar? Node has a `next` field because it's actually part of a [LinkedList](/blog/dsa/linked-lists-in-python). Because the hash table uses **separate chaining**, each bucket will actually contain a LinkedList of nodes containing the objects stored at that index. This is one method of **collision resolution.**
 
-# Collisions
+## Collisions
 
 Whenever two keys have the same hash value, it is considered a collision. What should our hash table do? If it just wrote the data into the location anyway, we would be losing the object that is already stored under a different key.
 
@@ -82,23 +83,25 @@ With separate chaining, we create a Linked List at each index of our `buckets` a
 
 There are other, far more efficient ways of handling collisions, but separate chaining is likely the simplest method.
 
-# Methods
+## Methods
 
 Now we can really get started. Let's jump into our hash table's methods.
 
-## Hash
+### Hash
 
 Our hash method needs to take our key, which will be a string of any length, and produce an index for our internal `buckets` array.
 
 We will be creating a hash function to convert the string to an index. There are many properties of a good hash function, but for our purposes the most important characteristic for our function to have is **uniformity**. We want our hash values to be as evenly distributed among our buckets as possible, to take full advantage of each bucket and avoid collisions. The ideal case is pictured below:
 
-![Uniform Bucket Distribution (good)][buckets_uniform]
+![Uniform Bucket Distribution (good)](buckets_uniform.png)
+<figcaption>HashTable Buckets with Uniform Distribution (good)</figcaption>
 
 On the other hand, an uneven distribution will defeat the purpose of the hash table altogether, yielding nothing more than a bloated LinkedList.
 
 Consider an extreme case: Our hash function will be `h(x) = 1`. That's right, each input produces the same constant value. So, what happens? Every time we hash a key, the output is 1, meaning that we assign that node to bucket 1. The result would look something like this:
 
-![Non-Uniform Bucket Distribution (bad)][buckets_nonuniform]
+![Non-Uniform Bucket Distribution (bad)](buckets_nonuniform.png)
+<figcaption>HashTable Buckets with Non-Uniform Distribution (bad)</figcaption>
 
 Not pretty! We'll just have to make sure we avoid this bottleneck at all costs.
 
@@ -118,7 +121,7 @@ def hash(self, key):
 
 While fairly arbitrary, this function will provide an acceptable degree of uniformity for our purposes.
 
-## Insert
+### Insert
 
 To insert a key/value pair into our hash table, we will follow these steps:
 
@@ -154,7 +157,7 @@ def insert(self, key, value):
 	prev.next = Node(key, value)
 ```
 
-## Find
+### Find
 
 After storing data in our hash table, we will surely need to retrieve it at some point. To do this, we'll perform the following steps:
 
@@ -186,7 +189,7 @@ def find(self, key):
 		return node.value
 ```
 
-## Remove
+### Remove
 
 Removing an element from a hash table is similar to removing an element from a linked list. This method will return the data value removed, or None if the requested node was not found.
 
@@ -230,7 +233,7 @@ def remove(self, key):
 For more information about removing a node from a linked list, see my [LinkedList article](/blog/dsa/linked-lists-in-python
 ).
 
-# Applications
+## Applications
 
 Hash tables can be useful in a wide variety of computer science applications. Once you learn how to use them, you won't be able to stop! It seems at every turn there is a new application for the hash table.
 
@@ -242,14 +245,10 @@ Below are a few problems you can attempt to solve using your new hash table:
 
 3. Write a function to determine whether two strings are anagrams.
 
-# Source
+## Source
 
 Thank you for reading. Check out the full source code for what we did today below!
 
 **[Full HashTable source code](https://github.com/stephengrice/youtube/blob/master/HashTable/hashtable.py)**
 
 **[HashTable test code](https://github.com/stephengrice/youtube/blob/master/HashTable/test_hashtable.py)**
-
-[buckets_uniform]: /img/articles/hashtable/buckets_nonuniform.png "HashTable Buckets with Non-Uniform Distribution"
-
-[buckets_nonuniform]: /img/articles/hashtable/buckets_uniform.png "HashTable Buckets with Uniform Distribution"

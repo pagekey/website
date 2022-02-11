@@ -1,22 +1,23 @@
 ---
 title: "Quick Python 8: Virtual Environments"
 date: "2021-06-11"
+authors: [steve]
 tags: [quick-python]
 ---
+
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/O5rH_fsOOJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 In this video, we learn how to create, manage, and remove Python Virtual Environments.
 
 <!--truncate-->
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/O5rH_fsOOJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-
 **[Here's a link to the source code.](https://github.com/pagekeysolutions/education/tree/master/Quick_Python/08_Installing_Packages)**
 
 -----
 
-# Quick Tips
+## Quick Tips
 
-## Commands
+### Commands
 
 ```bash
 python3 -m venv <path>
@@ -36,7 +37,7 @@ deactivate
 
 Deactivates a virutal environment
 
-## Bonus: Bash Alias for Quick Switching
+### Bonus: Bash Alias for Quick Switching
 
 Paste this function into your `~/.bashrc` or `~/.bash_aliases` file and restart your shell. It assumes you keep your virtual environments in the `~/venv` folder.
 

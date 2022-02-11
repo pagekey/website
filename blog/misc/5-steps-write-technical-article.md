@@ -1,15 +1,16 @@
 ---
 title: '5 Steps to Writing Your Next Technical Article'
-featured_image: /img/articles/write-technical-article.jpg
-featured_image_alt: "Circuitboard parts"
 date: "2018-12-13"
+authors: [steve]
 ---
+
+![Circuitboard parts](/img/blog/featured/write-technical-article.jpg)
 
 Over the past few months, I've written [a](/blog/dsa/hash-table-python) [fair](/blog/misc/linux-kernel-1-compile-from-source) [number](/blog/misc/linux-kernel-2-modifications) [of](/blog/misc/command-line-ruby-gem) [technical](/blog/dsa/binary-search-tree-python) [articles](/blog/misc/backup-linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
 <!--truncate-->
 
-# 1. Research and Take Notes (Do the Thing)
+## 1. Research and Take Notes (Do the Thing)
 
 As you write your article, you'll take on the role of *teacher*. In doing so, you'll get to experience the highest form of learning, and will probably discover at least one thing about what you're writing that you didn't know before.
 
@@ -23,13 +24,13 @@ Regardless of what your tutorial or topic entails, be sure to experience the ent
 
 As you go through this process, please **take notes**. Every button click, every prompt, everything you type - write it all down. When you're trying to reconstruct *exactly* what happened for someone else's consumption, you're not going to want to dive back into the level of detail necessary at the research stage. Save yourself the trouble and document the details now.
 
-# 2. Create Outline from Notes
+## 2. Create Outline from Notes
 
 The value of a good [design](/blog/misc/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
 
 Speaking of which...
 
-# 3. Write the Article
+## 3. Write the Article
 
 The time has finally come. Put on some warm socks, sit down at your desk, and get comfy - it's time to write!
 
@@ -41,7 +42,7 @@ Don't be like that. If you have to, set a timer for 20 minutes, and *just write*
 
 If you're really having trouble, another little rule you can use is to **not erase anything** during this stage. Remove the backspace key from your keyboard if you have to (at your own risk - I'm not liable). If you're too self critical, you may end up erasing some important ideas as you go along. Even if they're in rough form, they're still valuable.
 
-# 4. Revise
+## 4. Revise
 
 The article is written! Hurrah!
 
@@ -55,7 +56,7 @@ You may want to edit immediately, but more than likely you'll need a break betwe
 
 Several passes of editing may be a good idea, because with each readthrough, you'll find new things to add or change. Don't get too bogged down though. If you're doubting yourself or your writing, push through it and proceed to the final and most essential step: Shipping.
 
-# 5. Publish
+## 5. Publish
 
 If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin](https://amzn.to/2QSI6Se):
 
@@ -65,7 +66,7 @@ If you don't publish your work, you'll be letting all of your hard work in the a
 
 Even though your article could probably use a little more polish, a few extra words, or a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
 
-# Next Steps
+## Next Steps
 
 Try putting this into action! Pick something that you know how to do, run through the steps and this article, and see what happens!
 

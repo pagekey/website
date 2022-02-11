@@ -1,6 +1,7 @@
 ---
 title: 'How to Create a Kanban Board in OneNote'
 date: "2018-11-29"
+authors: [steve]
 ---
 
 ![My Sample OneNote Board](onenote-board.jpg)
@@ -13,7 +14,7 @@ I turned to OneNote, Microsoft's notetaking software. As I tweaked my little wan
 
 <!--truncate-->
 
-# Why Should I?
+## Why Should I?
 
 If you're busy right now, don't let me slow you down - you can stop reading now and go back to what you were doing before I distracted you. This *does* take about five minutes to set up, after all.
 
@@ -23,7 +24,7 @@ If you're having trouble prioritizing, this method is for you. The act of priori
 
 You'll see what I mean.
 
-# Creating the Board
+## Creating the Board
 
 Let's get started. We will be creating four tables to hold tasks: Backlog, Waiting, Working, and Completed. The first thing we need is a table. Think of the table as a cookie cutter for all of your tasks. Each task you keep track of will be molded to the table's design; it serves as the template for everything that moves from the Backlog to Completed. Design it  in a way that makes sense for you. In my case, I like to use three columns: Project, Task, and Priority.
 
@@ -41,7 +42,7 @@ Align your new columns horizontally and name them.
 
 It looks like we're all set up. Now we can put it to good use.
 
-# Using the Board
+## Using the Board
 
 Create your first task. Click in your Backlog board, fill out each column, and press tab to create a blank row after it. It's a good idea to leave a blank row in there, so that you always have a place to start filling out a new task.
 
@@ -57,7 +58,7 @@ With great patience, we wait for John to finish his part and are finally able to
 ![Moving a task](4-move-task.gif)
 <figcaption>Step 4: Move your task across columns as you work it.</figcaption>
 
-# Variations on this Method
+## Variations on this Method
 
 As with anything productivity related, you have to figure out what works for you. For example, an easy modification may be removing the "Working" board. Why? Well, you're only one person, so you can only get one thing done at a time! What's the point of a list with one item anyway? Just move it to the top of your Backlog and get to work.
 
@@ -65,7 +66,7 @@ Instead of "Waiting" and "Working", you could just have a "This Week" list. I di
 
 Finally, make good use of your Completed list. Save those beautiful checked boxes up for a month, and then compile them into some notes. Store these away for your resume, or send them to your boss to remind him or her that you're getting stuff done!
 
-# Go To Town
+## Go To Town
 
 There you have it. You're equipped with all the tools you need to organize yourself and use Kanban within the comfort of your very own OneNote.
 

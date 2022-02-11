@@ -1,11 +1,16 @@
 ---
 title: "4 Fun JavaScript Examples for Beginners"
 date: "2020-11-02"
+authors: [steve]
 ---
+
+![Coffee beans](/img/blog/featured/coffee.jpg)
 
 Welcome to our JavaScript lesson! Today, we'll be trying out some fun examples to see a few of the cool things you can do with JavaScript.
 
 Any of these examples are editable on CodePen. Just click "Edit on Codepen" in the top right corner and you can make as many changes as you want. Don't worry - the changes you make will be just for you! You don't have to worry about making mistakes, because you can always come back here to start fresh.
+
+*Photo by [Igor Haritanovich](https://www.pexels.com/photo/coffee-beans-1695052/)*
 
 <!--truncate-->
 

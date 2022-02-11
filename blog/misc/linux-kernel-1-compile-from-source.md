@@ -1,9 +1,10 @@
 ---
 title: How to Compile the Linux Kernel from Source
-featured_image: /img/articles/compile-kernel/kernels.jpg
-featured_image_alt: "Kernels... Kernels everywhere!" 
 date: "2018-03-03"
+authors: [steve]
 ---
+
+![Kernels... Kernels everywhere!](/img/blog/featured/kernels.jpg)
 
 Linux is everywhere, and there are plenty of Linux distributions available providing great out-of-the-box features. But what happens when you need to make an intricate, low-level change to system functionality? What if you wanted to get into kernel development and start to understand one of the world's largest open source projects?
 

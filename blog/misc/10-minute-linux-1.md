@@ -1,7 +1,10 @@
 ---
 title: "10 Minute Linux Crash Course - Everything You Need to Get Started Now"
 date: "2020-11-30"
+authors: [steve]
 ---
+
+<iframe className="youtube-video-player" src="https://www.youtube.com/embed/XKvmgtOidYU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 Some of us grew up clicking around in MS Paint on Windows. Others may enjoyed the luxurious interface afforded by Mac OS. Still others may have been stuck with nothing more than a cell phone, or even just a TI-84 calculator.
 
@@ -12,8 +15,6 @@ All you'll need is a little patience and about 10 minutes to get started! Read o
 Disclaimer: the video is 10 minutes, but the article may be a bit more verbose. :)
 
 <!--truncate-->
-
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/XKvmgtOidYU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 ## Making Moves (Navigating the System)
 

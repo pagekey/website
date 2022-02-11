@@ -1,9 +1,10 @@
 ---
 title: 'Django: How to Install and Run Your First Web App'
 date: "2019-06-17"
+authors: [steve]
 ---
 
-![Construction](construction.jpg)
+![Construction](/img/blog/featured/construction.jpg)
 
 Friends, we all have ideas for apps. Everyone that I’ve talked to, whether they’re interested in technology or not, has had some kind of idea for something that their phone and computer could do better, something to make their lives that much easier. Yet, getting started can be tremendously intimidating. How can we actually make it happen? Do we need degrees? Years of study? A natural gift?
 
@@ -15,7 +16,7 @@ Today, we’ll take the first step to bringing your stunning app idea to life. W
 
 For this tutorial, I’ll do my best to assume you have little or no prior knowledge on the subject. This might make explanations lengthy, so feel free to skip through if you already feel comfortable with a topic.
 
-# What is Django?
+## What is Django?
 
 The official Django website describes itself as “the Web framework for perfectionists with deadlines.” It’s an open-source web framework that follows the model-view-template architectural pattern.
 
@@ -28,7 +29,7 @@ Django comes right out of the box with a ton of goodies, including a development
 
 Luckily, we don’t have to understand the inner workings of Django to use it. In fact, that’s the point - with the details neatly abstracted for us, we’re free to jump right in and learn as we go!
 
-# Setting Up
+## Setting Up
 
 To get started, we will have to install some software on our computer. I’ll be walking you through installation for the following tools:
 
@@ -40,7 +41,7 @@ To get started, we will have to install some software on our computer. I’ll be
 
 Later on, you may want to install a production database, such as MySQL. The built-in SQLite database is really only good for one user at a time. However, until you’re ready to publish and scale your app, it will work just fine.
 
-## Python
+### Python
 
 Everything in Django is built using the Python programming language, so we’ll definitely need to have that installed. There are two major “flavors” of Python out there: Python 2 and Python 3. Unless you have a specific reason to go with Python 2, I would recommend using Python 3 from the get-go.
 
@@ -50,7 +51,7 @@ For Windows, we can’t rely on a beautiful package manager — we’ll have
 
 When you’re done, you should be able to open a command prompt and write `python --version`. If it returns something like `Python 3.5.2`, you’re in good shape.
 
-## Pip
+### Pip
 
 Pip is a package manager for Python. It’s what we’ll use to install Django and its many dependencies. Luckily, you probably already have it installed. Try it out by saying `pip --version`. If a version prints out with a link to your Python version, you’re good to go. It should look like this:
 
@@ -68,7 +69,7 @@ $ python -m pip install pip
 
 This should get you off and running.
 
-## Django
+### Django
 
 At last! We can finally install Django.
 
@@ -87,7 +88,7 @@ $ django-admin --version
 
 Now we’re ready to go.
 
-# Generating the Project
+## Generating the Project
 
 With Django, we don’t have to start from scratch. The basic format of the project will be generated for us by the `django-admin` tool.
 

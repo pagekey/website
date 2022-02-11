@@ -1,9 +1,10 @@
 ---
 title: "How to Get Up and Running with Scikit-Learn"
 date: "2021-04-17"
-featured_image: /img/articles/wall-panels.jpg
-featured_image_alt: "Wall panels"
+authors: [steve]
 ---
+
+![Wall panels](/img/blog/featured/wall-panels.jpg)
 
 Machine learning is fascinating, but it can be overwhelming if you're just getting started. Luckily, scikit-learn is an open-source machine learning library that allows you to jump in and gain hands-on experience immediately, harnessing the power of almost 2,000 contributors without reading a single scientific paper.
 
@@ -11,7 +12,7 @@ If this sounds interesting to you, read on. In this article, we're going to lear
 
 <!--truncate-->
 
-*Photo by [Meruyert Gonullu](https://www.pexels.com/@meruyert-bissimbayeva?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from Pexels*
+*Photo by [Meruyert Gonullu](https://www.pexels.com/@meruyert-bissimbayeva?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
 ## What is scikit-learn?
 

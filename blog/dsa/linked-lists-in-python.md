@@ -1,11 +1,11 @@
 ---
 title: How to Implement a Linked List in Python
-featured_image: /img/articles/linked-list.jpg
-featured_image_alt: "Links of rope"
 date: "2017-06-20"
-categories: ['Programming']
+authors: [steve]
 tags: [data-structs-and-algs]
 ---
+
+![Links of rope](/img/blog/featured/linked-list.jpg)
 
 Need a quick run down on a classic data structure? Look no further.
 
@@ -21,7 +21,7 @@ In this case, we will be talking about a **singly linked list**, meaning that ea
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/KZVU2X4Dw8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-# Nodes and Ropes
+## Nodes and Ropes
 
 The concept of a **Node** is central to linked lists. A linked list Node contains two important fields: `next_node` and `data`. The field `next_node` refers to another Node object, the next element in the list. The `data` field refers to whatever you are actually storing in the list, which could be anything from a name or phone number to the result of a computation.
 
@@ -36,7 +36,7 @@ class Node(object):
 		self.data = d
 ```
 
-# List Setup - Heads and Tails
+## List Setup - Heads and Tails
 
 Unlike a regular flat array, we can't access each list item by index. Instead, we must iterate from one of two points of reference: the `head` and the `tail` of the list, each of which contain a Node object. Think of these as the only two "handles" we have to grab the list by. From the `head`, we can work our way down the list by following `next_node` references unitl we reach the `tail`.
 
@@ -50,7 +50,7 @@ class LinkedList(object):
 		self.size = 0
 ```
 
-# Adding elements
+## Adding elements
 
 Adding an element to a list involves updating the `next_node` references of surrounding Nodes to integrate it into the list, "tying" all the ropes in their proper places. The simplest situation to consider is when a node is added to the end of a list. In this case, simply update `tail.next_node` to point to your new node. At this point, the new node is the last element in the list, so you should update `tail` to reflect this.
 
@@ -82,7 +82,7 @@ Adding a node at a specific index in the list is a more complex operation. To do
 		return False
 ```
 
-# Removing elements
+## Removing elements
 
 Removing an element is fairly straightforward, though it may seem counterintuitive at first. You need two references: `previous`, the node __before__ the one you are deleting, and `node`, the one you are deleting. Once you have checked and found the `data` you need in `node`, simply set `previous.next_node = node.next_node`. This snippet of code reassigns the previous node from pointing to the node we are deleting to the node beyond it. In this way, the `node` we are deleting is not set as the `next_node` of any other node. Since nothing references it, it is as good as gone - Garbage collection will see that it gets deleted.
 
@@ -106,7 +106,7 @@ Once you have the `previous` and `node` references, the remove operation has a t
 		return False
 ```
 
-# Finding elements
+## Finding elements
 
 Finding an element in your linked list is not as simple as jumping to the index you would like to access. The only way we can interact with the list is through the `head` node, `tail` node, and the links between them. The find operation will make use of a scratch variable, `current_node`, to keep track of which element of the list we are currently interacting with. To begin the find operation, set `current_node = self.head`.
 
@@ -125,13 +125,13 @@ The find operation has a time complexity of O(n).
 		return False
 ```
 
-# Testing
+## Testing
 
 Typing `python3` on the command prompt will bring up an interactive shell in which you can interact with your new Linked List. Just make sure that you import it. If your linked list is stored in `linked_list.py`, then simply type `from linked_list import LinkedList`. Create a new LinkedList object with something like `l = LinkedList()`.
 
 Personally, I find it tiresome to constantly run through all the methods to make sure they work and that a small change didn't break them. For this reason, I use python's `unittest` framework to run a series of tests over and over on my list until I get it right. You can use [the tests I wrote][list-test] as a template if you want to get started with unit testing in Python. To run the tests, open a terminal and type `python3 -m unittest test_linked_list.py`. To run any files with the name prefix `test_`, type `python3 -m unittest discover` to automatically detect them.
 
-# Challenges
+## Challenges
 
 Up for a challenge? Given our completed LinkedList code, I have two more methods for you to try implementing:
 
@@ -145,7 +145,7 @@ Up for a challenge? Given our completed LinkedList code, I have two more methods
 
 When you're done, leave a comment with a link to your completed challenges and any tests that go with them!
 
-# Full Source
+## Full Source
 
 If you want to see all of the code for our finished LinkedList, [check out the source][list-src] on Github.
 

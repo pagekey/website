@@ -1,6 +1,7 @@
 ---
 title: "Boom! A new app is born."
 date: "2021-03-24"
+authors: [steve]
 ---
 
 ![Boom! Languages Logo](boom-logo.svg)

@@ -1,15 +1,16 @@
 ---
 title: 'Career, Year One: 8 Lessons Learned'
-featured_image: /img/articles/career-year-one.jpeg
-featured_image_alt: "Year One Circled on Calendar" 
 date: "2018-11-17"
+authors: [steve]
 ---
+
+![Year One Circled on Calendar](/img/blog/featured/career-year-one.jpeg)
 
 Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
 
 <!--truncate-->
 
-# 1. Communication and Documentation: Our Bread and Butter
+## 1. Communication and Documentation: Our Bread and Butter
 
 Take a moment to think back to English class. It’s the final semester, and your hand trembles a little bit as you hand your homework in.
 
@@ -25,7 +26,7 @@ If you’re looking for a way to immediately provide value as a new hire, start 
 
 It’s also helpful to realize that what you’re writing may seem self-explanatory to you, but someone trying to understand your writing may have a different skill set. They will appreciate that you took the time to write it all down.
 
-# 2. Stick With It (Even when it’s not fun)
+## 2. Stick With It (Even when it’s not fun)
 
 It didn’t take me long to realize that having a full time job isn’t always a party. There have been plenty of times when I felt bogged down, bored, or overwhelmed with the tasks I was working on at the time.
 
@@ -46,7 +47,7 @@ It’s not as bad as you think. The fact is that your assignments at work will s
 
 Regardless of what’s bugging you at the time, the point is you can’t just quit. For those tough tech problems, continue working on it, even if it feels useless. If you’ve really reached a blocker, don’t just sit there. Take a second to evaluate your priorities (more on this later) and move forward. Give it some time to percolate in the back of your mind, and maybe ask someone else for their take on the issue.
 
-# 3. Faster Isn’t Always Better
+## 3. Faster Isn’t Always Better
 
 When I started out last August, I sprinted into my new position. Fresh out of college, I entered the role eager and hungry, ready to prove myself and get as much done as possible. At first, this worked well. There was plenty to learn from my initial tasking, and when I got bored, there was always someone new to talk to and learn from. There wasn’t much for me to do in the beginning, as I had a lot to learn before I could truly provide value to my department. As for the tasks I did receive, I chased them without reserve, beating them into submission and over-delivering as much as I could.
 
@@ -54,7 +55,7 @@ As the tasks stacked up, my enthusiasm waned. I started getting pulled away and 
 
 As the old adage goes, haste makes waste. If you find yourself rushing to get more things done, consider taking a deep breath, stopping everything, and re-evaluating what’s on your plate, why you’re working on it, and how you’ll get it done. In other words, prioritize your work.
 
-# 4. The One Thing: Focus and Prioritizing
+## 4. The One Thing: Focus and Prioritizing
 
 The book I read this year that had the biggest effect on my work was [The One Thing by Gary Keller](https://amzn.to/2TcbUaU). The ideas in this book helped me realize the key to solving many of the problems I was experiencing in the office: **You can only concentrate on one thing at a time.** Really. In his book, Keller explains that it’s actually impossible to concentrate on more than one thing at a time, so we should stop trying.
 
@@ -68,7 +69,7 @@ This system allows me to see everything I have been asked to do at a glance. By 
 
 A list of twenty tasks is much less daunting with this method— instead of being stuck worrying about how you’ll get everything done, you prioritize, pick your top task, and go. Simple.
 
-# 5. Not Enough Work? Find Some!
+## 5. Not Enough Work? Find Some!
 
 As a new engineer at my company, I often found myself running out of tasks. The original project I was assigned to had begun to wind down, and I was finishing my assigned work fairly quickly, leaving more and more space between tasks.
 
@@ -82,7 +83,7 @@ That’s when you should move onto the second route: Seeking out work. This is s
 
 If you pursue this when you have time, you’ll have the added benefit of getting to know more people. People who have been around for a while will probably appreciate the help.
 
-# 6. Take the Initiative, Take the Risk
+## 6. Take the Initiative, Take the Risk
 
 Another great read that has helped my career was [Lynchpin by Seth Godin](https://amzn.to/2DGTGd9). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
 
@@ -98,7 +99,7 @@ You don’t have to be an artist to bring art to work, though. It could be throu
 
 For me, this meant bringing a love of programming into a job that didn’t directly require it. By finding ways to apply my passion, I was able to contribute to projects in ways that others found difficult. As a side effect, the interest I developed in low-level computing ended up teaching me many lessons that would come in useful down the road.
 
-# 7. Fear Is A Signpost
+## 7. Fear Is A Signpost
 
 At this point, you may be asking, "If everyone has all this art to give, why don’t more people use it?"
 
@@ -106,7 +107,7 @@ The answer may come as a surprise: Fear. While living in your comfort zone is ve
 
 It’s in this way that your fear is a signpost — learn to listen to it. If you’re afraid of something, it may be just what you need to do in order to grow. Run towards it, not away. Whenever you can, push past the little critic in the back of your head and do something that scares you.
 
-# 8. Keep Moving Forward
+## 8. Keep Moving Forward
 
 Sometimes, I feel like I’m treading water. There are days when I can do nothing more than stare a problem right in the eye, bewildered as to what the solution may be. Then, miraculously, things will fall into place and the solution will reveal itself. It may take some pondering, or coming back to the problem with a fresh mindset. Either way, the solution will come with persistence.
 
@@ -114,7 +115,7 @@ An essential takeaway is that when you’re struggling with an issue, you’re s
 
 On another note, you may find it valuable to carefully consider some daily disciplines that you can build. What can you chip away at every single day to move towards your goal? How can you become better at what you do before the sun sets? These are the questions that will keep you on track to getting what you want out of your career.
 
-# The Tip of the Iceberg
+## The Tip of the Iceberg
 As some friends have joked, I’ve got one year down, 45 to go. I’ve just scratched the surface of my career, so there’s a whole lot more that I need to learn. In summary, Year One has showed me:
 
 1. Communication is essential. Learn it.

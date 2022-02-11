@@ -1,9 +1,10 @@
 ---
 title: 'Design vs. Implementation: The Eternal Divide'
-featured_image: /img/articles/design-vs-implementation.jpg
-featured_image_alt: "Brushes in front of a blank canvas"
 date: "2018-12-12"
+authors: [steve]
 ---
+
+![Brushes in front of a blank canvas](/img/blog/featured/design-vs-implementation.jpg)
 
 Typically, people don't go about their day thinking about design and implementation, or at least not in these terms. Such words are usually limited to the vocabulary of engineers, programmers, developers, or project managers. In spite of this, these two concepts can apply to just about everything in your daily life. Learning to think in these terms may give you a new perspective.
 
@@ -25,21 +26,21 @@ With these concepts in mind, I find it helpful to focus on design whenever possi
 
 Keeping in mind the immense benefits that can be reaped from a relatively small amount of planning, this article will focus on design and implementation from the perspective of a writer.
 
-# Benefits of a Design Focus
+## Benefits of a Design Focus
 
 Like I mentioned above, the control that you get over your end result when focusing on design is invaluable.
 
-## Ease of Implementation
+### Ease of Implementation
 
 Actually performing the work becomes much, much easier when you have a blueprint that details exactly what needs to happen.
 
-For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey Solutions](http://pagekeysolutions.com/). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
+For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey Solutions](https://pagekeysolutions.com/). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
 
 As I progressed, it became increasingly harder to change my mind about decisions. They became baked into the code. Want to move the navigation pane to the right side? That's 100 lines to change. Need to rework the way the footer looks next to the body? You're going to have to edit every individual color code.
 
 When I redesigned my site, I made sure to create a digital design beforehand. I spent ample time making sure this design was exactly what I wanted before moving onto code. This approach saved me hours at the end of the day.
 
-## Preventing Errors
+### Preventing Errors
 
 It's tempting to dive right in and get something working right away. As we've seen, though, this tactic will neither save you time nor produce a better product. When you jump straight into implementation, you lock yourself into the first inkling or thought that's running through your mind at that moment. Code is a lot harder to change than a drawing, and it takes longer to get it working in the first place.
 
@@ -51,11 +52,11 @@ A majority of the errors you would encounter in the *pure implementation* strate
 
 There's nothing that can replace working everything out at a high level, standing back, and observing the overall effect of what you've created. If something is a little off, but you can't quite put your finger on it, it's easy enough to tweak, time and again, until you figure out the issue.
 
-# Potential Downsides
+## Potential Downsides
 
 There are downsides to any strategy. In this case, the issue could be that there is a system to begin with.
 
-## Limiting Your Mindset
+### Limiting Your Mindset
 
 Despite all of the benefits of planning and outlining, the rigidity may leave little room for creativity. When I'm writing an article off-the-cuff, it could go any direction - I really don't know what exactly I'm going to cover, and I may surprise myself with what I produce.
 
@@ -65,11 +66,11 @@ The mitigation to this issue, for me personally, is to take time to reread what 
 
 ["The Idiot" by Dostoyevsky](https://amzn.to/2Lf6RD0) (free to download on Kindle - in English and Russian!) is a work that is famous for having a fluid plot. It was written periodically, and with each installment, the author claimed that he couldn't tell what was going to happen next. He simply defined a rich set of characters, and wrote about what happened when they interacted. The outcome couldn't have been centrally planned, because he wrote it off-the-cuff as he went along. If he had centrally planned this book, start to finish, the end result would have been completely different. The style is called [carnivalesque](https://en.wikipedia.org/wiki/Carnivalesque), which allows a story to evolve naturally, without having to assign a specific purpose to each character.
 
-## Shorter Pieces
+### Shorter Pieces
 
 When I'm writing from an outline, things tend to come out a lot shorter than they would otherwise. This can be good if I'm making points in a more concise manner rather than talking in circles to get to them. Often times, though, the brevity only communicates the bare-bones specter of what I really wanted to say. Elaboration on the bulleted ideas from my outline are what really make an effective, clearly conveyed message.
 
-# The Winner
+## The Winner
 
 So, who will it be - design or implementation? As I'm sure you've guessed, the winner is...
 
