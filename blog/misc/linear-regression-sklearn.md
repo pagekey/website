@@ -2,7 +2,6 @@
 title: "Snap the Line! Understanding Linear Regression and Scikit-Learn"
 date: "2021-05-20"
 authors: [steve]
-latex: true
 ---
 
 ![Row of buildings](/img/blog/featured/buildings-row.jpg)
@@ -49,7 +48,10 @@ In the context of the last problem, we are trying to find a line that most close
 
 A residual is "the difference between the observed value of the dependent variable ($y$) and the predicted value ($\hat{y}$) is called the residual ($e$)" [2]. As an equation, that would be:
 
-$$e=y-\hat{y}$$
+$$
+\large
+e=y-\hat{y}
+$$
 
 Notice that we use $\hat{y}$ (prounounced "y hat") to represent our predicted value. All in all, the goal of linear regression is to find an equation for $\hat{y}$. First though, let's use the above equation to find the residual of a real-world example.
 
@@ -75,11 +77,17 @@ The sample mean is just the mean, or average, of a given set of samples. Because
 
 Calculating the sample mean is as easy as adding up all the values and dividing by the total number of values, just like any other average. Mathematically, it would be
 
-$$\bar{x}=\frac{\sum_{x \in X}{x}}{|X|}$$
+$$
+\large
+\bar{x}=\frac{\sum_{x \in X}{x}}{|X|}
+$$
 
 for all points x in the domain X and 
 
-$$\bar{x}=\frac{\sum_{x \in X}{x}}{|X|}$$
+$$
+\large
+\bar{x}=\frac{\sum_{x \in X}{x}}{|X|}
+$$
 
 for points y in codomain Y.
 
@@ -87,7 +95,10 @@ for points y in codomain Y.
 
 The standard deviation of a set of number is just a measure of how spread out the numbers are [6]. To calculate it, you take the square root of the variance. The variance is the average of squared distances from the mean. In math, this would be:
 
-$$s=\sqrt{\frac{\sum_{i=1}^{N}{(x_i-\bar{x})^2}}{N-1}}$$
+$$
+\large
+s=\sqrt{\frac{\sum_{i=1}^{N}{(x_i-\bar{x})^2}}{N-1}}
+$$
 
 Note that you use Greek sigma (\(\sigma\)) to represent **population standard deviation**, which is when you are calculating for all possible points you could be interested in. However, in our case, we only have some of the data (training data), so we need the **sample standard deviation**, represented with letter \(s\). The only difference in the calculation is that we divide by \(n-1\) instead of by \(n\) when calculating the average of squared distances from the mean (the variance).
 
@@ -95,7 +106,10 @@ Note that you use Greek sigma (\(\sigma\)) to represent **population standard de
 
 The z-score, or "standard score," tells you how many standard deviations above or below the population mean a given sample is [7]. This number will give you an idea of how far off that data point is from the mean. To calculate the z-score, we use this formula:
 
-$$z=\frac{x_i-\bar{x}}{s}$$
+$$
+\large
+z=\frac{x_i-\bar{x}}{s}
+$$
 
 In the above, \(z\) represents the final z-score, while \(x_i\) is the sample, \(\bar{x}\) is the sample mean, and of course \(s\) is the sample standard deviation.
 
@@ -103,7 +117,10 @@ In the above, \(z\) represents the final z-score, while \(x_i\) is the sample, \
 
 Given the sample mean and sample standard deviation, the correlation coefficient can be calculated using the following formula:
 
-$$r=\frac{1}{n-1}\sum(\frac{x_i-\bar{x}}{s_x})(\frac{y_i-\bar{y}}{s_y})$$
+$$
+\large
+r=\frac{1}{n-1}\sum(\frac{x_i-\bar{x}}{s_x})(\frac{y_i-\bar{y}}{s_y})
+$$
 
 There are three parts to this. In the first part, we have \(\frac{1}{n-1}\), which is a number that will get smaller as more points are added. We are multiplying this by a sum of all points, so as more points are added, each individual point affects the outcome less.
 
@@ -140,7 +157,7 @@ If we want to use this to do real lienar regression, things get a bit more compl
 
 I would recommend trying out [the example provided by scikit-learn](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html), which does just this and allows you to form a prediction based on one of the features in this dataset.
 
-**References**
+## References
 
 [1] <https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression>
 

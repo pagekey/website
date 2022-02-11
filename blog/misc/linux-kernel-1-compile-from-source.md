@@ -16,7 +16,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
 
 **[Part 2][part2] - [Part 3][part3]**
 
-1. **Install all dependencies.**
+## 1. Install all dependencies.
 
     Let's jump right in. The code is nothing without the toolchain that compiles it! We'll make use of our handy package managers to get everything we need.
 
@@ -31,7 +31,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
     sudo yum install ncurses-devel newt-devel numactl-devel pciutils-devel python-devel zlib-devel
     ```
 
-2. **Clone the source.**
+## 2. Clone the source.
 
     The absolute latest, bleeding edge version of the source is found on the Github account of Linus Torvalds himself, the mastermind behind Linux! You can check it out [here](https://www.github.com/torvalds/linux).
 
@@ -49,7 +49,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
     git clone --depth 1 https://www.github.com/torvalds/linux.git
     ```
 
-3. **Optional: Determine number of processors.**
+## 3. Optional: Determine number of processors.
 
     Building the kernel is a fairly labor intensive task for your computer. If you're not utilizing all of your processors, it will take much, much longer.
 
@@ -61,7 +61,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
 
     Make note of this number - it will be important in the next few steps.
 
-4. **Configure the kernel.**
+## 4. Configure the kernel.
 
     Even Linux geeks like to use a GUI once in a while! The menuconfig program will turn your terminal into a mini-windowing system, allowing you to select which parts of the kernel are included in your build. To begin, run the following:
 
@@ -76,7 +76,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
 
     Another option is to use the `make config` command, but this isn't recommended. It will use the command line to ask you a long series of questions, requiring you to manually verify almost every setting in the kernel.
 
-5. **Create Compressed Image**
+## 5. Create Compressed Image
 
     It's time for the moment of truth (one of them, anyway). We're going to create bzImage, which stands for "Big Zimage." Don't worry about what this means - just think of it as another step in the pipeline.
 
@@ -96,7 +96,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
 
     For the remainder of the article, we will assume 4 CPUs, hence `-j4`. Remember to change this if your system is different.
 
-6. **Link Modules**
+## 6. Link Modules
 
     For the next step, run the following command:
 
@@ -105,7 +105,8 @@ The first step to doing all of these things is compiling the Linux kernel from s
     ```
 
     This will link any modules marked as 'M' in `make menuconfig` to the kernel image created in the last step. Anything marked as 'Y' will already be included in that image.
-7. **Install Modules**
+
+## 7. Install Modules
 
     Now we will install kernel modules in `/lib/modules`. This can be accomplished with the following:
 
@@ -114,7 +115,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
     ```
     Note that we had to prefix the command with `sudo`. We need to perform this step as a superuser because it involves copying files to sensitive system locations that are often locked down.
 
-8. **Install the kernel**
+## 8. Install the kernel
 
     Finally, we will install our kernel to `/boot`. Use:
 
@@ -144,7 +145,7 @@ Thanks for reading through - I hope you learned something! If you're hungry for 
 
 In an even [later article][part3], we'll be creating a basic kernel module.
 
-**Sources:**
+## Sources
 
 * [https://wiki.centos.org/HowTos/I_need_the_Kernel_Source](https://wiki.centos.org/HowTos/I_need_the_Kernel_Source)
 * [ftp://ftp.wayne.edu/ldp/en/Kernel-HOWTO/ar01s10.html](ftp://ftp.wayne.edu/ldp/en/Kernel-HOWTO/ar01s10.html)

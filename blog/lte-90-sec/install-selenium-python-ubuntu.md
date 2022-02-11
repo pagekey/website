@@ -13,39 +13,39 @@ In this video, we learn how to set up Selenium in 90 seconds or less! Made using
 
 ## Steps
 
-1. Install pacakges.
+### 1. Install pacakges.
 
 ```bash
 sudo apt update && sudo apt install python3 python3-pip firefox
 ```
 
-2. Download `geckodriver`.
+### 2. Download `geckodriver`.
 
 ```bash
 wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-linux64.tar.gz
 ```
 
-3. Untar `geckodriver`.
+### 3. Untar `geckodriver`.
 
 ```bash
 tar xvf geckodriver-v0.26.0-linux64.tar.gz
 ```
 
-4. Copy `geckodriver` into a location in your system `PATH`.
+### 4. Copy `geckodriver` into system `PATH`.
 
-Edit: `/usr/local/lib` may be more appropriate than `/usr/lib` because `/usr/local/lib` is typically the place for user-installed software (whereas `/usr/lib` is for the package manager). Use whichever you prefer, but if you decide to use `/usr/local/lib`, make sure that it is in your `$PATH` environment variable.
+**Edit**: `/usr/local/lib` may be more appropriate than `/usr/lib` because `/usr/local/lib` is typically the place for user-installed software (whereas `/usr/lib` is for the package manager). Use whichever you prefer, but if you decide to use `/usr/local/lib`, make sure that it is in your `$PATH` environment variable.
 
 ```bash
 sudo cp geckodriver /usr/lib
 ```
 
-5. Install the `selenium` Python package.
+### 5. Install the `selenium` Python package.
 
 ```bash
 pip3 install selenium
 ```
 
-6. Edit `verify.py` and make sure Selenium is working.
+### 6. Edit `verify.py` and make sure Selenium is working.
 
 ```bash
 vi verify.py
@@ -58,13 +58,13 @@ browser = webdriver.Firefox()
 browser.get('http://www.google.com/')
 ```
 
-7. Run the test script.
+### 7. Run the test script.
 
 ```bash
 python verify.py
 ```
 
-8. Try writing a unit test with Selenium.
+### 8. Try writing a unit test with Selenium.
 
 ```bash
 vi test_selenium.py
@@ -86,7 +86,7 @@ if __name__ == '__main__':
   unittest.main()
 ```
 
-9. Run your test.
+### 9. Run your test.
 
 ```bash
 python test_selenium.py

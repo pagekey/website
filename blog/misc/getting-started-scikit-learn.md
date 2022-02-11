@@ -121,6 +121,6 @@ I've tried both approaches, and I find this one to be much easier. But it's up t
 
 With any luck, you've just installed scikit-learn (and maybe Jupyter Notebooks too). Your computer should be revved up and ready to roll with some machine learning! Stay tuned for more tutorials like this one that will build on this knowledge.
 
-**References**
+## References
 
 [1] <https://jupyter.org/about>

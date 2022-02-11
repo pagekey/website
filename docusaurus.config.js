@@ -1,6 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const math = require('remark-math');
+const katex = require('rehype-katex');
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
@@ -35,6 +38,9 @@ const config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           blogSidebarTitle: 'All posts',
           blogSidebarCount: 'ALL',
+          // Enable latex
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -124,6 +130,16 @@ const config = {
         // 'ru'
       ],
     },
+
+    stylesheets: [
+      {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+        type: 'text/css',
+        integrity:
+          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+        crossorigin: 'anonymous',
+      },
+    ],
 };
 
 module.exports = config;

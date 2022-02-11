@@ -84,7 +84,7 @@ I hope you learned something new from this article about these topics. Please le
 
 **If you're excited about these topics and want to get your hands dirty, check out my next post about how to install scikit-learn!**
 
-**References**
+## References
 
 [1] <https://www.ibm.com/cloud/learn/what-is-artificial-intelligence>
 
