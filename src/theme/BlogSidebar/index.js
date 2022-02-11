@@ -18,7 +18,11 @@ export default function BlogSidebar({sidebar}) {
   const topics = [
     {
       label: '≤ 90 Seconds',
-      to: '/blog/tags/lte-90-sec'
+      to: '/blog/tags/lte-90-sec',
+    },
+    {
+      label: 'Boom Languages',
+      to: '/blog/tags/boom-languages',
     },
     {
       label: 'Data Structuress & Algorithms',
