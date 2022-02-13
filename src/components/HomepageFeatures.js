@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_youtube_tutorial.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We have a ton of online tutorial videos and articles to help you take control of your tech!
       </>
     ),
   },
@@ -18,8 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_mobile.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        We've authored several custom mobile apps available on Android, iOS, and web.
       </>
     ),
   },
@@ -28,8 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_website_builder.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        We've created websites for several small businesses in our area.
       </>
     ),
   },

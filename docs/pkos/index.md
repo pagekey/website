@@ -10,12 +10,23 @@ The latest source code can be found at https://github.com/pagekeysolutions/pkos.
 
 Try these commands to get started in a hurry.
 
-- `docker-compose up` - Build and run the OS
+- `docker-compose run` - Build and run the OS
   - You must have Docker/`docker-compose` installed and configured for GUI applications to run within a container.
   - Added in OS13
+  - Also available:
+    - `bin/docker_build`: (Re)build your Docker dev container with the latest `Dockerfile`
+    - `bin/docker_run`: Same as `docker-compose up` - run it now
+    - `bin/docker_shell`: Get a shell inside the docker environment to do as you please
 - `make` - Build the OS
 - `make run` - Run the OS in Qemu, an x86 emulator
 - `make iso` - Build an ISO image of the OS. This file can be burned to a disk or USB drive. Then you can run it on real hardware!
+
+## Troubleshooting
+
+- If you're getting errors initializing the display when using Docker:
+  - Try the following if you're on Mac or Linux: `xhost local:root`
+  - If you're on Windows, make sure that you have an X11 server installed and running.
+    - Try [xming](https://sourceforge.net/projects/xming/) or [VcXsrv](https://sourceforge.net/projects/vcxsrv/)
 
 ## About This Repository 
 
