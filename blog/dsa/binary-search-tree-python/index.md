@@ -317,6 +317,6 @@ class BST(object):
 
 Thank you for reading. Check out the full source code for what we did today below!
 
-**[Full BST source code](https://github.com/stephengrice/youtube/blob/master/BST/bst.py)**
+**[Full BST source code](https://github.com/pagekeysolutions/education/blob/master/BST/bst.py)**
 
-**[BST test code](https://github.com/stephengrice/youtube/blob/master/BST/test_bst.py)**
+**[BST test code](https://github.com/pagekeysolutions/education/blob/master/BST/test_bst.py)**

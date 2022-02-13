@@ -25,12 +25,8 @@ export default function BlogSidebar({sidebar}) {
       to: '/blog/tags/boom-languages',
     },
     {
-      label: 'Data Structuress & Algorithms',
+      label: 'Data Structures & Algorithms',
       to: '/blog/tags/data-structs-and-algs',
-    },
-    {
-      label: 'Operating Systems',
-      to: '/blog/tags/operating-systems',
     },
     {
       label: 'Quick Python',

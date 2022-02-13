@@ -87,5 +87,5 @@ This operation is very simple. All you need to do is ask the first person in lin
 
 Feel free to check out the source of the entire Queue [on Github][queue-src]. If it interests you, the code I used to test it is [here][queue-test]. Thanks for reading!
 
-[queue-src]: https://github.com/stephengrice/youtube/blob/master/Queue/queue.py
-[queue-test]: https://github.com/stephengrice/youtube/blob/master/Queue/test_queue.py
+[queue-src]: https://github.com/pagekeysolutions/education/blob/master/Queue/queue.py
+[queue-test]: https://github.com/pagekeysolutions/education/blob/master/Queue/test_queue.py

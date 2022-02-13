@@ -62,11 +62,26 @@ const config = {
         },
         items: [
           {
-            to: '/portfolio',
+            to: '/about',
             position: 'left',
-            label: 'Portfolio',
+            label: 'About',
+          },
+          {
+            type: 'dropdown',
+            label: 'Projects',
+            to: '/docs',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                label: 'PKOS (OS Development)',
+                docId: 'pkos/index',
+              },
+            ],
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog/archive', label: 'Archive', position: 'left'},
+
           {
             type: 'localeDropdown',
             position: 'right',

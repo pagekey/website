@@ -97,7 +97,7 @@ Another hint: When you're finished, the only thing in the stack will be the answ
 
 ### Solutions
 
-Don't peek! I hope you tried your best! Anyway, [here](https://github.com/stephengrice/youtube/blob/master/Stack/challenges.py) are my solutions to the challenges.
+Don't peek! I hope you tried your best! Anyway, [here](https://github.com/pagekeysolutions/education/blob/master/Stack/challenges.py) are my solutions to the challenges.
 
 ## Full Code and Testing
 
@@ -105,6 +105,6 @@ That's all there is to it! Part of the beauty of a Stack is its simplicity.
 
 If you want to see all of the code for our finished Stack, [check out the source][stack-src] on Github. I also wrote a few [tests][stack-test], which cover some of the important functionality of our Stack (though I can't guarantee 100% coverage!). Thanks for reading!
 
-[stack-src]: https://github.com/stephengrice/youtube/blob/master/Stack/stack.py
-[stack-test]: https://github.com/stephengrice/youtube/blob/master/Stack/test_stack.py
+[stack-src]: https://github.com/pagekeysolutions/education/blob/master/Stack/stack.py
+[stack-test]: https://github.com/pagekeysolutions/education/blob/master/Stack/test_stack.py
 [linked-list-article]: /blog/dsa/linked-lists-in-python

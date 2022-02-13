@@ -149,5 +149,5 @@ When you're done, leave a comment with a link to your completed challenges and a
 
 If you want to see all of the code for our finished LinkedList, [check out the source][list-src] on Github.
 
-[list-src]: https://github.com/stephengrice/youtube/blob/master/LinkedList/linked_list.py
-[list-test]: https://github.com/stephengrice/youtube/blob/master/LinkedList/test_linked_list.py
+[list-src]: https://github.com/pagekeysolutions/education/blob/master/LinkedList/linked_list.py
+[list-test]: https://github.com/pagekeysolutions/education/blob/master/LinkedList/test_linked_list.py

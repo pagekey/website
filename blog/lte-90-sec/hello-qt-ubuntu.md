@@ -13,4 +13,4 @@ In this video, we install dependencies and run our first Qt graphical applicatio
 
 Code for this lesson:
 
-<https://github.com/stephengrice/education/tree/master/Qt_in_90_Sec>
+<https://github.com/pagekeysolutions/education/tree/master/Qt_in_90_Sec>

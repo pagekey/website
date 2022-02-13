@@ -1,8 +1,8 @@
 ---
-title: Portfolio
+title: About
 ---
 
-# Portfolio
+# About Us
 
 PageKey Solutions develops websites, apps, and educational content.
 

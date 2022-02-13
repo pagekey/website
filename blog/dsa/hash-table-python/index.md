@@ -249,6 +249,6 @@ Below are a few problems you can attempt to solve using your new hash table:
 
 Thank you for reading. Check out the full source code for what we did today below!
 
-**[Full HashTable source code](https://github.com/stephengrice/youtube/blob/master/HashTable/hashtable.py)**
+**[Full HashTable source code](https://github.com/pagekeysolutions/education/blob/master/HashTable/hashtable.py)**
 
-**[HashTable test code](https://github.com/stephengrice/youtube/blob/master/HashTable/test_hashtable.py)**
+**[HashTable test code](https://github.com/pagekeysolutions/education/blob/master/HashTable/test_hashtable.py)**
