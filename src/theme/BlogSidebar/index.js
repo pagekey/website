@@ -9,30 +9,30 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 import {translate} from '@docusaurus/Translate';
-import TagsListByLetter from '@theme/TagsListByLetter';
+// import TagsListByLetter from '@theme/TagsListByLetter';
 export default function BlogSidebar({sidebar}) {
   if (sidebar.items.length === 0) {
     return null;
   }
 
-  const topics = [
-    {
-      label: '≤ 90 Seconds',
-      to: '/blog/tags/lte-90-sec',
-    },
-    {
-      label: 'Boom Languages',
-      to: '/blog/tags/boom-languages',
-    },
-    {
-      label: 'Data Structures & Algorithms',
-      to: '/blog/tags/data-structs-and-algs',
-    },
-    {
-      label: 'Quick Python',
-      to: '/blog/tags/quick-python',
-    },
-  ];
+  // const topics = [
+  //   {
+  //     label: '≤ 90 Seconds',
+  //     to: '/blog/tags/lte-90-sec',
+  //   },
+  //   {
+  //     label: 'Boom Languages',
+  //     to: '/blog/tags/boom-languages',
+  //   },
+  //   {
+  //     label: 'Data Structures & Algorithms',
+  //     to: '/blog/tags/data-structs-and-algs',
+  //   },
+  //   {
+  //     label: 'Quick Python',
+  //     to: '/blog/tags/quick-python',
+  //   },
+  // ];
 
   return (
     <nav
@@ -42,29 +42,6 @@ export default function BlogSidebar({sidebar}) {
         message: 'Blog recent posts navigation',
         description: 'The ARIA label for recent posts in the blog sidebar',
       })}>
-
-      <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
-        <Link
-          style={{color: 'inherit'}}
-          to='/blog/tags/'
-          >
-          Topics
-        </Link>
-      </div>
-      <ul className={styles.sidebarItemList}>
-        {topics.map((item) => (
-        <div>
-          <Link
-            isNavLink
-            to={item.to}
-            className={styles.sidebarItemLink}
-            activeClassName={styles.sidebarItemLinkActive}
-            >
-            {item.label}
-          </Link>
-        </div>
-        ))}
-      </ul>
 
       <div style={{display:'block',height:'1em'}}></div>
       
@@ -98,6 +75,28 @@ export default function BlogSidebar({sidebar}) {
           All Posts
         </Link>
       </div>
+      <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
+        <Link
+          style={{color: 'inherit'}}
+          to='/blog/tags/'
+          >
+          Tags
+        </Link>
+      </div>
+      {/* <ul className={styles.sidebarItemList}>
+        {topics.map((item) => (
+        <div>
+          <Link
+            isNavLink
+            to={item.to}
+            className={styles.sidebarItemLink}
+            activeClassName={styles.sidebarItemLinkActive}
+            >
+            {item.label}
+          </Link>
+        </div>
+        ))}
+      </ul> */}
     </nav>
   );
 }

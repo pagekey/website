@@ -37,7 +37,7 @@ const config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           // blogSidebarTitle: 'All posts',
-          // blogSidebarCount: 'ALL',
+          blogSidebarCount: 10,
           // Enable latex
           remarkPlugins: [math],
           rehypePlugins: [katex],
