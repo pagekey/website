@@ -1,17 +1,12 @@
 ---
-slug: os5
 title: "OS5: Going Over print_hex"
+date: "2020-02-12"
+authors: [steve]
+tags: [pkos]
 ---
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/IvUl1ocS64g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 In this video, we go over the challenge program Print Hex using 16-bit assembly.
 
-<!--truncate-->
-
-## Code
-
-- [Link to tag](https://github.com/pagekeysolutions/pkos/releases/tag/vid%2Fos005)
-- [Diff from previous video](https://github.com/pagekeysolutions/pkos/compare/vid/os004..vid/os005)
-
-[Original blog post](/blog/pkos/5-going-over-print_hex)
+Full notes are [here](/docs/pkos/os5)

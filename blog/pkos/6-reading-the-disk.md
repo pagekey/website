@@ -1,19 +1,12 @@
 ---
-slug: os6
 title: "OS6: Reading the Disk"
+date: "2020-02-26"
+authors: [steve]
+tags: [pkos]
 ---
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/mktENQzbm6k" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 How do we read the disk? We better find out before we go into protected mode!
 
-Watch 'til the end for a bonus bugfix :-)
-
-<!--truncate-->
-
-## Code
-
-- [Link to tag](https://github.com/pagekeysolutions/pkos/releases/tag/vid%2Fos006)
-- [Diff from previous video](https://github.com/pagekeysolutions/pkos/compare/vid/os005..vid/os006)
-
-[Original blog post](/blog/pkos/6-reading-the-disk)
+Full notes are [here](/docs/pkos/os6)

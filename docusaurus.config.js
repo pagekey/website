@@ -74,7 +74,12 @@ const config = {
             items: [
               {
                 type: 'doc',
-                label: 'PKOS (OS Development)',
+                label: 'Fitness App: PFL',
+                docId: 'pfl/index',
+              },
+              {
+                type: 'doc',
+                label: 'OS Development: PKOS',
                 docId: 'pkos/index',
               },
             ],
