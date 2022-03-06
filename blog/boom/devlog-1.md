@@ -7,7 +7,7 @@ tags: [boom-languages]
 
 <iframe className="youtube-video-player" src="https://www.youtube.com/embed/5kwHY_1ewd4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-Picking up an old project from earlier this year and making a few additons.
+Picking up an old project from earlier this year and making a few additions.
 
 If you'd like to try it out, visit https://boomlanguages.com.
 
