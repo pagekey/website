@@ -15,7 +15,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: '/img/favicon.ico',
   organizationName: 'pagekeysolutions', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
 
