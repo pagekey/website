@@ -10,7 +10,7 @@ The latest source code can be found at https://github.com/pagekeysolutions/pkos.
 
 Try these commands to get started in a hurry.
 
-- `docker-compose run` - Build and run the OS
+- `docker-compose up` - Build and run the OS
   - You must have Docker/`docker-compose` installed and configured for GUI applications to run within a container.
   - Added in OS13
   - Also available:
