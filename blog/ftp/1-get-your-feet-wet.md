@@ -11,4 +11,4 @@ Coding is not scary! It's really easy to get started.
 
 Send this video to anyone you know who wants to get started with programming, but doesn't know how.
 
-Full notes are [here](/docs/ftp/1)
+Full notes are [here](/docs/ftp/get-your-feet-wet)
