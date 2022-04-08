@@ -79,6 +79,11 @@ const config = {
             items: [
               {
                 type: 'doc',
+                label: 'First Time Programmer',
+                docId: 'ftp/index',
+              },
+              {
+                type: 'doc',
                 label: 'Fitness App: PFL',
                 docId: 'pfl/index',
               },
