@@ -71,3 +71,26 @@ article p img {
   display: block;
   margin: auto;
 }
+
+article h2 {
+  font-size: 2.5rem !important;
+}
+
+article.margin-bottom--xl {
+  margin-bottom: 4rem !important;
+}
+
+/* Put just a wee bit o' padding between the light/dark and search in top right */
+.navbar__search {
+  margin-left: 1em;
+}
+
+/* Right-align the "Social" part of the footer */
+div.row.footer__links {
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 2em;
+}
+div.row.footer__links .col:nth-child(2) {
+  text-align: right;
+}

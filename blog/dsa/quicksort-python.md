@@ -3,9 +3,12 @@ title: "Quicksort in Python"
 date: "2018-09-23"
 authors: [steve]
 tags: [data-structs-and-algs]
+youtube: OSD4b-ih6Kc
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/OSD4b-ih6Kc" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 In this video, we learn the ins and outs of Quicksort, a sorting algorithm that will come in handy in many situations. We go over theory, and then visualize the entire sorting process from start to finish.
 

@@ -2,9 +2,12 @@
 title: "10 Minute Linux Crash Course - Everything You Need to Get Started Now"
 date: "2020-11-30"
 authors: [steve]
+youtube: XKvmgtOidYU
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/XKvmgtOidYU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 Some of us grew up clicking around in MS Paint on Windows. Others may enjoyed the luxurious interface afforded by Mac OS. Still others may have been stuck with nothing more than a cell phone, or even just a TI-84 calculator.
 

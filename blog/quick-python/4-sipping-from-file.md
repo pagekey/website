@@ -3,9 +3,12 @@ title: "Quick Python 4: Sipping from a File (Open/Print Contents)"
 date: "2020-11-04"
 authors: [steve]
 tags: [quick-python]
+youtube: osREJ2ksyW4
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/osREJ2ksyW4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 In this video, we take a sip out of a file - just a quick skim, printing out the contents. 
 

@@ -7,11 +7,12 @@ const katex = require('rehype-katex');
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
+const redirects = require('./src/redirects');
+
 const config = {
-  title: 'PageKey Solutions',
-  tagline: 'Education • Apps • Websites',
-  url: 'https://pagekeysolutions.com',
+  title: 'PageKey Tech',
+  tagline: 'Taking Back Tech',
+  url: 'https://pagekeytech.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -19,31 +20,48 @@ const config = {
   organizationName: 'pagekeysolutions', // Usually your GitHub org/user name.
   projectName: 'blog', // Usually your repo name.
 
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    [
+      "./plugins/blog-plugin",
+      {
+        id: 'blog',
+        routeBasePath: 'blog',
+        path: './blog',
+        showReadingTime: true,
+        // Please change this to your repo.
+        // editUrl:
+        //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // blogSidebarTitle: 'All posts',
+        blogSidebarCount: 10,
+        // Enable latex
+        remarkPlugins: [math],
+        rehypePlugins: [katex],
+        // Enable blog archive
+        archiveBasePath: '/archive',
+      },
+    ],
+    require.resolve('docusaurus-lunr-search'),
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: redirects
+      }
+    ],
+  ],
 
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        // docs: {
+        docs: {
+          path: 'projects',
+          routeBasePath: 'projects',
         //   sidebarPath: require.resolve('./sidebars.js'),
         //   // Please change this to your repo.
         //   // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        // },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // blogSidebarTitle: 'All posts',
-          blogSidebarCount: 10,
-          // Enable latex
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
-          // Enable blog archive
-          archiveBasePath: '/archive',
         },
+        blog: false, // uses overridden blog plugin in plugins folder
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -60,7 +78,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'PageKey Solutions',
+        title: 'PageKey Tech',
         logo: {
           alt: 'PageKey Solutions Logo',
           src: 'img/logo.png',
@@ -74,7 +92,7 @@ const config = {
           {
             type: 'dropdown',
             label: 'Projects',
-            to: '/docs',
+            to: '/projects',
             position: 'left',
             items: [
               {
@@ -97,21 +115,34 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/blog/archive', label: 'Archive', position: 'left'},
 
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
+          // i18n
+          // {
+          //   type: 'localeDropdown',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'About',
+            title: 'PageKey Tech',
             items: [
               {
-                label: 'About',
+                label: 'About Us',
                 to: '/about',
+              },
+              {
+                label: 'Projects',
+                to: '/projects',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Archive',
+                to: '/blog/archive',
               },
             ],
           },
@@ -136,15 +167,15 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} PageKey Solutions, LLC`,
       },
@@ -158,7 +189,7 @@ const config = {
       defaultLocale: 'en',
       locales: [
         'en', 
-        'es', 
+        // 'es', 
         // 'ru'
       ],
     },

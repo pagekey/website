@@ -2,9 +2,12 @@
 title: "Python Update - Convert OneNote to Markdown"
 date: "2022-03-12"
 authors: [steve]
+youtube: mYbiT63Bkns
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/mYbiT63Bkns" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 The last video walked us through a PowerShell script to convert OneNote to Markdown. A lot of people (including me) ran into issues with that script, so this video introduces a Python version, which should be less buggy.
 
