@@ -3,9 +3,12 @@ title: "Quick Python 8: Virtual Environments"
 date: "2021-06-11"
 authors: [steve]
 tags: [quick-python]
+youtube: O5rH_fsOOJM
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/O5rH_fsOOJM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 In this video, we learn how to create, manage, and remove Python Virtual Environments.
 

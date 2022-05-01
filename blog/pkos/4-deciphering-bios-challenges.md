@@ -3,10 +3,12 @@ title: "OS4: Deciphering BIOS Challenges"
 date: "2020-01-29"
 authors: [steve]
 tags: [pkos]
+youtube: 9dU7CyKkHew
+project_page: /projects/pkos/4
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/9dU7CyKkHew" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import ProjectPost from '@site/src/components/ProjectPost';
 
+<ProjectPost frontMatter={frontMatter}>
 Let's go over the challenges from the last video.
-
-Full notes are [here](/docs/pkos/os4)
+</ProjectPost>

@@ -3,9 +3,12 @@ title: "Boom Languages Dev Log 2"
 date: "2021-10-3"
 authors: [steve]
 tags: [boom-languages]
+youtube: IBdZjelApI4
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/IBdZjelApI4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 Here's the latest for Boom Languages, a new language learning app I'm working on.
 

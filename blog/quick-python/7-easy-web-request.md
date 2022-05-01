@@ -3,9 +3,12 @@ title: "Quick Python 7: Easy Web Request"
 date: "2020-12-16"
 authors: [steve]
 tags: [quick-python]
+youtube: KkbkMDDbI9M
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/KkbkMDDbI9M" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 In this video, we write our first web request.
 

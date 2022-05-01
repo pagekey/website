@@ -1,8 +1,12 @@
 ---
+slug: 1
 title: "#1 Get your feet wet with coding"
+youtube: rM8BZdOA_60
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/rM8BZdOA_60" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 Coding is not scary! It's really easy to get started.
 

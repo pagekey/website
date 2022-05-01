@@ -2,9 +2,12 @@
 title: "Convert OneNote to Markdown (and Obsidian.md)"
 date: "2022-01-23"
 authors: [steve]
+youtube: C70jUkQyIQM
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/C70jUkQyIQM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 Do you have all of your notes in OneNote? Want to move your notes out, but not sure where to start? In this video, we'll convert all of your OneNote notes to Markdown with an easy-to-use script. Then, you can open it in a different application, like Obsidian.
 

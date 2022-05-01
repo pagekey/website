@@ -2,9 +2,12 @@
 title: Make Your Site Stand Out with ScrollMagic
 date: "2019-04-26"
 authors: [steve]
+youtube: 8jtLCrvUddA
 ---
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/8jtLCrvUddA" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 Today, we learn how to create a basic ScrollMagic web animation.
 

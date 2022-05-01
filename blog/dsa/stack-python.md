@@ -3,6 +3,7 @@ title: How to Implement a Stack in Python
 date: "2017-06-22"
 authors: [steve]
 tags: [data-structs-and-algs]
+youtube: 5MOy9VYKczY
 ---
 
 ![Stack of rocks](/img/blog/featured/stack.jpg)
@@ -13,7 +14,9 @@ There's no other data structure like the Stack. In only a few minutes, you can h
 
 **Click [here][stack-src] for the full Stack source code. Also, [here][stack-test] is the test code.**
 
-<iframe className="youtube-video-player" src="https://www.youtube.com/embed/5MOy9VYKczY" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontMatter.youtube} />
 
 ## An Analogy
 
