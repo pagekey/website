@@ -23,8 +23,11 @@
 // });
 let redirects = [
     // One-off redirects here
+    { from: ['/docs/ftp'], to: '/projects/ftp' },
     { from: ['/docs/ftp/get-your-feet-wet'], to: '/projects/ftp/1' },
+    { from: ['/docs/pfl'], to: '/projects/pfl/' },
     { from: ['/docs/pfl/initial-setup'], to: '/projects/pfl/1' },
+    { from: ['/docs/pkos'], to: '/projects/pkos/' },
     { from: ['/docs/pkos/os1'], to: '/projects/pkos/1' },
     { from: ['/docs/pkos/os2'], to: '/projects/pkos/2' },
     { from: ['/docs/pkos/os3'], to: '/projects/pkos/3' },
