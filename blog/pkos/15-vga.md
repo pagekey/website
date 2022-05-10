@@ -3,7 +3,7 @@ title: "OS15: Writing a Simple VGA Driver (Bare-Metal Graphics)"
 date: 2022-05-03
 authors: [steve]
 tags: [pkos]
-youtube: 
+youtube: GllPGcVLEDY
 project_page: /projects/pkos/15
 ---
 
