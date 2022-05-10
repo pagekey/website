@@ -23,7 +23,7 @@
 // });
 let redirects = [
     // One-off redirects here
-    { from: ['/docs/ftp'], to: '/projects/ftp' },
+    { from: ['/docs/ftp'], to: '/projects/ftp/' },
     { from: ['/docs/ftp/get-your-feet-wet'], to: '/projects/ftp/1' },
     { from: ['/docs/pfl'], to: '/projects/pfl/' },
     { from: ['/docs/pfl/initial-setup'], to: '/projects/pfl/1' },
