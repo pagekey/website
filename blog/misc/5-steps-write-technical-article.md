@@ -58,11 +58,11 @@ Several passes of editing may be a good idea, because with each readthrough, you
 
 ## 5. Publish
 
-If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin](https://amzn.to/2QSI6Se):
+If you don't publish your work, you'll be letting all of your hard work in the above steps go to waste. Don't let that happen. Seth Godin refers to this concept as "shipping" in his book, [Linchpin](https://amzn.to/3Mbb8pv):
 
 >"The only purpose of starting is to finish, and while the projects we do are never really finished, they must ship."
 >
-> Seth Godin in [Linchpin](https://amzn.to/2QSI6Se)
+> Seth Godin in [Linchpin](https://amzn.to/3Mbb8pv)
 
 Even though your article could probably use a little more polish, a few extra words, or a little more rephrasing, this will *always* be the case. Be brave - hit the publish button so you can get on to the next article. Even if this one isn't your best work, you can always improve on it next time.
 

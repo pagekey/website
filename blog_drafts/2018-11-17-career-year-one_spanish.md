@@ -57,7 +57,7 @@ Si intentas hacer mucho, respira profundamente, para todo, y evalua de neuvo lo 
 
 # 4. La Única Cosa: Foco y Priorización
 
-Este año, el libro que más me afectaba fue \[La Única Cosa por Gary Keller](https://amzn.to/2TcbUaU). Las ideas en este libro me daban cuenta de algo, la llave de resolver la mayoria de los problemas en la oficina: **Sólo se puede concentratar en una cosa a la vez.** De veras. En su libro, Keller explica que actualmente no es posible concentrar en más que una cosa, y por eso debemos dejar de intentar hacerlo.
+Este año, el libro que más me afectaba fue \[La Única Cosa por Gary Keller](https://amzn.to/3PjG88N). Las ideas en este libro me daban cuenta de algo, la llave de resolver la mayoria de los problemas en la oficina: **Sólo se puede concentratar en una cosa a la vez.** De veras. En su libro, Keller explica que actualmente no es posible concentrar en más que una cosa, y por eso debemos dejar de intentar hacerlo.
 
 Por ejemplo, Keller compara la mente a un procesador de computadora. Aunque parece que la computadora hace muchas cosas simultaneamente, el procesador realmente sólo ejecuta una instrucción a la vez, cambiando rápidamente entre muchos procesos distintos. Para las computadoras, esta estrategia es perfecto - pueden cambiar entre procesos de manera muy eficiente. Los humanos, por otra parte, no cambian eficientemente. Tenemos que parar lo que hacemos, aprender el contexto del trabajo nuevo (en la mente y físicamente), y decidir dónde debemos empezar. Cambiar más de proceso significa que gastamos más tiempo; por eso, eso mejor escoger la cosa más importante en tu lista y trabajar en eso hasta el fin.
 
@@ -87,7 +87,7 @@ If you pursue this when you have time, you’ll have the added benefit of gettin
 
 # 6. Take the Initiative, Take the Risk
 
-Another great read that has helped my career was \[Lynchpin by Seth Godin](https://amzn.to/2DGTGd9). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
+Another great read that has helped my career was \[Lynchpin by Seth Godin](https://amzn.to/3Mbb8pv). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
 
 For example, let’s say you’re someone with a passion for graphic design, and you’ve recently entered a job that involves compiling financial records. At the surface level, it certainly doesn’t seem like those two things have a lot in common. In fact, it appears almost impossible to link the two. If you’re not making the effort, it’s not going to happen. But if you get creative and think of everything as an opportunity, you’ll find a way.
 
@@ -97,7 +97,7 @@ Seeing an opportunity, you use your love of visual design to create custom icons
 
 This is your art. Your unusual spin on a normally dry topic adds a welcome streak of color, just enough to brighten the day of your audience. Even if this takes up more time than just doing the bare minimum, a little bit of extra effort spent doing something you love won’t feel like a pile of work. On the contrary, you’ll probably enjoy the time and produce a better end-result.
 
-You don’t have to be an artist to bring art to work, though. It could be through interpersonal communication, creating new ideas, and so much more. (If you’re still struggling to understand what your art is, read Seth’s \[book](https://amzn.to/2DGTGd9))
+You don’t have to be an artist to bring art to work, though. It could be through interpersonal communication, creating new ideas, and so much more. (If you’re still struggling to understand what your art is, read Seth’s \[book](https://amzn.to/3Mbb8pv))
 
 For me, this meant bringing a love of programming into a job that didn’t directly require it. By finding ways to apply my passion, I was able to contribute to projects in ways that others found difficult. As a side effect, the interest I developed in low-level computing ended up teaching me many lessons that would come in useful down the road.
 
@@ -113,7 +113,7 @@ It’s in this way that your fear is a signpost — learn to listen to it. I
 
 Sometimes, I feel like I’m treading water. There are days when I can do nothing more than stare a problem right in the eye, bewildered as to what the solution may be. Then, miraculously, things will fall into place and the solution will reveal itself. It may take some pondering, or coming back to the problem with a fresh mindset. Either way, the solution will come with persistence.
 
-An essential takeaway is that when you’re struggling with an issue, you’re still making progress. As Jeff Olson argues in \[The Slight Edge](https://amzn.to/2DCnpDX), there is no such thing as a breakthrough. When you finally solve the problem, it’s no miracle; it is the sum of all your efforts finally coming to fruition. Make just a little bit of progress, every single day, even when you don’t feel like it. Your daily efforts are much like the compound interest that (hopefully!) keeps your savings on the uptick. If you let it, this principle will permeate into every aspect of your life.
+An essential takeaway is that when you’re struggling with an issue, you’re still making progress. As Jeff Olson argues in \[The Slight Edge](https://amzn.to/3PhY0kw), there is no such thing as a breakthrough. When you finally solve the problem, it’s no miracle; it is the sum of all your efforts finally coming to fruition. Make just a little bit of progress, every single day, even when you don’t feel like it. Your daily efforts are much like the compound interest that (hopefully!) keeps your savings on the uptick. If you let it, this principle will permeate into every aspect of your life.
 
 On another note, you may find it valuable to carefully consider some daily disciplines that you can build. What can you chip away at every single day to move towards your goal? How can you become better at what you do before the sun sets? These are the questions that will keep you on track to getting what you want out of your career.
 
