@@ -9,6 +9,8 @@ import YouTubePlayer from '@site/src/components/YouTubePlayer';
 
 <YouTubePlayer youtubeLink={frontMatter.youtube} />
 
+A logic analyzer lets us look at the digital data coming out of ports on various devices, in much the same way an oscilloscope lets us look at analog signals. In this lesson, we plug our logic analyzer into an Arduino's serial port to show how we can record and analyze digital data.
+
 <!--truncate-->
 
 ## Parts List
@@ -30,10 +32,6 @@ As an Amazon associate I earn from qualifying purchases.
 - 1:59 Arduino wiring
 - 2:24 Logic analyzer in action
 - 3:27 Outro
-
-## Summary
-
-A logic analyzer lets us look at the digital data coming out of ports on various devices, in much the same way an oscilloscope lets us look at analog signals. In this lesson, we plug our logic analyzer into an Arduino's serial port to show how we can record and analyze digital data.
 
 ## Arduino Code
 
