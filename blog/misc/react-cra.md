@@ -15,11 +15,11 @@ In this lesson, we learn about how to quickly get started with React (JavaScript
 
 ## Timestamps
 
-0:00 Intro
-0:48 Setup - nvm, npm, node
-1:47 Generate the project
-2:15 Code changes
-4:55 Outro
+- 0:00 Intro
+- 0:48 Setup - nvm, npm, node
+- 1:47 Generate the project
+- 2:15 Code changes
+- 4:55 Outro
 
 ## Steps
 
