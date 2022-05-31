@@ -4,6 +4,7 @@ date: "2020-11-04"
 authors: [steve]
 tags: [quick-python]
 youtube: osREJ2ksyW4
+project: quick-python
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

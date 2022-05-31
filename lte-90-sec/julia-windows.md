@@ -4,6 +4,7 @@ date: "2020-05-19"
 authors: [steve]
 tags: [lte-90-sec]
 youtube: 59_sTxdsGiI
+project: lte-90-sec
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';
