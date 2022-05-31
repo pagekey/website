@@ -1,0 +1,21 @@
+---
+title: "OS11: Calling Assembly from C"
+date: "2020-07-29"
+authors: [steve]
+tags: [pkos]
+youtube: ZsnKjqsFwwY
+project: pkos
+---
+
+import YouTubePlayer from '@site/src/components/YouTubePlayer';
+
+<YouTubePlayer youtubeLink={frontmatter.youtube} />
+
+Join us in this video to find out how we can call a function in assembly from our kernel in C. This will allow us to do things in raw assembly when needed, and then we can pop back to the comfortable world of C when finished!
+
+<!--truncate-->
+
+## Code
+
+- [Link to tag](https://github.com/pagekeysolutions/pkos/releases/tag/vid%2Fos011)
+- [Diff from previous video](https://github.com/pagekeysolutions/pkos/compare/vid/os010..vid/os011)
