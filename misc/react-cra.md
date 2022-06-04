@@ -7,7 +7,7 @@ youtube: qGsFYSWTMFY
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';
 
-<YouTubePlayer youtubeLink={frontMatter.youtube} />
+<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this lesson, we learn about how to quickly get started with React (JavaScript framework) using Facebook's Create React App project generator.
 
