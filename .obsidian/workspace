@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "misc/docker-101.md",
+            "file": "wilr/1-react-native-basics.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "misc/docker-101.md",
+                "file": "wilr/1-react-native-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "163d399073735459",
   "lastOpenFiles": [
+    "wilr/1-react-native-basics.md",
     "misc/docker-101.md",
     "_templates_/post.md",
     "misc/react-cra.md",
