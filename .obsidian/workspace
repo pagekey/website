@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "c5f569f3ae12934d",
+    "type": "split",
+    "children": [
+      {
+        "id": "163d399073735459",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "misc/docker-101.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d2d37ae58bebb1c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3af691d4ed9bbdc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ca3c053b93286d5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f4506c835c942808",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ede94a0b373067df",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee6406a129957a42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "225e72b1d09e1234",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "misc/docker-101.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "163d399073735459",
+  "lastOpenFiles": [
+    "misc/docker-101.md",
+    "_templates_/post.md",
+    "misc/react-cra.md",
+    "misc/duobot.md",
+    "misc/onenote-to-markdown.md",
+    "misc/10-minute-linux-1.md",
+    "misc/logic-analyzer/index.md"
+  ]
+}
