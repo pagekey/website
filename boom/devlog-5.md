@@ -1,12 +1,10 @@
 ---
-title: "Boom Languages Dev Log 5"
+title: 'Language Logging as the "One Thing" | Boom DevLog 5'
 date: "2022-06-06"
 authors: [steve]
 tags: [boom-languages]
 youtube: 4aKoQicY5Cg
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
 
