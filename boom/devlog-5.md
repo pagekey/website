@@ -1,6 +1,6 @@
 ---
 title: 'Language Logging as the "One Thing" | Boom DevLog 5'
-date: "2022-06-06"
+date: "2022-06-13"
 authors: [steve]
 tags: [boom-languages]
 youtube: 4aKoQicY5Cg

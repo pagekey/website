@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "163d399073735459",
+        "id": "f7ba177d6b6d508a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "wilr/2-rust-basics.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wilr/2-rust-basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,12 +82,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "163d399073735459",
+  "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
     "wilr/2-rust-basics.md",
-    "wilr/1-react-native-basics.md",
-    "boom/devlog-5.md",
     "misc/docker-101.md",
+    "boom/devlog-5.md",
+    "wilr/1-react-native-basics.md",
     "_templates_/post.md",
     "misc/react-cra.md",
     "misc/duobot.md",

@@ -1,6 +1,6 @@
 ---
 title: "Docker 101: Basics and Containerizing a Web App"
-date: "2022-06-13"
+date: "2022-06-06"
 authors: [steve]
 youtube: shhFukTFhtQ
 ---
