@@ -2,7 +2,7 @@
 title: "WILR2: Rust Beginnings (minigrep)"
 date: "2022-06-20"
 authors: [steve]
-youtube: TODO
+youtube: Lelgwgs63Z8
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
@@ -14,7 +14,12 @@ I learned some basic Rust by following the Rust Book's Chapter 12, where they sh
 What you see below are very rough notes I took as I went through this for the first time. Hopefully this, along with the video walkthrough, is helpful to you in some way.
 
 ## Timestamps
-TODO
+- 0:00 Intro
+- 0:32 Installation
+- 0:45 Discussing the Rust Book
+- 2:13 The finished code
+- 2:44 What it does
+- 3:56 Code walkthrough
 
 ## Installing Rust
 https://www.rust-lang.org/tools/install
