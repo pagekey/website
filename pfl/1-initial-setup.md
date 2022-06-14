@@ -15,7 +15,7 @@ Let's code a workout app from scratch. Why? Watch the video and find out.
 
 <!--truncate-->
 
-Source code is available at: https://github.com/pagekeysolutions/pfl
+Source code is available at: [https://github.com/pagekeysolutions/pfl](https://github.com/pagekeysolutions/pfl)
 
 ## Timestamps
 

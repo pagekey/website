@@ -18,7 +18,7 @@ While writing a kernel module is definitely safer than modifying the source, it 
 
 **This post is Part 3 of a series on the Linux kernel.**
 
-**[Part 1][part1] - [Part 2][part2]**
+**[Part 1][part1] - [Part 2][part2] - Part 3**
 
 ## User Space vs. Kernel space
 
@@ -122,7 +122,7 @@ All in all, we didn't break any records, but it was a good start to writing kern
 
 **This post is Part 3 of a series on the Linux kernel.**
 
-**[Part 1][part1] - [Part 2][part2]**
+**[Part 1][part1] - [Part 2][part2] - Part 3**
 
 [part1]: /blog/misc/linux-kernel-1-compile-from-source
 [part2]: /blog/misc/linux-kernel-2-modifications

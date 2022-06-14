@@ -17,8 +17,6 @@ Send this video to anyone you know who wants to get started with programming, bu
 
 <!--truncate-->
 
-Source code is available at: https://github.com/pagekeysolutions/pfl
-
 ## Timestamps
 
 

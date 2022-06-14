@@ -123,4 +123,4 @@ With any luck, you've just installed scikit-learn (and maybe Jupyter Notebooks t
 
 ## References
 
-[1] https://jupyter.org/about
+[1] [https://jupyter.org/about](https://jupyter.org/about)

@@ -15,5 +15,7 @@ In this video, we learn the ins and outs of Merge Sort, a sorting algorithm that
 <!--truncate-->
 
 The full implementation in Python can be found at the following link:
-https://github.com/stephengrice/youtube/tree/master/Sorts
+
+[https://github.com/stephengrice/youtube/tree/master/Sorts](https://github.com/stephengrice/youtube/tree/master/Sorts)
+
 Thank you for watching.

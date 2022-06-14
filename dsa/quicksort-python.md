@@ -20,6 +20,6 @@ Lomuto is simpler, but the Hoare method, named for Quicksort's inventor, C.A.R. 
 
 The full implementation in Python can be found at the following link:
 
-https://github.com/pagekeysolutions/education/tree/master/Sorts
+[https://github.com/pagekeysolutions/education/tree/master/Sorts](https://github.com/pagekeysolutions/education/tree/master/Sorts)
 
 Thank you for watching.

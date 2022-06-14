@@ -17,11 +17,11 @@ The last video walked us through a PowerShell script to convert OneNote to Markd
 
 ## Resources
 
-Source code: https://github.com/pagekeysolutions/onenote-to-markdown/
+Source code: [https://github.com/pagekeysolutions/onenote-to-markdown/](https://github.com/pagekeysolutions/onenote-to-markdown/)
 
-Obsidian: https://obsidian.md/
+Obsidian: [https://obsidian.md/](https://obsidian.md/)
 
-Table converter: https://jmalarcon.github.io/markdowntables/
+Table converter: [https://jmalarcon.github.io/markdowntables/](https://jmalarcon.github.io/markdowntables/)
 
 ## Timestamps
 

@@ -14,7 +14,7 @@ As it turns out, it's harder than expected. Keep reading to get the full rundown
 
 **This post is Part 2 of a series on the Linux kernel.**
 
-**[Part 1][part1] - [Part 3][part3]**
+**[Part 1][part1] - Part 2 - [Part 3][part3]**
 
 ## Prerequisite
 
@@ -147,7 +147,7 @@ Though it took a few botched attempts and shots in the dark, I was finally able 
 
 **This post is Part 2 of a series on the Linux kernel.**
 
-**[Part 1][part1] - [Part 3][part3]**
+**[Part 1][part1] - Part 2 - [Part 3][part3]**
 
 [part1]: /blog/misc/linux-kernel-1-compile-from-source
 [part2]: /blog/misc/linux-kernel-2-modifications

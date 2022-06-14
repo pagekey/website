@@ -159,22 +159,22 @@ I would recommend trying out [the example provided by scikit-learn](https://scik
 
 ## References
 
-[1] https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression
+[1] [https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression)
 
-[2] https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression
+[2] [https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/v/introduction-to-residuals-and-least-squares-regression)
 
-[3] https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals
+[3] [https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/regression-library/a/introduction-to-residuals)
 
-[4] http://www.askanalytics.in/2015/09/difference-between-error-and-residual.html
+[4] [http://www.askanalytics.in/2015/09/difference-between-error-and-residual.html](http://www.askanalytics.in/2015/09/difference-between-error-and-residual.html)
 
-[5] https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/scatterplots-and-correlation/v/correlation-coefficient-intuition-examples
+[5] [https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/scatterplots-and-correlation/v/correlation-coefficient-intuition-examples](https://www.khanacademy.org/math/statistics-probability/describing-relationships-quantitative-data/scatterplots-and-correlation/v/correlation-coefficient-intuition-examples)
 
-[6] https://www.mathsisfun.com/data/standard-deviation.html
+[6] [https://www.mathsisfun.com/data/standard-deviation.html](https://www.mathsisfun.com/data/standard-deviation.html)
 
-[7] https://www.statisticshowto.com/probability-and-statistics/z-score/
+[7] [https://www.statisticshowto.com/probability-and-statistics/z-score/](https://www.statisticshowto.com/probability-and-statistics/z-score/)
 
-[8] https://statsandr.com/blog/what-is-the-difference-between-population-and-sample/
+[8] [https://statsandr.com/blog/what-is-the-difference-between-population-and-sample/](https://statsandr.com/blog/what-is-the-difference-between-population-and-sample/)
 
-[9] https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset
+[9] [https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset)
 
-[10] http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html
+[10] [http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](http://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)

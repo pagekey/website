@@ -24,6 +24,6 @@ Version 2.2.2 brings some new changes since our last dev log:
 7. Users list
 8. Activity Log
 
-In other news, https://pagekeysolutions.com has been redesigned and now includes links to everything we're working on.
+In other news, [pagekeysolutions.com](https://pagekeysolutions.com) has been redesigned and now includes links to everything we're working on.
 
-If you'd like to try out the app, visit https://boomlanguages.com.
+If you'd like to try out the app, visit [boomlanguages.com](https://boomlanguages.com).

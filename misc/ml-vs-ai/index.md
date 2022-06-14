@@ -86,15 +86,15 @@ I hope you learned something new from this article about these topics. Please le
 
 ## References
 
-[1] https://www.ibm.com/cloud/learn/what-is-artificial-intelligence
+[1] [https://www.ibm.com/cloud/learn/what-is-artificial-intelligence](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence)
 
-[2] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/
+[2] [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/)
 
-[3] https://www.ibm.com/cloud/learn/machine-learning
+[3] [https://www.ibm.com/cloud/learn/machine-learning](https://www.ibm.com/cloud/learn/machine-learning)
 
-[4] https://www.youtube.com/watch?v=whlODvf-SVk
+[4] [https://www.youtube.com/watch?v=whlODvf-SVk](https://www.youtube.com/watch?v=whlODvf-SVk)
 
-[5] https://scikit-learn.org/stable/modules/neighbors.html
+[5] [https://scikit-learn.org/stable/modules/neighbors.html](https://scikit-learn.org/stable/modules/neighbors.html)
 
-[6] https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+[6] [https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html)
 

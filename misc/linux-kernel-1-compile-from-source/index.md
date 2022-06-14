@@ -14,7 +14,7 @@ The first step to doing all of these things is compiling the Linux kernel from s
 
 **This post is Part 1 of a series on the Linux kernel.**
 
-**[Part 2][part2] - [Part 3][part3]**
+**Part 1 - [Part 2][part2] - [Part 3][part3]**
 
 ## 1. Install all dependencies.
 
@@ -153,7 +153,7 @@ In an even [later article][part3], we'll be creating a basic kernel module.
 
 **This post is Part 1 of a series on the Linux kernel.**
 
-**[Part 2][part2] - [Part 3][part3]**
+**Part 1 - [Part 2][part2] - [Part 3][part3]**
 
 [part1]: /blog/misc/linux-kernel-1-compile-from-source
 [part2]: /blog/misc/linux-kernel-2-modifications

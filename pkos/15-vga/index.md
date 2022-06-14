@@ -50,11 +50,11 @@ Thanks to Scott Spitler for suggesting this topic.
 
 ## Background
 
-VGA stands for Video Graphics Array [^1]. Designed for use with CRT monitors, this old-fashioned video display chipset uses an analog signal. It has been replaced by DVI, or Digital Video Interface [^2]. As it turns out, the HDMI standard is just DVI with better color support and audio bundled into the same (smaller) connector [^3].
+VGA stands for Video Graphics Array [1]. Designed for use with CRT monitors, this old-fashioned video display chipset uses an analog signal. It has been replaced by DVI, or Digital Video Interface [2]. As it turns out, the HDMI standard is just DVI with better color support and audio bundled into the same (smaller) connector [3].
 
 ## QEMU Hardware
 
-I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [^4].  This card connects via the PCI bus [^5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](/projects/pkos/10), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
+I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [4].  This card connects via the PCI bus [5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](/projects/pkos/10), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
 
 ## VGA Hardware
 
@@ -62,17 +62,17 @@ As always, the OS Dev Wiki has our back on this topic. Their page on VGA hardwar
 
 > While the VGA chip is quite a simple piece of hardware ... it is possibly one of the most complicated devices to program for
 
-Wonderful! However, it goes on to mention that there are many shortcuts you can take to make it easier, and it's still a good place to get your start developing video drivers [^6]. With this in mind, I found some code in the public domain that I was able to make heavy use of to get *something* working, even if that something isn't the most elegant graphics code ever written. The OS Dev post [6] goes into great depth about which ports are used to control VGA. It seems that a combination of I/O ports are used to program the chipset into the right mode, and then you can use memory-mapped I/O once everything is set up. The code that I "borrowed" took care of the hard part of writing very specific values to VGA I/O ports, and then I was able to quite simply modify the right memory locations to draw on the screen.
+Wonderful! However, it goes on to mention that there are many shortcuts you can take to make it easier, and it's still a good place to get your start developing video drivers [6]. With this in mind, I found some code in the public domain that I was able to make heavy use of to get *something* working, even if that something isn't the most elegant graphics code ever written. The OS Dev post [6] goes into great depth about which ports are used to control VGA. It seems that a combination of I/O ports are used to program the chipset into the right mode, and then you can use memory-mapped I/O once everything is set up. The code that I "borrowed" took care of the hard part of writing very specific values to VGA I/O ports, and then I was able to quite simply modify the right memory locations to draw on the screen.
 
-One other tidbit that I learned from [^6] is that VGA uses a "sequencer," among other devices in its rendering pipeline (if you could call it that). The sequencer is connected to the VGA memory space, reading it and generating colors that are fed to subsequent stages. Also, it's worth noting that there are 4 planes of VGA memory, each 64 KB in size, for a total of 256 KB.
+One other tidbit that I learned from [6] is that VGA uses a "sequencer," among other devices in its rendering pipeline (if you could call it that). The sequencer is connected to the VGA memory space, reading it and generating colors that are fed to subsequent stages. Also, it's worth noting that there are 4 planes of VGA memory, each 64 KB in size, for a total of 256 KB.
 
 ## Settings the Graphics Mode (without the BIOS)
 
-How do you set the graphics mode in protected mode? The sage answer comes again from OSDev [^7]:
+How do you set the graphics mode in protected mode? The sage answer comes again from OSDev [7]:
 
 > **You don't**. Graphics programming is fun, but graphics are hardly essential for an OS. **Don't get side-tracked**
 
-In fact, it's recommended that you avoid getting too deep into this topic unless you have "more than one life to waste" [8]. Apparently, you can make VGA work without the BIOS and still get some low-resolution graphics working, but to move beyond it, you'll hit some serious barriers. Graphics cards would **each, separately** require their own graphics driver implementation, and there often isn't sufficient documentation on these cards [^8], meaning that you'd be reverse engineering it. That being said, at some point *far* down the line, I'm sure there's a way to obtain implementations of graphics drivers for popular cards and compile them specifically for our OS. But this is all besides the point - let's jump into the actual code of writing the VGA driver.
+In fact, it's recommended that you avoid getting too deep into this topic unless you have "more than one life to waste" [8]. Apparently, you can make VGA work without the BIOS and still get some low-resolution graphics working, but to move beyond it, you'll hit some serious barriers. Graphics cards would **each, separately** require their own graphics driver implementation, and there often isn't sufficient documentation on these cards [8], meaning that you'd be reverse engineering it. That being said, at some point *far* down the line, I'm sure there's a way to obtain implementations of graphics drivers for popular cards and compile them specifically for our OS. But this is all besides the point - let's jump into the actual code of writing the VGA driver.
 
 ## Writing the Code
 
@@ -104,7 +104,7 @@ While we apparently have 256 colors available in this mode, I did not explore pa
 
 ## We're Stuck in VGA Mode
 
-Unfortunately, I was not able to find a way out of this mode. I left my various unsuccessful attempts on the `vga-text-mode` branch in the repo. Though [^9] provides `g_80x25_text` register values, writing this with `write_regs` when the user hits ESC was not enough. The actual code also writes 4096-byte font into a specific place in *virtual* memory. Unfortunately, this makes use of external dependencies to calculate, and I wasn't able to get it to work. Depending on your compiler, this would either be a `memcpy`, include some variables from `dos.h`, or something like that. Since we're running on bare-metal, we don't have `dos.h` and we'd have to roll our own `memcpy`. I took a quick-and-dirty attempt at `memcpy`:
+Unfortunately, I was not able to find a way out of this mode. I left my various unsuccessful attempts on the `vga-text-mode` branch in the repo. Though [9] provides `g_80x25_text` register values, writing this with `write_regs` when the user hits ESC was not enough. The actual code also writes 4096-byte font into a specific place in *virtual* memory. Unfortunately, this makes use of external dependencies to calculate, and I wasn't able to get it to work. Depending on your compiler, this would either be a `memcpy`, include some variables from `dos.h`, or something like that. Since we're running on bare-metal, we don't have `dos.h` and we'd have to roll our own `memcpy`. I took a quick-and-dirty attempt at `memcpy`:
 
 ```c
 // Famous last words - how hard can memcpy be
@@ -121,19 +121,28 @@ Sadly, this didn't seem to help, so I gave up on it for now. The only way out of
 
 I was having trouble getting into the debugger, so I added a script for debugging named `scripts/docker_run_debug` which allows easy access to the existing debugging functionality with QEMU and GDB. It was poking around in memory and checking values that made me realize I had the wrong VGA address.
 
-I also found out about how global variables work in C. Apparently, you should declare the global as `extern` in your header file, and then actually give it a value in your implementation file. Otherwise, you'll get yelled at for having multiple definitions of the same variable, even if you use header guards [^10].
+I also found out about how global variables work in C. Apparently, you should declare the global as `extern` in your header file, and then actually give it a value in your implementation file. Otherwise, you'll get yelled at for having multiple definitions of the same variable, even if you use header guards [10].
 
 Speaking of which, I added header guards! Without these lovely `#ifndef __HEADER_H`,  `#define __HEADER_H`, `#endif` combos, you'll get all sorts of errors for mutliple definitions of the same variable or function.
 
 ## References
 
-[^1]: https://www.britannica.com/technology/VGA
-[^2]: https://computer.howstuffworks.com/monitor3.htm
-[^3]: https://www.toptenreviews.com/how-hdmi-cables-work
-[^4]: https://manpages.debian.org/stretch/qemu-system-x86/qemu-system-i386.1.en.html
-[^5]: http://www.vgamuseum.info/index.php/cpu/item/147-cirrus-logic-cl-gd5446
-[^6]: https://wiki.osdev.org/VGA_Hardware
-[^7]: https://files.osdev.org/mirrors/geezer/osd/graphics/index.htm
-[^8]: https://wiki.osdev.org/How_do_I_set_a_graphics_mode
-[^9]: https://files.osdev.org/mirrors/geezer/osd/graphics/modes.c 
-[^10]: https://stackoverflow.com/questions/8201944/multiple-definition-and-header-only-libraries
+[1] [https://www.britannica.com/technology/VGA](https://www.britannica.com/technology/VGA)
+
+[2] [https://computer.howstuffworks.com/monitor3.htm](https://computer.howstuffworks.com/monitor3.htm)
+
+[3] [https://www.toptenreviews.com/how-hdmi-cables-work](https://www.toptenreviews.com/how-hdmi-cables-work)
+
+[4] [https://manpages.debian.org/stretch/qemu-system-x86/qemu-system-i386.1.en.html](https://manpages.debian.org/stretch/qemu-system-x86/qemu-system-i386.1.en.html)
+
+[5] [http://www.vgamuseum.info/index.php/cpu/item/147-cirrus-logic-cl-gd5446](http://www.vgamuseum.info/index.php/cpu/item/147-cirrus-logic-cl-gd5446)
+
+[6] [https://wiki.osdev.org/VGA_Hardware](https://wiki.osdev.org/VGA_Hardware)
+
+[7] [https://files.osdev.org/mirrors/geezer/osd/graphics/index.htm](https://files.osdev.org/mirrors/geezer/osd/graphics/index.htm)
+
+[8] [https://wiki.osdev.org/How_do_I_set_a_graphics_mode](https://wiki.osdev.org/How_do_I_set_a_graphics_mode)
+
+[9] [https://files.osdev.org/mirrors/geezer/osd/graphics/modes.c](https://files.osdev.org/mirrors/geezer/osd/graphics/modes.c)
+
+[10] [https://stackoverflow.com/questions/8201944/multiple-definition-and-header-only-libraries](https://stackoverflow.com/questions/8201944/multiple-definition-and-header-only-libraries)

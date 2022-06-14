@@ -15,11 +15,11 @@ Do you have all of your notes in OneNote? Want to move your notes out, but not s
 
 ## Resources
 
-Source code: https://github.com/pagekeysolutions/onenote-to-markdown/
+Source code: [https://github.com/pagekeysolutions/onenote-to-markdown/](https://github.com/pagekeysolutions/onenote-to-markdown/)
 
-Obsidian: https://obsidian.md/
+Obsidian: [https://obsidian.md/](https://obsidian.md/)
 
-Table converter: https://jmalarcon.github.io/markdowntables/
+Table converter: [https://jmalarcon.github.io/markdowntables/](https://jmalarcon.github.io/markdowntables/)
 
 ## Timestamps
 

@@ -14,4 +14,4 @@ Here's the latest for Boom Languages, a new language learning app I'm working on
 
 2.0.3 is out on stores and the big change is that the article translator tool is actually somewhat usable now. Also, users receive an email on signup! Not the most exciting changes, but it's progress.
 
-If you'd like to try it out, visit https://boomlanguages.com.
+If you'd like to try it out, visit [https://boomlanguages.com](https://boomlanguages.com).
