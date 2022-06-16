@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "wilr/2-rust-basics.md",
+            "file": "ftp/2-instantly-apply-js-concepts.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wilr/2-rust-basics.md",
+                "file": "ftp/2-instantly-apply-js-concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "ftp/2-instantly-apply-js-concepts.md",
+    "ftp/1-get-your-feet-wet.md",
     "wilr/2-rust-basics.md",
     "misc/docker-101.md",
     "boom/devlog-5.md",
@@ -96,8 +98,6 @@
     "_templates_/post.md",
     "misc/react-cra.md",
     "misc/duobot.md",
-    "misc/onenote-to-markdown.md",
-    "misc/10-minute-linux-1.md",
-    "misc/logic-analyzer/index.md"
+    "misc/onenote-to-markdown.md"
   ]
 }
