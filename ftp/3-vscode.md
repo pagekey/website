@@ -2,7 +2,7 @@
 title: "VSCode, Emmet Coding, Serving Static Files | FTP3"
 date: "2022-07-04"
 authors: [steve]
-youtube: [pG1OmboC5Jc](https://youtu.be/pG1OmboC5Jc)
+youtube: pG1OmboC5Jc
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
