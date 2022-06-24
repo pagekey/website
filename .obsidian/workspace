@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ftp/2-instantly-apply-js-concepts.md",
+            "file": "ftp/3-vscode.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ftp/2-instantly-apply-js-concepts.md",
+                "file": "ftp/3-vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "ftp/3-vscode.md",
     "ftp/2-instantly-apply-js-concepts.md",
     "ftp/1-get-your-feet-wet.md",
     "wilr/2-rust-basics.md",
@@ -97,7 +98,6 @@
     "wilr/1-react-native-basics.md",
     "_templates_/post.md",
     "misc/react-cra.md",
-    "misc/duobot.md",
-    "misc/onenote-to-markdown.md"
+    "misc/duobot.md"
   ]
 }
