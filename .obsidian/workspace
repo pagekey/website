@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ftp/3-vscode.md",
+            "file": "ftp/4-git-foundation.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ftp/3-vscode.md",
+                "file": "ftp/4-git-foundation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "ftp/4-git-foundation.md",
     "ftp/3-vscode.md",
     "ftp/2-instantly-apply-js-concepts.md",
     "ftp/1-get-your-feet-wet.md",
@@ -97,7 +98,6 @@
     "boom/devlog-5.md",
     "wilr/1-react-native-basics.md",
     "_templates_/post.md",
-    "misc/react-cra.md",
-    "misc/duobot.md"
+    "misc/react-cra.md"
   ]
 }
