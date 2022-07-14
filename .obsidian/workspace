@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ftp/4-git-foundation.md",
+            "file": "ftp/7-express-js.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ftp/4-git-foundation.md",
+                "file": "ftp/7-express-js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "ftp/6-npm-node.md",
+    "ftp/7-express-js.md",
+    "ftp/5-git-collaboration.md",
     "ftp/4-git-foundation.md",
     "ftp/3-vscode.md",
     "ftp/2-instantly-apply-js-concepts.md",
     "ftp/1-get-your-feet-wet.md",
     "wilr/2-rust-basics.md",
     "misc/docker-101.md",
-    "boom/devlog-5.md",
-    "wilr/1-react-native-basics.md",
-    "_templates_/post.md",
-    "misc/react-cra.md"
+    "boom/devlog-5.md"
   ]
 }
