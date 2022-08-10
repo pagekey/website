@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "pkos/16-integration-test.md",
+            "file": "pkos/17-unit-test-c.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pkos/16-integration-test.md",
+                "file": "pkos/17-unit-test-c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "pkos/16-integration-test.md",
     "ftp/7-express-js.md",
     "ftp/6-npm-node.md",
     "ftp/5-git-collaboration.md",
@@ -97,7 +98,6 @@
     "ftp/2-instantly-apply-js-concepts.md",
     "ftp/1-get-your-feet-wet.md",
     "wilr/2-rust-basics.md",
-    "misc/docker-101.md",
-    "boom/devlog-5.md"
+    "misc/docker-101.md"
   ]
 }
