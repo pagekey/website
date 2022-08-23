@@ -2,7 +2,7 @@
 title: "Can we build our own Kindle, with a twist? | KR1"
 date: "2022-08-29"
 authors: [steve]
-youtube: 
+youtube: ldzCndHQElI
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
