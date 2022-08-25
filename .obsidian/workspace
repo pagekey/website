@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "keyreader/1-pitch-plan-design.md",
+            "file": "keyreader/2-project-and-screens.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "keyreader/1-pitch-plan-design.md",
+                "file": "keyreader/2-project-and-screens.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f7ba177d6b6d508a",
   "lastOpenFiles": [
+    "keyreader/1-pitch-plan-design.md",
     "pkos/18-shred-the-makefile.md",
     "pkos/17-unit-test-c.md",
     "pkos/16-integration-test.md",
@@ -97,7 +98,6 @@
     "ftp/5-git-collaboration.md",
     "ftp/4-git-foundation.md",
     "ftp/3-vscode.md",
-    "ftp/2-instantly-apply-js-concepts.md",
-    "ftp/1-get-your-feet-wet.md"
+    "ftp/2-instantly-apply-js-concepts.md"
   ]
 }
