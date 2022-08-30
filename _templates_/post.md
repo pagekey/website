@@ -1,6 +1,6 @@
 ---
 title: ""
-date: "{{date}}"
+date: "yyyy-mm-dd"
 authors: [steve]
 youtube: 
 ---

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f7ba177d6b6d508a",
+        "id": "0693b64c6fa93031",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "keyreader/2-project-and-screens.md",
+            "file": "pkos/19-more-vga.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "keyreader/2-project-and-screens.md",
+                "file": "pkos/19-more-vga.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f7ba177d6b6d508a",
+  "active": "0693b64c6fa93031",
   "lastOpenFiles": [
+    "_templates_/post.md",
+    "keyreader/2-project-and-screens.md",
     "keyreader/1-pitch-plan-design.md",
     "pkos/18-shred-the-makefile.md",
     "pkos/17-unit-test-c.md",
@@ -96,8 +98,6 @@
     "ftp/7-express-js.md",
     "ftp/6-npm-node.md",
     "ftp/5-git-collaboration.md",
-    "ftp/4-git-foundation.md",
-    "ftp/3-vscode.md",
-    "ftp/2-instantly-apply-js-concepts.md"
+    "ftp/4-git-foundation.md"
   ]
 }
