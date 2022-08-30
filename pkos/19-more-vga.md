@@ -2,7 +2,7 @@
 title: "OS19: More VGA + stdlib/memory improvements"
 date: "2022-09-12"
 authors: [steve]
-youtube: 
+youtube: E26AtZNIj8c
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
