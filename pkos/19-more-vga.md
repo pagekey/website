@@ -9,6 +9,8 @@ youtube: E26AtZNIj8c
 
 In this video, we make massive improvements to stdlib, add memset and memcpy, and most importantly, allow ourselves to get out of VGA (graphics) mode once we enter it.
 
+MR for this video: [https://gitlab.com/pagekeytech/pkos/-/merge_requests/4](https://gitlab.com/pagekeytech/pkos/-/merge_requests/4)
+
 <!-- truncate -->
 
 ## Timestamps
