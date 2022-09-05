@@ -1,3 +1,20 @@
-trigger_build:
-  stage: deploy
-  trigger: pagekey/nextjs-blog
+pages:
+  image: node:16
+  script:
+    - cd ..
+    - git clone https://oauth2:$GITLAB_TOKEN@gitlab.com/pagekey/nextjs-blog
+    - rm -rf nextjs-blog/content/blog
+    - cp -r blog nextjs-blog/content/
+    - cd nextjs-blog
+    - rm -rf content/blog/.git # quick fix for it trying to gen from the .git dir
+    - npm install
+    - npm run build
+    - rm -rf public
+    - mv out public
+    - cp public/404/index.html public/404.html
+    - rm -rf ../blog/public # quick fix for artifacts move later
+    - mv public ../blog
+    - cd ../blog # end where we started
+  artifacts:
+    paths:
+      - public/
