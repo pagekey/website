@@ -11,7 +11,7 @@ import YouTubePlayer from '@site/src/components/YouTubePlayer';
 
 The last video walked us through a PowerShell script to convert OneNote to Markdown. A lot of people (including me) ran into issues with that script, so this video introduces a Python version, which should be less buggy.
 
-[Original post](../onenote-to-markdown.md)
+[Original post](../onenote-to-markdown)
 
 <!--truncate-->
 
