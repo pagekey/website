@@ -3,6 +3,7 @@ title: How and Why to Use a Logic Analyzer
 date: "2022-05-16"
 authors: [steve]
 youtube: IqiRDxxR8Ds
+path: /blog/misc/logic-analyzer/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

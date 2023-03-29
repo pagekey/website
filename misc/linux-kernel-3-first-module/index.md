@@ -2,6 +2,7 @@
 title: Writing Your First Kernel Module
 date: "2018-03-29"
 authors: [steve]
+path: /blog/misc/linux-kernel-3-first-module/
 ---
 
 ![Hands putting jigsaw pieces together](@post/hands-jigsaw.jpg)

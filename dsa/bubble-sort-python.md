@@ -4,6 +4,7 @@ date: "2018-10-05"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: LmZLKhd2Juc
+path: /blog/dsa/bubble-sort-python/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

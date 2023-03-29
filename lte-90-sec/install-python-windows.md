@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: fA-9FyBPN18
 project: lte-90-sec
+path: /blog/lte-90-sec/install-python-windows/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

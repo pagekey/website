@@ -2,6 +2,7 @@
 title: 'Django: How to Install and Run Your First Web App'
 date: "2019-06-17"
 authors: [steve]
+path: /blog/misc/django-first-web-app/
 ---
 
 ![Construction](@post/construction.jpg)

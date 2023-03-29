@@ -3,6 +3,7 @@ title: Making a Command-line Ruby Gem - Write, Build, and Push
 date: "2018-04-04"
 authors: [steve]
 youtube: KNa1TXnaZSg
+path: /blog/misc/command-line-ruby-gem/
 ---
 
 ![A shiny red gem](@post/shiny-gem.jpg)

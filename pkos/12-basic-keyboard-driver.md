@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: YtnNX074jMU
 project: pkos
+path: /blog/pkos/12-basic-keyboard-driver/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

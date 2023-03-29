@@ -2,6 +2,7 @@
 title: '5 Steps to Writing Your Next Technical Article'
 date: "2018-12-13"
 authors: [steve]
+path: /blog/misc/5-steps-write-technical-article/
 ---
 
 ![Circuitboard parts](@post/write-technical-article.jpg)

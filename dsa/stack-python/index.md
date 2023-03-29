@@ -4,6 +4,7 @@ date: "2017-06-22"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: 5MOy9VYKczY
+path: /blog/dsa/stack-python/
 ---
 
 ![Stack of rocks](@post/stack.jpg)

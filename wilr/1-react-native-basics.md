@@ -3,6 +3,7 @@ title: "WILR1: React Native Basics"
 date: "2022-05-30"
 authors: [steve]
 youtube: THiU0OdK1C8
+path: /blog/wilr/1-react-native-basics/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

@@ -2,6 +2,7 @@
 title: 'Take Your Linux Workspace Anywhere: Backup for Nerds'
 date: "2018-11-24"
 authors: [steve]
+path: /blog/misc/backup-linux-workspace/
 ---
 
 ![A Computer Workspace](@post/linux-workspace.jpg)

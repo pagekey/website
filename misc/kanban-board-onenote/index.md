@@ -2,6 +2,7 @@
 title: 'How to Create a Kanban Board in OneNote'
 date: "2018-11-29"
 authors: [steve]
+path: /blog/misc/kanban-board-onenote/
 ---
 
 ![My Sample OneNote Board](@post/onenote-board.jpg)

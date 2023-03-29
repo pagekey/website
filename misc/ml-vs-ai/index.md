@@ -2,6 +2,7 @@
 title: "The Nuanced Truth: Exploring Differences Between ML and AI"
 date: "2021-04-11"
 authors: [steve]
+path: /blog/misc/ml-vs-ai/
 ---
 
 ![Cute robot](@post/cute-robot.jpeg)

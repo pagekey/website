@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: -V-eKSKwexs
 project: pkos
+path: /blog/pkos/10-real-hardware/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

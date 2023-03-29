@@ -1,6 +1,7 @@
 ---
-title: "10 Linux Minute Crash Course - Everything You Need to Get Started Now (Part 2)"
+title: "10 Minute Linux Crash Course - Everything You Need to Get Started Now (Part 2)"
 draft: true
+path: /blog/misc/10-minute-linux-1/
 ---
 
 ## Getting Crafty (Text Editors)

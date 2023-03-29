@@ -2,6 +2,7 @@
 title: How to Compile the Linux Kernel from Source
 date: "2018-03-03"
 authors: [steve]
+path: /blog/misc/linux-kernel-1-compile-from-source/
 ---
 
 ![Kernels... Kernels everywhere!](@post/kernels.jpg)

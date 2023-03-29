@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: VCqwKazLLbY
 project: quick-python
+path: /blog/quick-python/6-first-data-pipeline/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

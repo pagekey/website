@@ -3,6 +3,7 @@ title: Is creativity the key to language learning?
 date: "2018-11-12"
 authors: [steve]
 tags: [language-learning]
+path: /blog/misc/creativity-language-learning/
 ---
 
 ![Hands on a piano](@post/piano.jpeg)

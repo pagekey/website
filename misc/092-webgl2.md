@@ -3,6 +3,7 @@ title: "WebGL Live Coding 2"
 date: "2022-12-11"
 authors: [steve]
 youtube: kLlo4W3nMi8
+path: /blog/webgl-2
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

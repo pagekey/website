@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: t-hqxcGsJvU
 project: quick-python
+path: /blog/quick-python/5-writing-files/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

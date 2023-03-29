@@ -5,6 +5,7 @@ authors: [steve]
 tags: [ftp,python]
 youtube: rM8BZdOA_60
 project: ftp
+path: /blog/ftp/1-get-your-feet-wet/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

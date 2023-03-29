@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: z4xMES7s5eU
 project: lte-90-sec
+path: /blog/lte-90-sec/install-python-ubuntu/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

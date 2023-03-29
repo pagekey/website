@@ -4,6 +4,7 @@ date: "2022-06-13"
 authors: [steve]
 tags: [boom-languages]
 youtube: 4aKoQicY5Cg
+path: /blog/boom/devlog-5/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

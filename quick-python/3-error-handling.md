@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: pgppd2fwrJQ
 project: quick-python
+path: /blog/quick-python/3-error-handling/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

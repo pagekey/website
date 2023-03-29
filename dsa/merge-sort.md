@@ -4,6 +4,7 @@ date: "2018-09-28"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: syHhPKK00Rc
+path: /blog/dsa/merge-sort/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

@@ -2,6 +2,7 @@
 title: 'Career, Year One: 8 Lessons Learned'
 date: "2018-11-17"
 authors: [steve]
+path: /blog/misc/career-year-one/
 ---
 
 ![Year One Circled on Calendar](@post/career-year-one.jpeg)

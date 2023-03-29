@@ -4,6 +4,7 @@ title: 'Carrera, Año Primero: 8 Lecciones Aprendidas'
 keywords: [learning, business, ideas, education, career, productivity]
 author: stephengrice
 categories: ['Spanish']
+path: /blog/misc/carrera-ano-primero/
 draft: true
 ---
 

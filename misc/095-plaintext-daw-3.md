@@ -3,6 +3,7 @@ title: "Rendering Two Notes | Plaintext DAW 3"
 date: "2023-02-02"
 authors: [steve]
 youtube: 5VL-Yb_Mj78
+path: /blog/ptd-3
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

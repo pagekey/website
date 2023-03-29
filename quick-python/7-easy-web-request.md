@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: KkbkMDDbI9M
 project: quick-python
+path: /blog/quick-python/7-easy-web-request/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

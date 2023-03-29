@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: NtZzb9ZJ5Fo
 project: pkos
+path: /blog/pkos/1-installation/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

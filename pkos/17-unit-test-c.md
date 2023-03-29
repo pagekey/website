@@ -3,6 +3,7 @@ title: "OS17: Unit Testing C Code with Gtest, LCOV, Genhtml"
 date: "2022-08-15"
 authors: [steve]
 youtube: M4JG1Ej4x-c
+path: /blog/pkos/17-unit-test-c/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

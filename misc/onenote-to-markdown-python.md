@@ -3,6 +3,7 @@ title: "Python Update - Convert OneNote to Markdown"
 date: "2022-03-12"
 authors: [steve]
 youtube: mYbiT63Bkns
+path: /blog/misc/onenote-to-markdown-python/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: IU9zXYdYV9I
 project: pkos
+path: /blog/pkos/7-protected-mode/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

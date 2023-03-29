@@ -2,6 +2,7 @@
 title: "4 Fun JavaScript Examples for Beginners"
 date: "2020-11-02"
 authors: [steve]
+path: /blog/misc/javascript-examples-for-beginners/
 ---
 
 ![Coffee beans](@post/coffee.jpg)

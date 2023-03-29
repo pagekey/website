@@ -2,6 +2,7 @@
 title: How to Implement a Binary Search Tree in Python
 date: "2018-04-19"
 authors: [steve]
+path: /blog/dsa/binary-search-tree-python/
 ---
 
 ![Example of a Binary Search Tree](@post/1example_tree.png)

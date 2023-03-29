@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: osREJ2ksyW4
 project: quick-python
+path: /blog/quick-python/4-sipping-from-file/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

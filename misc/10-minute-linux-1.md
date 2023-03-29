@@ -3,6 +3,7 @@ title: "10 Minute Linux Crash Course - Everything You Need to Get Started Now"
 date: "2020-11-30"
 authors: [steve]
 youtube: XKvmgtOidYU
+path: /blog/misc/10-minute-linux-1/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

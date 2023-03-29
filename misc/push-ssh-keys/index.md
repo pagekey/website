@@ -2,6 +2,7 @@
 title: Push Out Your SSH Keys - Jump Nodes in a Jiffy!
 date: "2018-04-16"
 authors: [steve]
+path: /blog/misc/push-ssh-keys/
 ---
 
 ![Man doing a backflip](@post/backflip.jpg)

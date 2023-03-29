@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: W3DdyiO3Fy8
 project: pkos
+path: /blog/pkos/3-hone-power-bios/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

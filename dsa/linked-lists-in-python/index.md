@@ -4,6 +4,7 @@ date: "2017-06-20"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: KZVU2X4Dw8w
+path: /blog/dsa/linked-lists-in-python/
 ---
 
 ![Links of rope](@post/linked-list.jpg)

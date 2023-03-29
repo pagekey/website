@@ -4,6 +4,7 @@ date: "2018-09-23"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: OSD4b-ih6Kc
+path: /blog/dsa/quicksort-python/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

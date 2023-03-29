@@ -3,6 +3,7 @@ title: "Getting Started with React (Create React App)"
 date: "2022-05-23"
 authors: [steve]
 youtube: qGsFYSWTMFY
+path: /blog/misc/react-cra/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

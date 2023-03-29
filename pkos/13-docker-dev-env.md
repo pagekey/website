@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: qN_24B2OJ5U
 project: pkos
+path: /blog/pkos/13-docker-dev-env/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

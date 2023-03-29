@@ -4,6 +4,7 @@ date: "2021-12-31"
 authors: [steve]
 tags: [boom-languages]
 youtube: qvgQYVp5O9o
+path: /blog/boom/devlog-4/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

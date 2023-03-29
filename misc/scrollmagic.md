@@ -3,6 +3,7 @@ title: Make Your Site Stand Out with ScrollMagic
 date: "2019-04-26"
 authors: [steve]
 youtube: 8jtLCrvUddA
+path: /blog/misc/scrollmagic/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

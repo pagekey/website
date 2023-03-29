@@ -3,6 +3,7 @@ title: "Convert OneNote to Markdown (and Obsidian.md)"
 date: "2022-01-23"
 authors: [steve]
 youtube: C70jUkQyIQM
+path: /blog/misc/onenote-to-markdown/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

@@ -2,6 +2,7 @@
 title: 'Design vs. Implementation: The Eternal Divide'
 date: "2018-12-12"
 authors: [steve]
+path: /blog/misc/design-vs-implementation/
 ---
 
 ![Brushes in front of a blank canvas](@post/design-vs-implementation.jpg)

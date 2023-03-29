@@ -3,6 +3,7 @@ title: "I spent dozens of hours to save 5 minutes on DuoLingo"
 date: "2022-10-03"
 authors: [steve]
 youtube: voon-ylQBkI
+path: /blog/video-essays/duobot-is-free-now/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

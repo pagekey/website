@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: MTarw_BUR-M
 project: lte-90-sec
+path: /blog/lte-90-sec/install-selenium-python-ubuntu/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

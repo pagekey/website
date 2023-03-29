@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: O5rH_fsOOJM
 project: quick-python
+path: /blog/quick-python/8-virtual-environments/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

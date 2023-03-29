@@ -4,6 +4,7 @@ date: "2017-11-24"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: zHi5v78W1f0
+path: /blog/dsa/hash-table-python/
 ---
 
 ![Get with the times!](@post/hashtable.jpg)

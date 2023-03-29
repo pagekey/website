@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pfl]
 youtube: hO16sBPMe34
 project: pfl
+path: /blog/pfl/1-initial-setup/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

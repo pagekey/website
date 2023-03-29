@@ -3,6 +3,7 @@ title: "WILR2: Rust Beginnings (minigrep)"
 date: "2022-06-20"
 authors: [steve]
 youtube: Lelgwgs63Z8
+path: /blog/wilr/2-rust-basics/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

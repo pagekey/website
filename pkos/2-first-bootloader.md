@@ -5,6 +5,7 @@ authors: [steve]
 tags: [pkos]
 youtube: 1lAuJoPZ3Q0
 project: pkos
+path: /blog/pkos/2-first-bootloader/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

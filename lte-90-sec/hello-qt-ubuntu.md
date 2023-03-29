@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: d1JGsHc1NGA
 project: lte-90-sec
+path: /blog/lte-90-sec/hello-qt-ubuntu/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

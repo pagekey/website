@@ -4,6 +4,7 @@ date: "2022-06-27"
 authors: [steve]
 youtube: RfZqCb5uXoA
 project: ftp
+path: /blog/ftp/2-instantly-apply-js-concepts/
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

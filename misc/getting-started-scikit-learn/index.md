@@ -2,6 +2,7 @@
 title: "How to Get Up and Running with Scikit-Learn"
 date: "2021-04-17"
 authors: [steve]
+path: /blog/misc/getting-started-scikit-learn/
 ---
 
 ![Wall panels](@post/wall-panels.jpg)

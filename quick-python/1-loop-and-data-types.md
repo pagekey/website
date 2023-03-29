@@ -5,6 +5,7 @@ authors: [steve]
 tags: [quick-python]
 youtube: ydQASRg1dZE
 project: quick-python
+path: /blog/quick-python/1-loop-and-data-types/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

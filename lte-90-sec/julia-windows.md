@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: 59_sTxdsGiI
 project: lte-90-sec
+path: /blog/lte-90-sec/julia-windows/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

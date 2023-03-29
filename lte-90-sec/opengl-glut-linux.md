@@ -5,6 +5,7 @@ authors: [steve]
 tags: [lte-90-sec]
 youtube: cShqFtmDTQE
 project: lte-90-sec
+path: /blog/lte-90-sec/opengl-glut-linux/
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

@@ -3,6 +3,7 @@ title: "Config Magic with Python Dataclasses | Plaintext DAW 2"
 date: "2023-01-26"
 authors: [steve]
 youtube: _C0c-xZhv8o
+path: /blog/ptd-2
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
