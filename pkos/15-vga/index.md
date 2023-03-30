@@ -79,7 +79,7 @@ In fact, it's recommended that you avoid getting too deep into this topic unless
 
 The code that helped me get this working was found at [9]. It's an actual example of techniques for changing the graphics mode without the BIOS. The file itself is huge, and I made no effort to build or run it. Instead, I searched for relevant code snippets that I could use in PKOS. I found `write_regs` to be a key function. This, paired with a character array named `g_320x200x256`, representing register values required to enter 320x200 VGA resolution with a color-depth of 256, allowed me to change the graphics mode. I added a command to `kernel.c` so that whenever you type `vga`, it runs the `vga_test()` function in `vga.c`, which in turn runs `write_regs(g_320x200x256)`. When we do this, our text-based interface goes away, and we see something cool!
 
-![VGA Mode with Random Noise](@post/vga1.png)
+![VGA Mode with Random Noise](/img/vga1.png)
 Our first glimpse of VGA mode
 
 Beautiful! The coolest part of this is that we seem to be unintentionally visualizing a section of memory as VGA. The little dots of yellow and stripes of gray must have had some other meaning to the computer before we entered this mode, though I'm not sure what. Maybe the buffer for our text interface that just disappeared is represented here.
@@ -98,7 +98,7 @@ We simply calculate the address of the color we'd like to update based on `x` an
 
 We're now free to clear the screen by plotting color 0 (black) on every pixel from 0,0 to 320,200. From that point on, we can have some fun with our `vga_plot_pixel` function. We're basically free to draw whatever we want! As for me, I drew some happy faces, a rectangle, and a pallete of colors `0x0` through `0xF`.
 
-![VGA Mode with Custom Drawing](@post/vga2.png)
+![VGA Mode with Custom Drawing](/img/vga2.png)
 The output of our custom drawing code
 
 While we apparently have 256 colors available in this mode, I did not explore past color `0xF`.

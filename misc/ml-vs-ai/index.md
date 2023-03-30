@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/ml-vs-ai/
 ---
 
-![Cute robot](@post/cute-robot.jpeg)
+![Cute robot](/img/cute-robot.jpeg)
 
 Everyone has heard of machine learning and artificial intelligence at this point, right?
 

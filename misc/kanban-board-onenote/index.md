@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/kanban-board-onenote/
 ---
 
-![My Sample OneNote Board](@post/onenote-board.jpg)
+![My Sample OneNote Board](/img/onenote-board.jpg)
 
 Sometimes, I have trouble prioritizing my tasks. My day becomes a whirlwind of distraction; I end up talking to a lot of different people working on very different projects. This would lead to considerable stress; as soon as I'd start to work on one thing, I'd get pulled away and forget where I left off, or even what I was working on!
 
@@ -31,14 +31,14 @@ Let's get started. We will be creating four tables to hold tasks: Backlog, Waiti
 
 Open a new page and start typing the first column name. Press tab, and it should turn into a table. Type the next one, tab over, and repeat until you have all of the columns. Then, press enter.
 
-![Create your first table in OneNote](@post/1-create-table.gif)
+![Create your first table in OneNote](/img/1-create-table.gif)
 <figcaption>Step 1: Create the table taht will serve as a template for others.</figcaption>
 
 Our first table has been set up. The next step is to copy it to make the other tables. Click and drag to highlight the entire table. Next, press `Control-C`, click somewhere else on the page, and hit `Control-V` to duplicate the table and place it somewhere else. Repeat until we have all four tables.
 
 Align your new columns horizontally and name them.
 
-![Copying the table](@post/2-copy-tables.gif)
+![Copying the table](/img/2-copy-tables.gif)
 <figcaption>Step 2: Copy the table a few times to make more than one column.</figcaption>
 
 It looks like we're all set up. Now we can put it to good use.
@@ -47,7 +47,7 @@ It looks like we're all set up. Now we can put it to good use.
 
 Create your first task. Click in your Backlog board, fill out each column, and press tab to create a blank row after it. It's a good idea to leave a blank row in there, so that you always have a place to start filling out a new task.
 
-![Board with one task](@post/3-tables-with-task.png)
+![Board with one task](/img/3-tables-with-task.png)
 <figcaption>Step 3: Add your first task.</figcaption>
 
 Now let's take a second to imagine this task getting done. We see it on our board and think it's pretty important. So, we start working it. To do this, we hover our mouse just to the left of the row to reveal a little anchor, which we can use to click and drag the row between tables.
@@ -56,7 +56,7 @@ The task moves from Backlog to Working, where we spend some time getting it done
 
 With great patience, we wait for John to finish his part and are finally able to complete our task.
 
-![Moving a task](@post/4-move-task.gif)
+![Moving a task](/img/4-move-task.gif)
 <figcaption>Step 4: Move your task across columns as you work it.</figcaption>
 
 ## Variations on this Method

@@ -6,7 +6,7 @@ tags: [boom-languages]
 path: /blog/boom/boom-v1.0-writeup/
 ---
 
-![Boom! Languages Logo](@post/boom-logo.svg)
+![Boom! Languages Logo](/img/boom-logo.svg)
 <figcaption>The Boom! Languages logo, created by Nick Fulfaro (<a href="https://instagram.com/fulfaroanimations">@fulfaroanimations</a>).</figcaption>
 
 About four months ago, in late November 2020, I finally took action on an ambitious plan that I've had in the back of my head for quite a while. I wanted to build a language-learning app that was just a bit different than the others I've tried.
@@ -29,7 +29,7 @@ The language data used for all of the quizzes is intentionally **publicly availa
 
 For people who aren't familiar with how GitLab works, rest assured that I've realized the error in my ways - Git is not the best way for us all to collaborate. I'm working on an easier way to do this, so stay tuned!
 
-![Boom! Dashboard screen](@post/boom-dashboard.jpg)
+![Boom! Dashboard screen](/img/boom-dashboard.jpg)
 <figcaption>The Boom! Dashboard in all its glory</figcaption>
 
 ## The Why
@@ -86,14 +86,14 @@ Another helpful resource that I stumbled upon just-in-time was my Foundations of
 
 The course stressed the need to have discipline and avoid the "code and fix" design pattern. I was determined to embody this value, aiming to create a design that was as detailed as possible before writing any code!
 
-![Example of a use case](@post/use-case.png)
+![Example of a use case](/img/use-case.png)
 <figcaption>Becoming clear on the Use Cases was one of the first design steps I took. It informed nearly all activities that followed. Looks like I got distracted while writing the post-condition, though.</figcaption>
 
 It paid off, too. The upfront design gave me clarity and saved me many hours (of which I have precious few to spare for this type of project). Instead of coding in circles without really thinking about what I was doing, the design facilitated a focused, modular implementation. It was kind of like I was my own boss, at first considering only the high-level design of the app without touching any code. It was this restraint that kept my code-junky fingers from digging this project into a hole it would never get out of.
 
 Many of essential questions were answered using tactics cleaned from my Software Engineering class (and a few systems engineering courses). Especially handy were creating the context diagram, carefully defining use cases, making wireframes, and constructing a data model.
 
-![Context diagram](@post/context-diagram.png)
+![Context diagram](/img/context-diagram.png)
 <figcaption>An early attempt at an all-inclusive Context Diagram. I never got around to letting people login with Google or Facebook. I also switched from GitHub to GitLab.</figcaption>
 
 ### User Interface
@@ -110,7 +110,7 @@ I didn't really have that problem with Dart. Maybe it's because of the strong ty
 
 I want to give a shout-out to [Nick Clark](https://github.com/nickclark2016), who introduced me to Flutter for the first time last summer when we were on a project at work together. Though we didn't end up using Flutter in our final product, it gave me some initial exposure to it, which allowed me to dive much deeper in this project. Nick, you must really have your ear to the ground, because this was an excellent find.
 
-![Wirefram to reality](@post/wireframe-to-reality.png)
+![Wirefram to reality](/img/wireframe-to-reality.png)
 <figcaption>Each screen in the app began as a wireframe (left). Through many small tweaks, these rough ideas morphed into an actual user interface (right).</figcaption>
 
 ### Backend
@@ -123,7 +123,7 @@ I was very strict at first, making myself write the failing test before actually
 
 From what I read online, using a strongly typed language might have significantly cut down on the number of tests that I needed to write. However, until they come up with [Rails for Rust](https://users.rust-lang.org/t/something-like-ruby-on-rails-for-rust/45125) or something like that, I'm sticking with Rails because it works great.
 
-![Running Rails tests](@post/boom-server-rails-tests.gif)
+![Running Rails tests](/img/boom-server-rails-tests.gif)
 <figcaption>Nothing like testing your entire server-side with just 5 keystrokes!</figcaption>
 
 ## Successes
@@ -134,7 +134,7 @@ Overall, most of these projects were never finished due to lack of clarity, lack
 
 The first version of this app isn't particularly mind-blowing, but it does work. For now, that's good enough!
 
-![Boom! store listings](@post/boom-store-listings.png)
+![Boom! store listings](/img/boom-store-listings.png)
 <figcaption>The only thing that's missing is a way to access it from a browser. Coming soon!</figcaption>
 
 ## Lessons Learned

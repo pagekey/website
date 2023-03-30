@@ -7,7 +7,7 @@ youtube: KZVU2X4Dw8w
 path: /blog/dsa/linked-lists-in-python/
 ---
 
-![Links of rope](@post/linked-list.jpg)
+![Links of rope](/img/linked-list.jpg)
 
 Need a quick run down on a classic data structure? Look no further.
 

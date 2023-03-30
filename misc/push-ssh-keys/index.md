@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/push-ssh-keys/
 ---
 
-![Man doing a backflip](@post/backflip.jpg)
+![Man doing a backflip](/img/backflip.jpg)
 
 Every day, system administrators, students, professors, and everyday computer users struggle with entering their password on the command line. With each passing jump from one system to another, ten seconds tick by. Whoops, that's a mistake - make it 30!
 
