@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: Qa-WjNWkNeA
 project: pkos
-path: /blog/pkos/14-organize-our-code/
+path: /blog/pkos-14/
+redirects: [/blog/pkos/14-organize-our-code/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

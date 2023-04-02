@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: GllPGcVLEDY
 project: pkos
-path: /blog/pkos/15-vga/
+path: /blog/pkos-15/
+redirects: [/blog/pkos/15-vga/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

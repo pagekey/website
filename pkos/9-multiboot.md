@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: UraQLWvn9Vg
 project: pkos
-path: /blog/pkos/9-multiboot/
+path: /blog/pkos-9/
+redirects: [/blog/pkos/9-multiboot/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

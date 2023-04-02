@@ -1,10 +1,9 @@
 ---
-title: "OS19: More VGA + stdlib/memory improvements"
-date: "2022-09-12"
+title: "Researching PCI: Peripheral Component Interconnect | pkos 20"
+date: "2023-02-19"
 authors: [steve]
-youtube: E26AtZNIj8c
-path: /blog/pkos-19
-redirects: [/blog/pkos/19-more-vga/]
+youtube: TTAqgKs_ZpI
+path: /blog/pkos-20
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

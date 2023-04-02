@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: ZsnKjqsFwwY
 project: pkos
-path: /blog/pkos/11-calling-assembly-from-c/
+path: /blog/pkos-11/
+redirects: [/blog/pkos/11-calling-assembly-from-c/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

@@ -3,7 +3,8 @@ title: "OS18: Shredding the Makefile"
 date: "2022-08-22"
 authors: [steve]
 youtube: XLzVL8VA7Yc
-path: /blog/pkos/18-shred-the-makefile/
+path: /blog/pkos-18/
+redirects: [/blog/pkos/18-shred-the-makefile/]
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />

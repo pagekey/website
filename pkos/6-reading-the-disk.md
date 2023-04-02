@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: mktENQzbm6k
 project: pkos
-path: /blog/pkos/6-reading-the-disk/
+path: /blog/pkos-6/
+redirects: [/blog/pkos/6-reading-the-disk/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

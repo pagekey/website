@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: IvUl1ocS64g
 project: pkos
-path: /blog/pkos/5-going-over-print_hex/
+path: /blog/pkos-5/
+redirects: [/blog/pkos/5-going-over-print_hex/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';

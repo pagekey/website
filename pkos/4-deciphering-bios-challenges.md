@@ -5,7 +5,8 @@ authors: [steve]
 tags: [pkos]
 youtube: 9dU7CyKkHew
 project: pkos
-path: /blog/pkos/4-deciphering-bios-challenges/
+path: /blog/pkos-4/
+redirects: [/blog/pkos/4-deciphering-bios-challenges/]
 ---
 
 import YouTubePlayer from '@site/src/components/YouTubePlayer';
