@@ -9,8 +9,6 @@ pages:
     - rm -rf nextjs-blog/content/blog
     - cp -r $REPO_NAME nextjs-blog/content/blog
     - cd nextjs-blog
-    # Fix locale:
-    - "sed -i \"s/locale: 'en'/locale: '$LOCALE'/g\" lib/config.js"
     - rm -rf content/blog/.git # quick fix for it trying to gen from the .git dir
     - npm install
     - npm run build
