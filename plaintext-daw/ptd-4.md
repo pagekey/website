@@ -3,8 +3,8 @@ title: "Chords? Tempo? SYNTH?? | plaintext-daw 4"
 date: "2023-01-31"
 authors: [steve]
 youtube: C5Tb4RITg7E
-path: /blog/ptd-3
-redirects: [/blog/misc/ptd-3]
+path: /blog/ptd-4
+redirects: [/blog/misc/ptd-4]
 ---
 
 <YouTubePlayer youtubeLink={frontmatter.youtube} />
