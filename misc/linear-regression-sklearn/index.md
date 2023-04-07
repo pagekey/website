@@ -3,6 +3,7 @@ title: "Snap the Line! Understanding Linear Regression and Scikit-Learn"
 date: "2021-05-20"
 authors: [steve]
 path: /blog/misc/linear-regression-sklearn/
+redirects: [/blog/one-off/linear-regression-sklearn/]
 ---
 
 ![Row of buildings](/img/buildings-row.jpg)
