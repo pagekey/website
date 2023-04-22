@@ -1,4 +1,4 @@
-pages:
+.pages:
   image: node:16
   variables:
     REPO_NAME: "blog"
@@ -21,3 +21,11 @@ pages:
   artifacts:
     paths:
       - public/
+
+# pages-dev:
+#   extends: .pages
+#   except: [main, master]
+
+pages:
+  extends: .pages
+  only: [main, master]
