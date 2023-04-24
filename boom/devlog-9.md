@@ -10,6 +10,8 @@ Four times, from scratch.
 
 That's how many times I've re-written my app, called Boom Languages. Every time I did, I learned a ton, and in this post, I'm going to tell you the 5 top lessons I've learned along the way.
 
+Be sure to [sign up](https://boom.pagekey.io/signup) to get notified when the latest version of Boom is available!
+
 ## 1. Just start.
 
 Any article focused on innovation or entrepreneurship will tell you this - start today, because if you put it off until tomorrow, then tomorrow will never come. I've read this advice many times, and when I finally applied it to my language app idea, it rang true.
