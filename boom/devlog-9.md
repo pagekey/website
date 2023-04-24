@@ -27,7 +27,7 @@ I've built four versions of this app so far:
 
 But if I had never just gone for it, I'd still be loafing around thinking about the next big idea.
 
-Curious to try the new version? Sign up !!!!!!!!!!!!!!HERE!!!!!!!!!!!!!!! to get notified when it's available. There's even a chance you'll be selected as an exclusive private tester!
+Curious to try the new version? Sign up [**here**](https://boom.pagekey.io/signup) to get notified when it's available. There's even a chance you'll be selected as an exclusive private tester!
 
 ## 2. It's not just about the idea.
 
@@ -88,4 +88,4 @@ There are four simple elements to my plan as I move forward with this app:
 3. **Scale!** When the previous two steps are complete, I'll have a decent-quality proof-of-concept with a working, useful learning system. Now it's time to take that potentially useful product and get it into the hands of as many people as I can. I'm not skilled at sales or marketing, but I'm hoping that if I just get started, I can fail my way to success like I did while building this app. **Of course, this would be a lot easier if I had someone with business savvy to work with** - if you're interested, [send me an email](mailto:steve@pagekey.io)!
 4. **Monetize.** Once enough people are using the app and the features are stable, we can look into ways to make money with this app and make it a sustainable business. I've done research into in-app purchases, subscription models, and licensing, but I have a lot more to learn. This is another place where I'll probably need help from some smart folks with good business acumen - and good character.
 
-So, that's all for this Boom Languages brain dump. I hope you got something out of the lessons that I shared. If you want to see more, sign up for the (!!!!!!!!) mailing list to get notified about updates related to the app, and subscribe to the PageKey YouTube channel to stay in-the-know when we publish new videos. Thanks for reading!
+So, that's all for this Boom Languages brain dump. I hope you got something out of the lessons that I shared. If you want to see more, [**sign up for the mailing list**](https://boom.pagekey.io/signup) to get notified about updates related to the app, and subscribe to the PageKey YouTube channel to stay in-the-know when we publish new videos. Thanks for reading!
