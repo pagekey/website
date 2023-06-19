@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/linux-kernel-3-first-module/
 ---
 
-![Hands putting jigsaw pieces together](/img/hands-jigsaw.jpg)
+![Hands putting jigsaw pieces together](/blog/img/hands-jigsaw.jpg)
 
 So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
@@ -94,14 +94,14 @@ sudo insmod hello-world.ko
 
 If no errors are present, it must have worked. Verify this by typing `dmesg` to show kernel messages. In my case, it looked something like this:
 
-![dmesg with Hello](/img/dmesg1.png)
+![dmesg with Hello](/blog/img/dmesg1.png)
 <figcaption>Who said that?</figcaption>
 
 That worked well enough! Try out `modinfo hello-world.ko` to see some more generic information about the module you just made.
 
 Okay, that's enough fun for one day. Let's rip that thing back out of the kernel. Type: `sudo rmmod hello-world.ko` and check `dmesg` again:
 
-![dmesg with Hello and Goodbye](/img/dmesg2.png)
+![dmesg with Hello and Goodbye](/blog/img/dmesg2.png)
 <figcaption>You say goodbye... And I say hello.</figcaption>
 
 How beautiful! Our module's circle of life is complete. They sure do grow up fast.

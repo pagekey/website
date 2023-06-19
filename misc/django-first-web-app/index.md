@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/django-first-web-app/
 ---
 
-![Construction](/img/construction.jpg)
+![Construction](/blog/img/construction.jpg)
 
 Friends, we all have ideas for apps. Everyone that I’ve talked to, whether they’re interested in technology or not, has had some kind of idea for something that their phone and computer could do better, something to make their lives that much easier. Yet, getting started can be tremendously intimidating. How can we actually make it happen? Do we need degrees? Years of study? A natural gift?
 
@@ -25,7 +25,7 @@ What’s that in English? It helps you build websites.
 
 Django comes right out of the box with a ton of goodies, including a development server and a set of tools for building and testing your site from end to end. It follows a familiar high-level architecture, in which a web server is connected to a database.
 
-![Simple Web App Architecture](/img/server_diagram.png)
+![Simple Web App Architecture](/blog/img/server_diagram.png)
 <figcaption>Simple Web App Architecture</figcaption>
 
 Luckily, we don’t have to understand the inner workings of Django to use it. In fact, that’s the point - with the details neatly abstracted for us, we’re free to jump right in and learn as we go!
@@ -129,7 +129,7 @@ Quit the server with CONTROL-C.
 
 Now open up a browser and type [http://localhost:8000/](http://localhost:8000/) into your address bar. You should see a welcome page for Django!
 
-![Django Welcome Page](/img/hello_django.png)
+![Django Welcome Page](/blog/img/hello_django.png)
 
 If you see something like the page above, you’re up and running!
 

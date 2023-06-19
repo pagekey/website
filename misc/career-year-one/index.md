@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/career-year-one/
 ---
 
-![Year One Circled on Calendar](/img/career-year-one.jpeg)
+![Year One Circled on Calendar](/blog/img/career-year-one.jpeg)
 
 Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
 

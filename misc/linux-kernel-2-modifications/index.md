@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/linux-kernel-2-modifications/
 ---
 
-![Computer Code](/img/code-computer.png)
+![Computer Code](/blog/img/code-computer.png)
 
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly intricate, to say the least. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
@@ -68,7 +68,7 @@ static int __ref kernel_init(void *unused)
 
 My expectation was that when the machine booted, it would display my messages and stop all execution, leaving my text up for the world to see. The result was a little bit different... It caused a kernel panic!
 
-![Screenshot of Kernel Panic](/img/kernel_panic2.png)
+![Screenshot of Kernel Panic](/blog/img/kernel_panic2.png)
 <figcaption>Panic! At The Kernel</figcaption>
 
 At this point, I realized that the `kernel_init` function _may_ do something important, and that cutting it off and returning before the first line may not have been the best strategy. Go figure!
@@ -137,7 +137,7 @@ I found the relevant line in this file, and inserted our code snippet below it:
 
 After inserting the code, I performed another quick kernel build, and...
 
-![System Logs with our messages](/img/syslog-success.png)
+![System Logs with our messages](/blog/img/syslog-success.png)
 <figcaption>We made it!</figcaption>
 
 Success! The kernel logs finally showed our beloved homemade debug messages. With this, we successfully added our own code to the kernel and verified that it executed.

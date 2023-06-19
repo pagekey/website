@@ -53,7 +53,7 @@ void loop() {
 
 We wire channel 1 of the logic analyzer to the TX port of the Arduino. To do this, we use a female-to-female jumper (which should come with the logic analyzer) and a (more common) male-to-male jumper to complete the connection.
 
-![Logic Analyzer hookup circuit diagram](/img/logicanalyzer.png)
+![Logic Analyzer hookup circuit diagram](/blog/img/logicanalyzer.png)
 
 With this wiring in place, we can launch the software that came with the logic analyzer and perform a capture, which will show us the "Hello World" message coming through Channel 1!
 

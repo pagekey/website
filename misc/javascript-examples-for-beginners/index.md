@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/javascript-examples-for-beginners/
 ---
 
-![Coffee beans](/img/coffee.jpg)
+![Coffee beans](/blog/img/coffee.jpg)
 
 Welcome to our JavaScript lesson! Today, we'll be trying out some fun examples to see a few of the cool things you can do with JavaScript.
 

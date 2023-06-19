@@ -6,7 +6,7 @@ path: /blog/misc/linear-regression-sklearn/
 redirects: [/blog/one-off/linear-regression-sklearn/]
 ---
 
-![Row of buildings](/img/buildings-row.jpg)
+![Row of buildings](/blog/img/buildings-row.jpg)
 
 Where do we start with something as complex as scikit-learn? At the beginning, of course!
 

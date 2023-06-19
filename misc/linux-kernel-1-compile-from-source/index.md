@@ -5,7 +5,7 @@ authors: [steve]
 path: /blog/misc/linux-kernel-1-compile-from-source/
 ---
 
-![Kernels... Kernels everywhere!](/img/kernels.jpg)
+![Kernels... Kernels everywhere!](/blog/img/kernels.jpg)
 
 Linux is everywhere, and there are plenty of Linux distributions available providing great out-of-the-box features. But what happens when you need to make an intricate, low-level change to system functionality? What if you wanted to get into kernel development and start to understand one of the world's largest open source projects?
 

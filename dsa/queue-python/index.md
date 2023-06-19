@@ -6,7 +6,7 @@ tags: [data-structs-and-algs]
 path: /blog/dsa/queue-python/
 ---
 
-![One after the other...](/img/queue.jpg)
+![One after the other...](/blog/img/queue.jpg)
 
 You may hate the line at the DMV, but without it, things might turn into a rough-and-tumble free for all! In the same way that a line keeps raging motorists from getting out of hand, a Queue helps your computer keep its ducks in a row. The Queue functions very much like a line of people. It's a First-In, First-Out (FIFO) data structure, so no cutting!
 
