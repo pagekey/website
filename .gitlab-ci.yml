@@ -1,31 +1,31 @@
-.pages:
-  image: node:16
-  variables:
-    REPO_NAME: "blog"
-    LOCALE: 'en'
-  script:
-    - cd ..
-    - git clone https://oauth2:$GITLAB_TOKEN@gitlab.com/pagekey/nextjs-blog
-    - rm -rf nextjs-blog/content/blog
-    - cp -r $REPO_NAME nextjs-blog/content/blog
-    - cd nextjs-blog
-    - rm -rf content/blog/.git # quick fix for it trying to gen from the .git dir
-    - npm install
-    - npm run build
-    - rm -rf public
-    - mv out public
-    - cp public/404/index.html public/404.html
-    - rm -rf ../$REPO_NAME/public # quick fix for artifacts move later
-    - mv public ../$REPO_NAME
-    - cd ../$REPO_NAME # end where we started
-  artifacts:
-    paths:
-      - public/
+# .pages:
+#   image: node:16
+#   variables:
+#     REPO_NAME: "blog"
+#     LOCALE: 'en'
+#   script:
+#     - cd ..
+#     - git clone https://oauth2:$GITLAB_TOKEN@gitlab.com/pagekey/nextjs-blog
+#     - rm -rf nextjs-blog/content/blog
+#     - cp -r $REPO_NAME nextjs-blog/content/blog
+#     - cd nextjs-blog
+#     - rm -rf content/blog/.git # quick fix for it trying to gen from the .git dir
+#     - npm install
+#     - npm run build
+#     - rm -rf public
+#     - mv out public
+#     - cp public/404/index.html public/404.html
+#     - rm -rf ../$REPO_NAME/public # quick fix for artifacts move later
+#     - mv public ../$REPO_NAME
+#     - cd ../$REPO_NAME # end where we started
+#   artifacts:
+#     paths:
+#       - public/
 
-# pages-dev:
+# # pages-dev:
+# #   extends: .pages
+# #   except: [main, master]
+
+# pages:
 #   extends: .pages
-#   except: [main, master]
-
-pages:
-  extends: .pages
-  only: [main, master]
+#   only: [main, master]
