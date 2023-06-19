@@ -47,7 +47,7 @@ I took to setting goals that were focused on completion rather than effort or qu
 
 Taking it to the next extreme, in January 2023, I challenged myself to make a YouTube video every single day. I was able to keep it up for over a month, but by the end of it, I was completely burnt out, and confused as to why I was spending so much time making such low quality videos. I was cutting corners just to meet my daily "shipping" quota.
 
-It was at this point that I vowed to return to an earlier time, before metrics, before "grindset" culture, before shipping, before **quantity** - and I realized that I needed to focus on **quality**. When you're just getting started, it can be great to flail wildly, test the waters, and [blow up a few spaceships along the way](https://www.youtube.com/watch?v=-1wcilQ58hI&t=2942s). But this approach has its limits, and I've decided to swing the pendulum in the other direction, at least for me, for now.
+It was at this point that I vowed to return to an earlier time, before metrics, before "grindset" culture, before "shipping," before **quantity** - and I realized that I needed to focus on **quality**. When you're just getting started, it can be great to flail wildly, test the waters, and [blow up a few spaceships along the way](https://www.youtube.com/watch?v=-1wcilQ58hI&t=2942s). But this approach has its limits, and I've decided to swing the pendulum in the other direction, at least for me, for now.
 
 ## 4. Start with what's most important.
 
