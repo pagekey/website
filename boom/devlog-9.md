@@ -79,9 +79,7 @@ I always learn a ton from shoulder-surfing when family or friends try my app. Th
 
 ## Demo: Prototype of Version 4
 
-If you want to check out a demonstration of the prototype I built for Boom v4, you can check out the video that accompanies this article. The demonstration starts at xx:yy
-
-TODO link to the right time in the video
+If you want to check out a demonstration of the prototype I built for Boom v4, you can check out the video that accompanies this article. The demonstration starts at [xx:yy](https://www.youtube.com/watch?v=a72nZ0n_wd0&t=436s).
 
 ## What's Next
 
