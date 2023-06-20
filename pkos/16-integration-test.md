@@ -3,6 +3,7 @@ title: "Integration Test with QEMU in CI/CD Using Pytest | OS16"
 date: "2022-08-08"
 authors: [steve]
 youtube: zcqJHKUKipg
+project: pkos
 path: /blog/pkos-16
 redirects: [/blog/pkos/16-integration-test/]
 ---

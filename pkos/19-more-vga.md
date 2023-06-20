@@ -3,6 +3,7 @@ title: "OS19: More VGA + stdlib/memory improvements"
 date: "2022-09-12"
 authors: [steve]
 youtube: E26AtZNIj8c
+project: pkos
 path: /blog/pkos-19
 redirects: [/blog/pkos/19-more-vga/]
 ---

@@ -3,6 +3,7 @@ title: "Researching PCI: Peripheral Component Interconnect | pkos 20"
 date: "2023-02-19"
 authors: [steve]
 youtube: TTAqgKs_ZpI
+project: pkos
 path: /blog/pkos-20
 ---
 
