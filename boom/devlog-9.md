@@ -1,6 +1,6 @@
 ---
 title: "5 Lessons from Rewriting My App FOUR TIMES | boom devlog 9"
-date: "2023-04-23"
+date: "2023-05-27"
 authors: [steve]
 youtube: "a72nZ0n_wd0"
 path: /blog/boom/devlog-9/
