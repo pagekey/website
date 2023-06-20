@@ -6,6 +6,8 @@ youtube: "a72nZ0n_wd0"
 path: /blog/boom/devlog-9/
 ---
 
+<YouTubePlayer youtubeLink={frontmatter.youtube} />
+
 Four times, from scratch.
 
 That's how many times I've re-written my app, called Boom Languages. Every time I did, I learned a ton, and in this post, I'm going to tell you the 5 top lessons I've learned along the way.
@@ -79,7 +81,7 @@ I always learn a ton from shoulder-surfing when family or friends try my app. Th
 
 ## Demo: Prototype of Version 4
 
-If you want to check out a demonstration of the prototype I built for Boom v4, you can check out the video that accompanies this article. The demonstration starts at [xx:yy](https://www.youtube.com/watch?v=a72nZ0n_wd0&t=436s).
+If you want to check out a demonstration of the prototype I built for Boom v4, you can check out the video that accompanies this article. The demonstration starts at [7:16](https://www.youtube.com/watch?v=a72nZ0n_wd0&t=436s).
 
 ## What's Next
 
