@@ -3,6 +3,7 @@ title: "Converting Markdown into a Blog (kinda) | markdown-sitegen 1"
 date: "2023-01-29"
 authors: [steve]
 youtube: rB1uyE7tJKw
+project: markdown-sitegen
 path: /blog/mdsg-1
 ---
 

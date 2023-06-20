@@ -3,6 +3,7 @@ title: "Boom! A new app is born."
 date: "2021-03-24"
 authors: [steve]
 tags: [boom-languages]
+project: boom
 path: /blog/boom/boom-v1.0-writeup/
 ---
 

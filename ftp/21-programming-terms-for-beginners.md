@@ -3,6 +3,7 @@ title: "21 Programming Terms for Absolute Beginners"
 date: "2022-09-26"
 authors: [steve]
 youtube: NbGXjdAsCR8
+project: ftp
 path: /blog/ftp/21-programming-terms-for-beginners/
 ---
 

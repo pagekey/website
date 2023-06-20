@@ -3,6 +3,7 @@ title: "Using Other People's Code - NPM and Node | FTP6"
 date: "2022-07-25"
 authors: [steve]
 youtube: dltSR6z-7XQ
+project: ftp
 path: /blog/ftp/6-npm-node/
 ---
 

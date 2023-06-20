@@ -3,6 +3,7 @@ title: "ResourceManager is DONE | plaintext daw 10"
 date: "2023-02-12"
 authors: [steve]
 youtube: c_Ym_6fpIDA
+project: plaintext-daw
 path: /blog/ptd-10
 ---
 

@@ -3,6 +3,7 @@ title: "Git: Your Foundation | FTP4"
 date: "2022-07-11"
 authors: [steve]
 youtube: gEdDkh65hhk
+project: ftp
 path: /blog/ftp/4-git-foundation/
 ---
 

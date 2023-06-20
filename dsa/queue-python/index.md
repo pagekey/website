@@ -3,6 +3,7 @@ title: How to Implement a Queue in Python
 date: "2017-06-23"
 authors: [steve]
 tags: [data-structs-and-algs]
+project: dsa
 path: /blog/dsa/queue-python/
 ---
 

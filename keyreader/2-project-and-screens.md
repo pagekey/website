@@ -3,6 +3,7 @@ title: "Generating the Project and Adding Screens | KR2"
 date: "2022-09-05"
 authors: [steve]
 youtube: xIND2oeHdAc
+project: keyreader
 path: /blog/keyreader/2-project-and-screens/
 ---
 

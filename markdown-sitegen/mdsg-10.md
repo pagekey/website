@@ -3,6 +3,7 @@ title: "Footer & Post Summaries | markdown sitegen 10"
 date: "2023-02-20"
 authors: [steve]
 youtube: OFXrnOsqeGs
+project: markdown-sitegen
 path: /blog/mdsg-10
 ---
 

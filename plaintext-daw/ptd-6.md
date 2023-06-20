@@ -3,6 +3,7 @@ title: "Integrating Synth Code | plaintext daw 6"
 date: "2023-02-04"
 authors: [steve]
 youtube: Ck_g1SQjtSY
+project: plaintext-daw
 path: /blog/ptd-6
 ---
 

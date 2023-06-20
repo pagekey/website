@@ -3,6 +3,7 @@ title: "Eric Adds Components | KR3"
 date: "2022-09-19"
 authors: [steve]
 youtube: CRmNiI3xV5I
+project: keyreader
 path: /blog/keyreader/3-eric-components/
 ---
 

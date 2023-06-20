@@ -3,6 +3,7 @@ title: "Adding colorful codeblocks | markdown sitegen 9"
 date: "2023-02-15"
 authors: [steve]
 youtube: rOV3dOMQtXc
+project: markdown-sitegen
 path: /blog/mdsg-9
 ---
 

@@ -3,6 +3,7 @@ title: "🫘 reveal / Adding images | markdown sitegen 8"
 date: "2023-02-13"
 authors: [steve]
 youtube: saIyx9BL1x8
+project: markdown-sitegen
 path: /blog/mdsg-8
 ---
 

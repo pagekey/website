@@ -3,6 +3,7 @@ title: "Adding Posts Index | markdown sitegen 4"
 date: "2023-02-05"
 authors: [steve]
 youtube: ZHzZ1FHYSrQ
+project: markdown-sitegen
 path: /blog/mdsg-4
 ---
 

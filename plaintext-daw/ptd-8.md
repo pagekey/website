@@ -3,6 +3,7 @@ title: "New arch, new me | plaintext daw 8"
 date: "2023-02-08"
 authors: [steve]
 youtube: 2Wd7-y4lhbg
+project: plaintext-daw
 path: /blog/ptd-8
 ---
 

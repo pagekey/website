@@ -3,6 +3,7 @@ title: "3 ways to create a window in Tauri | plaintext daw 13"
 date: "2023-02-26"
 authors: [steve]
 youtube: zZOcFz6W3kI
+project: plaintext-daw
 path: /blog/ptd-13
 ---
 

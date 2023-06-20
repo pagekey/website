@@ -4,6 +4,7 @@ date: "2021-10-3"
 authors: [steve]
 tags: [boom-languages]
 youtube: IBdZjelApI4
+project: boom
 path: /blog/boom/devlog-2/
 ---
 

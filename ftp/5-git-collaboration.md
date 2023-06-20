@@ -3,6 +3,7 @@ title: "Collaborating with Git | FTP5"
 date: "2022-07-18"
 authors: [steve]
 youtube: TqxyuEGIDlQ
+project: ftp
 path: /blog/ftp/5-git-collaboration/
 ---
 

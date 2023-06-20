@@ -3,6 +3,7 @@ title: "Can we build our own Kindle, with a twist? | KR1"
 date: "2022-08-29"
 authors: [steve]
 youtube: ldzCndHQElI
+project: keyreader
 path: /blog/keyreader/1-pitch-plan-design/
 ---
 

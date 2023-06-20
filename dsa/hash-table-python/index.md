@@ -4,6 +4,7 @@ date: "2017-11-24"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: zHi5v78W1f0
+project: dsa
 path: /blog/dsa/hash-table-python/
 ---
 

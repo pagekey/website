@@ -4,6 +4,7 @@ date: "2020-04-08"
 authors: [steve]
 tags: [language-learning]
 youtube: zhjWD8O564Q
+project: duobot
 path: /blog/misc/duobot/
 ---
 

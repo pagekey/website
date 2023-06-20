@@ -3,6 +3,7 @@ title: "What's wrong with timing?? | plaintext daw 7"
 date: "2023-02-06"
 authors: [steve]
 youtube: 5pLZ6SSG5XE
+project: plaintext-daw
 path: /blog/ptd-7
 ---
 

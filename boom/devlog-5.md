@@ -4,6 +4,7 @@ date: "2022-06-13"
 authors: [steve]
 tags: [boom-languages]
 youtube: 4aKoQicY5Cg
+project: boom
 path: /blog/boom/devlog-5/
 ---
 

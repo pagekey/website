@@ -3,6 +3,7 @@ title: "React Native Redesign | Boom Dev Log 6"
 date: "2022-10-10"
 authors: [steve]
 youtube: x1Den9ya0jc
+project: boom
 path: /blog/boom/devlog-6/
 ---
 

@@ -3,6 +3,7 @@ title: "Generating a Tauri Project | plaintext daw 11"
 date: "2023-02-14"
 authors: [steve]
 youtube: nfR_B5nanXk
+project: plaintext-daw
 path: /blog/ptd-11
 ---
 

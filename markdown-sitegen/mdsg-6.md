@@ -3,6 +3,7 @@ title: "Adding prev/next post buttons | markdown sitegen 6"
 date: "2023-02-09"
 authors: [steve]
 youtube: Nt01sB5uLjU
+project: markdown-sitegen
 path: /blog/mdsg-6
 ---
 

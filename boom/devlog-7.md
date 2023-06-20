@@ -3,6 +3,7 @@ title: "Version, Registration Info in React Native | Boom Dev Log 7"
 date: "2022-10-17"
 authors: [steve]
 youtube: Mzv4SifCrs8
+project: boom
 path: /blog/boom/devlog-7/
 ---
 

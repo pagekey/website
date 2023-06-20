@@ -3,6 +3,7 @@ title: "Deciphering State Management in Tauri | plaintext daw 14"
 date: "2023-03-06"
 authors: [steve]
 youtube: _AKLn4nXDJ0
+project: plaintext-daw
 path: /blog/ptd-14
 ---
 

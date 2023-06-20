@@ -3,6 +3,7 @@ title: "Tauri filepicker | plaintext daw 12"
 date: "2023-02-23"
 authors: [steve]
 youtube: kF67Ju65vr4
+project: plaintext-daw
 path: /blog/ptd-12
 ---
 

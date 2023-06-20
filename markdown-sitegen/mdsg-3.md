@@ -3,6 +3,7 @@ title: "jumping thru hoops for CSS | markdown sitegen 3"
 date: "2023-02-03"
 authors: [steve]
 youtube: xfIKCp-k1VQ
+project: markdown-sitegen
 path: /blog/mdsg-3
 ---
 

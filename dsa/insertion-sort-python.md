@@ -4,6 +4,7 @@ date: "2018-10-13"
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: -wwk5QXk-AA
+project: dsa
 path: /blog/dsa/insertion-sort-python/
 ---
 

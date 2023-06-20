@@ -3,6 +3,7 @@ title: "Advanced TDD with Pytest | plaintext daw 9"
 date: "2023-02-10"
 authors: [steve]
 youtube: 6hYB9ml5hHg
+project: plaintext-daw
 path: /blog/ptd-9
 ---
 

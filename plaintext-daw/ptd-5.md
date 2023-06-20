@@ -3,6 +3,7 @@ title: "Loading Piano from Git | plaintext daw 5"
 date: "2023-02-02"
 authors: [steve]
 youtube: Wbkbg6mnBkQ
+project: plaintext-daw
 path: /blog/ptd-5
 ---
 
