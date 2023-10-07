@@ -1,5 +1,5 @@
 ---
-title: "Delicious Longhorn on Kubernetes"
+title: "How to: Kubernetes Storage with Longhorn"
 date: "2023-10-01"
 project: "self-hosting"
 tags: [self-hosting]
