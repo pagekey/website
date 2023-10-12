@@ -3,6 +3,9 @@ date: 2023-01-31
 tags:
   - Foo
   - Bar
+authors:
+  - steve
+slug: hello
 ---
 
 # Hello world!
