@@ -4,6 +4,9 @@ theme:
   features:
     - navigation.sections
     - content.code.copy
+  palette:
+    primary: blue
+    accent: deep orange
 plugins:
   - blog:
       blog_dir: .
@@ -22,3 +25,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+copyright: Copyright &copy; 2017 - <script>document.write(new Date().getFullYear())</script> PageKey Solutions, LLC
+extra:
+  social:
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/@PageKey
+  alternate:
+    - name: Español
+      link: /es/
+      lang: es
