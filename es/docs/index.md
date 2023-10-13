@@ -1,3 +1,3 @@
-# Blog
+# Home
 
-Welcome to the Spanish blog
+¡Bienvenidos a PageKey en Español!

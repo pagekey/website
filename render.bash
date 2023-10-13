@@ -14,7 +14,7 @@ mkdir tmp
 cp -rT ../common tmp
 cp -rT ../es tmp
 cd tmp
-echo '{INHERIT: mkdocs.yml, site_name: "PageKey Español", theme: {language: "es"} }' | mkdocs build -f -
+echo '{INHERIT: mkdocs.yml, site_name: "PageKey Español", theme: {language: "es"}, extra: { social: [ { icon: "fontawesome/brands/youtube", link: "https://youtube.com/@PageKey-es" }] } }' | mkdocs build -f -
 rm -rf ../out/es
 mv site ../out/es
 cd ..
