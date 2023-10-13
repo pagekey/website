@@ -8,3 +8,18 @@ slug: hola
 ---
 
 # Hola Mundo
+
+hola this is indubitably a blog post written in spanish
+
+```c
+codigo codigo codigo
+int main;
+```
+
+```python
+print("holaaa")
+```
+
+```sql
+select * from spanish;
+```

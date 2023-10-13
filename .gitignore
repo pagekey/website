@@ -1,1 +1,12 @@
 build/
+
+# live preview - english
+en/mkdocs.yml
+en/docs/assets/favicon.ico
+en/docs/assets/logo.png
+en/docs/.authors.yml
+# live preview - spanish
+es/mkdocs.yml
+es/docs/assets/favicon.ico
+es/docs/assets/logo.png
+es/docs/.authors.yml

@@ -22,3 +22,5 @@ rm -rf tmp
 mv out/* .
 rmdir out
 cd ..
+
+python3 -m http.server --directory build
