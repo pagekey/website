@@ -1,5 +1,7 @@
-site_name: My Docs
+site_name: PageKey
 theme:
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   name: material
   features:
     - navigation.sections
@@ -31,6 +33,9 @@ extra:
     - icon: fontawesome/brands/youtube 
       link: https://youtube.com/@PageKey
   alternate:
+    - name: English
+      link: /
+      lang: en
     - name: Español
       link: /es/
       lang: es
