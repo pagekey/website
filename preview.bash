@@ -15,7 +15,6 @@ for i in $(find common -type f); do
     newfile="$lang${i#common}"
     echo $newfile
     # Create any folders that may be needed
-    echo $(dirname $newfile) yeet
     mkdir -p $(dirname $newfile)
     # Copy every file in common into the dir
     cp $i $newfile
