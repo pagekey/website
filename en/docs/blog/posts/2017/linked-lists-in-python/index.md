@@ -1,6 +1,6 @@
 ---
 title: How to Implement a Linked List in Python
-date: "2017-06-20"
+date: 2017-06-20
 authors: [steve]
 tags: [data-structs-and-algs]
 youtube: KZVU2X4Dw8w
@@ -8,11 +8,11 @@ project: dsa
 path: /blog/dsa/linked-lists-in-python/
 ---
 
-![Links of rope](/blog/img/linked-list.jpg)
+![Links of rope](./linked-list.jpg)
 
 Need a quick run down on a classic data structure? Look no further.
 
-<!--truncate-->
+<!-- more -->
 
 **Click [here][list-src] for the full LinkedList source code. Also, [here][list-test] is the test code.**
 
