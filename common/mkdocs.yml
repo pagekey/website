@@ -11,16 +11,18 @@ theme:
     accent: deep orange
 plugins:
   - blog:
+      archive: true
       blog_dir: blog
+      categories: true
       post_url_format: "{slug}"
   - mkdocs-video
   - search
   - tags:
-      tags_file: tags.md
+      tags_file: blog/tags.md
 nav:
   - index.md
   - blog/index.md
-  - tags.md
+  - blog/tags.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true

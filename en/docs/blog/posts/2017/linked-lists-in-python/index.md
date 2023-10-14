@@ -1,7 +1,8 @@
 ---
 title: How to Implement a Linked List in Python
 date: 2017-06-20
-authors: [steve]
+authors:
+  - steve
 categories:
   - Data Structures & Algorithms
 tags:
@@ -10,7 +11,7 @@ tags:
 slug: linked-list
 ---
 
-![Links of rope](./linked-list.jpg)
+![Links of rope](linked-list.jpg)
 
 Need a quick run down on a classic data structure? Look no further.
 
