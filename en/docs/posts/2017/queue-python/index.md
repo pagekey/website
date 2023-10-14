@@ -1,13 +1,17 @@
 ---
 title: How to Implement a Queue in Python
-date: "2017-06-23"
-authors: [steve]
-tags: [data-structs-and-algs]
-project: dsa
-path: /blog/dsa/queue-python/
+date: 2017-06-23
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: queue
 ---
 
-![One after the other...](/blog/img/queue.jpg)
+![One after the other...](queue.jpg)
 
 You may hate the line at the DMV, but without it, things might turn into a rough-and-tumble free for all! In the same way that a line keeps raging motorists from getting out of hand, a Queue helps your computer keep its ducks in a row. The Queue functions very much like a line of people. It's a First-In, First-Out (FIFO) data structure, so no cutting!
 

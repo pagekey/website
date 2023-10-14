@@ -1,20 +1,23 @@
 ---
 title: How to Implement a Hash Table in Python
-date: "2017-11-24"
-authors: [steve]
-tags: [data-structs-and-algs]
-youtube: zHi5v78W1f0
-project: dsa
-path: /blog/dsa/hash-table-python/
+date: 2017-11-24
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: hash-table
 ---
 
-![Get with the times!](/blog/img/hashtable.jpg)
+![Get with the times!](hashtable.jpg)
 
 This tutorial will show you how to implement a hash table with **separate chaining**. It's not the most efficient method, but it is the simplest way to get started and create a fully functioning hash table.
 
 <!-- truncate -->
 
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
+![type:video](https://www.youtube.com/embed/zHi5v78W1f0)
 
 ## Background
 
@@ -76,7 +79,7 @@ class Node:
         self.next = None
 ```
 
-Look familiar? Node has a `next` field because it's actually part of a [LinkedList](/blog/dsa/linked-lists-in-python). Because the hash table uses **separate chaining**, each bucket will actually contain a LinkedList of nodes containing the objects stored at that index. This is one method of **collision resolution.**
+Look familiar? Node has a `next` field because it's actually part of a [LinkedList](../linked-lists-in-python/index.md). Because the hash table uses **separate chaining**, each bucket will actually contain a LinkedList of nodes containing the objects stored at that index. This is one method of **collision resolution.**
 
 ## Collisions
 
@@ -96,14 +99,14 @@ Our hash method needs to take our key, which will be a string of any length, and
 
 We will be creating a hash function to convert the string to an index. There are many properties of a good hash function, but for our purposes the most important characteristic for our function to have is **uniformity**. We want our hash values to be as evenly distributed among our buckets as possible, to take full advantage of each bucket and avoid collisions. The ideal case is pictured below:
 
-![Uniform Bucket Distribution (good)](/blog/img/buckets_uniform.png)
+![Uniform Bucket Distribution (good)](buckets_uniform.png)
 <figcaption>HashTable Buckets with Uniform Distribution (good)</figcaption>
 
 On the other hand, an uneven distribution will defeat the purpose of the hash table altogether, yielding nothing more than a bloated LinkedList.
 
 Consider an extreme case: Our hash function will be `h(x) = 1`. That's right, each input produces the same constant value. So, what happens? Every time we hash a key, the output is 1, meaning that we assign that node to bucket 1. The result would look something like this:
 
-![Non-Uniform Bucket Distribution (bad)](/blog/img/buckets_nonuniform.png)
+![Non-Uniform Bucket Distribution (bad)](buckets_nonuniform.png)
 <figcaption>HashTable Buckets with Non-Uniform Distribution (bad)</figcaption>
 
 Not pretty! We'll just have to make sure we avoid this bottleneck at all costs.
@@ -233,8 +236,7 @@ def remove(self, key):
 		return result
 ```
 
-For more information about removing a node from a linked list, see my [LinkedList article](/blog/dsa/linked-lists-in-python
-).
+For more information about removing a node from a linked list, see my [LinkedList article](../linked-lists-in-python/index.md).
 
 ## Applications
 
