@@ -4,6 +4,8 @@ tags:
   - Foo
 authors:
   - steve
+categories:
+  - stuffer
 slug: hola
 ---
 
