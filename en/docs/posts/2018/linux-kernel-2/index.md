@@ -1,17 +1,23 @@
 ---
 title: Making Simple Modifications to the Linux Source
-date: "2018-03-23"
-authors: [steve]
-path: /blog/misc/linux-kernel-2-modifications/
+date: 2018-03-23
+authors:
+  - steve
+categories:
+  - Linux Kernel Series
+tags:
+  - linux
+  - tutorial
+slug: linux-kernel-2
 ---
 
-![Computer Code](/blog/img/code-computer.png)
+![Computer Code](code-computer.png)
 
 The Linux kernel is one of the most complex open-source projects available to the public, and the source code that comprises it is highly intricate, to say the least. Knowing this, I wondered what it would take to pick apart such a technological beast and actually begin to understand it. The key to understanding, like anything else, is to learn by doing. The [entire source repository](https://github.com/torvalds/linux) is available to view in a browser, and more than 95% of it is written in C. How hard could it be to write a little C code?
 
 As it turns out, it's harder than expected. Keep reading to get the full rundown on how I edited the kernel source,  built it, broke it (several times), and finally made a simple change that produced an output in the system logs.
 
-<!--truncate-->
+<!-- more -->
 
 **This post is Part 2 of a series on the Linux kernel.**
 
@@ -68,7 +74,7 @@ static int __ref kernel_init(void *unused)
 
 My expectation was that when the machine booted, it would display my messages and stop all execution, leaving my text up for the world to see. The result was a little bit different... It caused a kernel panic!
 
-![Screenshot of Kernel Panic](/blog/img/kernel_panic2.png)
+![Screenshot of Kernel Panic](kernel_panic2.png)
 <figcaption>Panic! At The Kernel</figcaption>
 
 At this point, I realized that the `kernel_init` function _may_ do something important, and that cutting it off and returning before the first line may not have been the best strategy. Go figure!
@@ -137,7 +143,7 @@ I found the relevant line in this file, and inserted our code snippet below it:
 
 After inserting the code, I performed another quick kernel build, and...
 
-![System Logs with our messages](/blog/img/syslog-success.png)
+![System Logs with our messages](syslog-success.png)
 <figcaption>We made it!</figcaption>
 
 Success! The kernel logs finally showed our beloved homemade debug messages. With this, we successfully added our own code to the kernel and verified that it executed.
@@ -150,6 +156,6 @@ Though it took a few botched attempts and shots in the dark, I was finally able 
 
 **[Part 1][part1] - Part 2 - [Part 3][part3]**
 
-[part1]: /blog/misc/linux-kernel-1-compile-from-source
-[part2]: /blog/misc/linux-kernel-2-modifications
-[part3]: /blog/misc/linux-kernel-3-first-module
+[part1]: ../linux-kernel-1/index.md
+[part2]: ../linux-kernel-2/index.md
+[part3]: ../linux-kernel-3/index.md

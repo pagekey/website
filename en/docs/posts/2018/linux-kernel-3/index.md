@@ -1,11 +1,17 @@
 ---
 title: Writing Your First Kernel Module
-date: "2018-03-29"
-authors: [steve]
-path: /blog/misc/linux-kernel-3-first-module/
+date: 2018-03-29
+authors:
+  - steve
+categories:
+  - Linux Kernel Series
+tags:
+  - linux
+  - tutorial
+slug: linux-kernel-3
 ---
 
-![Hands putting jigsaw pieces together](/blog/img/hands-jigsaw.jpg)
+![Hands putting jigsaw pieces together](hands-jigsaw.jpg)
 
 So we've already [built the kernel from source][part1] and even [modified the source code][part2]. While these were some pretty cool parlor tricks, isn't it about time we learned something useful?
 
@@ -15,7 +21,7 @@ The Linux kernel is structured so that you can add extended functionality withou
 
 While writing a kernel module is definitely safer than modifying the source, it can still mess up your system a lot more than a user space application, so proceed with caution.
 
-<!--truncate-->
+<!-- more -->
 
 **This post is Part 3 of a series on the Linux kernel.**
 
@@ -94,14 +100,14 @@ sudo insmod hello-world.ko
 
 If no errors are present, it must have worked. Verify this by typing `dmesg` to show kernel messages. In my case, it looked something like this:
 
-![dmesg with Hello](/blog/img/dmesg1.png)
+![dmesg with Hello](dmesg1.png)
 <figcaption>Who said that?</figcaption>
 
 That worked well enough! Try out `modinfo hello-world.ko` to see some more generic information about the module you just made.
 
 Okay, that's enough fun for one day. Let's rip that thing back out of the kernel. Type: `sudo rmmod hello-world.ko` and check `dmesg` again:
 
-![dmesg with Hello and Goodbye](/blog/img/dmesg2.png)
+![dmesg with Hello and Goodbye](dmesg2.png)
 <figcaption>You say goodbye... And I say hello.</figcaption>
 
 How beautiful! Our module's circle of life is complete. They sure do grow up fast.
@@ -125,6 +131,6 @@ All in all, we didn't break any records, but it was a good start to writing kern
 
 **[Part 1][part1] - [Part 2][part2] - Part 3**
 
-[part1]: /blog/misc/linux-kernel-1-compile-from-source
-[part2]: /blog/misc/linux-kernel-2-modifications
-[part3]: /blog/misc/linux-kernel-3-first-module
+[part1]: ../linux-kernel-1/index.md
+[part2]: ../linux-kernel-2/index.md
+[part3]: ../linux-kernel-3/index.md
