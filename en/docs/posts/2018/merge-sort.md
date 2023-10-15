@@ -1,20 +1,21 @@
 ---
 title: "Merge Sort in Python"
-date: "2018-09-28"
-authors: [steve]
-tags: [data-structs-and-algs]
-youtube: syHhPKK00Rc
-project: dsa
-path: /blog/dsa/merge-sort/
+date: 2018-09-28
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: merge-sort
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we learn the ins and outs of Merge Sort, a sorting algorithm that will come in handy in many situations.  We go over theory, and then visualize the entire sorting process from start to finish.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/syHhPKK00Rc)
 
 The full implementation in Python can be found at the following link:
 

@@ -1,12 +1,15 @@
 ---
 title: Making a Command-line Ruby Gem - Write, Build, and Push
-date: "2018-04-04"
-authors: [steve]
-youtube: KNa1TXnaZSg
-path: /blog/misc/command-line-ruby-gem/
+date: 2018-04-04
+authors:
+  - steve
+tags:
+  - ruby
+  - tutorial
+slug: ruby-gem
 ---
 
-![A shiny red gem](/blog/img/shiny-gem.jpg)
+![A shiny red gem](shiny-gem.jpg)
 
 Anyone who has used Ruby before knows that gems are the spice of life. They are easy to install and distribute, even easier to use, and most importantly, they provide useful functionality. It's not uncommon to see entire software projects centered around a single well-made gem. Take any Ruby on Rails project, and you'll see this in practice.
 
@@ -16,11 +19,9 @@ In this article, we're going to do two things. First, we'll get started by creat
 
 After that, we're going to modify the gem so that you can use it anywhere on your computer, just by typing its name into the console. Sweet!
 
-<!--truncate-->
+<!-- more -->
 
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
+![type:video](https://www.youtube.com/embed/KNa1TXnaZSg)
 
 ## Requirements
 

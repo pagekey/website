@@ -1,20 +1,21 @@
 ---
 title: "Bubble Sort in Python"
-date: "2018-10-05"
-authors: [steve]
-tags: [data-structs-and-algs]
-youtube: LmZLKhd2Juc
-project: dsa
-path: /blog/dsa/bubble-sort-python/
+date: 2018-10-05
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: bubble-sort
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we learn the ins and outs of Bubble Sort, a sorting algorithm that will come in handy in many situations. Well, maybe just in your programming classes.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/LmZLKhd2Juc)
 
 We go over theory, and then visualize the entire sorting process from start to finish.
 

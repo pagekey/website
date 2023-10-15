@@ -1,11 +1,14 @@
 ---
 title: Push Out Your SSH Keys - Jump Nodes in a Jiffy!
-date: "2018-04-16"
-authors: [steve]
-path: /blog/misc/push-ssh-keys/
+date: 2018-04-16
+authors:
+  - steve
+tags:
+  - tutorial
+slug: push-ssh-keys
 ---
 
-![Man doing a backflip](/blog/img/backflip.jpg)
+![Man doing a backflip](backflip.jpg)
 
 Every day, system administrators, students, professors, and everyday computer users struggle with entering their password on the command line. With each passing jump from one system to another, ten seconds tick by. Whoops, that's a mistake - make it 30!
 
@@ -13,7 +16,7 @@ Over time, entering your password every time you want to move between nodes usin
 
 This article describes two ways of pushing out your keys: The easy way, and the hard way.
 
-<!--truncate-->
+<!-- more -->
 
 *Photo by [Oliver Sjöström](https://www.pexels.com/photo/man-wearing-blue-shorts-about-to-dive-on-body-of-water-1098365/)*
 

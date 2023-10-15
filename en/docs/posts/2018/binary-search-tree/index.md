@@ -1,18 +1,23 @@
 ---
 title: How to Implement a Binary Search Tree in Python
-date: "2018-04-19"
-authors: [steve]
-project: dsa
-path: /blog/dsa/binary-search-tree-python/
+date: 2018-04-19
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: binary-search-tree
 ---
 
-![Example of a Binary Search Tree](/blog/img/1example_tree.png)
+![Example of a Binary Search Tree](1example_tree.png)
 
 Decisions, decisions... Life is all about choices! Usually there are so many ways to go. An infinite expanse of roads and pathways stretches in front of you, an endless gradient of details; as you consider them, your head starts to spin, your eyes start to droop, your mind races, your head pounds -
 
 Wait a second. There's no need to stress. Since we're talking about Binary Search Trees, decisions are going to be a lot easier. A Binary Search Tree (BST) gives you two choices: left or right, less than or greater than, 0 or 1 - hence the name, **binary**.
 
-<!--truncate-->
+<!-- more -->
 
 ## Overview
 
@@ -22,7 +27,7 @@ For flat arrays, searching for, inserting, and deleting data will loop through e
 
 ## Insert
 
-![Binary Search Tree: Insert method diagram](/blog/img/2insert.png)
+![Binary Search Tree: Insert method diagram](2insert.png)
 
 In this case, the `Node` will have most of the important code for the `insert` method. The `BST` class will essentially be a wrapper for the `Node`, hiding some of the rough edges of the internal methods to give the user a clean interface.
 
@@ -70,7 +75,7 @@ class BST(object):
 
 ## Find
 
-![Binary Search Tree: Find method diagram](/blog/img/3find.png)
+![Binary Search Tree: Find method diagram](3find.png)
 
 `find` is another recursive method, which means that it will be implemented in the `Node` class.
 
@@ -110,10 +115,10 @@ class BST(object):
 
 ## Remove
 
-![Binary Search Tree: Remove method diagram, leaf node removal](/blog/img/4remove.png)
+![Binary Search Tree: Remove method diagram, leaf node removal](4remove.png)
 <figcaption>Example of leaf node removale</figcaption>
 
-![Binary Search Tree: Remove method diagram, non-leaf node removal](/blog/img/5remove.png)
+![Binary Search Tree: Remove method diagram, non-leaf node removal](5remove.png)
 <figcaption>Example of non-leaf node removal</figcaption>
 
 Finally, the `BST` class is getting its chance to be more than just a wrapper! The `Node` class will have no `remove` method at all - the magic will happen entirely within the `BST` class.
@@ -227,7 +232,7 @@ The code for each method of traversal will look very similar. Each time, we'll s
 
 ### Pre-Order Traversal
 
-![Binary Search Tree: Pre-Order Traversal](/blog/img/6pre_order.png)
+![Binary Search Tree: Pre-Order Traversal](6pre_order.png)
 
 ```python
 class Node(object):
@@ -247,7 +252,7 @@ class Node(object):
 
 ### In-Order Traversal
 
-![Binary Search Tree: In-Order Traversal](/blog/img/7in_order.png)
+![Binary Search Tree: In-Order Traversal](7in_order.png)
 
 ```python
 class Node(object):
@@ -267,7 +272,7 @@ class Node(object):
 
 ### Post-Order Traversal
 
-![Binary Search Tree: Post-Order Traversal](/blog/img/8post_order.png)
+![Binary Search Tree: Post-Order Traversal](8post_order.png)
 
 ```python
 class Node(object):

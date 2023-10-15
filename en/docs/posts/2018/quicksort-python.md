@@ -1,20 +1,21 @@
 ---
 title: "Quicksort in Python"
-date: "2018-09-23"
-authors: [steve]
-tags: [data-structs-and-algs]
-youtube: OSD4b-ih6Kc
-project: dsa
-path: /blog/dsa/quicksort-python/
+date: 2018-09-23
+authors:
+  - steve
+categories:
+  - Data Structures & Algorithms
+tags:
+  - python
+  - tutorial
+slug: quicksort
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we learn the ins and outs of Quicksort, a sorting algorithm that will come in handy in many situations. We go over theory, and then visualize the entire sorting process from start to finish.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/OSD4b-ih6Kc)
 
 We cover the quicksort method in general, as well as two partition schemes: Lomuto and Hoare methods.
 
