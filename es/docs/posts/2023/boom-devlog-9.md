@@ -9,7 +9,6 @@ tags:
   - javascript
   - language
 slug: boom-devlog-9
-youtube: "xMP9EiUhOsQ"
 ---
 
 Cuatro veces, desde cero.
