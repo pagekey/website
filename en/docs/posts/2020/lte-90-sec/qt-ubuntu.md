@@ -1,20 +1,21 @@
 ---
 title: "≤90s: Hello World with Qt Framework (Ubuntu)"
-date: "2020-05-06"
-authors: [steve]
-tags: [lte-90-sec]
-youtube: d1JGsHc1NGA
-project: lte-90-sec
-path: /blog/lte-90-sec/hello-qt-ubuntu/
+date: 2020-05-06
+authors:
+  - steve
+categories:
+  - 90 Seconds or Less
+tags:
+  - c++
+  - linux
+slug: 90-sec/qt-ubuntu
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we install dependencies and run our first Qt graphical application using C++ on Ubuntu Linux.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/d1JGsHc1NGA)
 
 Code for this lesson:
 

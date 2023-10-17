@@ -1,20 +1,21 @@
 ---
 title: "≤90s: First OpenGL Program with GLUT (Linux)"
-date: "2020-06-03"
-authors: [steve]
-tags: [lte-90-sec]
-youtube: cShqFtmDTQE
-project: lte-90-sec
-path: /blog/lte-90-sec/opengl-glut-linux/
+date: 2020-06-03
+authors:
+  - steve
+categories:
+  - 90 Seconds or Less
+tags:
+  - c++
+  - ubuntu
+slug: 90-sec/opengl-glut
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we run through the steps for making our first OpenGL program using GLUT.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/cShqFtmDTQE)
 
 List of packages to install:
 

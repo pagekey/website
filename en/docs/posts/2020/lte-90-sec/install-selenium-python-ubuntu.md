@@ -1,20 +1,21 @@
 ---
 title: "≤90s: Install Selenium for Python on Ubuntu"
-date: "2020-03-25"
-authors: [steve]
-tags: [lte-90-sec]
-youtube: MTarw_BUR-M
-project: lte-90-sec
-path: /blog/lte-90-sec/install-selenium-python-ubuntu/
+date: 2020-03-25
+authors:
+  - steve
+categories:
+  - 90 Seconds or Less
+tags:
+  - linux
+  - python
+slug: 90-sec/selenium-ubuntu
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we learn how to set up Selenium in 90 seconds or less! Made using Ubuntu on Windows (WSL). You may need to start an Xming server if you use this method (I did).
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/MTarw_BUR-M)
 
 ## Steps
 
@@ -97,4 +98,4 @@ if __name__ == '__main__':
 python test_selenium.py
 ```
 
-Need Python? We have a tutorial for that, too! Install Python in 90 seconds or less [on Windows](/blog/lte-90-sec/install-python-windows) or [on Ubuntu](/blog/lte-90-sec/install-python-ubuntu).
+Need Python? We have a tutorial for that, too! Install Python in 90 seconds or less [on Windows](./install-python-windows.md) or [on Ubuntu](./install-python-ubuntu.md).
