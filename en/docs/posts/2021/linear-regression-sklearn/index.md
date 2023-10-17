@@ -1,12 +1,14 @@
 ---
 title: "Snap the Line! Understanding Linear Regression and Scikit-Learn"
-date: "2021-05-20"
-authors: [steve]
-path: /blog/misc/linear-regression-sklearn/
-redirects: [/blog/one-off/linear-regression-sklearn/]
+date: 2021-05-20
+authors:
+  - steve
+tags:
+  - machine-learning
+slug: linear-regression
 ---
 
-![Row of buildings](/blog/img/buildings-row.jpg)
+![Row of buildings](buildings-row.jpg)
 
 Where do we start with something as complex as scikit-learn? At the beginning, of course!
 
@@ -14,7 +16,7 @@ The Linear Regression module in scikit-learn provides an excellent first step in
 
 If this sounds like a lot, don’t worry. We’ll briefly review the math concepts you need to know to fully understand what’s going on, and also touch on an example with real-world data that will put things in perspective.
 
-<!--truncate-->
+<!-- more -->
 
 *Photo by [NOHK](https://www.pexels.com/@nohkstudio?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 

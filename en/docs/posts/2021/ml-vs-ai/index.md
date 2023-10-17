@@ -1,11 +1,14 @@
 ---
 title: "The Nuanced Truth: Exploring Differences Between ML and AI"
-date: "2021-04-11"
-authors: [steve]
-path: /blog/misc/ml-vs-ai/
+date: 2021-04-11
+authors:
+  - steve
+tags:
+  - machine-learning
+slug: ml-vs-ai
 ---
 
-![Cute robot](/blog/img/cute-robot.jpeg)
+![Cute robot](cute-robot.jpeg)
 
 Everyone has heard of machine learning and artificial intelligence at this point, right?
 
@@ -17,7 +20,7 @@ When you have an assortment of tools at your disposal, you might try your hand a
 
 Let's dive in a bit deeper and see if this analogy holds true.
 
-<!--truncate-->
+<!-- more -->
 
 *Photo by [Alex Knight](https://www.pexels.com/@agk42?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)*
 
@@ -87,15 +90,14 @@ I hope you learned something new from this article about these topics. Please le
 
 ## References
 
-[1] [https://www.ibm.com/cloud/learn/what-is-artificial-intelligence](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence)
+[1] <https://www.ibm.com/cloud/learn/what-is-artificial-intelligence>
 
-[2] [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/)
+[2] <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1307157/>
 
-[3] [https://www.ibm.com/cloud/learn/machine-learning](https://www.ibm.com/cloud/learn/machine-learning)
+[3] <https://www.ibm.com/cloud/learn/machine-learning>
 
-[4] [https://www.youtube.com/watch?v=whlODvf-SVk](https://www.youtube.com/watch?v=whlODvf-SVk)
+[4] <https://www.youtube.com/watch?v=whlODvf-SVk>
 
-[5] [https://scikit-learn.org/stable/modules/neighbors.html](https://scikit-learn.org/stable/modules/neighbors.html)
+[5] <https://scikit-learn.org/stable/modules/neighbors.html>
 
-[6] [https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html)
-
+[6] <https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html>

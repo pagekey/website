@@ -1,11 +1,14 @@
 ---
 title: "How to Get Up and Running with Scikit-Learn"
-date: "2021-04-17"
-authors: [steve]
-path: /blog/misc/getting-started-scikit-learn/
+date: 2021-04-17
+authors:
+  - steve
+tags:
+  - machine-learning
+slug: getting-started-scikit-learn
 ---
 
-![Wall panels](/blog/img/wall-panels.jpg)
+![Wall panels](wall-panels.jpg)
 
 Machine learning is fascinating, but it can be overwhelming if you're just getting started. Luckily, scikit-learn is an open-source machine learning library that allows you to jump in and gain hands-on experience immediately, harnessing the power of almost 2,000 contributors without reading a single scientific paper.
 
@@ -27,7 +30,7 @@ Thanks to the hard work of Cournapeau, along with 1,952 other contributors (at t
 
 You'll need Python installed before you can use scikit-learn. There are plenty of guides online that will tell you how to install Python, but it's a very straightforward process anyway. You can probably just go to the Python [Downloads page](https://www.python.org/downloads/) and figure it out yourself.
 
-If you'd like to get it done in 90 seconds or less, I made videos for just that purpose! Click [here](/blog/lte-90-sec/install-python-windows) to get started on Windows, or [here](/blog/lte-90-sec/install-python-ubuntu) if you use Ubuntu.
+If you'd like to get it done in 90 seconds or less, I made videos for just that purpose! Click [here](../../2020/90-sec/python-windows.md) to get started on Windows, or [here](../../2020/90-sec/python-ubuntu.md) if you use Ubuntu.
 
 Note that the instructions below are tailored to **Linux users**. You may need to make a few tweaks to the shell commands to get them working on Mac/Windows, but it probably won't be anything wildly different.
 
@@ -83,7 +86,7 @@ Working with scikit-learn in pure Python is always an option. It may not be the 
 
 Using scikit-learn in this way doesn't require any additional software. You can open up a `test.py` file in your favorite text editor, `import sklearn`, and go to town! Then, just run the script with `python test.py`.
 
-If you want to get more advanced, you can distribute your package using a `setup.py` file and [distutils](https://docs.python.org/3/library/distutils.html), or get fancy with something like [Poetry](https://python-poetry.org/).
+If you want to get more advanced, you can distribute your package using a `setup.py` file and [distutils](https://docs.python.org/3.10/library/distutils.html), or get fancy with something like [Poetry](https://python-poetry.org/).
 
 If you're just getting started with learning or you're only interested in data analytics, then read on - the next option may be more your speed.
 
