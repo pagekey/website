@@ -24,4 +24,4 @@ for i in $(find common -type f); do
     fi
 done
 
-cd $lang && mkdocs serve -a 0.0.0.0:8000
+cd $lang && mkdocs serve #-a 0.0.0.0:8000

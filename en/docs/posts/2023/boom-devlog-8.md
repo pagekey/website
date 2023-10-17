@@ -9,8 +9,6 @@ tags:
   - javascript
   - language
 slug: boom-devlog-8
-
-youtube: WSfWK61JIAE
 ---
 
 A N G E R Y 

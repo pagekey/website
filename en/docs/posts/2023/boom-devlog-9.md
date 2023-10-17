@@ -60,7 +60,7 @@ It was at this point that I vowed to return to an earlier time, before metrics, 
 
 ## 4. Start with what's most important.
 
-When an app has a server, it's a lot more complicated than if everything is happening locally. You have to worry about migrating your database, maintaining a schema, and keeping the API synced between the client and the server. Even more headaches abound when you're trying to deploy to mobile - you have to appease Apple (as we saw in [the last devlog](../boom-devlog-8.md)).
+When an app has a server, it's a lot more complicated than if everything is happening locally. You have to worry about migrating your database, maintaining a schema, and keeping the API synced between the client and the server. Even more headaches abound when you're trying to deploy to mobile - you have to appease Apple (as we saw in [the last devlog](boom-devlog-8.md)).
 
 And on top of it all, I was adding features that didn't matter - like user logins and leaderboards - before finding a set of core features that effectively taught foreign languages and were fun and easy to use. When I tried to implement features that actually mattered, I found myself buried by a mountain of technical debt, and decided to start over.
 
