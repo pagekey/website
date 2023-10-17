@@ -1,21 +1,22 @@
 ---
 title: "OS15: Writing a Simple VGA Driver (Bare-Metal Graphics)"
-date: "2022-05-03"
-authors: [steve]
-tags: [pkos]
-youtube: GllPGcVLEDY
-project: pkos
-path: /blog/pkos-15/
-redirects: [/blog/pkos/15-vga/]
+date: 2022-05-03
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - assembly
+  - c
+  - tutorial
+slug: pkos-15
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Our OS just got a lot more colorful. In this post, we figure out how to draw on the screen by switching to VGA mode and manually editing the video memory.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/GllPGcVLEDY)
 
 Thanks to Scott Spitler for suggesting this topic.
 
@@ -56,7 +57,7 @@ VGA stands for Video Graphics Array [1]. Designed for use with CRT monitors, thi
 
 ## QEMU Hardware
 
-I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [4].  This card connects via the PCI bus [5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](/projects/pkos/10), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
+I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [4].  This card connects via the PCI bus [5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](../pkos-10.md), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
 
 ## VGA Hardware
 
@@ -80,8 +81,8 @@ In fact, it's recommended that you avoid getting too deep into this topic unless
 
 The code that helped me get this working was found at [9]. It's an actual example of techniques for changing the graphics mode without the BIOS. The file itself is huge, and I made no effort to build or run it. Instead, I searched for relevant code snippets that I could use in PKOS. I found `write_regs` to be a key function. This, paired with a character array named `g_320x200x256`, representing register values required to enter 320x200 VGA resolution with a color-depth of 256, allowed me to change the graphics mode. I added a command to `kernel.c` so that whenever you type `vga`, it runs the `vga_test()` function in `vga.c`, which in turn runs `write_regs(g_320x200x256)`. When we do this, our text-based interface goes away, and we see something cool!
 
-![VGA Mode with Random Noise](/blog/img/vga1.png)
-Our first glimpse of VGA mode
+![VGA Mode with Random Noise](vga1.png)
+<figcaption>Our first glimpse of VGA mode</figcaption>
 
 Beautiful! The coolest part of this is that we seem to be unintentionally visualizing a section of memory as VGA. The little dots of yellow and stripes of gray must have had some other meaning to the computer before we entered this mode, though I'm not sure what. Maybe the buffer for our text interface that just disappeared is represented here.
 
@@ -99,8 +100,8 @@ We simply calculate the address of the color we'd like to update based on `x` an
 
 We're now free to clear the screen by plotting color 0 (black) on every pixel from 0,0 to 320,200. From that point on, we can have some fun with our `vga_plot_pixel` function. We're basically free to draw whatever we want! As for me, I drew some happy faces, a rectangle, and a pallete of colors `0x0` through `0xF`.
 
-![VGA Mode with Custom Drawing](/blog/img/vga2.png)
-The output of our custom drawing code
+![VGA Mode with Custom Drawing](vga2.png)
+<figcaption>The output of our custom drawing code</figcaption>
 
 While we apparently have 256 colors available in this mode, I did not explore past color `0xF`.
 

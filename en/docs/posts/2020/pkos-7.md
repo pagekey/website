@@ -1,21 +1,21 @@
 ---
 title: "OS7: Protected Mode - Making the Jump!"
-date: "2020-03-11"
-authors: [steve]
-tags: [pkos]
-youtube: IU9zXYdYV9I
-project: pkos
-path: /blog/pkos-7/
-redirects: [/blog/pkos/7-protected-mode/]
+date: 2020-03-11
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+slug: pkos-7
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 We really did it. We made the jump to 32-bit protected mode.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/IU9zXYdYV9I)
 
 ## Notes
 

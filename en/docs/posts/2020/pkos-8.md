@@ -1,21 +1,22 @@
 ---
 title: "OS8: Calling C from Assembly"
-date: "2020-06-17"
-authors: [steve]
-tags: [pkos]
-youtube: 5RWjI83C47k
-project: pkos
-path: /blog/pkos-8/
-redirects: [/blog/pkos/8-calling-c-from-assembly/]
+date: 2020-06-17
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+  - c
+slug: pkos-8
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we run our first miniature kernel, written in C.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/5RWjI83C47k)
 
 ## Code
 

@@ -1,21 +1,22 @@
 ---
 title: "OS12: Basic Keyboard Driver (x86 Interrupts)"
-date: "2020-08-12"
-authors: [steve]
-tags: [pkos]
-youtube: YtnNX074jMU
-project: pkos
-path: /blog/pkos-12/
-redirects: [/blog/pkos/12-basic-keyboard-driver/]
+date: 2020-08-12
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+  - c
+slug: pkos-12
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we learn about interrupts and write our own basic keyboard driver!
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/YtnNX074jMU)
 
 ## Timestamps
 

@@ -1,23 +1,23 @@
 ---
 title: "OS6: Reading the Disk"
-date: "2020-02-26"
-authors: [steve]
-tags: [pkos]
-youtube: mktENQzbm6k
-project: pkos
-path: /blog/pkos-6/
-redirects: [/blog/pkos/6-reading-the-disk/]
+date: 2020-02-26
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+slug: pkos-6
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 How do we read the disk? We better find out before we go into protected mode!
 
 Watch 'til the end for a bonus bugfix :-)
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/mktENQzbm6k)
 
 ## Code
 

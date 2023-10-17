@@ -1,23 +1,24 @@
 ---
 title: "OS9: Multiboot (Bootloader Breakup)"
-date: "2020-07-01"
-authors: [steve]
-tags: [pkos]
-youtube: UraQLWvn9Vg
-project: pkos
-path: /blog/pkos-9/
-redirects: [/blog/pkos/9-multiboot/]
+date: 2020-07-01
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+  - c
+slug: pkos-9
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we break up with our old bootloader :-(
     
 Don't worry, life without it is much better! :-)
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/UraQLWvn9Vg)
 
 ## Notes
 

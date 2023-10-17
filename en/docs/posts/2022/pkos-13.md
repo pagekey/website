@@ -1,21 +1,23 @@
 ---
 title: "OS13: Docker Dev Environment"
-date: "2022-02-12"
-authors: [steve]
-tags: [pkos]
-youtube: qN_24B2OJ5U
-project: pkos
-path: /blog/pkos-13/
-redirects: [/blog/pkos/13-docker-dev-env/]
+date: 2022-02-12
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - assembly
+  - c
+  - docker
+  - tutorial
+slug: pkos-13
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 This video shows off our shiny new Docker development environment, and this new PageKey Solutions website!
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/qN_24B2OJ5U)
 
 ## Code
 

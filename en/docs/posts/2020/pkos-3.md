@@ -1,21 +1,21 @@
 ---
 title: "OS3: Hone the Power of the BIOS!"
-date: "2020-01-15"
-authors: [steve]
-tags: [pkos]
-youtube: W3DdyiO3Fy8
-project: pkos
-path: /blog/pkos-3/
-redirects: [/blog/pkos/3-hone-power-bios/]
+date: 2020-01-15
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+slug: pkos-3
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 We delve into and modify the example code, I explain a few assembly concepts, and I give you some challenges!
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/W3DdyiO3Fy8)
 
 ## Notes
 

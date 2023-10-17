@@ -1,21 +1,22 @@
 ---
 title: "OS14: Organizing Our OS Code"
-date: "2022-04-09"
-authors: [steve]
-tags: [pkos]
-youtube: Qa-WjNWkNeA
-project: pkos
-path: /blog/pkos-14/
-redirects: [/blog/pkos/14-organize-our-code/]
+date: 2022-04-09
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - assembly
+  - c
+  - tutorial
+slug: pkos-14
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we reorganize the entire project, taking it from cluttered to modular in less than 10 minutes.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/Qa-WjNWkNeA)
 
 ## Timestamps
 
