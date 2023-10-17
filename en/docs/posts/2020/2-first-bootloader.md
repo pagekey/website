@@ -1,21 +1,21 @@
 ---
 title: "OS2: First Bootloader"
-date: "2020-01-01"
-authors: [steve]
-tags: [pkos]
-youtube: 1lAuJoPZ3Q0
-project: pkos
-path: /blog/pkos-2/
-redirects: [/blog/pkos/2-first-bootloader/]
+date: 2020-01-01
+authors:
+  - steve
+categories:
+  - PageKey Operating System
+tags:
+  - tutorial
+  - assembly
+slug: pkos-2
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we install qemu and nasm so that we can build our first bootloader and run it.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/1lAuJoPZ3Q0)
 
 ## Notes
 
