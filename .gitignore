@@ -1,21 +1,28 @@
-# Dependencies
-/node_modules
+build/
 
-# Production
-/build
-
-# Generated files
-.docusaurus
-.cache-loader
-
-# Misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.obsidian/workspace.json
+# live preview - english
+en/mkdocs.yml
+en/docs/assets/favicon.ico
+en/docs/assets/logo.png
+en/docs/.authors.yml
+# live preview - spanish
+es/mkdocs.yml
+es/docs/assets/favicon.ico
+es/docs/assets/logo.png
+es/docs/.authors.yml
+es/docs/posts/2023/pkos-21/pata_vs_sata.png
+es/docs/posts/2023/pkos-21/ide_class_code.png
+es/docs/posts/2023/pkos-21/example_pci_card_spec_snippet.png
+es/docs/posts/2023/pkos-21/lspci_output_early.png
+es/docs/posts/2023/pkos-21/lspci_output.png
+es/docs/posts/2023/pkos-21/PCI_Configuration_Space.png
+es/docs/posts/2023/pkos-21/pcilookup.png
+en/docs/posts/2023/pkos-21/pata_vs_sata.png
+en/docs/posts/2023/pkos-21/ide_class_code.png
+en/docs/posts/2023/pkos-21/example_pci_card_spec_snippet.png
+en/docs/posts/2023/pkos-21/lspci_output_early.png
+en/docs/posts/2023/pkos-21/lspci_output.png
+en/docs/posts/2023/pkos-21/PCI_Configuration_Space.png
+en/docs/posts/2023/pkos-21/pcilookup.png
+es/javascripts/mathjax.js
+en/javascripts/mathjax.js

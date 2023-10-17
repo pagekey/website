@@ -1,0 +1,52 @@
+site_name: PageKey
+theme:
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+  palette:
+    primary: blue
+    accent: deep orange
+plugins:
+  - blog:
+      archive: true
+      blog_dir: .
+      categories: true
+      post_url_format: "{slug}"
+  - mkdocs-video
+  - search
+  - tags:
+      tags_file: tags.md
+nav:
+  - index.md
+  - tags.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+validation:
+  absolute_links: ignore
+copyright: Copyright &copy; 2017 - <script>document.write(new Date().getFullYear())</script> PageKey Solutions, LLC
+extra:
+  social:
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/@PageKey
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Español
+      link: /es/
+      lang: es
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
