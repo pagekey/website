@@ -1,11 +1,14 @@
 ---
 title: "4 Fun JavaScript Examples for Beginners"
-date: "2020-11-02"
-authors: [steve]
-path: /blog/misc/javascript-examples-for-beginners/
+date: 2020-11-02
+authors:
+  - steve
+tags:
+  - javascript
+slug: beginner-javascript-examples
 ---
 
-![Coffee beans](/blog/img/coffee.jpg)
+![Coffee beans](coffee.jpg)
 
 Welcome to our JavaScript lesson! Today, we'll be trying out some fun examples to see a few of the cool things you can do with JavaScript.
 

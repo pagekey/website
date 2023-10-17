@@ -98,4 +98,4 @@ if __name__ == '__main__':
 python test_selenium.py
 ```
 
-Need Python? We have a tutorial for that, too! Install Python in 90 seconds or less [on Windows](./install-python-windows.md) or [on Ubuntu](./install-python-ubuntu.md).
+Need Python? We have a tutorial for that, too! Install Python in 90 seconds or less [on Windows](./python-windows.md) or [on Ubuntu](./python-ubuntu.md).

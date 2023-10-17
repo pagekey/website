@@ -30,6 +30,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+validation:
+  absolute_links: ignore
 copyright: Copyright &copy; 2017 - <script>document.write(new Date().getFullYear())</script> PageKey Solutions, LLC
 extra:
   social:

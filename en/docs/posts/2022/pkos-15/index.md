@@ -57,7 +57,7 @@ VGA stands for Video Graphics Array [1]. Designed for use with CRT monitors, thi
 
 ## QEMU Hardware
 
-I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [4].  This card connects via the PCI bus [5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](../pkos-10.md), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
+I thought it may be helpful to look into what hardware is being simulated in our beloved i386 QEMU emulator. Thankfully, the man page for `qemu-system-i386` tells us exactly what to expect. For VGA, emulator uses the "Cirrus CLGD 5446 PCI VGA card or dummy VGA card with Bochs VESA extensions" [4].  This card connects via the PCI bus [5].  It seems to be old enough that it's hard to purchase anywhere. I am wondering how modern computers, like the laptop I've tried this OS out on in [OS10](../../2020/pkos/pkos-10.md), support VGA mode for x86. I can't seem to find any sources on it, but I thought that I read somewhere (maybe on the OSDev Wiki) that the external VGA chipsets were replaced with a smaller version included directly on the motherboard.
 
 ## VGA Hardware
 
