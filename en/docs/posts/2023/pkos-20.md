@@ -1,5 +1,5 @@
 ---
-title: "Researching PCI: Peripheral Component Interconnect | pkos 20"
+title: "OS20: Researching PCI (Peripheral Component Interconnect)"
 date: 2023-02-19
 authors:
   - steve

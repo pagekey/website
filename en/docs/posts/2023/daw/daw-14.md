@@ -1,17 +1,20 @@
 ---
-title: "Deciphering State Management in Tauri | plaintext daw 14"
-date: "2023-03-06"
-authors: [steve]
-youtube: _AKLn4nXDJ0
-project: plaintext-daw
-path: /blog/ptd-14
+title: "DAW14: Deciphering State Management in Tauri"
+date: 2023-03-06
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-14
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Through trial and error, I discover how Tauri manages state - and how NOT to manage state in Rust (using mutable global variables).
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/_AKLn4nXDJ0)
 
 ### Timestamps
 

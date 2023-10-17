@@ -1,6 +1,6 @@
 ---
 title: "Adding Doodads | markdown sitegen 7"
-date: "2023-02-11"
+date: 2023-02-11
 authors: [steve]
 youtube: i-kI3J42luY
 project: markdown-sitegen

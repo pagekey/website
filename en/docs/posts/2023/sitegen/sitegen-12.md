@@ -1,6 +1,6 @@
 ---
 title: "Logo, Footer, Styling | markdown sitegen 12"
-date: "2023-02-24"
+date: 2023-02-24
 authors: [steve]
 youtube: Aka9vlr0eyA
 project: markdown-sitegen

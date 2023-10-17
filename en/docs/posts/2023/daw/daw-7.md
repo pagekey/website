@@ -1,17 +1,20 @@
 ---
-title: "What's wrong with timing?? | plaintext daw 7"
-date: "2023-02-06"
-authors: [steve]
-youtube: 5pLZ6SSG5XE
-project: plaintext-daw
-path: /blog/ptd-7
+title: "DAW7: What's wrong with timing??"
+date: 2023-02-06
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-7
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 This video is a wild goose chase to figure out why I can't seem to calculate the start/end sample of notes properly. 
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/5pLZ6SSG5XE)
 
 ### Timestamps
 

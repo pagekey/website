@@ -1,17 +1,20 @@
 ---
-title: "New arch, new me | plaintext daw 8"
-date: "2023-02-08"
-authors: [steve]
-youtube: 2Wd7-y4lhbg
-project: plaintext-daw
-path: /blog/ptd-8
+title: "DAW8: New arch, new me"
+date: 2023-02-08
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-8
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we review/merge some PRs, then get started implementing a new architecture. The first order of business is to add a ResourceManager to handle all the complex things we do to load wav/mp3 files and generate sounds using our Synth.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/2Wd7-y4lhbg)
 
 ### Timestamps
 

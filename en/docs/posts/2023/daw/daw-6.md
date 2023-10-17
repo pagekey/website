@@ -1,17 +1,20 @@
 ---
-title: "Integrating Synth Code | plaintext daw 6"
-date: "2023-02-04"
-authors: [steve]
-youtube: Ck_g1SQjtSY
-project: plaintext-daw
-path: /blog/ptd-6
+title: "DAW6: Integrating Synth Code"
+date: 2023-02-04
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-6
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we merge LTstrange's awesome synth MR and get the main CLI tool to generate music from nothing but the numpy sine function.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/Ck_g1SQjtSY)
 
 ### Timestamps
 

@@ -1,6 +1,6 @@
 ---
 title: "Adding Pagination | markdown sitegen 11"
-date: "2023-02-22"
+date: 2023-02-22
 authors: [steve]
 youtube: 2GN4eYFKiuI
 project: markdown-sitegen

@@ -1,18 +1,20 @@
 ---
-title: "Chords? Tempo? SYNTH?? | plaintext-daw 4"
-date: "2023-01-31"
-authors: [steve]
-youtube: C5Tb4RITg7E
-project: plaintext-daw
-path: /blog/ptd-4
-redirects: [/blog/misc/ptd-4]
+title: "DAW4: Chords? Tempo? SYNTH??"
+date: 2023-01-31
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-4
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Music to my ears! Chords, tempo, GUI, synthesizer - buckle up!
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/C5Tb4RITg7E)
 
 ### Timestamps
 

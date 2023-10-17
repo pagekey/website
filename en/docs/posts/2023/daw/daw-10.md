@@ -1,17 +1,20 @@
 ---
-title: "ResourceManager is DONE | plaintext daw 10"
-date: "2023-02-12"
-authors: [steve]
-youtube: c_Ym_6fpIDA
-project: plaintext-daw
-path: /blog/ptd-10
+title: "DAW10: ResourceManager is DONE"
+date: 2023-02-12
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-10
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 At last, we've finished refactoring all the code into a single, well-tested ResourceManager class and updated the CLI to call this new code. All tests are passing; we have some new code debt, but that's okay for now.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/c_Ym_6fpIDA)
 
 ### Timestamps
 

@@ -1,19 +1,23 @@
 ---
-title: "Advanced TDD with Pytest | plaintext daw 9"
-date: "2023-02-10"
-authors: [steve]
+title: "DAW9: Advanced TDD with Pytest"
+date: 2023-02-10
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-9
 youtube: 6hYB9ml5hHg
-project: plaintext-daw
-path: /blog/ptd-9
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we use patch.object to test that other methods in the class are called while keeping the test scoped to a single unit - true unit tests!
 
 We also continue to apply Test Driven Development (TDD) to create our ResourceManager class, which will serve as a great foundation for the application when it's complete.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/6hYB9ml5hHg)
 
 ### Timestamps
 

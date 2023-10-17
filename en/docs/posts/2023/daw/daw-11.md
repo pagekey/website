@@ -1,17 +1,20 @@
 ---
-title: "Generating a Tauri Project | plaintext daw 11"
-date: "2023-02-14"
-authors: [steve]
-youtube: nfR_B5nanXk
-project: plaintext-daw
-path: /blog/ptd-11
+title: "DAW11: Generating a Tauri Project"
+date: 2023-02-14
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-11
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we generate a Tauri project and get it running. Nothing crazy, we just add a new button to print something to the console. Also, a look at the roadmap, what's next, and how Tauri can interact with our existing Python CLI.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/nfR_B5nanXk)
 
 ### Timestamps
 

@@ -1,17 +1,20 @@
 ---
-title: "3 ways to create a window in Tauri | plaintext daw 13"
-date: "2023-02-26"
-authors: [steve]
-youtube: zZOcFz6W3kI
-project: plaintext-daw
-path: /blog/ptd-13
+title: "DAW13: 3 ways to create a window in Tauri"
+date: 2023-02-26
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-13
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Along with a number of other little fixes, we find three ways to create a new window in Tauri. This lets us launch a new "editor" window after the "open project" window has done its job.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/zZOcFz6W3kI)
 
 ### Timestamps
 

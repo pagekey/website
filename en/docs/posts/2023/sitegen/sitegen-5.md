@@ -1,6 +1,6 @@
 ---
 title: "Parsing the date, and more | markdown sitegen 5"
-date: "2023-02-07"
+date: 2023-02-07
 authors: [steve]
 youtube: zRA2Czyf5C0
 project: markdown-sitegen

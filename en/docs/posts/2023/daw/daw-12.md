@@ -1,17 +1,20 @@
 ---
-title: "Tauri filepicker | plaintext daw 12"
-date: "2023-02-23"
-authors: [steve]
-youtube: kF67Ju65vr4
-project: plaintext-daw
-path: /blog/ptd-12
+title: "DAW12: Tauri filepicker"
+date: 2023-02-23
+authors:
+  - steve
+categories:
+  - Plaintext DAW
+tags:
+  - python
+slug: daw-12
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Wow, who knew how easy it was to pick files using Tauri! Not only do we pick a file, but we pick a plaintext-daw song file AND invoke Python from Tauri, all in just a few lines of code.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/kF67Ju65vr4)
 
 ### Timestamps
 
