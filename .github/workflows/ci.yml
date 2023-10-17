@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material 
-      - run: ./render
+      - run: pip install -r requirements.txt
+      - run: ./render.bash
       - name: Init new repo in dist folder and commit generated files
         run: |
           cd build
