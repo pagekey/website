@@ -1,16 +1,19 @@
 ---
 title: "How to Make a CLI in Python"
-date: "2023-02-16"
-authors: [steve]
-youtube: nKeyx_ZJSPE
-path: /blog/python-cli
+date: 2023-02-16
+authors:
+  - steve
+tags:
+  - python
+  - tutorial
+slug: python-cli
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Want to use your Python program as its own executable? It's pretty easy to do - watch on!
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/nKeyx_ZJSPE)
 
 ### Timestamps
 
