@@ -1,17 +1,21 @@
 ---
 title: "jumping thru hoops for CSS | markdown sitegen 3"
 date: 2023-02-03
-authors: [steve]
+authors:
+  - steve
+categories:
+  - Markdown Sitegen
+tags:
+  - python
+slug: sitegen-3
 youtube: xfIKCp-k1VQ
-project: markdown-sitegen
-path: /blog/mdsg-3
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Let's add some basic styling - to do that, we'll need to (1) copy static files and (2) pass in some sort of relative path for the templates to use as a reference point.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/xfIKCp-k1VQ)
 
 ### Timestamps
 

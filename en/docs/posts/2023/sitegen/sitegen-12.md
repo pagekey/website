@@ -1,17 +1,20 @@
 ---
 title: "Logo, Footer, Styling | markdown sitegen 12"
 date: 2023-02-24
-authors: [steve]
-youtube: Aka9vlr0eyA
-project: markdown-sitegen
-path: /blog/mdsg-12
+authors:
+  - steve
+categories:
+  - Markdown Sitegen
+tags:
+  - python
+slug: sitegen-12
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 We add logo support, fix the footer, and improve the overall appearance - albeit only slightly.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/Aka9vlr0eyA)
 
 ### Timestamps
 

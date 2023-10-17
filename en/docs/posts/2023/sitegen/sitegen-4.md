@@ -1,17 +1,20 @@
 ---
 title: "Adding Posts Index | markdown sitegen 4"
 date: 2023-02-05
-authors: [steve]
-youtube: ZHzZ1FHYSrQ
-project: markdown-sitegen
-path: /blog/mdsg-4
+authors:
+  - steve
+categories:
+  - Markdown Sitegen
+tags:
+  - python
+slug: sitegen-4
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Added posts index, added config file for site title, and other cool stuff
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/ZHzZ1FHYSrQ)
 
 ### Timestamps
 
