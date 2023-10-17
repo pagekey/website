@@ -1,16 +1,19 @@
 ---
 title: "Docker 101: Basics and Containerizing a Web App"
-date: "2022-06-06"
-authors: [steve]
-youtube: shhFukTFhtQ
-path: /blog/misc/docker-101/
+date: 2022-06-06
+authors:
+  - steve
+tags:
+  - docker
+  - tutorial
+slug: docker-101
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Let's jump into how Docker works. We'll learn the absolute basics - the what, the why, and the how - and then we'll apply this knowledge to containerize a simple, real-world web application.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/shhFukTFhtQ)
 
 ## Timestamps
 - 0:00 Snazzy Intro

@@ -1,18 +1,21 @@
 ---
 title: 'Language Logging as the "One Thing" | Boom DevLog 5'
-date: "2022-06-13"
-authors: [steve]
-tags: [boom-languages]
-youtube: 4aKoQicY5Cg
-project: boom
-path: /blog/boom/devlog-5/
+date: 2022-06-13
+authors:
+  - steve
+categories:
+  - Boom Languages
+tags:
+  - javascript
+  - language
+slug: boom-devlog-5
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 I am starting a new take on an old project.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/4aKoQicY5Cg)
 
 At [boomlanguages.com](https://boomlanguages.com/), you can currently see the project I did in 2020-2021. I was determined to make this work, but the tech debt spun out of control and it became impossible to maintain. When this happened, I lost interest.
 

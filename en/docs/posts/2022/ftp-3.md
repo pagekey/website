@@ -1,16 +1,19 @@
 ---
 title: "VSCode, Emmet Coding, Serving Static Files | FTP3"
-date: "2022-07-04"
-authors: [steve]
-youtube: pG1OmboC5Jc
-project: ftp
-path: /blog/ftp/3-vscode/
+date: 2022-07-04
+authors:
+  - steve
+categories:
+  - First Time Programmer
+tags:
+  - tutorial
+slug: ftp-3
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we talk about VSCode, Emmet Coding, and Serving Static Files.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/pG1OmboC5Jc)
 
 Yeah, that's it. No timestamps this week.

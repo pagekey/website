@@ -1,24 +1,29 @@
 ---
 title: "Can we build our own Kindle, with a twist? | KR1"
-date: "2022-08-29"
-authors: [steve]
-youtube: ldzCndHQElI
-project: keyreader
-path: /blog/keyreader/1-pitch-plan-design/
+date: 2022-08-29
+authors:
+  - steve
+categories:
+  - KeyReader
+tags:
+  - design
+slug: kr-1
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Have you ever wanted to READ and LISTEN to a book at the same time? If so, watch on while I show you the pitch, plan, and design for KeyReader, a proposed app that gives you the option to listen and read the same book, switching between these two activities seamlessly.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/ldzCndHQElI)
 
 ## Links
-- KeyReader repo: https://gitlab.com/pagekeytech/keyreader
-- MR for this video: https://gitlab.com/pagekeytech/keyreader/-/merge_requests/1
+
+- KeyReader repo: <https://gitlab.com/pagekeytech/keyreader>
+- MR for this video: <https://gitlab.com/pagekeytech/keyreader/-/merge_requests/1>
 - See repo README for link to slides
 
 ## Timestamps
+
 - 0:00 Intro
 - 0:21 The Pitch (Take Back Tech)
 - 1:30 The Story

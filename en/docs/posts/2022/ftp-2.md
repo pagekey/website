@@ -1,17 +1,21 @@
 ---
 title: "New coders: Instantly apply concepts with JavaScript (FTP2)"
-date: "2022-06-27"
-authors: [steve]
-youtube: RfZqCb5uXoA
-project: ftp
-path: /blog/ftp/2-instantly-apply-js-concepts/
+date: 2022-06-27
+authors:
+  - steve
+categories:
+  - First Time Programmer
+tags:
+  - javascript
+  - tutorial
+slug: ftp-2
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 In this video, we go through web programming for the absolute beginner and get our hands dirty with HTML, CSS, and JavaScript.
 
-<!-- truncate -->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/RfZqCb5uXoA)
 
 ## Quick Notes
 - Intro
@@ -25,7 +29,7 @@ In this video, we go through web programming for the absolute beginner and get o
 	- CSS: How it looks, styling
 	- JavaScript: Behavior
 - Follow Along
-	- Go to [pagekeytech.com](https://pagekeytech.com) or any website
+	- Go to [pagekey.io](https://pagekey.io) or any website
 	- Right click, press "Inspect" to open developer tools
 - Top: HTML
 	- Can change content in any of the elements (hack the school website trick)

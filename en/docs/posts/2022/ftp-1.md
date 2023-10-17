@@ -7,6 +7,7 @@ categories:
   - First Time Programmer
 tags:
   - javascript
+  - tutorial
 slug: ftp-1
 ---
 
