@@ -1,25 +1,24 @@
 ---
 title: "Get your feet wet | First Time Programmer 1"
-date: "2022-04-07"
-authors: [steve]
-tags: [ftp,python]
-youtube: rM8BZdOA_60
-project: ftp
-path: /blog/ftp/1-get-your-feet-wet/
+date: 2022-04-07
+authors:
+  - steve
+categories:
+  - First Time Programmer
+tags:
+  - javascript
+slug: ftp-1
 ---
-
-import YouTubePlayer from '@site/src/components/YouTubePlayer';
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Coding is not scary! It's really easy to get started.
 
 Send this video to anyone you know who wants to get started with programming, but doesn't know how.
 
-<!--truncate-->
+<!-- more -->
+
+![type:video](https://www.youtube.com/embed/rM8BZdOA_60)
 
 ## Timestamps
-
 
 - 0:00 Coding is not scary
 - 1:24 Enter REPL.IT

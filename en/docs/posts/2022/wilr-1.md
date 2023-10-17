@@ -1,20 +1,24 @@
 ---
 title: "WILR1: React Native Basics"
-date: "2022-05-30"
-authors: [steve]
-youtube: THiU0OdK1C8
-path: /blog/wilr/1-react-native-basics/
+date: 2022-05-30
+authors:
+  - steve
+categories:
+  - What I Learned Recently
+tags:
+  - javascript
+slug: wilr-1
 ---
-
-<YouTubePlayer youtubeLink={frontmatter.youtube} />
 
 Here's a brain dump of everything I learned this week about React Native.
 
 I'm trying out a new format where I ramble and don't edit anything.
 
-<!-- truncate -->
+<!-- more -->
 
-Code: https://github.com/pagekeysolutions/example-react-native
+![type:video](https://www.youtube.com/embed/THiU0OdK1C8)
+
+Code: <https://github.com/pagekeysolutions/example-react-native>
 
 ## Timestamps
 - 0:00 Intro 
