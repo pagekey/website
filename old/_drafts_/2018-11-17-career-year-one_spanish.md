@@ -88,7 +88,7 @@ If you pursue this when you have time, you’ll have the added benefit of gettin
 
 # 6. Take the Initiative, Take the Risk
 
-Another great read that has helped my career was \[Lynchpin by Seth Godin](https://amzn.to/3Mbb8pv). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
+Another great read that has helped my career was [Linchpin by Seth Godin](https://amzn.to/3Mbb8pv). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
 
 For example, let’s say you’re someone with a passion for graphic design, and you’ve recently entered a job that involves compiling financial records. At the surface level, it certainly doesn’t seem like those two things have a lot in common. In fact, it appears almost impossible to link the two. If you’re not making the effort, it’s not going to happen. But if you get creative and think of everything as an opportunity, you’ll find a way.
 

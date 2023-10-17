@@ -1,15 +1,18 @@
 ---
 title: 'Career, Year One: 8 Lessons Learned'
-date: "2018-11-17"
-authors: [steve]
-path: /blog/misc/career-year-one/
+date: 2018-11-17
+authors:
+  - steve
+tags:
+  - career
+slug: career-year-one
 ---
 
-![Year One Circled on Calendar](/blog/img/career-year-one.jpeg)
+![Year One Circled on Calendar](career-year-one.jpeg)
 
 Ever since I started my career as a computer engineer last summer, I’ve been bombarded by lessons of all types, both from my many smart coworkers and from experience. Moving from the comfy classroom that had been my second home since kindergarten to a full-fledged professional work environment, I couldn’t help but feel excited, intimidated, confused, and enthused — sometimes all at the same time! When I started out, I had no idea what I was doing, but a few seasoned mentors guided me in figuring out the basics. My goal is to share what I found out, so that your first year at work can be as interesting and productive as mine was!
 
-<!--truncate-->
+<!-- more -->
 
 ## 1. Communication and Documentation: Our Bread and Butter
 
@@ -64,7 +67,7 @@ To borrow one of his examples, think of your mind as a computer processor. While
 
 Another helpful lesson intoned by Keller was that nothing is equal. For any two tasks, one of them is more important than the other to you, no matter what. Since their priority can’t be exactly the same, prioritizing should give you a definite path forward when you’re stuck. At any given time, **one** task on your list is the most important. This is the one you should work on. In doing so, the other items on the list may resolve themselves.
 
-When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](/blog/misc/kanban-board-onenote) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
+When I finally came up with a system of prioritizing tasks, my productivity skyrocketed. It was simple, but effective. I made a ["Board" in OneNote](../kanban-board-onenote/index.md) where I threw all of my tasks, big or small, from anyone or anything that may require my attention. After that, I make use of three lists — To Do, Complete This Week, and Completed. Each list will show the project, task description, and priority.
 
 This system allows me to see everything I have been asked to do at a glance. By throwing everything in there, I won’t forget tasks. By frequently dragging-and-dropping tasks to prioritize, I ensure that whenever possible, I’m working on the "One Thing" that is the most important to complete at the time.
 
@@ -86,7 +89,7 @@ If you pursue this when you have time, you’ll have the added benefit of gettin
 
 ## 6. Take the Initiative, Take the Risk
 
-Another great read that has helped my career was [Lynchpin by Seth Godin](https://amzn.to/3Mbb8pv). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
+Another great read that has helped my career was [Linchpin by Seth Godin](https://amzn.to/3Mbb8pv). This is a book about the mindset you hold toward your work. Instead of bringing only what your job description describes with you to the office, the book suggests that everyone has art that, if they choose to give it, can move things forward by leaps and bounds.
 
 For example, let’s say you’re someone with a passion for graphic design, and you’ve recently entered a job that involves compiling financial records. At the surface level, it certainly doesn’t seem like those two things have a lot in common. In fact, it appears almost impossible to link the two. If you’re not making the effort, it’s not going to happen. But if you get creative and think of everything as an opportunity, you’ll find a way.
 

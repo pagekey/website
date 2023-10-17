@@ -1,15 +1,18 @@
 ---
 title: 'Design vs. Implementation: The Eternal Divide'
-date: "2018-12-12"
-authors: [steve]
-path: /blog/misc/design-vs-implementation/
+date: 2018-12-12
+authors:
+  - steve
+tags:
+  - ideas
+slug: design-vs-implementation
 ---
 
-![Brushes in front of a blank canvas](/blog/img/design-vs-implementation.jpg)
+![Brushes in front of a blank canvas](design-vs-implementation.jpg)
 
 Typically, people don't go about their day thinking about design and implementation, or at least not in these terms. Such words are usually limited to the vocabulary of engineers, programmers, developers, or project managers. In spite of this, these two concepts can apply to just about everything in your daily life. Learning to think in these terms may give you a new perspective.
 
-<!--truncate-->
+<!-- more -->
 
 Though the terminology is unorthodox, design and implementation can easily be applied to the process of writing. Whenever I'm putting together an article, essay, story, or document, I find myself performing design and implementation as two distinct activities, whether I attempt to separate them or not. Design is figuring out which ideas I would like to convey, how I want to convey them, and what the feel should be - it's the big picture. **Outlining** is a design activity that really helps me bring my writing together.
 
@@ -35,7 +38,7 @@ Like I mentioned above, the control that you get over your end result when focus
 
 Actually performing the work becomes much, much easier when you have a blueprint that details exactly what needs to happen.
 
-For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey Solutions](https://pagekeysolutions.com/). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
+For example, I once made a habit of "implement first, think later" when it came to my website designs for [PageKey](https://pagekey.io/). I knew roughly what I wanted the end result to be, but really couldn't visualize it in any kind of detail. I was familiar with the "look and feel" I was shooting for, but didn't have much to show beyond that.
 
 As I progressed, it became increasingly harder to change my mind about decisions. They became baked into the code. Want to move the navigation pane to the right side? That's 100 lines to change. Need to rework the way the footer looks next to the body? You're going to have to edit every individual color code.
 

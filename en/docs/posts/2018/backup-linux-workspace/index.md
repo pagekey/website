@@ -1,17 +1,21 @@
 ---
 title: 'Take Your Linux Workspace Anywhere: Backup for Nerds'
-date: "2018-11-24"
-authors: [steve]
-path: /blog/misc/backup-linux-workspace/
+date: 2018-11-24
+authors:
+  - steve
+tags:
+  - linux
+  - productivity
+slug: backup-linux-workspace
 ---
 
-![A Computer Workspace](/blog/img/linux-workspace.jpg)
+![A Computer Workspace](linux-workspace.jpg)
 
 How many times have you sat down at a new Linux computer and felt like you were starting all over again? All of those aliases, every little helper file and script - gone. This new computer is a shell of its former self (pun intended). Your heart warms as you think back to the comfort and productivity that came with your Linux workstation at home. If only there were a way to take everything you know and love on the go...
 
 Thankfully, there is!
 
-<!--truncate-->
+<!-- more -->
 
 If you don't feel like setting it up yourself, you can clone the pre-finished skeleton I made [on Github](https://github.com/stephengrice/linux-workspace).
 
@@ -119,7 +123,7 @@ Not to worry, professor - the script is actually fairly clear cut. Allow me 
 
 The top of the script is defining which Python interpreter to use, importing libraries, and setting constants. The real magic begins when we open `repos.csv`. You may recall that this file contains two columns - first, where we want to store the repo locally, and second, the address of the remote repository we'll be cloning from. For each of the repositories in the file, it checks if it exists locally, and if it doesn't, it clones the remote.
 
-If you get tired of typing out your password every single time, it may be a good idea to copy your public key file (located in `~/.ssh/id_rsa.pub`) into your Github and/or Bitbucket profile. You may also be interested in [pushing out your SSH keys](/blog/misc/push-ssh-keys) if you have local Git servers.
+If you get tired of typing out your password every single time, it may be a good idea to copy your public key file (located in `~/.ssh/id_rsa.pub`) into your Github and/or Bitbucket profile. You may also be interested in [pushing out your SSH keys](../push-ssh-keys/index.md) if you have local Git servers.
 
 I decided to use Python, because it's quick, straightforward, and a lot more powerful than Bash (no offense to die-hard shell-scripters!). Feel free to make your own script in whichever language tickles your fancy.
 

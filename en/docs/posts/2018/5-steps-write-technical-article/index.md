@@ -1,15 +1,19 @@
 ---
 title: '5 Steps to Writing Your Next Technical Article'
-date: "2018-12-13"
-authors: [steve]
-path: /blog/misc/5-steps-write-technical-article/
+date: 2018-12-13
+authors:
+  - steve
+tags:
+  - tutorial
+  - productivity
+slug: 5-steps-write-technical-article
 ---
 
-![Circuitboard parts](/blog/img/write-technical-article.jpg)
+![Circuitboard parts](write-technical-article.jpg)
 
-Over the past few months, I've written [a](/blog/dsa/hash-table-python) [fair](/blog/misc/linux-kernel-1-compile-from-source) [number](/blog/misc/linux-kernel-2-modifications) [of](/blog/misc/command-line-ruby-gem) [technical](/blog/dsa/binary-search-tree-python) [articles](/blog/misc/backup-linux-workspace). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
+Over the past few months, I've written [a](../../2017/hash-table-python/index.md) [fair](../linux-kernel-1/index.md) [number](../linux-kernel-2/index.md) [of](../ruby-gem/index.md) [technical](../binary-search-tree/index.md) [articles](../backup-linux-workspace/index.md). At first, it felt unnatural to apply what I learned in English class to the cold logic of programming and computers. Despite this, I rinsed and repeated enough times to see that it's not such a bad fit after all. Below, I outline the five steps I take, in one form or another, every time I write a technically-focused article.
 
-<!--truncate-->
+<!-- more -->
 
 ## 1. Research and Take Notes (Do the Thing)
 
@@ -27,7 +31,7 @@ As you go through this process, please **take notes**. Every button click, every
 
 ## 2. Create Outline from Notes
 
-The value of a good [design](/blog/misc/design-vs-implementation) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
+The value of a good [design](../design-vs-implementation/index.md) can't be understated. Now that you've researched and taken notes on the process from start to finish, look over your notes and start putting them in a logical order, if they're not already. Form a bulleted outline for your article that lists each point or step, along with the details and caveats that go with each. When you have a detailed outline with all of the hard facts you need in one place, actually doing the writing will be a cinch.
 
 Speaking of which...
 
