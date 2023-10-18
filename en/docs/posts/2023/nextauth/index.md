@@ -1,6 +1,8 @@
 ---
 title: "NextAuth Tutorial - Google & Apple Social Login"
 date: 2023-09-02
+authors:
+  - steve
 category:
   - Boom Languages
 tags:
