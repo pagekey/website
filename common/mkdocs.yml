@@ -7,8 +7,20 @@ theme:
     - navigation.sections
     - content.code.copy
   palette:
-    primary: blue
-    accent: deep orange
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 plugins:
   - blog:
       archive: true
