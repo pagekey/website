@@ -22,3 +22,5 @@ rm -rf tmp
 mv out/* .
 rmdir out
 cd ..
+
+echo blog.pagekey.io >> build/CNAME
