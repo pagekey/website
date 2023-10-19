@@ -1,5 +1,5 @@
 ---
-title: "MEASURE - The Secret to Langugae Learning"
+title: "MEASURE - The Secret to Language Learning"
 date: 2023-10-19
 authors:
   - steve
