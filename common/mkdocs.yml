@@ -32,6 +32,7 @@ plugins:
   - tags:
       tags_file: tags.md
 nav:
+  - Main Site: https://pagekey.io/
   - index.md
   - tags.md
 markdown_extensions:
