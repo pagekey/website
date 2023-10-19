@@ -29,4 +29,4 @@ It provides a plan for the next four weeks - from now until November 19.
 
 Check back soon to see what's new! I plan to post weekly status for the next four weeks.
 
-Slides used in this video are [here]().
+Slides used in this video are [here](https://github.com/pagekey/slides/blob/main/2023/MEASURE%20-%20Boom%20v5.0.pptx).
