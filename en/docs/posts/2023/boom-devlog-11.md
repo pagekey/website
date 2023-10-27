@@ -1,5 +1,5 @@
 ---
-title: "boom devlog 11"
+title: "Boom Devlog 11"
 date: 2023-10-27
 authors:
   - steve
