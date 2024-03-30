@@ -10,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-node@v4
         with:
-          python-version: 3.x
-      - run: pip install -r requirements.txt
+          node-version: 18.19.x
       - run: ./render.bash
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
