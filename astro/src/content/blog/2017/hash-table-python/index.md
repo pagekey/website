@@ -1,6 +1,8 @@
 ---
 title: How to Implement a Hash Table in Python
-date: 2017-11-24
+description: Implement a hash table with separate chaining.
+pubDate: 2017-11-24
+heroImage: 'hashtable.jpg'
 authors:
   - steve
 categories:
