@@ -10,6 +10,9 @@ import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 import astrowind from './src/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
@@ -77,8 +80,8 @@ export default defineConfig({
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin],
-    rehypePlugins: [responsiveTablesRehypePlugin],
+    remarkPlugins: [readingTimeRemarkPlugin, remarkMath],
+    rehypePlugins: [responsiveTablesRehypePlugin, rehypeKatex],
   },
 
   vite: {
