@@ -1,0 +1,24 @@
+---
+import { getUniqueTags } from '~/utils/blog';
+import Layout from '~/layouts/PageLayout.astro';
+import Headline from '~/components/blog/Headline.astro';
+import PostTags from '~/components/blog/Tags.astro';
+
+export const prerender = true;
+
+const tagsList = await getUniqueTags();
+
+const metadata = {
+  title: 'Tags',
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
+    <Headline>Tags</Headline>
+    <p class="my-4">
+        Here's a list of all the tags used on the site.
+    </p>
+    <PostTags tags={tagsList} />
+  </section>
+</Layout>

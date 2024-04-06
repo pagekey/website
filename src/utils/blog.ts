@@ -185,6 +185,24 @@ export const getStaticPathsBlogList = async ({ paginate }: { paginate: PaginateF
 };
 
 /** */
+export const getUniqueTags = async () => {
+  if (!isBlogEnabled) return [];
+
+  const posts = await fetchPosts();
+
+  const tagsList = posts.map((post) => post.tags).flat();
+
+  const uniqueTags = tagsList.reduce((accumulator, currentTag) => {
+    if (!accumulator?.includes(currentTag as never)) {
+      accumulator?.push(currentTag as never);
+    }
+    return accumulator;
+  }, []);
+
+  return uniqueTags.sort();
+};
+
+/** */
 export const getStaticPathsBlogPost = async () => {
   if (!isBlogEnabled || !isBlogPostRouteEnabled) return [];
   return (await fetchPosts()).flatMap((post) => ({

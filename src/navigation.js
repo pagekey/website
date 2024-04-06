@@ -71,6 +71,7 @@ export const footerData = {
     {
       title: 'Tags',
       links: [
+        { text: 'All Tags', href: '/blog/tags' },
         { text: 'Python', href: '/tag/python' },
         { text: 'Rust', href: '/tag/rust' },
       ],
