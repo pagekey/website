@@ -81,7 +81,7 @@ export const footerData = {
       links: [
         { text: 'English', href: '/blog' },
         { text: 'Español', href: '/tag/spanish' },
-        // { text: 'Русский', href: '/tag/russian' },
+        { text: 'Русский', href: '/tag/russian' },
       ],
     },
   ],
