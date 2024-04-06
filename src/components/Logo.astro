@@ -9,8 +9,10 @@ import { SITE } from 'astrowind:config';
 
 <script is:inline>
   function getDailyEmoji() {
-    var currentDateInMillis = Date.now();
-    var currentDaySinceEpoch = Math.floor(currentDateInMillis / (1000 * 60 * 60 * 24));
+    const date = new Date();
+    const timezoneOffsetMillis = date.getTimezoneOffset() * 60 * 1000;
+    const currentDateInMillis = date.getTime() - timezoneOffsetMillis;
+    const currentDaySinceEpoch = Math.floor(currentDateInMillis / (1000 * 60 * 60 * 24));
     const emojis = [
       '📄',
       '🔑',
@@ -30,7 +32,6 @@ import { SITE } from 'astrowind:config';
       '🦀',
       '🍍',
       '🍇',
-      '💿',
       '⛰',
       '🐧',
       '🎈',
