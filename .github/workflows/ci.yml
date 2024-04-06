@@ -14,7 +14,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.19.x
-      - run: ./render.bash
+      - run: |
+          rm -rf build
+          npm i
+          npm run build
+          mv dist build
+          echo pagekey.io >> build/CNAME
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
