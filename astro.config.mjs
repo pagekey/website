@@ -10,8 +10,12 @@ import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
 
+// Thank you Alexa Fazio! https://blog.alexafazio.dev/blog/render-latex-in-astro/
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+
+// Thank you Alex Trost! https://trost.codes/posts/adding-simple-search-to-an-astro-blog/
+import pagefind from "astro-pagefind";
 
 import astrowind from './src/integration';
 
@@ -73,6 +77,7 @@ export default defineConfig({
     }),
 
     astrowind(),
+    pagefind(),
   ],
 
   image: {

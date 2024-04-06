@@ -13,13 +13,19 @@ git clone git@github.com:pagekey/website.git pagekey-website
 cd pagekey-website
 ```
 
-1. Install dependencies:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Run the development server.
+3. Run a build to compute search results.
+
+```bash
+npm run build
+```
+
+4. Run the development server.
 
 ```bash
 npm run dev

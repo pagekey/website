@@ -67,6 +67,39 @@ const html = `
     .katex-html {
       display: none;
     }
+    html {
+        --pagefind-ui-scale: 1;
+        --pagefind-ui-primary: ${tokens.default.colors.primary};
+        --pagefind-ui-text: ${tokens.default.colors.default};
+        --pagefind-ui-background: ${tokens.default.colors.bgPage};
+        --pagefind-ui-border: ${tokens.default.colors.muted};
+        --pagefind-ui-tag: ${tokens.default.colors.muted};
+        --pagefind-ui-border-width: 2px;
+        --pagefind-ui-border-radius: 8px;
+        --pagefind-ui-image-border-radius: 8px;
+        --pagefind-ui-image-box-ratio: 3 / 2;
+        --pagefind-ui-font: sans-serif;
+    }
+    html.dark {
+        --pagefind-ui-scale: 1;
+        --pagefind-ui-primary: ${tokens.dark.colors.primary};
+        --pagefind-ui-text: ${tokens.dark.colors.default};
+        --pagefind-ui-background: ${tokens.dark.colors.bgPage};
+        --pagefind-ui-border: ${tokens.dark.colors.muted};
+        --pagefind-ui-tag: ${tokens.dark.colors.muted};
+        --pagefind-ui-border-width: 2px;
+        --pagefind-ui-border-radius: 8px;
+        --pagefind-ui-image-border-radius: 8px;
+        --pagefind-ui-image-box-ratio: 3 / 2;
+        --pagefind-ui-font: sans-serif;
+    }
+    html.dark .pagefind-ui button {
+      color: ${tokens.dark.colors.default};
+    }
+    html.dark .pagefind-ui button:hover {
+      color: ${tokens.dark.colors.default};
+      border-color: ${tokens.dark.colors.default};
+    }
   </style>
 `;
 ---
