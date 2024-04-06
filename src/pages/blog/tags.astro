@@ -19,6 +19,6 @@ const metadata = {
     <p class="my-4">
         Here's a list of all the tags used on the site.
     </p>
-    <PostTags tags={tagsList} />
+    <PostTags tags={tagsList.map(tag => `${tag.tag} (${tag.count})`)} />
   </section>
 </Layout>

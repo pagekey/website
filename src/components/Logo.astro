@@ -7,7 +7,7 @@ import { SITE } from 'astrowind:config';
   <span id="pks-daily-emoji">🔑</span> {SITE?.name}
 </span>
 
-<script>
+<script is:inline>
   function getDailyEmoji() {
     var currentDateInMillis = Date.now();
     var currentDaySinceEpoch = Math.floor(currentDateInMillis / (1000 * 60 * 60 * 24));
@@ -38,5 +38,7 @@ import { SITE } from 'astrowind:config';
     const dailyEmoji = emojis[currentDaySinceEpoch % emojis.length];
     return dailyEmoji;
   }
-  document.getElementById('pks-daily-emoji')!.innerHTML = getDailyEmoji();
+  window.addEventListener("DOMContentLoaded", () => {
+    document.getElementById('pks-daily-emoji').innerHTML = getDailyEmoji();
+  });
 </script>

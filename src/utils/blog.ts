@@ -192,14 +192,19 @@ export const getUniqueTags = async () => {
 
   const tagsList = posts.map((post) => post.tags).flat();
 
-  const uniqueTags = tagsList.reduce((accumulator, currentTag) => {
-    if (!accumulator?.includes(currentTag as never)) {
-      accumulator?.push(currentTag as never);
-    }
-    return accumulator;
-  }, []);
-
-  return uniqueTags.sort();
+  // Count the occurrences of each tag
+  const tagCount = {};
+  tagsList.forEach(tag => {
+    tagCount[tag] = (tagCount[tag] || 0) + 1;
+  });
+  
+  // Convert the tag count object to an array of { tag, count } objects
+  const tagCountArray = Object.keys(tagCount).map(tag => ({ tag, count: tagCount[tag] }));
+  
+  // Sort the array alphabetically by tag
+  tagCountArray.sort((a, b) => a.tag.localeCompare(b.tag));
+  
+  return tagCountArray;
 };
 
 /** */
