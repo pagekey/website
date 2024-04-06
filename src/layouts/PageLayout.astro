@@ -29,3 +29,11 @@ const { metadata } = Astro.props;
     <Footer {...footerData} />
   </slot>
 </Layout>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LCGN32XDMX"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LCGN32XDMX');
+</script>
