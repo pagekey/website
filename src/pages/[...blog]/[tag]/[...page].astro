@@ -1,6 +1,6 @@
 ---
 import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
-import { blogTagRobots, getStaticPathsBlogTag } from '~/utils/blog';
+import { blogTagRobots, getStaticPathsBlogTag, getUniqueTags } from '~/utils/blog';
 
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
@@ -26,6 +26,8 @@ const metadata = {
     follow: blogTagRobots?.follow,
   },
 };
+
+const tagCount = (await getUniqueTags()).find(curTag => curTag.tag == tag)!.count;
 ---
 
 <Layout metadata={metadata}>
@@ -33,7 +35,7 @@ const metadata = {
     <Headline>Tag: {tag}</Headline>
     <p
       class="text-base text-secondary dark:text-blue-200 font-bold tracking-wide uppercase mb-8 text-center"
-      set:html={`${page.data.length} posts`}
+      set:html={`${tagCount} posts`}
     />
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
