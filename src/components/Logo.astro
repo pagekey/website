@@ -1,0 +1,42 @@
+---
+import { SITE } from 'astrowind:config';
+
+---
+
+<span class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white">
+  <span id="pks-daily-emoji">🔑</span> {SITE?.name}
+</span>
+
+<script>
+  function getDailyEmoji() {
+    var currentDateInMillis = Date.now();
+    var currentDaySinceEpoch = Math.floor(currentDateInMillis / (1000 * 60 * 60 * 24));
+    const emojis = [
+      '📄',
+      '🔑',
+      '🌩',
+      '🗣',
+      '🚁',
+      '🛎',
+      '😳',
+      '🐋',
+      '📈',
+      '🚀',
+      '🛰️',
+      '📢',
+      '🐘',
+      '🏆',
+      '🔋',
+      '🦀',
+      '🍍',
+      '🍇',
+      '💿',
+      '⛰',
+      '🐧',
+      '🎈',
+    ];
+    const dailyEmoji = emojis[currentDaySinceEpoch % emojis.length];
+    return dailyEmoji;
+  }
+  document.getElementById('pks-daily-emoji')!.innerHTML = getDailyEmoji();
+</script>

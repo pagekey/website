@@ -1,0 +1,25 @@
+---
+import People from '~/components/widgets/People.astro';
+import Layout from '~/layouts/PageLayout.astro';
+const metadata = {
+  title: 'Team',
+};
+---
+
+<Layout metadata={metadata}>
+    <People
+    title="The PageKey Team"
+    testimonials={[
+      {
+        testimonial: `I started up the PageKey brand in 2017. Let's keep it going!`,
+        name: 'Steve Grice',
+        job: 'Software Engineer',
+        image: {
+          src: 'https://github.com/stephengrice.png',
+          alt: 'Steve Grice Image',
+        },
+        profileUrl: '/team/steve',
+      },
+    ]}
+    />
+</Layout>
