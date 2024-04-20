@@ -35,6 +35,7 @@ Examples: client-server (SaaS) = gmail, salesforce, chatgpt, duolingo. Desktop =
 ## Proposed Architecture
 
 Start with the files at the absolute center, rather than a server codebase. Work out from there - first, a client to easily manage those files locally. Then, a server to provide the same functionality to remote clients that can't really manage their own files (for example, REALLY tough to install Git or Python on an iPhone). Finally, the web and mobile clients to interact with that server. Result: You have one codebase that can basically run on everything and replicate the same functionality everywhere.
+
 ```mermaid
 flowchart TD
   PlaintextData(Plaintext Data)
@@ -43,7 +44,9 @@ flowchart TD
   Server <--> Web
   Server <--> Mobile
 ```
+
 In particular, I'd propose this tech stack:
+
 ```mermaid
 flowchart TD
   PlaintextData(Plaintext Data)

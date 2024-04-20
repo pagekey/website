@@ -17,6 +17,8 @@ import rehypeKatex from 'rehype-katex';
 // Thank you Alex Trost! https://trost.codes/posts/adding-simple-search-to-an-astro-blog/
 import pagefind from "astro-pagefind";
 
+import { mermaid } from "./src/plugins/mermaid";
+
 import astrowind from './src/integration';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter.mjs';
@@ -85,8 +87,15 @@ export default defineConfig({
   },
 
   markdown: {
-    remarkPlugins: [readingTimeRemarkPlugin, remarkMath],
-    rehypePlugins: [responsiveTablesRehypePlugin, rehypeKatex],
+    remarkPlugins: [
+      readingTimeRemarkPlugin,
+      remarkMath,
+      mermaid,
+    ],
+    rehypePlugins: [
+      responsiveTablesRehypePlugin, 
+      rehypeKatex,
+    ],
   },
 
   vite: {
