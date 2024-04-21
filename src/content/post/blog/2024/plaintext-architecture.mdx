@@ -13,24 +13,27 @@ tags:
   - self-hosting
 ---
 
-## Intro
+Why aren't more applications powered by plaintext (human-readable) data? It brings so many benefits - you can store/sync the data using your filesystem, inspect the data and even apps andscripts to process it and mine for insights.
 
-Why aren't more applications powered by "plaintext" data? It brings so many benefits - you can manage data storage and sync using your filesystem, you can inspect the data and write any number of third party apps/scripts to process it however you'd like, and generally there's just so much more transparency.
+I think we need more software to be written this way. For too long, the pendulum has swung in the direction of SaaS - other people's code running on other people's computer. I think we're on the verge of inverting this. Think about it. Do you really need to connect to some distant data center to use Intuit Quickbooks for your accounting? Not if you use something like [hledger](https://hledger.org/), which serves a similar purpose, but it's completely open-source and runs locally.
 
-I think we need more software to be written this way. I've been fascinated by the idea of writing all of the software I use myself. Someday, I'd like to make this something simple, that anyone can do. But my initial forays into this world have shown it to be extremely complicated.
+I'm fascinated by making programming simple and declarative enough that the average person can specify how all of the apps they use work. We've certainly taken a big step in that direction with LLMs, but unless you self-host that, you're still tied to someone's ChatGPT web service running in the cloud.
 
-In this article, I'll take a step in the right direction by proposing an architecture - or maybe more of a process to start - that will allow people to create plaintext applications that run on every platform. I think there are fantastic tools that already exist to help with this. The challenge is integrating them together in a way that provides a great experience, both for the user and for the developer (who are, increasingly, the same person!).
+In this article, I'll take a step in the right direction by proposing an architecture that will allow plaintext-based applications to run on every relevant platform. Actually, it may start out as more of a process that can eventually be turned into a resuable framework.
 
-??
+There are no shortage of fantastic tools that already exist to help with this. The challenge is integrating them together in a way that provides a great experience, both for the user and for the developer (who are, increasingly, the same person!).
 
-I'm fascinated by the ability to do things in "plaintext," which is just what it sounds like - all of your data for an application you're using is stored in regular old text files that anyone can open and read. More importantly, anyone can analyze, transform, and manage these files using common tools such as Python scripts and Git repos. I envision a future where all of the applications we use are backed by plaintext, enabling people to explore their own data and write their own extensions and tools to tailor the experience to exactly what they need.
-To get there, we need to rethink the classic client-server architecture that's so common.
+I envision a future where all of the applications we use are backed by plaintext, enabling people to explore their own data and write their own extensions and tools to tailor the experience to exactly what they need. To get there, we need to rethink the classic client-server architecture that's so common.
 
 ## Where We Are Now
 
-TODO
-Client-server OR Desktop with binary backend / some other inconvenient format
-Examples: client-server (SaaS) = gmail, salesforce, chatgpt, duolingo. Desktop = FL Studio
+As I mentioned, the software most people is use in "the Cloud." Think about Gmail, Salesforce, ChatGPT, and DuoLingo. All of these require you to log into some faraway server (that you don't own) to use their service. You have no access to the data behind the scenes - you're forced to use *their* UI, *their* way. If you're lucky, you'll have access to some sort of API to automate things, but this is usually complicated and out of reach for anyone who's not already a software developer.
+
+You could certainly use something like [Selenium](../2020/90-sec/selenium-ubuntu) to automate browser behavior - [I've done this with DuoLingo before](../2020/duobot) - but this is even harder than using an API!
+
+Apps like FL Studio or Adobe Premeire (see [Shotcut](https://shotcut.org/) for an open-source alternative) are better because they run locally. However, they still store their data in proprietary blobs that are impossible for humans to read and useless to any program but their own.
+
+I think we can do better! But how?
 
 ## Proposed Architecture
 
