@@ -19,7 +19,36 @@ const { post, url } = Astro.props;
 const { Content } = post;
 ---
 
-<section class="py-8 sm:py-16 lg:py-20 mx-auto">
+<style>
+  #blog-sidebar {
+    display: none;
+    padding: 1rem;
+    position: relative; 
+  }
+  @media screen and (min-width: 72rem) {
+    #blog-sidebar {
+      display: block;
+    }
+  }
+</style>
+<script is:inline>
+window.addEventListener('load', function() {
+  const headers = document.querySelectorAll('#post-content h2, #post-content h3');
+  headers.forEach(function(header) {
+    console.log(header.tagName);
+    if (header.tagName == 'H2') {
+      document.getElementById('ul-contents').innerHTML += `<li><a href="#${header.id}">${header.innerText}</a></li>`;
+    } else if (header.tagName == 'H3') {
+      document.getElementById('ul-contents').innerHTML += `<li class='ml-4'><a href="#${header.id}">${header.innerText}</a></li>`;
+    }
+  });
+});
+window.addEventListener('scroll', function(e) {
+  document.getElementById('blog-sidebar').style.top = `${window.scrollY}px`;
+});
+</script>
+
+<section class="py-8 sm:py-16 lg:py-20 mx-auto flex justify-center">
   <article>
     <header class={post.image ? '' : ''}>
       <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
@@ -88,6 +117,7 @@ const { Content } = post;
       }
     </header>
     <div
+      id="post-content"
       class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px]"
     >
       {Content ? <Content /> : <Fragment set:html={post.content || ''} />}
@@ -97,4 +127,10 @@ const { Content } = post;
       <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
     </div>
   </article>
+  <div id="blog-sidebar">
+    <b>Contents</b>
+    <ul id="ul-contents">
+      <li><a href="#top">Top</a></li>
+    </ul>
+  </div>
 </section>

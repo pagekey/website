@@ -17,7 +17,7 @@ Why aren't more applications powered by plaintext (human-readable) data? It brin
 
 I think we need more software to be written this way. For too long, the pendulum has swung in the direction of SaaS - other people's code running on other people's computer. I think we're on the verge of inverting this. Think about it. Do you really need to connect to some distant data center to use Intuit Quickbooks for your accounting? Not if you use something like [hledger](https://hledger.org/), which serves a similar purpose, but it's completely open-source and runs locally.
 
-I'm fascinated by making programming simple and declarative enough that the average person can specify how all of the apps they use work. We've certainly taken a big step in that direction with LLMs, but unless you self-host that, you're still tied to someone's ChatGPT web service running in the cloud.
+I'm fascinated by the idea of making programming **simple** and **declarative** enough that the average person can specify how all of the apps they use work. We've certainly taken a big step in that direction with LLMs, but unless you self-host that, you're still tied to someone's ChatGPT web service running in the cloud.
 
 In this article, I'll take a step in the right direction by proposing an architecture that will allow plaintext-based applications to run on every relevant platform. Actually, it may start out as more of a process that can eventually be turned into a resuable framework.
 
@@ -37,7 +37,9 @@ I think we can do better! But how?
 
 ## Proposed Architecture
 
-Start with the files at the absolute center, rather than a server codebase. Work out from there - first, a client to easily manage those files locally. Then, a server to provide the same functionality to remote clients that can't really manage their own files (for example, REALLY tough to install Git or Python on an iPhone). Finally, the web and mobile clients to interact with that server. Result: You have one codebase that can basically run on everything and replicate the same functionality everywhere.
+Start with the plaintext files, the **data**, at the absolute center, rather than a server/web app codebase. Work out from there - first, CLI to easily manage those files locally. Then, a user interface that can run locally. Then, a server to provide the same functionality to remote clients that can't really manage their own files (for example, it's REALLY tough to install Git or Python on an iPhone).
+
+Finally, the web and mobile clients to interact with that server. The result? You have one codebase that can basically run on everything and replicate the same functionality everywhere.
 
 ```mermaid
 flowchart TD
@@ -53,19 +55,36 @@ In particular, I'd propose this tech stack:
 ```mermaid
 flowchart TD
   PlaintextData(Plaintext Data)
+  CLI(CLI - Rust)
   LocalDesktop(Desktop - Tauri, Next.js)
   Server(Server - Next.js, Rust)
   Web(Web - Next.js)
   Mobile(Mobile - Next.js, Capacitor)
-  PlaintextData --> LocalDesktop
-  PlaintextData --> Server
+  PlaintextData --> CLI
+  CLI --> LocalDesktop
+  CLI --> Server
   Server <--> Web
   Server <--> Mobile
 ```
 
-## Data First
+Another key piece of this could be [syncthing](https://syncthing.net/), which can be hosted on the same machine as the server code. This has two benefits:
 
-Write sample file, parse it, do something.
+1. You can instantly, easily sync the files on your server to your laptop and back. Backing up becomes as easy as tarring and pushing to a cloud provider.
+
+2. It separates the act of syncing and backing up your files from the (unrelated) application producing those files.
+
+
+### Data First
+
+Let the data format drive all of the code. If you're making an accounting app, come up with some sample data in a YAML file and then write code to parse it. After that, write an interface to **create** data in that format by prompting the user.
+
+### CLI Second
+
+After creating some sample data, the CLI should be the next step. It's by far the easiest way to interface with the user. You don't have to worry about how things are presented - if they're used to interacting with the terminal, then they'll be able to figure it out.
+
+### Server
+
+At that point, you should be able to abstract the code to handle CLI inputs away from the real file operations. Then, you can implement a server that exposes an API to perform the same operations that the CLI does. The only difference is that it's triggered by a web request instead of a user interacting with the terminal.
 
 ## CLI Second
 
