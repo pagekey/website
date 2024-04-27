@@ -23,7 +23,7 @@ const { Content } = post;
   #blog-sidebar {
     display: none;
     padding: 1rem;
-    position: relative; 
+    position: relative;
   }
   @media screen and (min-width: 72rem) {
     #blog-sidebar {
@@ -32,24 +32,40 @@ const { Content } = post;
   }
 </style>
 <script is:inline>
+var topOffset = 0;
 window.addEventListener('load', function() {
+  const sectionPaddingTop = window.getComputedStyle(document.getElementById('single-post-section'), null).getPropertyValue('padding-top').replace('px', '');
+  const headerHeight = document.getElementById('header').getBoundingClientRect().height
+  topOffset = parseInt(sectionPaddingTop) + headerHeight * 1.5;
   const headers = document.querySelectorAll('#post-content h2, #post-content h3');
   headers.forEach(function(header) {
     console.log(header.tagName);
     if (header.tagName == 'H2') {
-      document.getElementById('ul-contents').innerHTML += `<li><a href="#${header.id}">${header.innerText}</a></li>`;
+      document.getElementById('ul-contents').innerHTML += `<li id="li-${header.id}"><a href="#${header.id}">${header.innerText}</a></li>`;
     } else if (header.tagName == 'H3') {
-      document.getElementById('ul-contents').innerHTML += `<li class='ml-4'><a href="#${header.id}">${header.innerText}</a></li>`;
+      document.getElementById('ul-contents').innerHTML += `<li id="li-${header.id}" class='ml-4'><a href="#${header.id}">${header.innerText}</a></li>`;
     }
   });
 });
 window.addEventListener('scroll', function(e) {
-  document.getElementById('blog-sidebar').style.top = `${window.scrollY}px`;
+  if (window.scrollY > topOffset) {
+    document.getElementById('blog-sidebar').style.top = `${window.scrollY - topOffset/2}px`;
+  } else {
+    document.getElementById('blog-sidebar').style.top = `0`;
+  }
+  const headers = document.querySelectorAll('#post-content h2, #post-content h3');
+  headers.forEach(function(header) {
+    if (window.scrollY > header.offsetTop) {
+      document.getElementById(`li-${header.id}`).classList.add('header-read')
+    } else {
+      document.getElementById(`li-${header.id}`).classList.remove('header-read')
+    }
+  });
 });
 </script>
 
-<section class="py-8 sm:py-16 lg:py-20 mx-auto flex justify-center">
-  <article>
+<section id='single-post-section' class="py-8 sm:py-16 lg:py-20 mx-auto flex justify-center">
+  <article id="single-post">
     <header class={post.image ? '' : ''}>
       <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
         <p>
