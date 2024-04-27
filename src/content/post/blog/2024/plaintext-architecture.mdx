@@ -41,11 +41,11 @@ Start with the files at the absolute center, rather than a server codebase. Work
 
 ```mermaid
 flowchart TD
-  PlaintextData(Plaintext Data)
-  PlaintextData --> LocalDesktop
-  PlaintextData --> Server
-  Server <--> Web
-  Server <--> Mobile
+  Data --> CLI
+  CLI --> Desktop
+  CLI --> Server
+  Server --> Web
+  Server --> Mobile
 ```
 
 In particular, I'd propose this tech stack:
@@ -63,7 +63,11 @@ flowchart TD
   Server <--> Mobile
 ```
 
-## CLI First
+## Data First
+
+Write sample file, parse it, do something.
+
+## CLI Second
 
 Design the CLI first, then auto-generate a UI from it, etc.
 
@@ -89,17 +93,18 @@ Either way, our codebase stays mostly the same - when running in server mode, yo
 
 TODO
 Next.js static export. Capacitor for mobile. Enter URL of server to get started. Maybe authenticate.
-## Hosting: Keep it simple
+## Hosting: Keep it simple (Some ideas)
 
 TODO
 Kubernetes is pretty complicated. The whole point of this architecture is to make things more accessible for the average user. 
 docker compose. Kubernetes is great for massive scale, but too complicated and easy to break for the average self-hoster (with probably a max of 10 users anyway)
-## Scaling: Federation
-
-TODO
-No idea on this. Need to research how to share data across instances to provide social features without centralized server.
 
 ## Next Steps
 
 TODO
 Let's do this. I'm going to try to implement this architecture in KeyDo. I'll be stealing some code from Plaintext DAW to get that done, but I'll have to carefully set everything up to reflect the above and share code so that nothing is repeated.
+
+## Scaling: Federation
+
+TODO
+No idea on this. Need to research how to share data across instances to provide social features without centralized server.
