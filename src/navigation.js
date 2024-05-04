@@ -17,10 +17,10 @@ export const headerData = {
           text: '✅ KeyDo',
           href: getPermalink('/products/keydo'),
         },
-        {
-          text: '📙 KeyReader',
-          href: getPermalink('/products/keyreader'),
-        },
+        // {
+        //   text: '📙 KeyReader',
+        //   href: getPermalink('/products/keyreader'),
+        // },
         {
           text: '💻 PageKey Operating System',
           href: getPermalink('/products/pkos'),
