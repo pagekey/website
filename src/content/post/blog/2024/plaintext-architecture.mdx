@@ -1,7 +1,7 @@
 ---
 title: "Software Architecture for Plaintext and Self-Hosting"
 publishDate: 2024-04-12
-# image: http://i3.ytimg.com/vi/Bn1Okg6Z4ac/hqdefault.jpg
+image: http://i3.ytimg.com/vi/iM8XZOPYktM/hqdefault.jpg
 author: Steve Grice
 tags:
   - design
@@ -13,6 +13,10 @@ tags:
   - self-hosting
 category: keydo
 ---
+
+import BlogYoutubeVideo from '~/components/common/BlogYoutubeVideo.astro';
+
+<BlogYoutubeVideo videoId="iM8XZOPYktM" />
 
 Why aren't more applications powered by plaintext (human-readable) data? It brings so many benefits - you can store/sync the data using your filesystem, inspect the data yourself, and even write apps and scripts to process it and mine for insights.
 
@@ -32,7 +36,7 @@ As I mentioned, the software most people is use in "the Cloud." Think about Gmai
 
 You could certainly use something like [Selenium](/blog/2020/90-sec/selenium-ubuntu) to automate browser behavior - [I've done this with DuoLingo before](/blog/2020/duobot) - but this is even harder than using an API!
 
-Apps like FL Studio or Adobe Premeire (see [Shotcut](https://shotcut.org/) for an open-source alternative) are better because they run locally. However, they still store their data in proprietary blobs that are impossible for humans to read and useless to any program but their own.
+Apps like FL Studio or Adobe Premiere (see [Shotcut](https://shotcut.org/) for an open-source alternative) are better because they run locally. However, they still store their data in proprietary blobs that are impossible for humans to read and useless to any program but their own.
 
 I think we can do better! But how?
 
