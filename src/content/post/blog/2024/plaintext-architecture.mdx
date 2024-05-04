@@ -14,10 +14,6 @@ tags:
 category: keydo
 ---
 
-import BlogYoutubeVideo from '~/components/common/BlogYoutubeVideo.astro';
-
-<BlogYoutubeVideo videoId="iM8XZOPYktM" />
-
 Why aren't more applications powered by plaintext (human-readable) data? It brings so many benefits - you can store/sync the data using your filesystem, inspect the data yourself, and even write apps and scripts to process it and mine for insights.
 
 I think we need more software to be written this way. For too long, the pendulum has swung in the direction of SaaS - other people's code running on other people's computers. We may be on the verge of inverting this. Think about it. Do you really need to connect to some distant data center to use Intuit Quickbooks for your accounting? Not if you use something like [hledger](https://hledger.org/), which serves a similar purpose, but it's completely open-source and runs locally.
@@ -29,6 +25,10 @@ In this article, I'll take a step in the right direction by proposing an archite
 There is no shortage of fantastic tools that already exist to help with this. The challenge is integrating them together in a way that provides a great experience, both for the user and for the developer (who are, increasingly, the same person!).
 
 I envision a future where all of the applications we use are backed by plaintext, enabling people to explore their own data and write their own extensions and tools to tailor the experience to exactly what they need. To get there, we need to rethink the classic client-server architecture that's so common.
+
+import BlogYoutubeVideo from '~/components/common/BlogYoutubeVideo.astro';
+
+<BlogYoutubeVideo videoId="iM8XZOPYktM" />
 
 ## Where We Are Now
 
