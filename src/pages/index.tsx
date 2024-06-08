@@ -1,25 +1,36 @@
-import { Anchor, Container, Group, Image, Title, Text, Paper } from "@mantine/core";
+import { Anchor, Container, Group, Image, Title, Text, Paper, Flex } from "@mantine/core";
 
 
 function SocialLinks() {
   return (
-    <div>
-      Links: Blog, YouTube, SubStack, Discord
-    </div>
+    <Flex w='full' justify={'center'}>
+      <div>
+        Blog
+      </div>
+      <div>
+        YouTube
+      </div>
+      <div>
+        SubStack
+      </div>
+      <div>
+        Discord
+      </div>
+    </Flex>
   )
 }
 function Logo() {
   return (
-    <div>
+    <Flex w='full' justify='center'>
       (logo) PageKey 
-    </div>
+    </Flex>
   )
 }
 function Slogan() {
   return (
-    <div>
+    <Flex w='full' justify='center'>
       Take Back Tech
-    </div>
+    </Flex>
   )
 }
 function Mission() {
