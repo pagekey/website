@@ -1,20 +1,21 @@
 import { Anchor, Container, Group, Image, Title, Text, Paper, Flex } from "@mantine/core";
+import Link from "next/link";
 
 
 function SocialLinks() {
   return (
     <Flex w='full' justify={'center'}>
       <div>
-        Blog
+        <Link href="#">Blog</Link>
       </div>
       <div>
-        YouTube
+        <Link href="https://www.youtube.com/@PageKey">YouTube</Link>
       </div>
       <div>
-        SubStack
+        <Link href="https://pagekey.substack.com/">SubStack</Link>
       </div>
       <div>
-        Discord
+        <Link href="https://discord.gg/5m5yFgDPF5">Discord</Link>
       </div>
     </Flex>
   )
