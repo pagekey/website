@@ -1,4 +1,4 @@
-import { Anchor, Container, Group, Image, Title, Text, Paper, Flex, Tooltip } from "@mantine/core";
+import { Flex, Tooltip } from "@mantine/core";
 import { IconArticle, IconBookmarkFilled, IconBrandDiscord, IconBrandYoutube } from "@tabler/icons-react";
 import Link from "next/link";
 
@@ -39,14 +39,14 @@ function SocialLinks() {
 }
 function Logo() {
   return (
-    <Flex w='full' justify='center' className='text-4xl'>
+    <Flex w='full' justify='center' className='text-8xl'>
       (logo) PageKey 
     </Flex>
   )
 }
 function Slogan() {
   return (
-    <Flex w='full' justify='center' className='text-2xl'>
+    <Flex w='full' justify='center' className='text-4xl'>
       Take Back Tech
     </Flex>
   )
@@ -54,16 +54,16 @@ function Slogan() {
 function Mission() {
   return (
     <>
-      <div className='text-center'>
+      <div className='text-center text-2xl'>
         PageKey is a brand with a mission to educate people about the increasingly complex technology in our daily lives. 
       </div>
-      <div className='text-center'>
+      <div className='text-center text-2xl'>
         Most people rely entirely on big tech companies to provide them with things that you can no longer live without in modern society. 
       </div>
-      <div className='text-center'>
+      <div className='text-center text-2xl'>
         By learning more about how things work under the hood, we can move toward a future where people are empowered to make changes to their own applications. 
       </div>
-      <div className='text-center'>
+      <div className='text-center text-2xl'>
         We'll Take Back Tech and put the choice of how devices work back into the hands of users.
       </div>
     </>
@@ -72,12 +72,12 @@ function Mission() {
 
 export default function Home() {
   return (
-    <>
+    <Flex direction='column' justify='space-between' h='100%'>
       <SocialLinks />
       <Logo />
       <Slogan />
       <Mission />
       <SocialLinks />
-    </>
+    </Flex>
   )
 }
