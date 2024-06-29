@@ -1,0 +1,280 @@
+---
+title: "Combining Frontend and Backend - Xylo App Framework MVP"
+publishDate: 2024-07-05
+image: http://i3.ytimg.com/vi/TODO/hqdefault.jpg
+author: Steve Grice
+tags:
+  - design
+  - rust
+  - javascript
+  - nextjs
+  - self-hosting
+category: xylo
+---
+
+I have so many app ideas, but so little time. I have plenty of videos about [Boom](https://pagekey.io/products/boom/), a language app that I wrote and rewrote several times. I learned so many lessons along the way, but those lessons are locked way inside the abandoned Boom codebases. I want to abstract that knowledge into a reusable framework so that anyone can make use of them to create apps quickly and easily.
+
+This plays into my long-term vision of having highly customizable, maintainable apps available to everyone. I dream of a future where the code is clean and accessible enough for even the grandmas of our generation to make it work how they want it to. And, most importantly, I dream of everyone having their own servers and maintaining their own data, federating with other servers only when they choose. These are lofty dreams, probably not particularly profitable to implement, and surely thousands of hours of effort away. However, the only chance I'll have of making them happen is to start chipping away at them now.
+
+The way to start that journey is with Xylo, my Rust-based application framework.
+
+import BlogYoutubeVideo from '~/components/common/BlogYoutubeVideo.astro';
+
+<BlogYoutubeVideo videoId="TODO" />
+
+## Demo: What I Have So Far
+
+Check out the codebase! I'll link to a specific commit, since I'm sure there will be new changes by the time you read this: [3c4d877](https://github.com/pagekey/xylo/tree/3c4d8770dabba209584fd42ad7d73eab814abe3c).
+
+As you can see, it doesn't do too much yet. The README really covers all of the functionality you can do so far - you can create a new project and run it. Running the project will spin up two servers in the background - one for the frontend, and one for the backend. You can then pop open the frontend in your browser, and for now, the backend just prints a message to your terminal and does nothing else.
+
+## Code Tour
+
+I learned a lot about Rust while making this little MVP. In particular, there were lessons about making a CLI, launching and managing processes, and filling in a template by copying files.
+
+### Implementing CLI with Structopt
+
+Coming from the Python world, I was comfortable with `argparse`. Rust traits and enums were foreign to me, so the syntax used by `structopt` felt strange. Once I finally bit the bullet and defined all of the traits and enums, I was pleasantly surprised at how well and how easily it worked.
+
+To use `structopt`, there are a few steps. First, create an enum to hold your CLI structure.
+
+```rust
+pub enum Cli {
+}
+```
+
+Next, add annotations. The first annotation will denote that our enum derives from StructOpt, Debug, and PartialEq.
+
+```rust
+use structopt::StructOpt;
+
+#[derive(StructOpt, Debug, PartialEq)]
+pub enum Cli {
+}
+```
+
+From my limited understanding so far, this seems to automatically create concrete implementations of these interfaces. Debug and PartialEq are built-in traits that make it easier to debug and use your object.
+
+Add a second annotation to tell Structopt the name and description of your command (so that the `--help` menu can be auto-generated):
+
+```rust
+#[derive(StructOpt, Debug, PartialEq)]
+#[structopt(name="xylo", about="Self-hosted app creation kit")]
+pub enum Cli {
+}
+```
+
+Finally, add variants for the enum. Each variant represents a subcommand for you CLI. Variants can have data associated with them - Structopt uses this data to add arguments to your subcommand. Let's write:
+
+```rust
+#[derive(StructOpt, Debug, PartialEq)]
+#[structopt(name="xylo", about="Self-hosted app creation kit")]
+pub enum Cli {
+    New {
+        project_name: String,
+    },
+    Dev,
+}
+```
+
+This will make it possible to use the `xylo new` command with a `project_name` argument or `xylo dev` by itself.
+
+That's great and all, but how do we use this fancy structure? We need to parse it. Thankfully, this part is actually pretty simple. Since we derive from `StructOpt`, we already have the `::from_args` method available to use for this very purpose.
+
+```rust
+let args = Cli::from_args();
+```
+
+With that, we can now use the `args` variable to make decisions based on the arguments passed by the user. If the user passes arguments that don't match our enum above, structopt will take care of letting them know - we don't have to worry about it! Here's how you can take different actions based on the args.
+
+```rust
+match args {
+	Cli::New { project_name } => {
+		println!("Creating new project: {}", project_name);
+	},
+	Cli::Dev => {
+		println!("Starting dev server...");
+	},
+}
+```
+
+### Process management with Command
+
+An important part of this MVP was figuring out how to manage processes using Rust.
+
+To get this done, we need the built-in `std::process::Command` struct. Running a command is fairly straightforward actually:
+
+```rust
+use std::process::Command;
+// ...
+Command::new("echo")
+	.args(vec!["hello", "world"])
+	.output()
+	.expect("Failed to echo message.");
+```
+
+If you want to change directories before running the command, no need to fiddle with `cd` commands - just use `current_dir()`. For example, this will `cd` into the `.xylo/frontend` directory before starting the command:
+
+```rust
+use std::env;
+// ...
+let original_dir = env::current_dir().expect("Could not get current directory.");
+Command::new("npm")
+	.args(vec!["install"])
+	.current_dir(original_dir.join(".xylo").join("frontend"))
+	.output()
+	.expect("Failed to install deps.");
+```
+
+### Managing Background Processes with Ctrlc
+
+Running one command synchronously is easy enough, but things get more complicated if you want to run things in the background while continuing to do other tasks. In the case of the Xylo MVP, the frontend and backend subprocesses need to run at the same time.
+
+To make this happen, we need to start a thread, which is also fairly easy in Rust.
+
+```rust
+use std::time::Duration;
+use std::thread;
+// ...
+let frontend_handle = thread::spawn(move || {
+	loop {
+		println!("hello");
+		thread::sleep(Duration::from_millis(1000));
+	}
+}
+```
+
+This is a start - it prints a message every second forever. Next, we'll want to actually launch a process and wait for it to complete. For this, we'll have to use `Child` instead of `Command`.
+
+```rust
+use std::time::Duration;
+use std::thread;
+// ...
+let frontend_handle = thread::spawn(move || {
+	let mut child: Option<Child> = None;
+	loop {
+		if child.is_none() {
+			let original_dir = env::current_dir().expect("Could not get current directory.");
+			child = Some(Command::new("npm")
+				.args(vec!["run","dev"])
+				.current_dir(original_dir.join(".xylo").join("frontend"))
+				.spawn()
+				.expect("Failed to start frontend dev server."));
+		}
+		if let Some(ref mut c) = child {
+			match c.try_wait() {
+				Ok(Some(status)) => {
+					println!("Frontend exited with status: {}", status);
+					break;
+				}
+				Ok(None) => {
+					// Still running
+				}
+				Err(e) => {
+					println!("Error checking command status: {}", e);
+					break;
+				}
+			}
+		}
+		thread::sleep(Duration::from_millis(1000));
+	}
+}
+```
+
+The code to create the `Child` is very similar to what was used to create a `Command`. Then, after it has been created, we wait for the process to finish. However, you have to hit CTRL-C multiple times to get the program to exit, which is messy. If we catch and handle the CTRL-C signal, we can clean up our program's resources and exit right away. We can do this by using a variable that is shared across the two threads:
+
+```rust
+let running = Arc::new(AtomicBool::new(true)); // for frontend thread
+let r = running.clone(); // for ctrl-c handler
+```
+
+Next, set up the handler to modify this variable when the user hits CTRL-C:
+
+```rust
+ctrlc::set_handler(move || {
+	println!("CTRL-C pressed");
+
+	r.store(false, Ordering::SeqCst);
+}).expect("Error setting CTRL-C handler.");
+```
+
+Finally, modify the loop above to check this variable instead of looping forever. When the variable is set to false, kill the child process so that we can exit cleanly:
+
+```rust
+let mut child: Option<Child> = None;
+while running.load(Ordering::SeqCst) {
+	// ...
+}
+if let Some(mut c) = child {
+	c.kill().expect("Failed to kill frontend.");
+	println!("Frontend killed.")
+}
+```
+
+### Templates with RustEmbed and Walkdir
+
+Xylo generates projects by copying template files into a new directory. Actually, it doesn't make any changes to those files yet, but eventually it will.
+
+Nevertheless, this presents an interesting problem. Where do we copy the files from? Do we need an installer to copy our template files somewhere onto the user's system before they can use it? Or is there a way to bundle everything into the executable so we don't have to worry about it?
+
+Thankfully, the latter is an option, and it's what I opted to use for Xylo. By using the RustEmbed package, you can embed files directly into your compiled Rust program.
+
+Initial setup is very simple. Just declare the folder where your assets will be stored:
+
+```rust
+use rust_embed::RustEmbed;
+#[derive(RustEmbed)]
+#[folder="templates/"]
+struct Asset;
+```
+
+Then, you can use that Asset struct to iterate your template files and do whatever you need with them.
+
+```rust
+for file in Asset::iter() {
+	let file_in = Asset::get(file.as_ref()).unwrap();
+	let file_out_path = Path::new("some_path");
+	let mut file_out = fs::File::create(file_out_path).expect("Failed to create file.");
+	let content = file_in.data.as_ref();
+	file_out.write_all(content).expect("Failed to write template content to file.");
+}
+```
+
+This was great for copying the templates into the new project. After that was done, I wanted to sync those copied files into a `.xylo` directory to make sure that whatever the user does to the Xylo app gets synced with the Next.js and Rust apps that are running things behind the scenes. This can be accomplished with Walkdir:
+
+```rust
+let original_dir = env::current_dir().expect("Could not get current directory.");
+// Copy all files for frontend/backend into the .xylo dir
+for entry in WalkDir::new("backend").into_iter().filter_map(Result::ok) {
+	// For each file,
+	if entry.file_type().is_file() {
+		// Check if the file's parent dir exists in the target location
+		// Do `mkdir -p` to ensure all directories are created up to that point
+		if let Some(dir) = entry.path().parent() {
+			let target_dir = Path::new(".xylo").join(dir);
+			fs::create_dir_all(target_dir).unwrap();
+		}
+		// Copy over the file
+		let target_path = Path::new(".xylo").join(entry.path());
+		fs::copy(entry.path(), target_path);
+	}
+}
+```
+
+### Testing and Design
+
+I tried to implement everything with Test Driven Development (TDD) at first, and I learned a lot about Rust testing while doing so. However, I gave up after a bit of trying, mostly because I'm trying to figure out how to make a prototype work. While it's surely better to do so in the long run, trying to have 100% test coverage was making it nearly impossible for me to make any progress.
+
+Eventually, I'll need to go back, refactor, and do things properly once the basics have been figured out. It would be good to redesign all of the code to use dependency injection and classes that use SOLID principles so that I can properly unit test everything.
+
+I added one integration test that invokes the `new` command programmatically. It took several seconds to run at first, because I was running the `npm create next; npm install` commands directly. However, now that I'm just copying template files using RustEmbed, it runs as fast as lightning.
+
+## Next Steps
+
+The main technical challenge that I see is tying the frontend to the backend in an easy way. I'd like to abstract away as many details of this as possible from the user. I need to create a concept of Xylo "routes" and provide ways to invoke each route in the frontend and backend apps. By setting up a route, the user tells Xylo to create a REST endpoint on the backend that can easily be invoked on the frontend.
+
+I'm going to use my re-implementation of Boom Languages to drive progress. It will help immensely to have a real-world app written in Xylo - it will make me instantly aware of where Xylo falls short in terms of features. I think a good first step would be implementing flashcards in Boom.
+
+I'll also need to carefully document the process for deploying each piece of the puzzle - the backend, web frontend, desktop frontend, and mobile. For now, I'll just concentrate on the backend and the web frontend. I can leverage the same web frontend later and turn it into a mobile app with Capacitor. Similarly, I may be able to find a way to make it a desktop app using Tauri.
+
+Another goal for this project is to have an equivalent CLI for each Xylo route. This may be a lofty goal, because there's already a ton of integration required to get all the frontend/backend pieces working, but it may be possible to map the Route object into an auto-generated CLI too. I'll have to take this into consideration when designing routes.
